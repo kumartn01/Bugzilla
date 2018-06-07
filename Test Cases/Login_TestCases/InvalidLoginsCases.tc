@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC004- Verify whether user is able to login with only user ID
+TC005 - Verify whether user is able to login with only Password
+TC006 - Verify whether user is able to login by giving wrong credentials</description>
+   <name>InvalidLoginsCases</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a8bb0391-2497-423a-b553-7c2f52e4f316</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>bugInfo_classification</name>
+   <tag></tag>
+   <elementGuidId>86e54ee7-f533-4cf5-90a6-a403be6bbcb4</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>labelCustom ng-binding</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                                                            Software
+                                                        </value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;hideBugInfoBoxOnInit&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col-xs-12 col-md-4&quot;]/div[@class=&quot;row pad&quot;]/div[@class=&quot;col-xs-7 col-md-8 col-lg-8&quot;]/div[@class=&quot;labelCustom ng-binding&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

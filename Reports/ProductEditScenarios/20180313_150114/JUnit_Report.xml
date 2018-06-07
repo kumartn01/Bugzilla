@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ProductEditScenarios" time="37" tests="1" failures="1" errors="0">
+   <testsuite name="ProductEditScenarios" tests="1" failures="1" errors="0" time="37" timestamp="2018-03-13 15:01:17" hostname="Kumar.nagendra - HMECL000103.happiestminds.com" id="Test Suites/ProductEditScenarios">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\ProductEditScenarios\\20180313_150114"/>
+         <property name="logFiles" value="D:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\ProductEditScenarios\\20180313_150114\\execution0.log"/>
+         <property name="attachments" value="D:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\ProductEditScenarios\\20180313_150114\\1520933512991.png, D:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\ProductEditScenarios\\20180313_150114\\1520933513368.png"/>
+         <property name="hostName" value="Kumar.nagendra - HMECL000103.happiestminds.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.0.1"/>
+         <property name="browser" value="Chrome 64.0.3282.186"/>
+         <property name="hostAddress" value="10.95.79.244"/>
+         <property name="sessionId" value="3caa29ef060ddfb2fa889439536264b7"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/ProductEdit_TestCases/VerifyProductEditPageLoads" classname="Test Cases/ProductEdit_TestCases/VerifyProductEditPageLoads" status="PASSED">
+         <system-out><![CDATA[2018-03-13 15:01:18 - [TEST_CASE][PASSED] - Test Cases/ProductEdit_TestCases/VerifyProductEditPageLoads: Test Cases/ProductEdit_TestCases/VerifyProductEditPageLoads
+
+2018-03-13 15:01:18 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-13 15:01:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-13 15:01:22 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://bugzilla-ui' successfully
+
+2018-03-13 15:01:30 - [MESSAGE][PASSED] - Navigate to 'https://bugzilla-ui' successfully
+
+2018-03-13 15:01:30 - [TEST_STEP][PASSED] - setText: Text 'knagendra-ext' is set on object 'Object Repository/Page_BugsUI login/input_value_userid'
+
+2018-03-13 15:01:30 - [MESSAGE][PASSED] - Text 'knagendra-ext' is set on object 'Object Repository/Page_BugsUI login/input_value_userid'
+
+2018-03-13 15:01:30 - [TEST_STEP][PASSED] - setText: Text 'Tumkur@123' is set on object 'Object Repository/Page_BugsUI login/input_form-control ng-untouche'
+
+2018-03-13 15:01:30 - [MESSAGE][PASSED] - Text 'Tumkur@123' is set on object 'Object Repository/Page_BugsUI login/input_form-control ng-untouche'
+
+2018-03-13 15:01:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BugsUI login/button_Login' is clicked on
+
+2018-03-13 15:01:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI login/button_Login' is clicked on
+
+2018-03-13 15:01:30 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Page_BugsUI login/a_BugsUI' has attribute 'text' with value 'BugsUI '
+
+2018-03-13 15:01:30 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI login/a_BugsUI' has attribute 'text' with value 'BugsUI '
+
+2018-03-13 15:01:30 - [TEST_STEP][PASSED] - Statement - productEditTabVisible = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Dashboard/a_Product)): Object 'Object Repository/Page_BugsUI Dashboard/a_Product' is visible
+
+2018-03-13 15:01:31 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Dashboard/a_Product' is visible
+
+2018-03-13 15:01:31 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-03-13 15:01:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-03-13 15:01:33 - [TEST_STEP][PASSED] - Statement - If (productEditTabVisible): Object: 'Object Repository/Page_BugsUI Dashboard/a_EDIT' is clicked on
+
+2018-03-13 15:01:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BugsUI Dashboard/a_Product' is clicked on
+
+2018-03-13 15:01:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI Dashboard/a_Product' is clicked on
+
+2018-03-13 15:01:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BugsUI Dashboard/a_EDIT' is clicked on
+
+2018-03-13 15:01:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI Dashboard/a_EDIT' is clicked on
+
+2018-03-13 15:01:33 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-03-13 15:01:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-03-13 15:01:35 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_BugsUI productEdit/h2_Edit Product' are matched.
+
+2018-03-13 15:01:35 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_BugsUI productEdit/h2_Edit Product' are matched.
+
+2018-03-13 15:01:35 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-03-13 15:01:37 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ProductEdit_TestCases/VerifyProductName_Description_isEdited_and_updated" classname="Test Cases/ProductEdit_TestCases/VerifyProductName_Description_isEdited_and_updated" status="FAILED">
+         <failure type="FAILED" message="Unable to verify object 'Object Repository/Page_BugsUI productEdit/div_Successfully updated the p' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI productEdit/div_Successfully updated the p' located by 'By.xpath: //div[(text() = 'Successfully updated the product &quot;TestProduct_Automation&quot;!!!' or . = 'Successfully updated the product &quot;TestProduct_Automation&quot;!!!')]' not found)"/>
+         <system-out><![CDATA[2018-03-13 15:01:37 - [TEST_CASE][FAILED] - Test Cases/ProductEdit_TestCases/VerifyProductName_Description_isEdited_and_updated: Test Cases/ProductEdit_TestCases/VerifyProductName_Description_isEdited_and_updated FAILED because (of) Unable to verify object 'Object Repository/Page_BugsUI productEdit/div_Successfully updated the p' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI productEdit/div_Successfully updated the p' located by 'By.xpath: //div[(text() = 'Successfully updated the product "TestProduct_Automation"!!!' or . = 'Successfully updated the product "TestProduct_Automation"!!!')]' not found)
+
+2018-03-13 15:01:37 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'Software' are selected in object 'Object Repository/Page_BugsUI productEdit/classificationDropdown' 
+
+2018-03-13 15:01:38 - [MESSAGE][PASSED] - All options with label 'Software' are selected in object 'Object Repository/Page_BugsUI productEdit/classificationDropdown' 
+
+2018-03-13 15:01:38 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-03-13 15:01:48 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-03-13 15:01:48 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'TestProduct_Automation' are selected in object 'Object Repository/Page_BugsUI productEdit/packageDropdown' 
+
+2018-03-13 15:01:48 - [MESSAGE][PASSED] - All options with label 'TestProduct_Automation' are selected in object 'Object Repository/Page_BugsUI productEdit/packageDropdown' 
+
+2018-03-13 15:01:48 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-03-13 15:01:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-03-13 15:01:50 - [TEST_STEP][PASSED] - newKey.ClearFields.ClearTextField: newKey.ClearFields.ClearTextField is PASSED
+
+2018-03-13 15:01:50 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/Page_BugsUI productEdit/textarea_productDescription_ed'
+
+2018-03-13 15:01:50 - [MESSAGE][PASSED] - Keys 'DELETE + ' sent to object: 'Object Repository/Page_BugsUI productEdit/textarea_productDescription_ed'
+
+2018-03-13 15:01:50 - [MESSAGE][PASSED] - newKey.ClearFields.ClearTextField is PASSED
+
+2018-03-13 15:01:50 - [TEST_STEP][PASSED] - setText: Text 'test auto desc' is set on object 'Object Repository/Page_BugsUI productEdit/textarea_productDescription_ed'
+
+2018-03-13 15:01:50 - [MESSAGE][PASSED] - Text 'test auto desc' is set on object 'Object Repository/Page_BugsUI productEdit/textarea_productDescription_ed'
+
+2018-03-13 15:01:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BugsUI productEdit/button_Update' is clicked on
+
+2018-03-13 15:01:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI productEdit/button_Update' is clicked on
+
+2018-03-13 15:01:50 - [TEST_STEP][FAILED] - verifyElementPresent: Unable to verify object 'Object Repository/Page_BugsUI productEdit/div_Successfully updated the p' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI productEdit/div_Successfully updated the p' located by 'By.xpath: //div[(text() = 'Successfully updated the product "TestProduct_Automation"!!!' or . = 'Successfully updated the product "TestProduct_Automation"!!!')]' not found)
+
+2018-03-13 15:01:53 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI productEdit/div_Successfully updated the p' located by 'By.xpath: //div[(text() = 'Successfully updated the product "TestProduct_Automation"!!!' or . = 'Successfully updated the product "TestProduct_Automation"!!!')]' not found
+[[ATTACHMENT|D:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\ProductEditScenarios\\20180313_150114\\1520933512991.png]]
+
+2018-03-13 15:01:53 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Page_BugsUI productEdit/div_Successfully updated the p' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI productEdit/div_Successfully updated the p' located by 'By.xpath: //div[(text() = 'Successfully updated the product "TestProduct_Automation"!!!' or . = 'Successfully updated the product "TestProduct_Automation"!!!')]' not found)
+[[ATTACHMENT|D:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\ProductEditScenarios\\20180313_150114\\1520933513368.png]]]]></system-out>
+         <system-err><![CDATA[2018-03-13 15:01:37 - [TEST_CASE][FAILED] - Test Cases/ProductEdit_TestCases/VerifyProductName_Description_isEdited_and_updated: Test Cases/ProductEdit_TestCases/VerifyProductName_Description_isEdited_and_updated FAILED because (of) Unable to verify object 'Object Repository/Page_BugsUI productEdit/div_Successfully updated the p' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI productEdit/div_Successfully updated the p' located by 'By.xpath: //div[(text() = 'Successfully updated the product "TestProduct_Automation"!!!' or . = 'Successfully updated the product "TestProduct_Automation"!!!')]' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-03-13 15:01:17 - [TEST_SUITE][FAILED] - ProductEditScenarios: Test Cases/ProductEdit_TestCases/VerifyProductName_Description_isEdited_and_updated FAILED because (of) Unable to verify object 'Object Repository/Page_BugsUI productEdit/div_Successfully updated the p' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI productEdit/div_Successfully updated the p' located by 'By.xpath: //div[(text() = 'Successfully updated the product "TestProduct_Automation"!!!' or . = 'Successfully updated the product "TestProduct_Automation"!!!')]' not found)]]></system-out>
+      <system-err><![CDATA[2018-03-13 15:01:17 - [TEST_SUITE][FAILED] - ProductEditScenarios: Test Cases/ProductEdit_TestCases/VerifyProductName_Description_isEdited_and_updated FAILED because (of) Unable to verify object 'Object Repository/Page_BugsUI productEdit/div_Successfully updated the p' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI productEdit/div_Successfully updated the p' located by 'By.xpath: //div[(text() = 'Successfully updated the product "TestProduct_Automation"!!!' or . = 'Successfully updated the product "TestProduct_Automation"!!!')]' not found)]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify_user_can_add _same BugId_under_DependsOn_and blocks_section</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6d4052b9-dc69-4696-9822-4e643785a32a</testCaseGuid>
+</TestCaseEntity>

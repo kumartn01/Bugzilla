@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="DependsOn_Blocks_Scenarios" time="27" tests="2" failures="0" errors="0">
+   <testsuite name="DependsOn_Blocks_Scenarios" tests="2" failures="0" errors="0" time="27" timestamp="2018-04-25 13:58:36" hostname="Kumar.nagendra - HMECL001948.happiestminds.com" id="Test Suites/DependsOn_Blocks_Scenarios">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\DependsOn_Blocks_Scenarios\\20180425_135834"/>
+         <property name="logFiles" value="C:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\DependsOn_Blocks_Scenarios\\20180425_135834\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Kumar.nagendra - HMECL001948.happiestminds.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.0.1"/>
+         <property name="browser" value="Chrome 65.0.3325.181"/>
+         <property name="hostAddress" value="10.95.75.194"/>
+         <property name="sessionId" value="e151a377fccab40d5765c27d6a9a61be"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Depends_Blocks_TestCases/Verify whether user can open Depends on and Blocks section" classname="Test Cases/Depends_Blocks_TestCases/Verify whether user can open Depends on and Blocks section" status="PASSED">
+         <system-out><![CDATA[2018-04-25 13:58:36 - [TEST_CASE][PASSED] - Test Cases/Depends_Blocks_TestCases/Verify whether user can open Depends on and Blocks section: Test Cases/Depends_Blocks_TestCases/Verify whether user can open Depends on and Blocks section
+
+2018-04-25 13:58:37 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-04-25 13:58:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-04-25 13:58:40 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://bugzilla-ui.staging.kube.sw-infra.sjc.aristanetworks.com/login' successfully
+
+2018-04-25 13:58:45 - [MESSAGE][PASSED] - Navigate to 'http://bugzilla-ui.staging.kube.sw-infra.sjc.aristanetworks.com/login' successfully
+
+2018-04-25 13:58:45 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-04-25 13:58:45 - [MESSAGE][PASSED] - Current window maximized
+
+2018-04-25 13:58:45 - [TEST_STEP][PASSED] - setText: Text 'knagendra-ext' is set on object 'Object Repository/Page_BugsUI login/input_value_userid'
+
+2018-04-25 13:58:46 - [MESSAGE][PASSED] - Text 'knagendra-ext' is set on object 'Object Repository/Page_BugsUI login/input_value_userid'
+
+2018-04-25 13:58:46 - [TEST_STEP][PASSED] - setText: Text 'Tumkur@123' is set on object 'Object Repository/Page_BugsUI login/input_form-control ng-untouche'
+
+2018-04-25 13:58:47 - [MESSAGE][PASSED] - Text 'Tumkur@123' is set on object 'Object Repository/Page_BugsUI login/input_form-control ng-untouche'
+
+2018-04-25 13:58:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BugsUI login/button_Login' is clicked on
+
+2018-04-25 13:58:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI login/button_Login' is clicked on
+
+2018-04-25 13:58:48 - [TEST_STEP][PASSED] - setText: Text '247777' is set on object 'Object Repository/Page_BugsUI Dashboard/input_navbar-search-input'
+
+2018-04-25 13:58:48 - [MESSAGE][PASSED] - Text '247777' is set on object 'Object Repository/Page_BugsUI Dashboard/input_navbar-search-input'
+
+2018-04-25 13:58:48 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-04-25 13:58:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-25 13:58:49 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/Page_BugsUI Dashboard/input_navbar-search-input'
+
+2018-04-25 13:58:50 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_BugsUI Dashboard/input_navbar-search-input'
+
+2018-04-25 13:58:50 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-04-25 13:58:53 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-04-25 13:58:53 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI_Depends_Blocks/a_Depends and Blocks), 1)): Object: 'Object Repository/Page_BugsUI_Depends_Blocks/a_Depends and Blocks' is clicked on
+
+2018-04-25 13:58:53 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI_Depends_Blocks/a_Depends and Blocks' is present
+
+2018-04-25 13:58:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BugsUI_Depends_Blocks/a_Depends and Blocks' is clicked on
+
+2018-04-25 13:58:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI_Depends_Blocks/a_Depends and Blocks' is clicked on
+
+2018-04-25 13:58:53 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-25 13:58:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-25 13:58:55 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI_Depends_Blocks/h3_Bug 247777 blocks), 1)): null
+
+2018-04-25 13:58:55 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI_Depends_Blocks/h3_Bug 247777 blocks' is present
+
+2018-04-25 13:58:55 - [TEST_STEP][PASSED] - Statement - blocksText = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI_Depends_Blocks/h3_Bug 247777 blocks)): Text of object 'Object Repository/Page_BugsUI_Depends_Blocks/h3_Bug 247777 blocks' is: 'Bug 247777 blocks :'
+
+2018-04-25 13:58:55 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_BugsUI_Depends_Blocks/h3_Bug 247777 blocks' is: 'Bug 247777 blocks :'
+
+2018-04-25 13:58:55 - [TEST_STEP][PASSED] - Statement - If (blocksText.equals("Bug 247777 blocks :")): null
+
+2018-04-25 13:58:55 - [TEST_STEP][PASSED] - Statement - assert true: null
+
+2018-04-25 13:58:55 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI_Depends_Blocks/h3_Bug 247777 depends on), 1)): null
+
+2018-04-25 13:58:55 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI_Depends_Blocks/h3_Bug 247777 depends on' is present
+
+2018-04-25 13:58:55 - [TEST_STEP][PASSED] - Statement - blocksText = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI_Depends_Blocks/h3_Bug 247777 depends on)): Text of object 'Object Repository/Page_BugsUI_Depends_Blocks/h3_Bug 247777 depends on' is: 'Bug 247777 depends on :'
+
+2018-04-25 13:58:56 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_BugsUI_Depends_Blocks/h3_Bug 247777 depends on' is: 'Bug 247777 depends on :'
+
+2018-04-25 13:58:56 - [TEST_STEP][PASSED] - Statement - If (blocksText.equals("Bug 247777 depends on :")): null
+
+2018-04-25 13:58:56 - [TEST_STEP][PASSED] - Statement - assert true: null
+
+2018-04-25 13:58:56 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-04-25 13:58:59 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Depends_Blocks_TestCases/Verify_fields_in_DependsOn_and_Blocks_section" classname="Test Cases/Depends_Blocks_TestCases/Verify_fields_in_DependsOn_and_Blocks_section" status="PASSED">
+         <system-out><![CDATA[2018-04-25 13:58:59 - [TEST_CASE][PASSED] - Test Cases/Depends_Blocks_TestCases/Verify_fields_in_DependsOn_and_Blocks_section: Test Cases/Depends_Blocks_TestCases/Verify_fields_in_DependsOn_and_Blocks_section
+
+2018-04-25 13:58:59 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-25 13:59:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-25 13:59:01 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_BugsUI_Depends_Blocks/dependsOn_deleteButton' is present
+
+2018-04-25 13:59:01 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI_Depends_Blocks/dependsOn_deleteButton' is present
+
+2018-04-25 13:59:01 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_BugsUI_Depends_Blocks/dependsOn_ID' is present
+
+2018-04-25 13:59:01 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI_Depends_Blocks/dependsOn_ID' is present
+
+2018-04-25 13:59:01 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_BugsUI_Depends_Blocks/dependsOn_Priority' is present
+
+2018-04-25 13:59:01 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI_Depends_Blocks/dependsOn_Priority' is present
+
+2018-04-25 13:59:01 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_BugsUI_Depends_Blocks/dependsOn_Summary' is present
+
+2018-04-25 13:59:01 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI_Depends_Blocks/dependsOn_Summary' is present
+
+2018-04-25 13:59:01 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_BugsUI_Depends_Blocks/dependsOn_Assigned To' is present
+
+2018-04-25 13:59:01 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI_Depends_Blocks/dependsOn_Assigned To' is present
+
+2018-04-25 13:59:01 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_BugsUI_Depends_Blocks/dependOn_Status' is present
+
+2018-04-25 13:59:01 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI_Depends_Blocks/dependOn_Status' is present
+
+2018-04-25 13:59:01 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_BugsUI_Depends_Blocks/div_dependsOnBug1' is present
+
+2018-04-25 13:59:01 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI_Depends_Blocks/div_dependsOnBug1' is present
+
+2018-04-25 13:59:01 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_BugsUI_Depends_Blocks/dependsOn_Add_button' is present
+
+2018-04-25 13:59:02 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI_Depends_Blocks/dependsOn_Add_button' is present
+
+2018-04-25 13:59:02 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_BugsUI_Depends_Blocks/blocks_deleteButton' is present
+
+2018-04-25 13:59:02 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI_Depends_Blocks/blocks_deleteButton' is present
+
+2018-04-25 13:59:02 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_BugsUI_Depends_Blocks/blocks_ID' is present
+
+2018-04-25 13:59:02 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI_Depends_Blocks/blocks_ID' is present
+
+2018-04-25 13:59:02 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_BugsUI_Depends_Blocks/blocks_Priority' is present
+
+2018-04-25 13:59:02 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI_Depends_Blocks/blocks_Priority' is present
+
+2018-04-25 13:59:02 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_BugsUI_Depends_Blocks/blocks_Summary' is present
+
+2018-04-25 13:59:02 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI_Depends_Blocks/blocks_Summary' is present
+
+2018-04-25 13:59:02 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_BugsUI_Depends_Blocks/blocks_Assigned To' is present
+
+2018-04-25 13:59:02 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI_Depends_Blocks/blocks_Assigned To' is present
+
+2018-04-25 13:59:02 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_BugsUI_Depends_Blocks/blocks_Status' is present
+
+2018-04-25 13:59:02 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI_Depends_Blocks/blocks_Status' is present
+
+2018-04-25 13:59:02 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_BugsUI_Depends_Blocks/div_blockedBug1' is present
+
+2018-04-25 13:59:02 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI_Depends_Blocks/div_blockedBug1' is present
+
+2018-04-25 13:59:02 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_BugsUI_Depends_Blocks/blocks_Add_button' is present
+
+2018-04-25 13:59:02 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI_Depends_Blocks/blocks_Add_button' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-04-25 13:58:36 - [TEST_SUITE][PASSED] - DependsOn_Blocks_Scenarios: Test Cases/Depends_Blocks_TestCases/Verify_fields_in_DependsOn_and_Blocks_section]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

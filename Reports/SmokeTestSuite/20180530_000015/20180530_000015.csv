@@ -1,0 +1,75 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+SmokeTestSuite,Chrome 66.0.3359.181,,2018-05-30 00:00:17,2018-05-30 00:08:38,8m - 20.519s,FAILED
+,,,,,,
+Test Cases/Login_TestCases/VerifyPresenceOfFields_Links_LoginPage,Chrome 66.0.3359.181,"TC001-Verify whether user Id and Password fields appear\nTC002- Verify the presence of Register, Forgot password and Change password link in Login page.",2018-05-30 00:00:18,2018-05-30 00:00:56,38.273s,FAILED
+openBrowser,Chrome 66.0.3359.181,,2018-05-30 00:00:18,2018-05-30 00:00:22,3.220s,PASSED
+navigateToUrl,Chrome 66.0.3359.181,,2018-05-30 00:00:22,2018-05-30 00:00:23,1.145s,PASSED
+verifyElementPresent,Chrome 66.0.3359.181,,2018-05-30 00:00:23,2018-05-30 00:00:56,33.483s,FAILED
+,,,,,,
+Test Cases/Login_TestCases/InvalidLoginsCases,Chrome 66.0.3359.181,TC004- Verify whether user is able to login with only user ID\nTC005 - Verify whether user is able to login with only Password\nTC006 - Verify whether user is able to login by giving wrong credentials,2018-05-30 00:00:56,2018-05-30 00:01:29,33.232s,FAILED
+setText,Chrome 66.0.3359.181,,2018-05-30 00:00:56,2018-05-30 00:01:29,33.001s,FAILED
+,,,,,,
+Test Cases/Login_TestCases/ValidSuccessfulLogin,Chrome 66.0.3359.181,Login into Bugzilla UI,2018-05-30 00:01:29,2018-05-30 00:02:06,36.135s,FAILED
+openBrowser,Chrome 66.0.3359.181,,2018-05-30 00:01:30,2018-05-30 00:01:31,1.811s,PASSED
+navigateToUrl,Chrome 66.0.3359.181,,2018-05-30 00:01:31,2018-05-30 00:01:33,1.189s,PASSED
+setText,Chrome 66.0.3359.181,,2018-05-30 00:01:33,2018-05-30 00:02:06,32.930s,FAILED
+,,,,,,
+Test Cases/NewBugCreation_TestCases/NewBugPage,Chrome 66.0.3359.181,,2018-05-30 00:02:06,2018-05-30 00:02:42,36.236s,FAILED
+openBrowser,Chrome 66.0.3359.181,,2018-05-30 00:02:06,2018-05-30 00:02:08,1.888s,PASSED
+maximizeWindow,Chrome 66.0.3359.181,,2018-05-30 00:02:08,2018-05-30 00:02:08,0.184s,PASSED
+navigateToUrl,Chrome 66.0.3359.181,,2018-05-30 00:02:08,2018-05-30 00:02:09,0.861s,PASSED
+setText,Chrome 66.0.3359.181,,2018-05-30 00:02:09,2018-05-30 00:02:42,32.988s,FAILED
+,,,,,,
+Test Cases/NewBugCreation_TestCases/ValidateNewBugPageFields,Chrome 66.0.3359.181,,2018-05-30 00:02:42,2018-05-30 00:03:15,33.438s,FAILED
+verifyElementText,Chrome 66.0.3359.181,,2018-05-30 00:02:42,2018-05-30 00:03:15,33.193s,FAILED
+,,,,,,
+Test Cases/NewBugCreation_TestCases/VerifyValidBug_Present_In_Depends_and_Blocks_field,Chrome 66.0.3359.181,,2018-05-30 00:03:15,2018-05-30 00:03:49,33.252s,FAILED
+setText,Chrome 66.0.3359.181,,2018-05-30 00:03:16,2018-05-30 00:03:49,33.012s,FAILED
+,,,,,,
+Test Cases/NewBugCreation_TestCases/NewBugCreation,Chrome 66.0.3359.181,,2018-05-30 00:03:49,2018-05-30 00:04:22,33.111s,FAILED
+setText,Chrome 66.0.3359.181,,2018-05-30 00:03:49,2018-05-30 00:04:22,32.903s,FAILED
+,,,,,,
+Test Cases/ProductAdd_TestCases/VerifyProductAddPageLoads,Chrome 66.0.3359.181,,2018-05-30 00:04:22,2018-05-30 00:04:58,36.368s,FAILED
+openBrowser,Chrome 66.0.3359.181,,2018-05-30 00:04:22,2018-05-30 00:04:24,1.735s,PASSED
+navigateToUrl,Chrome 66.0.3359.181,,2018-05-30 00:04:24,2018-05-30 00:04:25,1.262s,PASSED
+maximizeWindow,Chrome 66.0.3359.181,,2018-05-30 00:04:25,2018-05-30 00:04:25,0.176s,PASSED
+setText,Chrome 66.0.3359.181,,2018-05-30 00:04:25,2018-05-30 00:04:58,33.021s,FAILED
+,,,,,,
+Test Cases/ProductAdd_TestCases/VerifyAdditionOfSuccessfulProduct,Chrome 66.0.3359.181,,2018-05-30 00:04:58,2018-05-30 00:05:31,33.145s,FAILED
+selectOptionByLabel,Chrome 66.0.3359.181,,2018-05-30 00:04:58,2018-05-30 00:05:31,32.944s,FAILED
+,,,,,,
+Test Cases/ProductEdit_TestCases/VerifyProductEditPageLoads,Chrome 66.0.3359.181,,2018-05-30 00:05:31,2018-05-30 00:06:07,36.139s,FAILED
+openBrowser,Chrome 66.0.3359.181,,2018-05-30 00:05:31,2018-05-30 00:05:33,1.703s,PASSED
+maximizeWindow,Chrome 66.0.3359.181,,2018-05-30 00:05:33,2018-05-30 00:05:33,0.170s,PASSED
+navigateToUrl,Chrome 66.0.3359.181,,2018-05-30 00:05:33,2018-05-30 00:05:34,1.109s,PASSED
+setText,Chrome 66.0.3359.181,,2018-05-30 00:05:34,2018-05-30 00:06:07,32.967s,FAILED
+,,,,,,
+Test Cases/BugPage_GeneralTab_TestCases/VerifyBugInfoFields_CanBe_Edited_Commited,Chrome 66.0.3359.181,,2018-05-30 00:06:07,2018-05-30 00:06:44,36.261s,FAILED
+openBrowser,Chrome 66.0.3359.181,,2018-05-30 00:06:08,2018-05-30 00:06:09,1.748s,PASSED
+navigateToUrl,Chrome 66.0.3359.181,,2018-05-30 00:06:09,2018-05-30 00:06:11,1.216s,PASSED
+maximizeWindow,Chrome 66.0.3359.181,,2018-05-30 00:06:11,2018-05-30 00:06:11,0.155s,PASSED
+setText,Chrome 66.0.3359.181,,2018-05-30 00:06:11,2018-05-30 00:06:44,32.915s,FAILED
+,,,,,,
+Test Cases/BugPage_GeneralTab_TestCases/VerifyStatusBoxFields_canBe_Edited,Chrome 66.0.3359.181,,2018-05-30 00:06:44,2018-05-30 00:06:47,3.887s,FAILED
+delay,Chrome 66.0.3359.181,,2018-05-30 00:06:44,2018-05-30 00:06:46,2.028s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(BugsPage_GeneralTab/Status-Box/statusBox), 1))",Chrome 66.0.3359.181,,2018-05-30 00:06:46,2018-05-30 00:06:47,1.689s,FAILED
+,,,,,,
+Test Cases/BugPage_GeneralTab_TestCases/VerifyPeopleBoxFields,Chrome 66.0.3359.181,,2018-05-30 00:06:47,2018-05-30 00:06:51,3.843s,FAILED
+delay,Chrome 66.0.3359.181,,2018-05-30 00:06:48,2018-05-30 00:06:50,2.001s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(BugsPage_GeneralTab/People-Box/peopleBox), 1))",Chrome 66.0.3359.181,,2018-05-30 00:06:50,2018-05-30 00:06:51,1.678s,FAILED
+,,,,,,
+Test Cases/BugPage_GeneralTab_TestCases/VerifyTrackingBoxFields,Chrome 66.0.3359.181,,2018-05-30 00:06:51,2018-05-30 00:06:55,3.856s,FAILED
+delay,Chrome 66.0.3359.181,,2018-05-30 00:06:51,2018-05-30 00:06:53,2.001s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(BugsPage_GeneralTab/Tracking-Box/trackingBox), 1))",Chrome 66.0.3359.181,,2018-05-30 00:06:53,2018-05-30 00:06:55,1.714s,FAILED
+,,,,,,
+Test Cases/BugPage_Description_Comments_TestCases/Verify_User_Reply_Description,Chrome 66.0.3359.181,,2018-05-30 00:06:55,2018-05-30 00:07:28,33.115s,FAILED
+scrollToElement,Chrome 66.0.3359.181,,2018-05-30 00:06:55,2018-05-30 00:07:28,32.962s,FAILED
+,,,,,,
+Test Cases/BugPage_Description_Comments_TestCases/Verify_DescriptionSection_CanBe_Minimixed_Expanded,Chrome 66.0.3359.181,,2018-05-30 00:07:28,2018-05-30 00:08:01,33.086s,FAILED
+scrollToElement,Chrome 66.0.3359.181,,2018-05-30 00:07:28,2018-05-30 00:08:01,32.941s,FAILED
+,,,,,,
+Test Cases/Search_TestCases/VerifySearchPageLoads,Chrome 66.0.3359.181,,2018-05-30 00:08:01,2018-05-30 00:08:37,36.008s,FAILED
+openBrowser,Chrome 66.0.3359.181,,2018-05-30 00:08:02,2018-05-30 00:08:03,1.706s,PASSED
+navigateToUrl,Chrome 66.0.3359.181,,2018-05-30 00:08:03,2018-05-30 00:08:04,1.019s,PASSED
+maximizeWindow,Chrome 66.0.3359.181,,2018-05-30 00:08:04,2018-05-30 00:08:04,0.184s,PASSED
+setText,Chrome 66.0.3359.181,,2018-05-30 00:08:04,2018-05-30 00:08:37,32.948s,FAILED

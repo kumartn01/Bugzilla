@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+New Test Suite,Chrome 63.0.3239.84,,2017-12-27 15:34:58,2017-12-27 15:35:12,13.229s,FAILED
+,,,,,,
+Test Cases/Login,Chrome 63.0.3239.84,Login into Bugzilla UI,2017-12-27 15:34:59,2017-12-27 15:35:11,11.784s,FAILED
+openBrowser,Chrome 63.0.3239.84,,2017-12-27 15:34:59,2017-12-27 15:35:06,6.766s,PASSED
+navigateToUrl,Chrome 63.0.3239.84,,2017-12-27 15:35:06,2017-12-27 15:35:10,4.067s,PASSED
+setText,Chrome 63.0.3239.84,,2017-12-27 15:35:10,2017-12-27 15:35:11,0.185s,FAILED

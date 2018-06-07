@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Login into Bugzilla UI</description>
+   <name>ValidSuccessfulLogin</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e76a86e3-adc9-4896-a4b7-3f7512f75453</testCaseGuid>
+</TestCaseEntity>

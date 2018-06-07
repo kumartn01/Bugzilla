@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify whether search result bugs is clickable and on click is navigated to its bug id page</description>
+   <name>Verify_searchResult_bugId_clickable</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>83b654e8-9453-415f-a7ee-cd97a4382cc9</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,206 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+SmokeTestSuite,Chrome 64.0.3282.186,,2018-03-29 17:08:53,2018-03-29 17:12:13,3m - 19.368s,FAILED
+,,,,,,
+Test Cases/Login_TestCases/VerifyPresenceOfFields_Links_LoginPage,Chrome 64.0.3282.186,"TC001-Verify whether user Id and Password fields appear\nTC002- Verify the presence of Register, Forgot password and Change password link in Login page.",2018-03-29 17:08:54,2018-03-29 17:09:05,10.554s,PASSED
+openBrowser,Chrome 64.0.3282.186,,2018-03-29 17:08:54,2018-03-29 17:08:58,4.047s,PASSED
+navigateToUrl,Chrome 64.0.3282.186,,2018-03-29 17:08:58,2018-03-29 17:09:03,4.479s,PASSED
+verifyElementPresent,Chrome 64.0.3282.186,,2018-03-29 17:09:03,2018-03-29 17:09:04,1.224s,PASSED
+verifyElementPresent,Chrome 64.0.3282.186,,2018-03-29 17:09:04,2018-03-29 17:09:04,0.043s,PASSED
+verifyElementText,Chrome 64.0.3282.186,,2018-03-29 17:09:04,2018-03-29 17:09:04,0.092s,PASSED
+verifyElementText,Chrome 64.0.3282.186,,2018-03-29 17:09:04,2018-03-29 17:09:04,0.076s,PASSED
+"Statement - loginButtonPresent = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI login/button_Login), 0)",Chrome 64.0.3282.186,,2018-03-29 17:09:04,2018-03-29 17:09:04,0.041s,PASSED
+Statement - If (loginButtonPresent),Chrome 64.0.3282.186,,2018-03-29 17:09:04,2018-03-29 17:09:05,0.091s,PASSED
+,,,,,,
+Test Cases/Login_TestCases/InvalidLoginsCases,Chrome 64.0.3282.186,TC004- Verify whether user is able to login with only user ID\nTC005 - Verify whether user is able to login with only Password\nTC006 - Verify whether user is able to login by giving wrong credentials,2018-03-29 17:09:05,2018-03-29 17:09:12,6.986s,PASSED
+setText,Chrome 64.0.3282.186,,2018-03-29 17:09:05,2018-03-29 17:09:06,1.382s,PASSED
+Statement - loginButtonClickable = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementClickable(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI login/button_Login)),Chrome 64.0.3282.186,,2018-03-29 17:09:06,2018-03-29 17:09:06,0.068s,PASSED
+Statement - If (loginButtonClickable),Chrome 64.0.3282.186,,2018-03-29 17:09:06,2018-03-29 17:09:07,0.113s,PASSED
+verifyElementText,Chrome 64.0.3282.186,,2018-03-29 17:09:07,2018-03-29 17:09:07,0.069s,PASSED
+setText,Chrome 64.0.3282.186,,2018-03-29 17:09:07,2018-03-29 17:09:07,0.145s,PASSED
+"Statement - com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI login/input_value_userid), 2).clear()",Chrome 64.0.3282.186,,2018-03-29 17:09:07,2018-03-29 17:09:07,0.106s,PASSED
+click,Chrome 64.0.3282.186,,2018-03-29 17:09:07,2018-03-29 17:09:07,0.114s,PASSED
+verifyElementText,Chrome 64.0.3282.186,,2018-03-29 17:09:07,2018-03-29 17:09:07,0.093s,PASSED
+setText,Chrome 64.0.3282.186,,2018-03-29 17:09:07,2018-03-29 17:09:07,0.206s,PASSED
+click,Chrome 64.0.3282.186,,2018-03-29 17:09:07,2018-03-29 17:09:07,0.080s,PASSED
+delay,Chrome 64.0.3282.186,,2018-03-29 17:09:07,2018-03-29 17:09:10,3.036s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI login/small_Invalid User IdPassword), 0))",Chrome 64.0.3282.186,,2018-03-29 17:09:10,2018-03-29 17:09:11,0.367s,PASSED
+closeBrowser,Chrome 64.0.3282.186,,2018-03-29 17:09:11,2018-03-29 17:09:12,0.727s,PASSED
+,,,,,,
+Test Cases/Login_TestCases/ValidSuccessfulLogin,Chrome 64.0.3282.186,Login into Bugzilla UI,2018-03-29 17:09:12,2018-03-29 17:09:23,11.725s,PASSED
+openBrowser,Chrome 64.0.3282.186,,2018-03-29 17:09:12,2018-03-29 17:09:14,2.064s,PASSED
+navigateToUrl,Chrome 64.0.3282.186,,2018-03-29 17:09:14,2018-03-29 17:09:21,6.934s,PASSED
+setText,Chrome 64.0.3282.186,,2018-03-29 17:09:21,2018-03-29 17:09:22,1.354s,PASSED
+setText,Chrome 64.0.3282.186,,2018-03-29 17:09:22,2018-03-29 17:09:22,0.254s,PASSED
+click,Chrome 64.0.3282.186,,2018-03-29 17:09:22,2018-03-29 17:09:22,0.105s,PASSED
+verifyElementAttributeValue,Chrome 64.0.3282.186,,2018-03-29 17:09:22,2018-03-29 17:09:23,0.076s,PASSED
+closeBrowser,Chrome 64.0.3282.186,,2018-03-29 17:09:23,2018-03-29 17:09:23,0.739s,PASSED
+,,,,,,
+Test Cases/NewBugCreation_TestCases/NewBugPage,Chrome 64.0.3282.186,,2018-03-29 17:09:23,2018-03-29 17:09:52,28.629s,PASSED
+Statement - act_classification_Options = new java.util.ArrayList(),Chrome 64.0.3282.186,,2018-03-29 17:09:24,2018-03-29 17:09:24,0.406s,PASSED
+Statement - exp_classification_Options = new java.util.ArrayList(),Chrome 64.0.3282.186,,2018-03-29 17:09:24,2018-03-29 17:09:24,0.002s,PASSED
+openBrowser,Chrome 64.0.3282.186,,2018-03-29 17:09:24,2018-03-29 17:09:27,3.060s,PASSED
+maximizeWindow,Chrome 64.0.3282.186,,2018-03-29 17:09:27,2018-03-29 17:09:28,1.157s,PASSED
+navigateToUrl,Chrome 64.0.3282.186,,2018-03-29 17:09:28,2018-03-29 17:09:38,9.397s,PASSED
+setText,Chrome 64.0.3282.186,,2018-03-29 17:09:38,2018-03-29 17:09:39,1.833s,PASSED
+setText,Chrome 64.0.3282.186,,2018-03-29 17:09:39,2018-03-29 17:09:40,0.202s,PASSED
+click,Chrome 64.0.3282.186,,2018-03-29 17:09:40,2018-03-29 17:09:40,0.111s,PASSED
+delay,Chrome 64.0.3282.186,,2018-03-29 17:09:40,2018-03-29 17:09:43,3.004s,PASSED
+Statement - newBugTabVisible = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Dashboard/a_New bug)),Chrome 64.0.3282.186,,2018-03-29 17:09:43,2018-03-29 17:09:43,0.090s,PASSED
+Statement - If (newBugTabVisible),Chrome 64.0.3282.186,,2018-03-29 17:09:43,2018-03-29 17:09:43,0.092s,PASSED
+verifyElementText,Chrome 64.0.3282.186,,2018-03-29 17:09:43,2018-03-29 17:09:44,1.126s,PASSED
+verifyElementText,Chrome 64.0.3282.186,,2018-03-29 17:09:44,2018-03-29 17:09:44,0.055s,PASSED
+delay,Chrome 64.0.3282.186,,2018-03-29 17:09:44,2018-03-29 17:09:47,3.004s,PASSED
+Statement - defaultClassificationValue = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI New Bug/DefaultClassification)),Chrome 64.0.3282.186,,2018-03-29 17:09:47,2018-03-29 17:09:47,0.084s,PASSED
+"Statement - println(""------Selected default value------:"" + defaultClassificationValue)",Chrome 64.0.3282.186,,2018-03-29 17:09:47,2018-03-29 17:09:47,0.004s,PASSED
+verifyEqual,Chrome 64.0.3282.186,,2018-03-29 17:09:47,2018-03-29 17:09:47,0.012s,PASSED
+Statement - defaultPackageUIValue = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI New Bug/DefaultPackageUI)),Chrome 64.0.3282.186,,2018-03-29 17:09:47,2018-03-29 17:09:47,0.056s,PASSED
+"Statement - println(""------Selected default package value------:"" + defaultPackageUIValue)",Chrome 64.0.3282.186,,2018-03-29 17:09:47,2018-03-29 17:09:47,0.001s,PASSED
+verifyEqual,Chrome 64.0.3282.186,,2018-03-29 17:09:47,2018-03-29 17:09:47,0.002s,PASSED
+delay,Chrome 64.0.3282.186,,2018-03-29 17:09:47,2018-03-29 17:09:48,1.003s,PASSED
+selectOptionByLabel,Chrome 64.0.3282.186,,2018-03-29 17:09:48,2018-03-29 17:09:48,0.180s,PASSED
+verifyElementText,Chrome 64.0.3282.186,,2018-03-29 17:09:48,2018-03-29 17:09:49,0.056s,PASSED
+delay,Chrome 64.0.3282.186,,2018-03-29 17:09:49,2018-03-29 17:09:52,3.004s,PASSED
+selectOptionByLabel,Chrome 64.0.3282.186,,2018-03-29 17:09:52,2018-03-29 17:09:52,0.274s,PASSED
+verifyElementPresent,Chrome 64.0.3282.186,,2018-03-29 17:09:52,2018-03-29 17:09:52,0.043s,PASSED
+verifyElementPresent,Chrome 64.0.3282.186,,2018-03-29 17:09:52,2018-03-29 17:09:52,0.025s,PASSED
+,,,,,,
+Test Cases/NewBugCreation_TestCases/ValidateNewBugPageFields,Chrome 64.0.3282.186,,2018-03-29 17:09:52,2018-03-29 17:09:59,6.667s,PASSED
+verifyElementText,Chrome 64.0.3282.186,,2018-03-29 17:09:52,2018-03-29 17:09:57,5.025s,PASSED
+verifyElementPresent,Chrome 64.0.3282.186,,2018-03-29 17:09:57,2018-03-29 17:09:57,0.030s,PASSED
+verifyElementText,Chrome 64.0.3282.186,,2018-03-29 17:09:57,2018-03-29 17:09:57,0.056s,PASSED
+verifyElementPresent,Chrome 64.0.3282.186,,2018-03-29 17:09:57,2018-03-29 17:09:57,0.030s,PASSED
+verifyElementText,Chrome 64.0.3282.186,,2018-03-29 17:09:57,2018-03-29 17:09:57,0.058s,PASSED
+verifyElementPresent,Chrome 64.0.3282.186,,2018-03-29 17:09:57,2018-03-29 17:09:57,0.033s,PASSED
+verifyElementText,Chrome 64.0.3282.186,,2018-03-29 17:09:57,2018-03-29 17:09:57,0.063s,PASSED
+verifyElementPresent,Chrome 64.0.3282.186,,2018-03-29 17:09:57,2018-03-29 17:09:58,0.028s,PASSED
+verifyElementText,Chrome 64.0.3282.186,,2018-03-29 17:09:58,2018-03-29 17:09:58,0.054s,PASSED
+verifyElementPresent,Chrome 64.0.3282.186,,2018-03-29 17:09:58,2018-03-29 17:09:58,0.041s,PASSED
+verifyElementText,Chrome 64.0.3282.186,,2018-03-29 17:09:58,2018-03-29 17:09:58,0.075s,PASSED
+verifyElementPresent,Chrome 64.0.3282.186,,2018-03-29 17:09:58,2018-03-29 17:09:58,0.029s,PASSED
+verifyElementText,Chrome 64.0.3282.186,,2018-03-29 17:09:58,2018-03-29 17:09:58,0.059s,PASSED
+verifyElementPresent,Chrome 64.0.3282.186,,2018-03-29 17:09:58,2018-03-29 17:09:58,0.022s,PASSED
+verifyElementText,Chrome 64.0.3282.186,,2018-03-29 17:09:58,2018-03-29 17:09:58,0.056s,PASSED
+verifyElementPresent,Chrome 64.0.3282.186,,2018-03-29 17:09:58,2018-03-29 17:09:58,0.029s,PASSED
+verifyElementText,Chrome 64.0.3282.186,,2018-03-29 17:09:58,2018-03-29 17:09:58,0.053s,PASSED
+verifyElementPresent,Chrome 64.0.3282.186,,2018-03-29 17:09:58,2018-03-29 17:09:58,0.027s,PASSED
+verifyElementText,Chrome 64.0.3282.186,,2018-03-29 17:09:58,2018-03-29 17:09:58,0.067s,PASSED
+verifyElementPresent,Chrome 64.0.3282.186,,2018-03-29 17:09:58,2018-03-29 17:09:58,0.064s,PASSED
+verifyElementText,Chrome 64.0.3282.186,,2018-03-29 17:09:58,2018-03-29 17:09:58,0.061s,PASSED
+verifyElementText,Chrome 64.0.3282.186,,2018-03-29 17:09:58,2018-03-29 17:09:58,0.056s,PASSED
+verifyElementText,Chrome 64.0.3282.186,,2018-03-29 17:09:58,2018-03-29 17:09:58,0.059s,PASSED
+verifyElementPresent,Chrome 64.0.3282.186,,2018-03-29 17:09:58,2018-03-29 17:09:58,0.030s,PASSED
+verifyElementText,Chrome 64.0.3282.186,,2018-03-29 17:09:58,2018-03-29 17:09:58,0.057s,PASSED
+verifyElementPresent,Chrome 64.0.3282.186,,2018-03-29 17:09:58,2018-03-29 17:09:58,0.018s,PASSED
+verifyElementText,Chrome 64.0.3282.186,,2018-03-29 17:09:58,2018-03-29 17:09:58,0.056s,PASSED
+verifyElementPresent,Chrome 64.0.3282.186,,2018-03-29 17:09:58,2018-03-29 17:09:58,0.019s,PASSED
+verifyElementText,Chrome 64.0.3282.186,,2018-03-29 17:09:58,2018-03-29 17:09:59,0.060s,PASSED
+verifyElementPresent,Chrome 64.0.3282.186,,2018-03-29 17:09:59,2018-03-29 17:09:59,0.020s,PASSED
+verifyElementPresent,Chrome 64.0.3282.186,,2018-03-29 17:09:59,2018-03-29 17:09:59,0.029s,PASSED
+,,,,,,
+Test Cases/NewBugCreation_TestCases/VerifyValidBug_Present_In_Depends_and_Blocks_field,Chrome 64.0.3282.186,,2018-03-29 17:09:59,2018-03-29 17:10:12,13.267s,PASSED
+setText,Chrome 64.0.3282.186,,2018-03-29 17:09:59,2018-03-29 17:10:04,4.789s,PASSED
+setText,Chrome 64.0.3282.186,,2018-03-29 17:10:04,2018-03-29 17:10:04,0.242s,PASSED
+scrollToElement,Chrome 64.0.3282.186,,2018-03-29 17:10:04,2018-03-29 17:10:04,0.053s,PASSED
+click,Chrome 64.0.3282.186,,2018-03-29 17:10:04,2018-03-29 17:10:04,0.162s,PASSED
+Statement - altertPresent = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyAlertPresent(2),Chrome 64.0.3282.186,,2018-03-29 17:10:04,2018-03-29 17:10:09,4.892s,PASSED
+Statement - alertText = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 64.0.3282.186,,2018-03-29 17:10:09,2018-03-29 17:10:09,0.001s,PASSED
+Statement - If (altertPresent),Chrome 64.0.3282.186,,2018-03-29 17:10:09,2018-03-29 17:10:09,0.081s,PASSED
+"Statement - If (alertText.contains(""Following Bug Id(s)/Alias entered under 'Depends on' do not exist:"") && alertText.contains(""1010101010110""))",Chrome 64.0.3282.186,,2018-03-29 17:10:09,2018-03-29 17:10:09,0.004s,PASSED
+newKey.ClearFields.ClearTextField,Chrome 64.0.3282.186,,2018-03-29 17:10:09,2018-03-29 17:10:09,0.154s,PASSED
+setText,Chrome 64.0.3282.186,,2018-03-29 17:10:09,2018-03-29 17:10:09,0.186s,PASSED
+click,Chrome 64.0.3282.186,,2018-03-29 17:10:09,2018-03-29 17:10:10,0.077s,PASSED
+Statement - altertPresent = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyAlertPresent(2),Chrome 64.0.3282.186,,2018-03-29 17:10:10,2018-03-29 17:10:10,0.524s,PASSED
+Statement - alertText_blocks = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 64.0.3282.186,,2018-03-29 17:10:10,2018-03-29 17:10:10,0.000s,PASSED
+Statement - If (altertPresent),Chrome 64.0.3282.186,,2018-03-29 17:10:10,2018-03-29 17:10:10,0.025s,PASSED
+"Statement - If (alertText_blocks.contains(""Following Bug Id(s)/Alias entered under 'Blocks' do not exist:"") && alertText_blocks.contains(""1111111111""))",Chrome 64.0.3282.186,,2018-03-29 17:10:10,2018-03-29 17:10:10,0.002s,PASSED
+newKey.ClearFields.ClearTextField,Chrome 64.0.3282.186,,2018-03-29 17:10:10,2018-03-29 17:10:10,0.112s,PASSED
+setText,Chrome 64.0.3282.186,,2018-03-29 17:10:10,2018-03-29 17:10:10,0.129s,PASSED
+setText,Chrome 64.0.3282.186,,2018-03-29 17:10:10,2018-03-29 17:10:10,0.136s,PASSED
+click,Chrome 64.0.3282.186,,2018-03-29 17:10:10,2018-03-29 17:10:11,0.071s,PASSED
+Statement - altertPresent = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyAlertPresent(2),Chrome 64.0.3282.186,,2018-03-29 17:10:11,2018-03-29 17:10:12,1.019s,PASSED
+Statement - alertText_circularDependency = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 64.0.3282.186,,2018-03-29 17:10:12,2018-03-29 17:10:12,0.001s,PASSED
+Statement - If (altertPresent),Chrome 64.0.3282.186,,2018-03-29 17:10:12,2018-03-29 17:10:12,0.026s,PASSED
+"Statement - If (alertText_circularDependency.contains(""This would create a circular dependency, which is not allowed."") && alertText_circularDependency.contains(""247777""))",Chrome 64.0.3282.186,,2018-03-29 17:10:12,2018-03-29 17:10:12,0.002s,PASSED
+newKey.ClearFields.ClearTextField,Chrome 64.0.3282.186,,2018-03-29 17:10:12,2018-03-29 17:10:12,0.131s,PASSED
+setText,Chrome 64.0.3282.186,,2018-03-29 17:10:12,2018-03-29 17:10:12,0.117s,PASSED
+,,,,,,
+Test Cases/NewBugCreation_TestCases/NewBugCreation,Chrome 64.0.3282.186,,2018-03-29 17:10:12,2018-03-29 17:10:21,9.093s,PASSED
+setText,Chrome 64.0.3282.186,,2018-03-29 17:10:12,2018-03-29 17:10:12,0.412s,PASSED
+scrollToElement,Chrome 64.0.3282.186,,2018-03-29 17:10:12,2018-03-29 17:10:12,0.028s,PASSED
+click,Chrome 64.0.3282.186,,2018-03-29 17:10:12,2018-03-29 17:10:13,0.083s,PASSED
+Statement - altertPresent = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyAlertPresent(2),Chrome 64.0.3282.186,,2018-03-29 17:10:13,2018-03-29 17:10:14,1.524s,PASSED
+Statement - alertText = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 64.0.3282.186,,2018-03-29 17:10:14,2018-03-29 17:10:14,0.000s,PASSED
+Statement - If (altertPresent),Chrome 64.0.3282.186,,2018-03-29 17:10:14,2018-03-29 17:10:14,0.018s,PASSED
+Statement - newBugNo = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI New Bug/BugNo)),Chrome 64.0.3282.186,,2018-03-29 17:10:14,2018-03-29 17:10:19,4.583s,PASSED
+"Statement - bugId = newBugNo.substring(5, 11)",Chrome 64.0.3282.186,,2018-03-29 17:10:19,2018-03-29 17:10:19,0.001s,PASSED
+Statement - If (alertText.contains(bugId)),Chrome 64.0.3282.186,,2018-03-29 17:10:19,2018-03-29 17:10:19,0.001s,PASSED
+closeBrowser,Chrome 64.0.3282.186,,2018-03-29 17:10:19,2018-03-29 17:10:21,2.287s,PASSED
+,,,,,,
+Test Cases/ProductAdd_TestCases/VerifyProductAddPageLoads,Chrome 64.0.3282.186,,2018-03-29 17:10:21,2018-03-29 17:10:52,31.463s,PASSED
+openBrowser,Chrome 64.0.3282.186,,2018-03-29 17:10:21,2018-03-29 17:10:32,10.622s,PASSED
+navigateToUrl,Chrome 64.0.3282.186,,2018-03-29 17:10:32,2018-03-29 17:10:43,11.161s,PASSED
+maximizeWindow,Chrome 64.0.3282.186,,2018-03-29 17:10:43,2018-03-29 17:10:44,1.164s,PASSED
+setText,Chrome 64.0.3282.186,,2018-03-29 17:10:44,2018-03-29 17:10:44,0.230s,PASSED
+setText,Chrome 64.0.3282.186,,2018-03-29 17:10:44,2018-03-29 17:10:44,0.188s,PASSED
+click,Chrome 64.0.3282.186,,2018-03-29 17:10:44,2018-03-29 17:10:45,0.105s,PASSED
+verifyElementAttributeValue,Chrome 64.0.3282.186,,2018-03-29 17:10:45,2018-03-29 17:10:45,0.057s,PASSED
+Statement - productAddTabVisible = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Dashboard/a_Product)),Chrome 64.0.3282.186,,2018-03-29 17:10:45,2018-03-29 17:10:45,0.053s,PASSED
+delay,Chrome 64.0.3282.186,,2018-03-29 17:10:45,2018-03-29 17:10:47,2.003s,PASSED
+Statement - If (productAddTabVisible),Chrome 64.0.3282.186,,2018-03-29 17:10:47,2018-03-29 17:10:47,0.202s,PASSED
+delay,Chrome 64.0.3282.186,,2018-03-29 17:10:47,2018-03-29 17:10:49,2.002s,PASSED
+verifyElementText,Chrome 64.0.3282.186,,2018-03-29 17:10:49,2018-03-29 17:10:52,3.490s,PASSED
+,,,,,,
+Test Cases/ProductAdd_TestCases/VerifyAdditionOfSuccessfulProduct,Chrome 64.0.3282.186,,2018-03-29 17:10:52,2018-03-29 17:11:05,12.947s,PASSED
+selectOptionByLabel,Chrome 64.0.3282.186,,2018-03-29 17:10:53,2018-03-29 17:10:53,0.156s,PASSED
+setText,Chrome 64.0.3282.186,,2018-03-29 17:10:53,2018-03-29 17:10:53,0.271s,PASSED
+setText,Chrome 64.0.3282.186,,2018-03-29 17:10:53,2018-03-29 17:10:53,0.323s,PASSED
+setText,Chrome 64.0.3282.186,,2018-03-29 17:10:53,2018-03-29 17:10:53,0.132s,PASSED
+setText,Chrome 64.0.3282.186,,2018-03-29 17:10:53,2018-03-29 17:10:54,0.266s,PASSED
+setText,Chrome 64.0.3282.186,,2018-03-29 17:10:54,2018-03-29 17:10:54,0.252s,PASSED
+setText,Chrome 64.0.3282.186,,2018-03-29 17:10:54,2018-03-29 17:10:54,0.185s,PASSED
+scrollToElement,Chrome 64.0.3282.186,,2018-03-29 17:10:54,2018-03-29 17:10:54,0.040s,PASSED
+click,Chrome 64.0.3282.186,,2018-03-29 17:10:54,2018-03-29 17:10:54,0.106s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI productAdd/Error_Messages/small_Invalid Email Id), 0))",Chrome 64.0.3282.186,,2018-03-29 17:10:54,2018-03-29 17:10:54,0.101s,PASSED
+delay,Chrome 64.0.3282.186,,2018-03-29 17:10:54,2018-03-29 17:10:57,3.004s,PASSED
+"Statement - com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI productAdd/ProductAdd_Fields/input_AssignTO_addProduct), 2).clear()",Chrome 64.0.3282.186,,2018-03-29 17:10:57,2018-03-29 17:10:57,0.062s,PASSED
+setText,Chrome 64.0.3282.186,,2018-03-29 17:10:57,2018-03-29 17:10:58,0.194s,PASSED
+click,Chrome 64.0.3282.186,,2018-03-29 17:10:58,2018-03-29 17:10:58,0.068s,PASSED
+delay,Chrome 64.0.3282.186,,2018-03-29 17:10:58,2018-03-29 17:11:01,3.003s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI productAdd/Error_Messages/small_Email Id does not exist), 0))",Chrome 64.0.3282.186,,2018-03-29 17:11:01,2018-03-29 17:11:01,0.102s,PASSED
+delay,Chrome 64.0.3282.186,,2018-03-29 17:11:01,2018-03-29 17:11:04,3.002s,PASSED
+"Statement - com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI productAdd/ProductAdd_Fields/input_AssignTO_addProduct), 2).clear()",Chrome 64.0.3282.186,,2018-03-29 17:11:04,2018-03-29 17:11:04,0.072s,PASSED
+setText,Chrome 64.0.3282.186,,2018-03-29 17:11:04,2018-03-29 17:11:04,0.247s,PASSED
+click,Chrome 64.0.3282.186,,2018-03-29 17:11:04,2018-03-29 17:11:04,0.069s,PASSED
+delay,Chrome 64.0.3282.186,,2018-03-29 17:11:04,2018-03-29 17:11:05,1.003s,PASSED
+"Statement - successAlert = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI productAdd/ProductAdd_Fields/div_Successfully added the pro), 0)",Chrome 64.0.3282.186,,2018-03-29 17:11:05,2018-03-29 17:11:05,0.038s,PASSED
+Statement - text = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 64.0.3282.186,,2018-03-29 17:11:05,2018-03-29 17:11:05,0.001s,PASSED
+Statement - If (successAlert),Chrome 64.0.3282.186,,2018-03-29 17:11:05,2018-03-29 17:11:05,0.044s,PASSED
+"Statement - println(""Success text is--------"" + text)",Chrome 64.0.3282.186,,2018-03-29 17:11:05,2018-03-29 17:11:05,0.001s,PASSED
+verifyMatch,Chrome 64.0.3282.186,,2018-03-29 17:11:05,2018-03-29 17:11:05,0.001s,PASSED
+,,,,,,
+Test Cases/ProductEdit_TestCases/VerifyProductEditPageLoads,Chrome 64.0.3282.186,,2018-03-29 17:11:05,2018-03-29 17:11:43,38.012s,PASSED
+openBrowser,Chrome 64.0.3282.186,,2018-03-29 17:11:06,2018-03-29 17:11:15,9.602s,PASSED
+navigateToUrl,Chrome 64.0.3282.186,,2018-03-29 17:11:15,2018-03-29 17:11:30,15.216s,PASSED
+setText,Chrome 64.0.3282.186,,2018-03-29 17:11:30,2018-03-29 17:11:36,5.626s,PASSED
+setText,Chrome 64.0.3282.186,,2018-03-29 17:11:36,2018-03-29 17:11:36,0.206s,PASSED
+click,Chrome 64.0.3282.186,,2018-03-29 17:11:36,2018-03-29 17:11:36,0.105s,PASSED
+verifyElementAttributeValue,Chrome 64.0.3282.186,,2018-03-29 17:11:36,2018-03-29 17:11:36,0.048s,PASSED
+Statement - productEditTabVisible = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Dashboard/a_Product)),Chrome 64.0.3282.186,,2018-03-29 17:11:36,2018-03-29 17:11:36,0.057s,PASSED
+delay,Chrome 64.0.3282.186,,2018-03-29 17:11:36,2018-03-29 17:11:38,2.002s,PASSED
+Statement - If (productEditTabVisible),Chrome 64.0.3282.186,,2018-03-29 17:11:38,2018-03-29 17:11:39,0.235s,PASSED
+delay,Chrome 64.0.3282.186,,2018-03-29 17:11:39,2018-03-29 17:11:41,2.001s,PASSED
+verifyElementText,Chrome 64.0.3282.186,,2018-03-29 17:11:41,2018-03-29 17:11:41,0.667s,PASSED
+delay,Chrome 64.0.3282.186,,2018-03-29 17:11:41,2018-03-29 17:11:43,2.002s,PASSED
+,,,,,,
+Test Cases/ProductEdit_TestCases/VerifyProductName_Description_isEdited_and_updated,Chrome 64.0.3282.186,,2018-03-29 17:11:43,2018-03-29 17:12:03,19.871s,FAILED
+delay,Chrome 64.0.3282.186,,2018-03-29 17:11:44,2018-03-29 17:11:48,4.004s,PASSED
+selectOptionByLabel,Chrome 64.0.3282.186,,2018-03-29 17:11:48,2018-03-29 17:11:48,0.213s,PASSED
+delay,Chrome 64.0.3282.186,,2018-03-29 17:11:48,2018-03-29 17:12:03,15.004s,PASSED
+selectOptionByLabel,Chrome 64.0.3282.186,,2018-03-29 17:12:03,2018-03-29 17:12:03,0.391s,FAILED
+,,,,,,
+Test Cases/ProductEdit_TestCases/VerifyMadatoryComponentCanBeDeleted,Chrome 64.0.3282.186,,2018-03-29 17:12:03,2018-03-29 17:12:08,5.239s,FAILED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI productEdit/component_delete_button), 2))",Chrome 64.0.3282.186,,2018-03-29 17:12:03,2018-03-29 17:12:08,5.105s,FAILED
+,,,,,,
+Test Cases/ProductEdit_TestCases/VerifyProductCanBeDeleted,Chrome 64.0.3282.186,,2018-03-29 17:12:08,2018-03-29 17:12:12,3.554s,FAILED
+delay,Chrome 64.0.3282.186,,2018-03-29 17:12:09,2018-03-29 17:12:12,3.008s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI productEdit/product_Delete_button), 2))",Chrome 64.0.3282.186,,2018-03-29 17:12:12,2018-03-29 17:12:12,0.389s,FAILED

@@ -1,0 +1,27 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+DependsOn_Blocks_Scenarios,Chrome 66.0.3359.139,,2018-05-07 10:44:19,2018-05-07 10:45:58,1m - 38.528s,FAILED
+,,,,,,
+Test Cases/Depends_Blocks_TestCases/Verify whether user can open Depends on and Blocks section,Chrome 66.0.3359.139,,2018-05-07 10:44:20,2018-05-07 10:44:40,20.347s,FAILED
+openBrowser,Chrome 66.0.3359.139,,2018-05-07 10:44:20,2018-05-07 10:44:25,4.429s,PASSED
+navigateToUrl,Chrome 66.0.3359.139,,2018-05-07 10:44:25,2018-05-07 10:44:30,5.812s,PASSED
+maximizeWindow,Chrome 66.0.3359.139,,2018-05-07 10:44:30,2018-05-07 10:44:31,0.220s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-07 10:44:31,2018-05-07 10:44:32,1.076s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-07 10:44:32,2018-05-07 10:44:33,0.920s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-07 10:44:33,2018-05-07 10:44:33,0.301s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-07 10:44:33,2018-05-07 10:44:34,0.699s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-07 10:44:34,2018-05-07 10:44:35,1.045s,PASSED
+sendKeys,Chrome 66.0.3359.139,,2018-05-07 10:44:35,2018-05-07 10:44:35,0.250s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-07 10:44:35,2018-05-07 10:44:38,3.006s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI_Depends_Blocks/a_Depends and Blocks), 1))",Chrome 66.0.3359.139,,2018-05-07 10:44:38,2018-05-07 10:44:40,2.015s,FAILED
+,,,,,,
+Test Cases/Depends_Blocks_TestCases/Verify_fields_in_DependsOn_and_Blocks_section,Chrome 66.0.3359.139,,2018-05-07 10:44:40,2018-05-07 10:44:44,4.295s,FAILED
+delay,Chrome 66.0.3359.139,,2018-05-07 10:44:40,2018-05-07 10:44:42,2.002s,PASSED
+verifyElementPresent,Chrome 66.0.3359.139,,2018-05-07 10:44:42,2018-05-07 10:44:44,1.951s,FAILED
+,,,,,,
+Test Cases/Depends_Blocks_TestCases/Verify_user_can_add _new BugId_under_DependsOn_section,Chrome 66.0.3359.139,,2018-05-07 10:44:44,2018-05-07 10:45:21,36.193s,FAILED
+delay,Chrome 66.0.3359.139,,2018-05-07 10:44:45,2018-05-07 10:44:47,2.002s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-07 10:44:47,2018-05-07 10:45:21,33.909s,FAILED
+,,,,,,
+Test Cases/Depends_Blocks_TestCases/Verify_user_can_add _same BugId_under_DependsOn_and blocks_section,Chrome 66.0.3359.139,,2018-05-07 10:45:21,2018-05-07 10:45:57,36.198s,FAILED
+delay,Chrome 66.0.3359.139,,2018-05-07 10:45:21,2018-05-07 10:45:23,2.002s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-07 10:45:23,2018-05-07 10:45:57,33.837s,FAILED

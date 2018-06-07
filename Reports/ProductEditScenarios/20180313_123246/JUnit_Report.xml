@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ProductEditScenarios" time="67" tests="0" failures="2" errors="0">
+   <testsuite name="ProductEditScenarios" tests="0" failures="2" errors="0" time="67" timestamp="2018-03-13 12:33:26" hostname="Kumar.nagendra - HMECL000103.happiestminds.com" id="Test Suites/ProductEditScenarios">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\ProductEditScenarios\\20180313_123246"/>
+         <property name="logFiles" value="D:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\ProductEditScenarios\\20180313_123246\\execution0.log"/>
+         <property name="attachments" value="D:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\ProductEditScenarios\\20180313_123246\\1520924654298.png"/>
+         <property name="hostName" value="Kumar.nagendra - HMECL000103.happiestminds.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.0.1"/>
+         <property name="browser" value="Chrome 64.0.3282.186"/>
+         <property name="hostAddress" value="10.95.79.244"/>
+         <property name="sessionId" value="2ed97de21464f193b3b3f86601156d65"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/ProductEdit_TestCases/VerifyProductEditPageLoads" classname="Test Cases/ProductEdit_TestCases/VerifyProductEditPageLoads" status="FAILED">
+         <failure type="FAILED" message="Unable to set text 'knagendra-ext' of object 'Object Repository/Page_BugsUI login/input_value_email' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI login/input_value_email' located by 'By.xpath: //input[@name = 'value_email' and @type = 'email' and @placeholder = 'Enter Your Email Id']' not found)"/>
+         <system-out><![CDATA[2018-03-13 12:33:27 - [TEST_CASE][FAILED] - Test Cases/ProductEdit_TestCases/VerifyProductEditPageLoads: Test Cases/ProductEdit_TestCases/VerifyProductEditPageLoads FAILED because (of) Unable to set text 'knagendra-ext' of object 'Object Repository/Page_BugsUI login/input_value_email' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI login/input_value_email' located by 'By.xpath: //input[@name = 'value_email' and @type = 'email' and @placeholder = 'Enter Your Email Id']' not found)
+
+2018-03-13 12:33:27 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-13 12:33:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-13 12:33:34 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://bugzilla-ui' successfully
+
+2018-03-13 12:33:41 - [MESSAGE][PASSED] - Navigate to 'https://bugzilla-ui' successfully
+
+2018-03-13 12:33:41 - [TEST_STEP][FAILED] - setText: Unable to set text 'knagendra-ext' of object 'Object Repository/Page_BugsUI login/input_value_email' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI login/input_value_email' located by 'By.xpath: //input[@name = 'value_email' and @type = 'email' and @placeholder = 'Enter Your Email Id']' not found)
+
+2018-03-13 12:34:14 - [MESSAGE][FAILED] - Unable to set text 'knagendra-ext' of object 'Object Repository/Page_BugsUI login/input_value_email' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI login/input_value_email' located by 'By.xpath: //input[@name = 'value_email' and @type = 'email' and @placeholder = 'Enter Your Email Id']' not found)
+[[ATTACHMENT|D:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\ProductEditScenarios\\20180313_123246\\1520924654298.png]]]]></system-out>
+         <system-err><![CDATA[2018-03-13 12:33:27 - [TEST_CASE][FAILED] - Test Cases/ProductEdit_TestCases/VerifyProductEditPageLoads: Test Cases/ProductEdit_TestCases/VerifyProductEditPageLoads FAILED because (of) Unable to set text 'knagendra-ext' of object 'Object Repository/Page_BugsUI login/input_value_email' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI login/input_value_email' located by 'By.xpath: //input[@name = 'value_email' and @type = 'email' and @placeholder = 'Enter Your Email Id']' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ProductEdit_TestCases/VerifyProductName_Description_isEdited_and_updated" classname="Test Cases/ProductEdit_TestCases/VerifyProductName_Description_isEdited_and_updated" status="FAILED">
+         <failure type="FAILED" message="Unable to select option by label 'Software' of object 'Object Repository/Page_BugsUI productEdit/classificationDropdown'  (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=64.0.3282.186)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10240 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HMECL000103', ip: '10.95.79.244', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\KUMAR~1.NAG\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 64.0.3282.186, webStorageEnabled: true}
+Session ID: 2ed97de21464f193b3b3f86601156d65
+*** Element info: {Using=xpath, value=//select[@id = 'classifications_editProduct' and @ng-model = 'UPDATE.classifications_editProduct']})"/>
+         <system-out><![CDATA[2018-03-13 12:34:14 - [TEST_CASE][FAILED] - Test Cases/ProductEdit_TestCases/VerifyProductName_Description_isEdited_and_updated: Test Cases/ProductEdit_TestCases/VerifyProductName_Description_isEdited_and_updated FAILED because (of) Unable to select option by label 'Software' of object 'Object Repository/Page_BugsUI productEdit/classificationDropdown'  (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=64.0.3282.186)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10240 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HMECL000103', ip: '10.95.79.244', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\KUMAR~1.NAG\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 64.0.3282.186, webStorageEnabled: true}
+Session ID: 2ed97de21464f193b3b3f86601156d65
+*** Element info: {Using=xpath, value=//select[@id = 'classifications_editProduct' and @ng-model = 'UPDATE.classifications_editProduct']})
+
+2018-03-13 12:34:15 - [TEST_STEP][FAILED] - selectOptionByLabel: Unable to select option by label 'Software' of object 'Object Repository/Page_BugsUI productEdit/classificationDropdown'  (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=64.0.3282.186)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10240 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HMECL000103', ip: '10.95.79.244', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\KUMAR~1.NAG\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 64.0.3282.186, webStorageEnabled: true}
+Session ID: 2ed97de21464f193b3b3f86601156d65
+*** Element info: {Using=xpath, value=//select[@id = 'classifications_editProduct' and @ng-model = 'UPDATE.classifications_editProduct']})
+
+2018-03-13 12:34:31 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-03-13 12:34:31 - [MESSAGE][FAILED] - Unable to select option by label 'Software' of object 'Object Repository/Page_BugsUI productEdit/classificationDropdown'  (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=64.0.3282.186)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10240 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HMECL000103', ip: '10.95.79.244', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\KUMAR~1.NAG\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 64.0.3282.186, webStorageEnabled: true}
+Session ID: 2ed97de21464f193b3b3f86601156d65
+*** Element info: {Using=xpath, value=//select[@id = 'classifications_editProduct' and @ng-model = 'UPDATE.classifications_editProduct']})]]></system-out>
+         <system-err><![CDATA[2018-03-13 12:34:14 - [TEST_CASE][FAILED] - Test Cases/ProductEdit_TestCases/VerifyProductName_Description_isEdited_and_updated: Test Cases/ProductEdit_TestCases/VerifyProductName_Description_isEdited_and_updated FAILED because (of) Unable to select option by label 'Software' of object 'Object Repository/Page_BugsUI productEdit/classificationDropdown'  (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=64.0.3282.186)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10240 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HMECL000103', ip: '10.95.79.244', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\KUMAR~1.NAG\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 64.0.3282.186, webStorageEnabled: true}
+Session ID: 2ed97de21464f193b3b3f86601156d65
+*** Element info: {Using=xpath, value=//select[@id = 'classifications_editProduct' and @ng-model = 'UPDATE.classifications_editProduct']})]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-03-13 12:33:26 - [TEST_SUITE][FAILED] - ProductEditScenarios: Test Cases/ProductEdit_TestCases/VerifyProductEditPageLoads FAILED because (of) Unable to set text 'knagendra-ext' of object 'Object Repository/Page_BugsUI login/input_value_email' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI login/input_value_email' located by 'By.xpath: //input[@name = 'value_email' and @type = 'email' and @placeholder = 'Enter Your Email Id']' not found)]]></system-out>
+      <system-err><![CDATA[2018-03-13 12:33:26 - [TEST_SUITE][FAILED] - ProductEditScenarios: Test Cases/ProductEdit_TestCases/VerifyProductEditPageLoads FAILED because (of) Unable to set text 'knagendra-ext' of object 'Object Repository/Page_BugsUI login/input_value_email' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI login/input_value_email' located by 'By.xpath: //input[@name = 'value_email' and @type = 'email' and @placeholder = 'Enter Your Email Id']' not found)]]></system-err>
+   </testsuite>
+</testsuites>

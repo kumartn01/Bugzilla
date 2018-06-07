@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="BugPage_GeneralTabScenarios" time="24" tests="0" failures="3" errors="0">
+   <testsuite name="BugPage_GeneralTabScenarios" tests="0" failures="3" errors="0" time="24" timestamp="2018-05-10 11:12:52" hostname="Kumar.nagendra - HMECL001948.happiestminds.com" id="Test Suites/BugPage_GeneralTabScenarios">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\BugPage_GeneralTabScenarios\\20180510_111251"/>
+         <property name="logFiles" value="C:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\BugPage_GeneralTabScenarios\\20180510_111251\\execution0.log"/>
+         <property name="attachments" value="C:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\BugPage_GeneralTabScenarios\\20180510_111251\\1525930990071.png, C:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\BugPage_GeneralTabScenarios\\20180510_111251\\1525930993135.png, C:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\BugPage_GeneralTabScenarios\\20180510_111251\\1525930996227.png"/>
+         <property name="hostName" value="Kumar.nagendra - HMECL001948.happiestminds.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.0.1"/>
+         <property name="browser" value="Chrome 66.0.3359.139"/>
+         <property name="hostAddress" value="10.95.75.194"/>
+         <property name="sessionId" value="791f64c991ebd951870a47c95747e6b4"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/BugPage_GeneralTab_TestCases/VerifyBugInfoFields_CanBe_Edited_Commited" classname="Test Cases/BugPage_GeneralTab_TestCases/VerifyBugInfoFields_CanBe_Edited_Commited" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/BugsPage_GeneralTab/i_togglePlusBugInfoBox' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HMECL001948', ip: '10.95.75.194', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\KUMAR~1.NAG\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
+Session ID: 791f64c991ebd951870a47c95747e6b4)"/>
+         <system-out><![CDATA[2018-05-10 11:12:53 - [TEST_CASE][FAILED] - Test Cases/BugPage_GeneralTab_TestCases/VerifyBugInfoFields_CanBe_Edited_Commited: Test Cases/BugPage_GeneralTab_TestCases/VerifyBugInfoFields_CanBe_Edited_Commited FAILED because (of) Unable to click on object 'Object Repository/BugsPage_GeneralTab/i_togglePlusBugInfoBox' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HMECL001948', ip: '10.95.75.194', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\KUMAR~1.NAG\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
+Session ID: 791f64c991ebd951870a47c95747e6b4)
+
+2018-05-10 11:12:54 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-10 11:12:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-10 11:12:56 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://bugzilla-ui.staging.kube.sw-infra.sjc.aristanetworks.com/login' successfully
+
+2018-05-10 11:13:02 - [MESSAGE][PASSED] - Navigate to 'http://bugzilla-ui.staging.kube.sw-infra.sjc.aristanetworks.com/login' successfully
+
+2018-05-10 11:13:02 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-05-10 11:13:02 - [MESSAGE][PASSED] - Current window maximized
+
+2018-05-10 11:13:02 - [TEST_STEP][PASSED] - setText: Text 'knagendra-ext' is set on object 'Object Repository/Page_BugsUI login/input_value_userid'
+
+2018-05-10 11:13:03 - [MESSAGE][PASSED] - Text 'knagendra-ext' is set on object 'Object Repository/Page_BugsUI login/input_value_userid'
+
+2018-05-10 11:13:03 - [TEST_STEP][PASSED] - setText: Text 'Tumkur@123' is set on object 'Object Repository/Page_BugsUI login/input_form-control ng-untouche'
+
+2018-05-10 11:13:04 - [MESSAGE][PASSED] - Text 'Tumkur@123' is set on object 'Object Repository/Page_BugsUI login/input_form-control ng-untouche'
+
+2018-05-10 11:13:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BugsUI login/button_Login' is clicked on
+
+2018-05-10 11:13:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI login/button_Login' is clicked on
+
+2018-05-10 11:13:04 - [TEST_STEP][PASSED] - setText: Text '247777' is set on object 'Object Repository/Page_BugsUI Dashboard/input_navbar-search-input'
+
+2018-05-10 11:13:05 - [MESSAGE][PASSED] - Text '247777' is set on object 'Object Repository/Page_BugsUI Dashboard/input_navbar-search-input'
+
+2018-05-10 11:13:05 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-05-10 11:13:06 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-05-10 11:13:06 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/Page_BugsUI Dashboard/input_navbar-search-input'
+
+2018-05-10 11:13:06 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_BugsUI Dashboard/input_navbar-search-input'
+
+2018-05-10 11:13:06 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-05-10 11:13:09 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-05-10 11:13:09 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(BugsPage_GeneralTab/a_General), 1)): Object 'Object Repository/BugsPage_GeneralTab/a_General' has attribute 'text' with value 'General'
+
+2018-05-10 11:13:09 - [MESSAGE][PASSED] - Object 'Object Repository/BugsPage_GeneralTab/a_General' is present
+
+2018-05-10 11:13:09 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/BugsPage_GeneralTab/a_General' has attribute 'text' with value 'General'
+
+2018-05-10 11:13:09 - [MESSAGE][PASSED] - Object 'Object Repository/BugsPage_GeneralTab/a_General' has attribute 'text' with value 'General'
+
+2018-05-10 11:13:09 - [TEST_STEP][FAILED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(BugsPage_GeneralTab/bugInfoBox), 1)): Unable to click on object 'Object Repository/BugsPage_GeneralTab/i_togglePlusBugInfoBox' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HMECL001948', ip: '10.95.75.194', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\KUMAR~1.NAG\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
+Session ID: 791f64c991ebd951870a47c95747e6b4)
+
+2018-05-10 11:13:09 - [MESSAGE][PASSED] - Object 'Object Repository/BugsPage_GeneralTab/bugInfoBox' is present
+
+2018-05-10 11:13:09 - [TEST_STEP][FAILED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(BugsPage_GeneralTab/i_togglePlusBugInfoBox), 1)): Unable to click on object 'Object Repository/BugsPage_GeneralTab/i_togglePlusBugInfoBox' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HMECL001948', ip: '10.95.75.194', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\KUMAR~1.NAG\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
+Session ID: 791f64c991ebd951870a47c95747e6b4)
+
+2018-05-10 11:13:09 - [MESSAGE][PASSED] - Object 'Object Repository/BugsPage_GeneralTab/i_togglePlusBugInfoBox' is present
+
+2018-05-10 11:13:09 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/BugsPage_GeneralTab/i_togglePlusBugInfoBox' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HMECL001948', ip: '10.95.75.194', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\KUMAR~1.NAG\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
+Session ID: 791f64c991ebd951870a47c95747e6b4)
+
+2018-05-10 11:13:10 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/BugsPage_GeneralTab/i_togglePlusBugInfoBox' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HMECL001948', ip: '10.95.75.194', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\KUMAR~1.NAG\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
+Session ID: 791f64c991ebd951870a47c95747e6b4)
+[[ATTACHMENT|C:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\BugPage_GeneralTabScenarios\\20180510_111251\\1525930990071.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-10 11:12:53 - [TEST_CASE][FAILED] - Test Cases/BugPage_GeneralTab_TestCases/VerifyBugInfoFields_CanBe_Edited_Commited: Test Cases/BugPage_GeneralTab_TestCases/VerifyBugInfoFields_CanBe_Edited_Commited FAILED because (of) Unable to click on object 'Object Repository/BugsPage_GeneralTab/i_togglePlusBugInfoBox' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HMECL001948', ip: '10.95.75.194', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\KUMAR~1.NAG\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
+Session ID: 791f64c991ebd951870a47c95747e6b4)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/BugPage_GeneralTab_TestCases/VerifyStatusBoxFields_canBe_Edited" classname="Test Cases/BugPage_GeneralTab_TestCases/VerifyStatusBoxFields_canBe_Edited" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/BugsPage_GeneralTab/Status-Box/i_togglePlusStatusBox' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HMECL001948', ip: '10.95.75.194', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\KUMAR~1.NAG\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
+Session ID: 791f64c991ebd951870a47c95747e6b4)"/>
+         <system-out><![CDATA[2018-05-10 11:13:10 - [TEST_CASE][FAILED] - Test Cases/BugPage_GeneralTab_TestCases/VerifyStatusBoxFields_canBe_Edited: Test Cases/BugPage_GeneralTab_TestCases/VerifyStatusBoxFields_canBe_Edited FAILED because (of) Unable to click on object 'Object Repository/BugsPage_GeneralTab/Status-Box/i_togglePlusStatusBox' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HMECL001948', ip: '10.95.75.194', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\KUMAR~1.NAG\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
+Session ID: 791f64c991ebd951870a47c95747e6b4)
+
+2018-05-10 11:13:10 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-10 11:13:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-10 11:13:12 - [TEST_STEP][FAILED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(BugsPage_GeneralTab/Status-Box/statusBox), 1)): Unable to click on object 'Object Repository/BugsPage_GeneralTab/Status-Box/i_togglePlusStatusBox' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HMECL001948', ip: '10.95.75.194', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\KUMAR~1.NAG\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
+Session ID: 791f64c991ebd951870a47c95747e6b4)
+
+2018-05-10 11:13:12 - [MESSAGE][PASSED] - Object 'Object Repository/BugsPage_GeneralTab/Status-Box/statusBox' is present
+
+2018-05-10 11:13:12 - [TEST_STEP][FAILED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(BugsPage_GeneralTab/Status-Box/i_togglePlusStatusBox), 1)): Unable to click on object 'Object Repository/BugsPage_GeneralTab/Status-Box/i_togglePlusStatusBox' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HMECL001948', ip: '10.95.75.194', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\KUMAR~1.NAG\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
+Session ID: 791f64c991ebd951870a47c95747e6b4)
+
+2018-05-10 11:13:12 - [MESSAGE][PASSED] - Object 'Object Repository/BugsPage_GeneralTab/Status-Box/i_togglePlusStatusBox' is present
+
+2018-05-10 11:13:12 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/BugsPage_GeneralTab/Status-Box/i_togglePlusStatusBox' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HMECL001948', ip: '10.95.75.194', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\KUMAR~1.NAG\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
+Session ID: 791f64c991ebd951870a47c95747e6b4)
+
+2018-05-10 11:13:13 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/BugsPage_GeneralTab/Status-Box/i_togglePlusStatusBox' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HMECL001948', ip: '10.95.75.194', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\KUMAR~1.NAG\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
+Session ID: 791f64c991ebd951870a47c95747e6b4)
+[[ATTACHMENT|C:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\BugPage_GeneralTabScenarios\\20180510_111251\\1525930993135.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-10 11:13:10 - [TEST_CASE][FAILED] - Test Cases/BugPage_GeneralTab_TestCases/VerifyStatusBoxFields_canBe_Edited: Test Cases/BugPage_GeneralTab_TestCases/VerifyStatusBoxFields_canBe_Edited FAILED because (of) Unable to click on object 'Object Repository/BugsPage_GeneralTab/Status-Box/i_togglePlusStatusBox' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HMECL001948', ip: '10.95.75.194', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\KUMAR~1.NAG\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
+Session ID: 791f64c991ebd951870a47c95747e6b4)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/BugPage_GeneralTab_TestCases/VerifyPeopleBoxFields" classname="Test Cases/BugPage_GeneralTab_TestCases/VerifyPeopleBoxFields" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/BugsPage_GeneralTab/People-Box/i_togglePlusPeopleBox' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HMECL001948', ip: '10.95.75.194', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\KUMAR~1.NAG\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
+Session ID: 791f64c991ebd951870a47c95747e6b4)"/>
+         <system-out><![CDATA[2018-05-10 11:13:13 - [TEST_CASE][FAILED] - Test Cases/BugPage_GeneralTab_TestCases/VerifyPeopleBoxFields: Test Cases/BugPage_GeneralTab_TestCases/VerifyPeopleBoxFields FAILED because (of) Unable to click on object 'Object Repository/BugsPage_GeneralTab/People-Box/i_togglePlusPeopleBox' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HMECL001948', ip: '10.95.75.194', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\KUMAR~1.NAG\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
+Session ID: 791f64c991ebd951870a47c95747e6b4)
+
+2018-05-10 11:13:13 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-10 11:13:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-10 11:13:15 - [TEST_STEP][FAILED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(BugsPage_GeneralTab/People-Box/peopleBox), 1)): Unable to click on object 'Object Repository/BugsPage_GeneralTab/People-Box/i_togglePlusPeopleBox' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HMECL001948', ip: '10.95.75.194', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\KUMAR~1.NAG\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
+Session ID: 791f64c991ebd951870a47c95747e6b4)
+
+2018-05-10 11:13:15 - [MESSAGE][PASSED] - Object 'Object Repository/BugsPage_GeneralTab/People-Box/peopleBox' is present
+
+2018-05-10 11:13:15 - [TEST_STEP][FAILED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(BugsPage_GeneralTab/People-Box/i_togglePlusPeopleBox), 1)): Unable to click on object 'Object Repository/BugsPage_GeneralTab/People-Box/i_togglePlusPeopleBox' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HMECL001948', ip: '10.95.75.194', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\KUMAR~1.NAG\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
+Session ID: 791f64c991ebd951870a47c95747e6b4)
+
+2018-05-10 11:13:16 - [MESSAGE][PASSED] - Object 'Object Repository/BugsPage_GeneralTab/People-Box/i_togglePlusPeopleBox' is present
+
+2018-05-10 11:13:16 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/BugsPage_GeneralTab/People-Box/i_togglePlusPeopleBox' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HMECL001948', ip: '10.95.75.194', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\KUMAR~1.NAG\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
+Session ID: 791f64c991ebd951870a47c95747e6b4)
+
+2018-05-10 11:13:16 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/BugsPage_GeneralTab/People-Box/i_togglePlusPeopleBox' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HMECL001948', ip: '10.95.75.194', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\KUMAR~1.NAG\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
+Session ID: 791f64c991ebd951870a47c95747e6b4)
+[[ATTACHMENT|C:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\BugPage_GeneralTabScenarios\\20180510_111251\\1525930996227.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-10 11:13:13 - [TEST_CASE][FAILED] - Test Cases/BugPage_GeneralTab_TestCases/VerifyPeopleBoxFields: Test Cases/BugPage_GeneralTab_TestCases/VerifyPeopleBoxFields FAILED because (of) Unable to click on object 'Object Repository/BugsPage_GeneralTab/People-Box/i_togglePlusPeopleBox' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HMECL001948', ip: '10.95.75.194', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\KUMAR~1.NAG\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
+Session ID: 791f64c991ebd951870a47c95747e6b4)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-10 11:12:52 - [TEST_SUITE][FAILED] - BugPage_GeneralTabScenarios: Test Cases/BugPage_GeneralTab_TestCases/VerifyBugInfoFields_CanBe_Edited_Commited FAILED because (of) Unable to click on object 'Object Repository/BugsPage_GeneralTab/i_togglePlusBugInfoBox' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HMECL001948', ip: '10.95.75.194', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\KUMAR~1.NAG\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
+Session ID: 791f64c991ebd951870a47c95747e6b4)]]></system-out>
+      <system-err><![CDATA[2018-05-10 11:12:52 - [TEST_SUITE][FAILED] - BugPage_GeneralTabScenarios: Test Cases/BugPage_GeneralTab_TestCases/VerifyBugInfoFields_CanBe_Edited_Commited FAILED because (of) Unable to click on object 'Object Repository/BugsPage_GeneralTab/i_togglePlusBugInfoBox' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HMECL001948', ip: '10.95.75.194', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\KUMAR~1.NAG\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
+Session ID: 791f64c991ebd951870a47c95747e6b4)]]></system-err>
+   </testsuite>
+</testsuites>

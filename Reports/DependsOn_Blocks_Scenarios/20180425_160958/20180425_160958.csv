@@ -1,0 +1,44 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+DependsOn_Blocks_Scenarios,Chrome 65.0.3325.181,,2018-04-25 16:10:01,2018-04-25 16:10:35,34.135s,FAILED
+,,,,,,
+Test Cases/Depends_Blocks_TestCases/Verify whether user can open Depends on and Blocks section,Chrome 65.0.3325.181,,2018-04-25 16:10:01,2018-04-25 16:10:26,24.990s,PASSED
+openBrowser,Chrome 65.0.3325.181,,2018-04-25 16:10:02,2018-04-25 16:10:05,3.370s,PASSED
+navigateToUrl,Chrome 65.0.3325.181,,2018-04-25 16:10:05,2018-04-25 16:10:12,7.214s,PASSED
+maximizeWindow,Chrome 65.0.3325.181,,2018-04-25 16:10:12,2018-04-25 16:10:13,0.203s,PASSED
+setText,Chrome 65.0.3325.181,,2018-04-25 16:10:13,2018-04-25 16:10:14,1.679s,PASSED
+setText,Chrome 65.0.3325.181,,2018-04-25 16:10:14,2018-04-25 16:10:15,0.821s,PASSED
+click,Chrome 65.0.3325.181,,2018-04-25 16:10:15,2018-04-25 16:10:15,0.292s,PASSED
+setText,Chrome 65.0.3325.181,,2018-04-25 16:10:15,2018-04-25 16:10:16,0.617s,PASSED
+delay,Chrome 65.0.3325.181,,2018-04-25 16:10:16,2018-04-25 16:10:17,1.052s,PASSED
+sendKeys,Chrome 65.0.3325.181,,2018-04-25 16:10:17,2018-04-25 16:10:17,0.301s,PASSED
+delay,Chrome 65.0.3325.181,,2018-04-25 16:10:17,2018-04-25 16:10:20,3.006s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI_Depends_Blocks/a_Depends and Blocks), 1))",Chrome 65.0.3325.181,,2018-04-25 16:10:20,2018-04-25 16:10:21,0.456s,PASSED
+delay,Chrome 65.0.3325.181,,2018-04-25 16:10:21,2018-04-25 16:10:23,2.004s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI_Depends_Blocks/h3_Bug blocks), 1))",Chrome 65.0.3325.181,,2018-04-25 16:10:23,2018-04-25 16:10:23,0.232s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI_Depends_Blocks/h3_Bug depends on), 1))",Chrome 65.0.3325.181,,2018-04-25 16:10:23,2018-04-25 16:10:23,0.211s,PASSED
+delay,Chrome 65.0.3325.181,,2018-04-25 16:10:23,2018-04-25 16:10:26,3.004s,PASSED
+,,,,,,
+Test Cases/Depends_Blocks_TestCases/Verify_fields_in_DependsOn_and_Blocks_section,Chrome 65.0.3325.181,,2018-04-25 16:10:26,2018-04-25 16:10:30,3.466s,PASSED
+delay,Chrome 65.0.3325.181,,2018-04-25 16:10:26,2018-04-25 16:10:28,2.004s,PASSED
+verifyElementPresent,Chrome 65.0.3325.181,,2018-04-25 16:10:28,2018-04-25 16:10:29,0.121s,PASSED
+verifyElementPresent,Chrome 65.0.3325.181,,2018-04-25 16:10:29,2018-04-25 16:10:29,0.073s,PASSED
+verifyElementPresent,Chrome 65.0.3325.181,,2018-04-25 16:10:29,2018-04-25 16:10:29,0.089s,PASSED
+verifyElementPresent,Chrome 65.0.3325.181,,2018-04-25 16:10:29,2018-04-25 16:10:29,0.055s,PASSED
+verifyElementPresent,Chrome 65.0.3325.181,,2018-04-25 16:10:29,2018-04-25 16:10:29,0.083s,PASSED
+verifyElementPresent,Chrome 65.0.3325.181,,2018-04-25 16:10:29,2018-04-25 16:10:29,0.074s,PASSED
+verifyElementPresent,Chrome 65.0.3325.181,,2018-04-25 16:10:29,2018-04-25 16:10:29,0.069s,PASSED
+verifyElementPresent,Chrome 65.0.3325.181,,2018-04-25 16:10:29,2018-04-25 16:10:29,0.062s,PASSED
+verifyElementPresent,Chrome 65.0.3325.181,,2018-04-25 16:10:29,2018-04-25 16:10:29,0.053s,PASSED
+verifyElementPresent,Chrome 65.0.3325.181,,2018-04-25 16:10:29,2018-04-25 16:10:29,0.086s,PASSED
+verifyElementPresent,Chrome 65.0.3325.181,,2018-04-25 16:10:29,2018-04-25 16:10:29,0.088s,PASSED
+verifyElementPresent,Chrome 65.0.3325.181,,2018-04-25 16:10:29,2018-04-25 16:10:29,0.063s,PASSED
+verifyElementPresent,Chrome 65.0.3325.181,,2018-04-25 16:10:29,2018-04-25 16:10:29,0.076s,PASSED
+verifyElementPresent,Chrome 65.0.3325.181,,2018-04-25 16:10:29,2018-04-25 16:10:30,0.065s,PASSED
+verifyElementPresent,Chrome 65.0.3325.181,,2018-04-25 16:10:30,2018-04-25 16:10:30,0.060s,PASSED
+verifyElementPresent,Chrome 65.0.3325.181,,2018-04-25 16:10:30,2018-04-25 16:10:30,0.068s,PASSED
+,,,,,,
+Test Cases/Depends_Blocks_TestCases/Verify_user_can_add _new BugId_under_DependsOn_section,Chrome 65.0.3325.181,,2018-04-25 16:10:30,2018-04-25 16:10:34,3.979s,FAILED
+delay,Chrome 65.0.3325.181,,2018-04-25 16:10:30,2018-04-25 16:10:32,2.003s,PASSED
+setText,Chrome 65.0.3325.181,,2018-04-25 16:10:32,2018-04-25 16:10:33,0.741s,PASSED
+click,Chrome 65.0.3325.181,,2018-04-25 16:10:33,2018-04-25 16:10:33,0.306s,PASSED
+Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyAlertPresent(2)),Chrome 65.0.3325.181,,2018-04-25 16:10:33,2018-04-25 16:10:34,0.626s,FAILED

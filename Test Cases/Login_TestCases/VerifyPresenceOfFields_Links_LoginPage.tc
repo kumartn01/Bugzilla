@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC001-Verify whether user Id and Password fields appear
+TC002- Verify the presence of Register, Forgot password and Change password link in Login page.</description>
+   <name>VerifyPresenceOfFields_Links_LoginPage</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>181bd691-452a-46fb-ac1b-0d4fc362179a</testCaseGuid>
+</TestCaseEntity>

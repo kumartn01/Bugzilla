@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="LoginScenarios" time="192" tests="3" failures="1" errors="0">
+   <testsuite name="LoginScenarios" tests="3" failures="1" errors="0" time="192" timestamp="2018-02-28 16:02:09" hostname="Kumar.nagendra - HMECL000103.happiestminds.com" id="Test Suites/LoginScenarios">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\LoginScenarios\\20180228_160207"/>
+         <property name="logFiles" value="D:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\LoginScenarios\\20180228_160207\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Kumar.nagendra - HMECL000103.happiestminds.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.0.1"/>
+         <property name="browser" value="Chrome 63.0.3239.132"/>
+         <property name="hostAddress" value="10.95.79.244"/>
+         <property name="sessionId" value="92e423d9f88ce9f59f9e781c533ad734"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login_TestCases/VerifyPresenceOfFields_Links_LoginPage" classname="Test Cases/Login_TestCases/VerifyPresenceOfFields_Links_LoginPage" status="PASSED">
+         <system-out><![CDATA[2018-02-28 16:02:10 - [TEST_CASE][PASSED] - Test Cases/Login_TestCases/VerifyPresenceOfFields_Links_LoginPage: Test Cases/Login_TestCases/VerifyPresenceOfFields_Links_LoginPage
+
+2018-02-28 16:02:10 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-02-28 16:02:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-02-28 16:02:16 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://bugzilla-ui/' successfully
+
+2018-02-28 16:03:50 - [MESSAGE][PASSED] - Navigate to 'https://bugzilla-ui/' successfully
+
+2018-02-28 16:03:50 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_BugsUI login/input_value_userid' is present
+
+2018-02-28 16:03:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-02-28 16:03:50 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI login/input_value_userid' is present
+
+2018-02-28 16:03:50 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_BugsUI login/input_form-control ng-untouche' is present
+
+2018-02-28 16:03:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-02-28 16:03:50 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI login/input_form-control ng-untouche' is present
+
+2018-02-28 16:03:50 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_BugsUI login/strong_User Id' are matched.
+
+2018-02-28 16:03:50 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_BugsUI login/strong_User Id' are matched.
+
+2018-02-28 16:03:50 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_BugsUI login/strong_Password' are matched.
+
+2018-02-28 16:03:50 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_BugsUI login/strong_Password' are matched.
+
+2018-02-28 16:03:50 - [TEST_STEP][PASSED] - Statement - loginButtonPresent = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI login/button_Login), 0): Object 'Object Repository/Page_BugsUI login/button_Login' is present
+
+2018-02-28 16:03:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-02-28 16:03:51 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI login/button_Login' is present
+
+2018-02-28 16:03:51 - [TEST_STEP][PASSED] - Statement - If (loginButtonPresent): Object 'Object Repository/Page_BugsUI login/button_Login' is clickable
+
+2018-02-28 16:03:51 - [TEST_STEP][PASSED] - verifyElementClickable: Object 'Object Repository/Page_BugsUI login/button_Login' is clickable
+
+2018-02-28 16:03:51 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI login/button_Login' is clickable]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login_TestCases/InvalidLoginsCases" classname="Test Cases/Login_TestCases/InvalidLoginsCases" status="FAILED">
+         <failure type="FAILED" message="Unable to verify match between actual text '' and expected text 'Invalid User Id/Password !!' (Root cause: Actual text '' and expected text 'Invalid User Id/Password !!' are not matched)"/>
+         <system-out><![CDATA[2018-02-28 16:03:51 - [TEST_CASE][FAILED] - Test Cases/Login_TestCases/InvalidLoginsCases: Test Cases/Login_TestCases/InvalidLoginsCases FAILED because (of) Unable to verify match between actual text '' and expected text 'Invalid User Id/Password !!' (Root cause: Actual text '' and expected text 'Invalid User Id/Password !!' are not matched)
+
+2018-02-28 16:03:51 - [TEST_STEP][PASSED] - setText: Text 'knagendra-ext' is set on object 'Object Repository/Page_BugsUI login/input_value_userid'
+
+2018-02-28 16:03:51 - [MESSAGE][PASSED] - Text 'knagendra-ext' is set on object 'Object Repository/Page_BugsUI login/input_value_userid'
+
+2018-02-28 16:03:51 - [TEST_STEP][PASSED] - Statement - loginButtonClickable = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementClickable(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI login/button_Login)): Object 'Object Repository/Page_BugsUI login/button_Login' is clickable
+
+2018-02-28 16:03:51 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI login/button_Login' is clickable
+
+2018-02-28 16:03:51 - [TEST_STEP][PASSED] - Statement - If (loginButtonClickable): Object: 'Object Repository/Page_BugsUI login/button_Login' is clicked on
+
+2018-02-28 16:03:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BugsUI login/button_Login' is clicked on
+
+2018-02-28 16:03:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI login/button_Login' is clicked on
+
+2018-02-28 16:03:51 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_BugsUI login/small_Password is Required.' are matched.
+
+2018-02-28 16:03:51 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_BugsUI login/small_Password is Required.' are matched.
+
+2018-02-28 16:03:51 - [TEST_STEP][PASSED] - setText: Text '123' is set on object 'Object Repository/Page_BugsUI login/input_form-control ng-untouche'
+
+2018-02-28 16:03:51 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Page_BugsUI login/input_form-control ng-untouche'
+
+2018-02-28 16:03:51 - [TEST_STEP][PASSED] - Statement - com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI login/input_value_userid), 2).clear(): Found 1 web elements with id: 'Object Repository/Page_BugsUI login/input_value_userid' located by 'By.xpath: //input[@name = 'value_email' and @type = 'text' and @placeholder = 'Enter Your User Id']' in '2' second(s)
+
+2018-02-28 16:03:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BugsUI login/button_Login' is clicked on
+
+2018-02-28 16:03:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI login/button_Login' is clicked on
+
+2018-02-28 16:03:52 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_BugsUI login/small_User Id is Required.' are matched.
+
+2018-02-28 16:03:52 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_BugsUI login/small_User Id is Required.' are matched.
+
+2018-02-28 16:03:52 - [TEST_STEP][PASSED] - setText: Text 'knagendra-ext' is set on object 'Object Repository/Page_BugsUI login/input_value_userid'
+
+2018-02-28 16:03:52 - [MESSAGE][PASSED] - Text 'knagendra-ext' is set on object 'Object Repository/Page_BugsUI login/input_value_userid'
+
+2018-02-28 16:03:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BugsUI login/button_Login' is clicked on
+
+2018-02-28 16:03:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI login/button_Login' is clicked on
+
+2018-02-28 16:03:52 - [TEST_STEP][FAILED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI login/small_Invalid User IdPassword), 0)): Unable to verify match between actual text '' and expected text 'Invalid User Id/Password !!' (Root cause: Actual text '' and expected text 'Invalid User Id/Password !!' are not matched)
+
+2018-02-28 16:03:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-02-28 16:03:52 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI login/small_Invalid User IdPassword' is present
+
+2018-02-28 16:03:52 - [TEST_STEP][PASSED] - Statement - text = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI login/small_Invalid User IdPassword)): Text of object 'Object Repository/Page_BugsUI login/small_Invalid User IdPassword' is: ''
+
+2018-02-28 16:03:52 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_BugsUI login/small_Invalid User IdPassword' is: ''
+
+2018-02-28 16:03:52 - [TEST_STEP][FAILED] - verifyMatch: Unable to verify match between actual text '' and expected text 'Invalid User Id/Password !!' (Root cause: Actual text '' and expected text 'Invalid User Id/Password !!' are not matched)
+
+2018-02-28 16:03:52 - [MESSAGE][FAILED] - Unable to verify match between actual text '' and expected text 'Invalid User Id/Password !!' (Root cause: Actual text '' and expected text 'Invalid User Id/Password !!' are not matched)]]></system-out>
+         <system-err><![CDATA[2018-02-28 16:03:51 - [TEST_CASE][FAILED] - Test Cases/Login_TestCases/InvalidLoginsCases: Test Cases/Login_TestCases/InvalidLoginsCases FAILED because (of) Unable to verify match between actual text '' and expected text 'Invalid User Id/Password !!' (Root cause: Actual text '' and expected text 'Invalid User Id/Password !!' are not matched)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login_TestCases/ValidSuccessfulLogin" classname="Test Cases/Login_TestCases/ValidSuccessfulLogin" status="PASSED">
+         <system-out><![CDATA[2018-02-28 16:03:52 - [TEST_CASE][PASSED] - Test Cases/Login_TestCases/ValidSuccessfulLogin: Test Cases/Login_TestCases/ValidSuccessfulLogin
+
+2018-02-28 16:03:53 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-02-28 16:03:53 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-02-28 16:04:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-02-28 16:04:07 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://bugzilla-ui/' successfully
+
+2018-02-28 16:05:06 - [MESSAGE][PASSED] - Navigate to 'https://bugzilla-ui/' successfully
+
+2018-02-28 16:05:06 - [TEST_STEP][PASSED] - setText: Text 'knagendra-ext' is set on object 'Object Repository/Page_BugsUI login/input_value_userid'
+
+2018-02-28 16:05:08 - [MESSAGE][PASSED] - Text 'knagendra-ext' is set on object 'Object Repository/Page_BugsUI login/input_value_userid'
+
+2018-02-28 16:05:08 - [TEST_STEP][PASSED] - setText: Text 'Kumar@123' is set on object 'Object Repository/Page_BugsUI login/input_form-control ng-untouche'
+
+2018-02-28 16:05:08 - [MESSAGE][PASSED] - Text 'Kumar@123' is set on object 'Object Repository/Page_BugsUI login/input_form-control ng-untouche'
+
+2018-02-28 16:05:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BugsUI login/button_Login' is clicked on
+
+2018-02-28 16:05:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI login/button_Login' is clicked on
+
+2018-02-28 16:05:08 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Page_BugsUI login/a_BugsUI' has attribute 'text' with value 'BugsUI '
+
+2018-02-28 16:05:08 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI login/a_BugsUI' has attribute 'text' with value 'BugsUI '
+
+2018-02-28 16:05:08 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-02-28 16:05:09 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login_TestCases/Login using ENTER keyword" classname="Test Cases/Login_TestCases/Login using ENTER keyword" status="PASSED">
+         <system-out><![CDATA[2018-02-28 16:05:09 - [TEST_CASE][PASSED] - Test Cases/Login_TestCases/Login using ENTER keyword: Test Cases/Login_TestCases/Login using ENTER keyword
+
+2018-02-28 16:05:09 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-02-28 16:05:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-02-28 16:05:13 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://bugzilla-ui/' successfully
+
+2018-02-28 16:05:20 - [MESSAGE][PASSED] - Navigate to 'https://bugzilla-ui/' successfully
+
+2018-02-28 16:05:20 - [TEST_STEP][PASSED] - setText: Text 'knagendra-ext' is set on object 'Object Repository/Page_BugsUI login/input_value_userid'
+
+2018-02-28 16:05:20 - [MESSAGE][PASSED] - Text 'knagendra-ext' is set on object 'Object Repository/Page_BugsUI login/input_value_userid'
+
+2018-02-28 16:05:20 - [TEST_STEP][PASSED] - setText: Text 'Kumar@123' is set on object 'Object Repository/Page_BugsUI login/input_form-control ng-untouche'
+
+2018-02-28 16:05:20 - [MESSAGE][PASSED] - Text 'Kumar@123' is set on object 'Object Repository/Page_BugsUI login/input_form-control ng-untouche'
+
+2018-02-28 16:05:20 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/Page_BugsUI login/input_form-control ng-untouche'
+
+2018-02-28 16:05:20 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_BugsUI login/input_form-control ng-untouche'
+
+2018-02-28 16:05:20 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Page_BugsUI login/a_BugsUI' has attribute 'text' with value 'BugsUI '
+
+2018-02-28 16:05:20 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI login/a_BugsUI' has attribute 'text' with value 'BugsUI '
+
+2018-02-28 16:05:20 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-02-28 16:05:22 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-02-28 16:02:09 - [TEST_SUITE][FAILED] - LoginScenarios: Test Cases/Login_TestCases/InvalidLoginsCases FAILED because (of) Unable to verify match between actual text '' and expected text 'Invalid User Id/Password !!' (Root cause: Actual text '' and expected text 'Invalid User Id/Password !!' are not matched)]]></system-out>
+      <system-err><![CDATA[2018-02-28 16:02:09 - [TEST_SUITE][FAILED] - LoginScenarios: Test Cases/Login_TestCases/InvalidLoginsCases FAILED because (of) Unable to verify match between actual text '' and expected text 'Invalid User Id/Password !!' (Root cause: Actual text '' and expected text 'Invalid User Id/Password !!' are not matched)]]></system-err>
+   </testsuite>
+</testsuites>

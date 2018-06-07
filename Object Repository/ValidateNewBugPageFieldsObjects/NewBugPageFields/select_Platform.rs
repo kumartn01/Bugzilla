@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_Platform</name>
+   <tag></tag>
+   <elementGuidId>7d9ff1f3-a6d3-4049-8b9e-94d4f80f7e49</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>value_Hardware</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>dropdownCustom searchddl ng-pristine ng-untouched ng-valid ng-valid-required</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-options</name>
+      <type>Main</type>
+      <value>Hardware for Hardware in HardwareArray</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-model</name>
+      <type>Main</type>
+      <value>Hardware</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>AllAssemblyBOMComponentFeatureFPGALayoutMechSchematicSoftwareUnknown</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;activity&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-12 col-xs-12&quot;]/div[@class=&quot;box box-success&quot;]/div[@class=&quot;box-body&quot;]/form[@class=&quot;ng-pristine ng-invalid ng-invalid-required ng-valid-maxlength ng-valid-email ng-valid-min&quot;]/div[@class=&quot;chart&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-12 col-xs-12&quot;]/select[@class=&quot;dropdownCustom searchddl ng-pristine ng-untouched ng-valid ng-valid-required&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

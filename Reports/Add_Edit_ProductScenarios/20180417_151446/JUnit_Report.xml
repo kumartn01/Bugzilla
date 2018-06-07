@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Add_Edit_ProductScenarios" time="130" tests="3" failures="2" errors="0">
+   <testsuite name="Add_Edit_ProductScenarios" tests="3" failures="2" errors="0" time="130" timestamp="2018-04-17 15:14:48" hostname="Kumar.nagendra - HMECL001948.happiestminds.com" id="Test Suites/Add_Edit_ProductScenarios">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\Add_Edit_ProductScenarios\\20180417_151446"/>
+         <property name="logFiles" value="C:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\Add_Edit_ProductScenarios\\20180417_151446\\execution0.log"/>
+         <property name="attachments" value="C:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\Add_Edit_ProductScenarios\\20180417_151446\\1523958378765.png, C:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\Add_Edit_ProductScenarios\\20180417_151446\\1523958417944.png"/>
+         <property name="hostName" value="Kumar.nagendra - HMECL001948.happiestminds.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.0.1"/>
+         <property name="browser" value="Chrome 65.0.3325.181"/>
+         <property name="hostAddress" value="10.95.75.194"/>
+         <property name="sessionId" value="a3cc8e13b5de6f87556c05f1da2e01aa"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/ProductAdd_TestCases/VerifyProductAddPageLoads" classname="Test Cases/ProductAdd_TestCases/VerifyProductAddPageLoads" status="PASSED">
+         <system-out><![CDATA[2018-04-17 15:14:49 - [TEST_CASE][PASSED] - Test Cases/ProductAdd_TestCases/VerifyProductAddPageLoads: Test Cases/ProductAdd_TestCases/VerifyProductAddPageLoads
+
+2018-04-17 15:14:49 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-04-17 15:14:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-04-17 15:14:52 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://bugzilla-ui.staging.kube.sw-infra.sjc.aristanetworks.com/login' successfully
+
+2018-04-17 15:14:59 - [MESSAGE][PASSED] - Navigate to 'http://bugzilla-ui.staging.kube.sw-infra.sjc.aristanetworks.com/login' successfully
+
+2018-04-17 15:14:59 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-04-17 15:14:59 - [MESSAGE][PASSED] - Current window maximized
+
+2018-04-17 15:14:59 - [TEST_STEP][PASSED] - setText: Text 'knagendra-ext' is set on object 'Object Repository/Page_BugsUI login/input_value_userid'
+
+2018-04-17 15:15:00 - [MESSAGE][PASSED] - Text 'knagendra-ext' is set on object 'Object Repository/Page_BugsUI login/input_value_userid'
+
+2018-04-17 15:15:00 - [TEST_STEP][PASSED] - setText: Text 'Tumkur@123' is set on object 'Object Repository/Page_BugsUI login/input_form-control ng-untouche'
+
+2018-04-17 15:15:01 - [MESSAGE][PASSED] - Text 'Tumkur@123' is set on object 'Object Repository/Page_BugsUI login/input_form-control ng-untouche'
+
+2018-04-17 15:15:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BugsUI login/button_Login' is clicked on
+
+2018-04-17 15:15:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI login/button_Login' is clicked on
+
+2018-04-17 15:15:01 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Page_BugsUI login/a_BugsUI' has attribute 'text' with value 'BugsUI '
+
+2018-04-17 15:15:02 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI login/a_BugsUI' has attribute 'text' with value 'BugsUI '
+
+2018-04-17 15:15:02 - [TEST_STEP][PASSED] - Statement - productAddTabVisible = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Dashboard/a_Product)): Object 'Object Repository/Page_BugsUI Dashboard/a_Product' is visible
+
+2018-04-17 15:15:02 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Dashboard/a_Product' is visible
+
+2018-04-17 15:15:02 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-17 15:15:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-17 15:15:04 - [TEST_STEP][PASSED] - Statement - If (productAddTabVisible): Object: 'Object Repository/Page_BugsUI Dashboard/a_ADD' is clicked on
+
+2018-04-17 15:15:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BugsUI Dashboard/a_Product' is clicked on
+
+2018-04-17 15:15:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI Dashboard/a_Product' is clicked on
+
+2018-04-17 15:15:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BugsUI Dashboard/a_ADD' is clicked on
+
+2018-04-17 15:15:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI Dashboard/a_ADD' is clicked on
+
+2018-04-17 15:15:04 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-17 15:15:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-17 15:15:06 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/h2_Add Product' are matched.
+
+2018-04-17 15:15:06 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/h2_Add Product' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ProductAdd_TestCases/VerifyAdditionOfSuccessfulProduct" classname="Test Cases/ProductAdd_TestCases/VerifyAdditionOfSuccessfulProduct" status="PASSED">
+         <system-out><![CDATA[2018-04-17 15:15:06 - [TEST_CASE][PASSED] - Test Cases/ProductAdd_TestCases/VerifyAdditionOfSuccessfulProduct: Test Cases/ProductAdd_TestCases/VerifyAdditionOfSuccessfulProduct
+
+2018-04-17 15:15:07 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'Software' are selected in object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/select_Classification' 
+
+2018-04-17 15:15:07 - [MESSAGE][PASSED] - All options with label 'Software' are selected in object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/select_Classification' 
+
+2018-04-17 15:15:07 - [TEST_STEP][PASSED] - setText: Text 'TestProduct_Automation' is set on object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/input_productName_addProduct'
+
+2018-04-17 15:15:09 - [MESSAGE][PASSED] - Text 'TestProduct_Automation' is set on object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/input_productName_addProduct'
+
+2018-04-17 15:15:09 - [TEST_STEP][PASSED] - setText: Text 'TestProduct Automation Description' is set on object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/textarea_productDescription_ad'
+
+2018-04-17 15:15:11 - [MESSAGE][PASSED] - Text 'TestProduct Automation Description' is set on object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/textarea_productDescription_ad'
+
+2018-04-17 15:15:11 - [TEST_STEP][PASSED] - setText: Text '1' is set on object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/input_version_addProduct'
+
+2018-04-17 15:15:11 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/input_version_addProduct'
+
+2018-04-17 15:15:11 - [TEST_STEP][PASSED] - setText: Text 'Test_Component_Automation' is set on object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/input_component_addProduct'
+
+2018-04-17 15:15:13 - [MESSAGE][PASSED] - Text 'Test_Component_Automation' is set on object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/input_component_addProduct'
+
+2018-04-17 15:15:13 - [TEST_STEP][PASSED] - setText: Text 'TestComponent Description' is set on object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/textarea_componentDescription_'
+
+2018-04-17 15:15:15 - [MESSAGE][PASSED] - Text 'TestComponent Description' is set on object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/textarea_componentDescription_'
+
+2018-04-17 15:15:15 - [TEST_STEP][PASSED] - setText: Text 'kumar' is set on object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/input_AssignTO_addProduct'
+
+2018-04-17 15:15:15 - [MESSAGE][PASSED] - Text 'kumar' is set on object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/input_AssignTO_addProduct'
+
+2018-04-17 15:15:15 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/button_ADD' successfully
+
+2018-04-17 15:15:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-04-17 15:15:15 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/button_ADD' successfully
+
+2018-04-17 15:15:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/button_ADD' is clicked on
+
+2018-04-17 15:15:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/button_ADD' is clicked on
+
+2018-04-17 15:15:15 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI productAdd/Error_Messages/small_Invalid Email Id), 0)): Actual text 'Invalid Email Id !!' and expected text 'Invalid Email Id !!' are matched 
+
+2018-04-17 15:15:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-04-17 15:15:16 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI productAdd/Error_Messages/small_Invalid Email Id' is present
+
+2018-04-17 15:15:16 - [TEST_STEP][PASSED] - Statement - invalidEmailId = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI productAdd/Error_Messages/small_Invalid Email Id)): Text of object 'Object Repository/Page_BugsUI productAdd/Error_Messages/small_Invalid Email Id' is: 'Invalid Email Id !!'
+
+2018-04-17 15:15:16 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_BugsUI productAdd/Error_Messages/small_Invalid Email Id' is: 'Invalid Email Id !!'
+
+2018-04-17 15:15:16 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Invalid Email Id !!' and expected text 'Invalid Email Id !!' are matched 
+
+2018-04-17 15:15:16 - [MESSAGE][PASSED] - Actual text 'Invalid Email Id !!' and expected text 'Invalid Email Id !!' are matched 
+
+2018-04-17 15:15:16 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-04-17 15:15:19 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-04-17 15:15:19 - [TEST_STEP][PASSED] - Statement - com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI productAdd/ProductAdd_Fields/input_AssignTO_addProduct), 2).clear(): Found 1 web elements with id: 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/input_AssignTO_addProduct' located by 'By.xpath: //input[@type = 'text' and @name = 'AssignTO_addProduct']' in '2' second(s)
+
+2018-04-17 15:15:19 - [TEST_STEP][PASSED] - setText: Text 'kumar@happiestminds.com' is set on object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/input_AssignTO_addProduct'
+
+2018-04-17 15:15:20 - [MESSAGE][PASSED] - Text 'kumar@happiestminds.com' is set on object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/input_AssignTO_addProduct'
+
+2018-04-17 15:15:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/button_ADD' is clicked on
+
+2018-04-17 15:15:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/button_ADD' is clicked on
+
+2018-04-17 15:15:20 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-04-17 15:15:23 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-04-17 15:15:23 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI productAdd/Error_Messages/small_Email Id does not exist), 0)): Actual text 'Email Id does not exist !!' and expected text 'Email Id does not exist !!' are matched 
+
+2018-04-17 15:15:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-04-17 15:15:24 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI productAdd/Error_Messages/small_Email Id does not exist' is present
+
+2018-04-17 15:15:24 - [TEST_STEP][PASSED] - Statement - emailDoesNotExist = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI productAdd/Error_Messages/small_Email Id does not exist)): Text of object 'Object Repository/Page_BugsUI productAdd/Error_Messages/small_Email Id does not exist' is: 'Email Id does not exist !!'
+
+2018-04-17 15:15:24 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_BugsUI productAdd/Error_Messages/small_Email Id does not exist' is: 'Email Id does not exist !!'
+
+2018-04-17 15:15:24 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Email Id does not exist !!' and expected text 'Email Id does not exist !!' are matched 
+
+2018-04-17 15:15:24 - [MESSAGE][PASSED] - Actual text 'Email Id does not exist !!' and expected text 'Email Id does not exist !!' are matched 
+
+2018-04-17 15:15:24 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-04-17 15:15:27 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-04-17 15:15:27 - [TEST_STEP][PASSED] - Statement - com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI productAdd/ProductAdd_Fields/input_AssignTO_addProduct), 2).clear(): Found 1 web elements with id: 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/input_AssignTO_addProduct' located by 'By.xpath: //input[@type = 'text' and @name = 'AssignTO_addProduct']' in '2' second(s)
+
+2018-04-17 15:15:27 - [TEST_STEP][PASSED] - setText: Text 'kumar.nagendra@happiestminds.com' is set on object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/input_AssignTO_addProduct'
+
+2018-04-17 15:15:29 - [MESSAGE][PASSED] - Text 'kumar.nagendra@happiestminds.com' is set on object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/input_AssignTO_addProduct'
+
+2018-04-17 15:15:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/button_ADD' is clicked on
+
+2018-04-17 15:15:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/button_ADD' is clicked on
+
+2018-04-17 15:15:29 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-04-17 15:15:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-17 15:15:30 - [TEST_STEP][PASSED] - Statement - successAlert = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI productAdd/ProductAdd_Fields/div_Successfully added the pro), 6): Object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/div_Successfully added the pro' is present
+
+2018-04-17 15:15:30 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/div_Successfully added the pro' is present
+
+2018-04-17 15:15:30 - [TEST_STEP][PASSED] - Statement - text = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2018-04-17 15:15:30 - [TEST_STEP][PASSED] - Statement - If (successAlert): Text of object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/div_Successfully added the pro' is: 'Successfully added the product "TestProduct_Automation"!!!'
+
+2018-04-17 15:15:30 - [TEST_STEP][PASSED] - Statement - text = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI productAdd/ProductAdd_Fields/div_Successfully added the pro)): Text of object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/div_Successfully added the pro' is: 'Successfully added the product "TestProduct_Automation"!!!'
+
+2018-04-17 15:15:30 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/div_Successfully added the pro' is: 'Successfully added the product "TestProduct_Automation"!!!'
+
+2018-04-17 15:15:30 - [TEST_STEP][PASSED] - Statement - println("Success text is--------" + text): null
+
+2018-04-17 15:15:30 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Successfully added the product "TestProduct_Automation"!!!' and expected text 'Successfully added the product "TestProduct_Automation"!!!' are matched  using regular expression
+
+2018-04-17 15:15:30 - [MESSAGE][PASSED] - Actual text 'Successfully added the product "TestProduct_Automation"!!!' and expected text 'Successfully added the product "TestProduct_Automation"!!!' are matched  using regular expression]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ProductEdit_TestCases/VerifyProductEditPageLoads" classname="Test Cases/ProductEdit_TestCases/VerifyProductEditPageLoads" status="PASSED">
+         <system-out><![CDATA[2018-04-17 15:15:30 - [TEST_CASE][PASSED] - Test Cases/ProductEdit_TestCases/VerifyProductEditPageLoads: Test Cases/ProductEdit_TestCases/VerifyProductEditPageLoads
+
+2018-04-17 15:15:30 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-04-17 15:15:30 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-04-17 15:15:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-04-17 15:15:33 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-04-17 15:15:33 - [MESSAGE][PASSED] - Current window maximized
+
+2018-04-17 15:15:33 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://bugzilla-ui.staging.kube.sw-infra.sjc.aristanetworks.com/login' successfully
+
+2018-04-17 15:15:39 - [MESSAGE][PASSED] - Navigate to 'http://bugzilla-ui.staging.kube.sw-infra.sjc.aristanetworks.com/login' successfully
+
+2018-04-17 15:15:39 - [TEST_STEP][PASSED] - setText: Text 'knagendra-ext' is set on object 'Object Repository/Page_BugsUI login/input_value_userid'
+
+2018-04-17 15:15:40 - [MESSAGE][PASSED] - Text 'knagendra-ext' is set on object 'Object Repository/Page_BugsUI login/input_value_userid'
+
+2018-04-17 15:15:40 - [TEST_STEP][PASSED] - setText: Text 'Tumkur@123' is set on object 'Object Repository/Page_BugsUI login/input_form-control ng-untouche'
+
+2018-04-17 15:15:41 - [MESSAGE][PASSED] - Text 'Tumkur@123' is set on object 'Object Repository/Page_BugsUI login/input_form-control ng-untouche'
+
+2018-04-17 15:15:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BugsUI login/button_Login' is clicked on
+
+2018-04-17 15:15:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI login/button_Login' is clicked on
+
+2018-04-17 15:15:41 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Page_BugsUI login/a_BugsUI' has attribute 'text' with value 'BugsUI '
+
+2018-04-17 15:15:41 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI login/a_BugsUI' has attribute 'text' with value 'BugsUI '
+
+2018-04-17 15:15:41 - [TEST_STEP][PASSED] - Statement - productEditTabVisible = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Dashboard/a_Product)): Object 'Object Repository/Page_BugsUI Dashboard/a_Product' is visible
+
+2018-04-17 15:15:42 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Dashboard/a_Product' is visible
+
+2018-04-17 15:15:42 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-17 15:15:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-17 15:15:44 - [TEST_STEP][PASSED] - Statement - If (productEditTabVisible): Object: 'Object Repository/Page_BugsUI Dashboard/a_EDIT' is clicked on
+
+2018-04-17 15:15:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BugsUI Dashboard/a_Product' is clicked on
+
+2018-04-17 15:15:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI Dashboard/a_Product' is clicked on
+
+2018-04-17 15:15:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BugsUI Dashboard/a_EDIT' is clicked on
+
+2018-04-17 15:15:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI Dashboard/a_EDIT' is clicked on
+
+2018-04-17 15:15:44 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-17 15:15:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-17 15:15:46 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_BugsUI productEdit/h2_Edit Product' are matched.
+
+2018-04-17 15:15:46 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_BugsUI productEdit/h2_Edit Product' are matched.
+
+2018-04-17 15:15:46 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-17 15:15:48 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ProductEdit_TestCases/VerifyProductName_Description_isEdited_and_updated" classname="Test Cases/ProductEdit_TestCases/VerifyProductName_Description_isEdited_and_updated" status="FAILED">
+         <failure type="FAILED" message="Unable to select option by label 'TestProduct_Automation' of object 'Object Repository/Page_BugsUI productEdit/packageDropdown'  (Root cause: org.openqa.selenium.NoSuchElementException: Cannot locate element with text: TestProduct_Automation
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HMECL001948', ip: '10.95.75.194', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)"/>
+         <system-out><![CDATA[2018-04-17 15:15:48 - [TEST_CASE][FAILED] - Test Cases/ProductEdit_TestCases/VerifyProductName_Description_isEdited_and_updated: Test Cases/ProductEdit_TestCases/VerifyProductName_Description_isEdited_and_updated FAILED because (of) Unable to select option by label 'TestProduct_Automation' of object 'Object Repository/Page_BugsUI productEdit/packageDropdown'  (Root cause: org.openqa.selenium.NoSuchElementException: Cannot locate element with text: TestProduct_Automation
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HMECL001948', ip: '10.95.75.194', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-04-17 15:15:48 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2018-04-17 15:15:52 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-04-17 15:15:52 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'Software' are selected in object 'Object Repository/Page_BugsUI productEdit/classificationDropdown' 
+
+2018-04-17 15:15:53 - [MESSAGE][PASSED] - All options with label 'Software' are selected in object 'Object Repository/Page_BugsUI productEdit/classificationDropdown' 
+
+2018-04-17 15:15:53 - [TEST_STEP][PASSED] - delay: Delayed 25 second(s)
+
+2018-04-17 15:16:18 - [MESSAGE][PASSED] - Delayed 25 second(s)
+
+2018-04-17 15:16:18 - [TEST_STEP][FAILED] - selectOptionByLabel: Unable to select option by label 'TestProduct_Automation' of object 'Object Repository/Page_BugsUI productEdit/packageDropdown'  (Root cause: org.openqa.selenium.NoSuchElementException: Cannot locate element with text: TestProduct_Automation
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HMECL001948', ip: '10.95.75.194', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-04-17 15:16:19 - [MESSAGE][FAILED] - Unable to select option by label 'TestProduct_Automation' of object 'Object Repository/Page_BugsUI productEdit/packageDropdown'  (Root cause: org.openqa.selenium.NoSuchElementException: Cannot locate element with text: TestProduct_Automation
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HMECL001948', ip: '10.95.75.194', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+[[ATTACHMENT|C:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\Add_Edit_ProductScenarios\\20180417_151446\\1523958378765.png]]]]></system-out>
+         <system-err><![CDATA[2018-04-17 15:15:48 - [TEST_CASE][FAILED] - Test Cases/ProductEdit_TestCases/VerifyProductName_Description_isEdited_and_updated: Test Cases/ProductEdit_TestCases/VerifyProductName_Description_isEdited_and_updated FAILED because (of) Unable to select option by label 'TestProduct_Automation' of object 'Object Repository/Page_BugsUI productEdit/packageDropdown'  (Root cause: org.openqa.selenium.NoSuchElementException: Cannot locate element with text: TestProduct_Automation
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HMECL001948', ip: '10.95.75.194', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ProductEdit_TestCases/VerifyMadatoryComponentCanBeDeleted" classname="Test Cases/ProductEdit_TestCases/VerifyMadatoryComponentCanBeDeleted" status="FAILED">
+         <failure type="FAILED" message="Unable to scroll to object 'Object Repository/Page_BugsUI productEdit/version_delete_button' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI productEdit/version_delete_button' located by 'By.xpath: //button[@type = 'button' and @id = 'versDeleteButton0' and (text() = '
+                                     Delete
+                                ' or . = '
+                                     Delete
+                                ')]' not found)"/>
+         <system-out><![CDATA[2018-04-17 15:16:19 - [TEST_CASE][FAILED] - Test Cases/ProductEdit_TestCases/VerifyMadatoryComponentCanBeDeleted: Test Cases/ProductEdit_TestCases/VerifyMadatoryComponentCanBeDeleted FAILED because (of) Unable to scroll to object 'Object Repository/Page_BugsUI productEdit/version_delete_button' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI productEdit/version_delete_button' located by 'By.xpath: //button[@type = 'button' and @id = 'versDeleteButton0' and (text() = '
+                                     Delete
+                                ' or . = '
+                                     Delete
+                                ')]' not found)
+
+2018-04-17 15:16:19 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-04-17 15:16:24 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-04-17 15:16:24 - [TEST_STEP][FAILED] - scrollToElement: Unable to scroll to object 'Object Repository/Page_BugsUI productEdit/version_delete_button' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI productEdit/version_delete_button' located by 'By.xpath: //button[@type = 'button' and @id = 'versDeleteButton0' and (text() = '
+                                     Delete
+                                ' or . = '
+                                     Delete
+                                ')]' not found)
+
+2018-04-17 15:16:58 - [MESSAGE][FAILED] - Unable to scroll to object 'Object Repository/Page_BugsUI productEdit/version_delete_button' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI productEdit/version_delete_button' located by 'By.xpath: //button[@type = 'button' and @id = 'versDeleteButton0' and (text() = '
+                                     Delete
+                                ' or . = '
+                                     Delete
+                                ')]' not found)
+[[ATTACHMENT|C:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\Add_Edit_ProductScenarios\\20180417_151446\\1523958417944.png]]]]></system-out>
+         <system-err><![CDATA[2018-04-17 15:16:19 - [TEST_CASE][FAILED] - Test Cases/ProductEdit_TestCases/VerifyMadatoryComponentCanBeDeleted: Test Cases/ProductEdit_TestCases/VerifyMadatoryComponentCanBeDeleted FAILED because (of) Unable to scroll to object 'Object Repository/Page_BugsUI productEdit/version_delete_button' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI productEdit/version_delete_button' located by 'By.xpath: //button[@type = 'button' and @id = 'versDeleteButton0' and (text() = '
+                                     Delete
+                                ' or . = '
+                                     Delete
+                                ')]' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-04-17 15:14:48 - [TEST_SUITE][FAILED] - Add_Edit_ProductScenarios: Test Cases/ProductEdit_TestCases/VerifyProductName_Description_isEdited_and_updated FAILED because (of) Unable to select option by label 'TestProduct_Automation' of object 'Object Repository/Page_BugsUI productEdit/packageDropdown'  (Root cause: org.openqa.selenium.NoSuchElementException: Cannot locate element with text: TestProduct_Automation
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HMECL001948', ip: '10.95.75.194', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-out>
+      <system-err><![CDATA[2018-04-17 15:14:48 - [TEST_SUITE][FAILED] - Add_Edit_ProductScenarios: Test Cases/ProductEdit_TestCases/VerifyProductName_Description_isEdited_and_updated FAILED because (of) Unable to select option by label 'TestProduct_Automation' of object 'Object Repository/Page_BugsUI productEdit/packageDropdown'  (Root cause: org.openqa.selenium.NoSuchElementException: Cannot locate element with text: TestProduct_Automation
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HMECL001948', ip: '10.95.75.194', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-err>
+   </testsuite>
+</testsuites>

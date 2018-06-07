@@ -1,0 +1,45 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+LoginScenarios,Chrome 65.0.3325.181,,2018-04-13 13:39:42,2018-04-13 13:40:22,39.980s,PASSED
+,,,,,,
+Test Cases/Login_TestCases/VerifyPresenceOfFields_Links_LoginPage,Chrome 65.0.3325.181,"TC001-Verify whether user Id and Password fields appear\nTC002- Verify the presence of Register, Forgot password and Change password link in Login page.",2018-04-13 13:39:42,2018-04-13 13:39:53,10.616s,PASSED
+openBrowser,Chrome 65.0.3325.181,,2018-04-13 13:39:43,2018-04-13 13:39:46,3.496s,PASSED
+navigateToUrl,Chrome 65.0.3325.181,,2018-04-13 13:39:46,2018-04-13 13:39:51,4.471s,PASSED
+verifyElementPresent,Chrome 65.0.3325.181,,2018-04-13 13:39:51,2018-04-13 13:39:52,1.313s,PASSED
+verifyElementPresent,Chrome 65.0.3325.181,,2018-04-13 13:39:52,2018-04-13 13:39:52,0.077s,PASSED
+verifyElementText,Chrome 65.0.3325.181,,2018-04-13 13:39:52,2018-04-13 13:39:52,0.316s,PASSED
+verifyElementText,Chrome 65.0.3325.181,,2018-04-13 13:39:52,2018-04-13 13:39:53,0.168s,PASSED
+"Statement - loginButtonPresent = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI login/button_Login), 0)",Chrome 65.0.3325.181,,2018-04-13 13:39:53,2018-04-13 13:39:53,0.067s,PASSED
+Statement - If (loginButtonPresent),Chrome 65.0.3325.181,,2018-04-13 13:39:53,2018-04-13 13:39:53,0.162s,PASSED
+,,,,,,
+Test Cases/Login_TestCases/InvalidLoginsCases,Chrome 65.0.3325.181,TC004- Verify whether user is able to login with only user ID\nTC005 - Verify whether user is able to login with only Password\nTC006 - Verify whether user is able to login by giving wrong credentials,2018-04-13 13:39:53,2018-04-13 13:40:02,8.957s,PASSED
+setText,Chrome 65.0.3325.181,,2018-04-13 13:39:53,2018-04-13 13:39:54,1.002s,PASSED
+Statement - loginButtonClickable = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementClickable(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI login/button_Login)),Chrome 65.0.3325.181,,2018-04-13 13:39:54,2018-04-13 13:39:54,0.128s,PASSED
+Statement - If (loginButtonClickable),Chrome 65.0.3325.181,,2018-04-13 13:39:54,2018-04-13 13:39:55,0.514s,PASSED
+verifyElementText,Chrome 65.0.3325.181,,2018-04-13 13:39:55,2018-04-13 13:39:55,0.214s,PASSED
+setText,Chrome 65.0.3325.181,,2018-04-13 13:39:55,2018-04-13 13:39:56,0.561s,PASSED
+"Statement - com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI login/input_value_userid), 2).clear()",Chrome 65.0.3325.181,,2018-04-13 13:39:56,2018-04-13 13:39:56,0.173s,PASSED
+click,Chrome 65.0.3325.181,,2018-04-13 13:39:56,2018-04-13 13:39:56,0.219s,PASSED
+verifyElementText,Chrome 65.0.3325.181,,2018-04-13 13:39:56,2018-04-13 13:39:56,0.141s,PASSED
+setText,Chrome 65.0.3325.181,,2018-04-13 13:39:56,2018-04-13 13:39:57,0.923s,PASSED
+click,Chrome 65.0.3325.181,,2018-04-13 13:39:57,2018-04-13 13:39:57,0.251s,PASSED
+delay,Chrome 65.0.3325.181,,2018-04-13 13:39:57,2018-04-13 13:40:00,3.032s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI login/small_Invalid User IdPassword), 0))",Chrome 65.0.3325.181,,2018-04-13 13:40:00,2018-04-13 13:40:01,0.245s,PASSED
+closeBrowser,Chrome 65.0.3325.181,,2018-04-13 13:40:01,2018-04-13 13:40:02,1.239s,PASSED
+,,,,,,
+Test Cases/Login_TestCases/ValidSuccessfulLogin,Chrome 65.0.3325.181,Login into Bugzilla UI,2018-04-13 13:40:02,2018-04-13 13:40:11,9.636s,PASSED
+openBrowser,Chrome 65.0.3325.181,,2018-04-13 13:40:02,2018-04-13 13:40:03,1.428s,PASSED
+navigateToUrl,Chrome 65.0.3325.181,,2018-04-13 13:40:03,2018-04-13 13:40:07,3.966s,PASSED
+setText,Chrome 65.0.3325.181,,2018-04-13 13:40:07,2018-04-13 13:40:09,2.045s,PASSED
+setText,Chrome 65.0.3325.181,,2018-04-13 13:40:09,2018-04-13 13:40:10,0.817s,PASSED
+click,Chrome 65.0.3325.181,,2018-04-13 13:40:10,2018-04-13 13:40:11,0.247s,PASSED
+verifyElementAttributeValue,Chrome 65.0.3325.181,,2018-04-13 13:40:11,2018-04-13 13:40:11,0.187s,PASSED
+closeBrowser,Chrome 65.0.3325.181,,2018-04-13 13:40:11,2018-04-13 13:40:11,0.753s,PASSED
+,,,,,,
+Test Cases/Login_TestCases/Login using ENTER keyword,Chrome 65.0.3325.181,Login using ENTER keyword instead of using submit button,2018-04-13 13:40:11,2018-04-13 13:40:22,10.187s,PASSED
+openBrowser,Chrome 65.0.3325.181,,2018-04-13 13:40:12,2018-04-13 13:40:14,2.112s,PASSED
+navigateToUrl,Chrome 65.0.3325.181,,2018-04-13 13:40:14,2018-04-13 13:40:18,3.962s,PASSED
+setText,Chrome 65.0.3325.181,,2018-04-13 13:40:18,2018-04-13 13:40:20,2.001s,PASSED
+setText,Chrome 65.0.3325.181,,2018-04-13 13:40:20,2018-04-13 13:40:21,0.764s,PASSED
+sendKeys,Chrome 65.0.3325.181,,2018-04-13 13:40:21,2018-04-13 13:40:21,0.251s,PASSED
+verifyElementAttributeValue,Chrome 65.0.3325.181,,2018-04-13 13:40:21,2018-04-13 13:40:21,0.141s,PASSED
+closeBrowser,Chrome 65.0.3325.181,,2018-04-13 13:40:21,2018-04-13 13:40:22,0.772s,PASSED

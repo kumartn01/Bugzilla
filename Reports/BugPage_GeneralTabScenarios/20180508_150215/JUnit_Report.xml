@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="BugPage_GeneralTabScenarios" time="25" tests="0" failures="2" errors="0">
+   <testsuite name="BugPage_GeneralTabScenarios" tests="0" failures="2" errors="0" time="25" timestamp="2018-05-08 15:02:17" hostname="Kumar.nagendra - HMECL001948.happiestminds.com" id="Test Suites/BugPage_GeneralTabScenarios">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\BugPage_GeneralTabScenarios\\20180508_150215"/>
+         <property name="logFiles" value="C:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\BugPage_GeneralTabScenarios\\20180508_150215\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Kumar.nagendra - HMECL001948.happiestminds.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.0.1"/>
+         <property name="browser" value="Chrome 66.0.3359.139"/>
+         <property name="hostAddress" value="10.95.75.194"/>
+         <property name="sessionId" value="71b7b893523f88057adfea2f397875bc"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/BugPage_GeneralTab_TestCases/VerifyBugInfoFields_CanBe_Edited_Commited" classname="Test Cases/BugPage_GeneralTab_TestCases/VerifyBugInfoFields_CanBe_Edited_Commited" status="FAILED">
+         <failure type="FAILED" message="Unable to verify equal between actual object 'For Resolution as 'Fixed',
+Please specify atleast one of the following:Fixed by changelist / Fixed By Gerrit / Force Commit or change the bug's Resolution to something besides FIXED(e.g. WONTFIX, WORKSFORME, DUPLICATE)' and expected object 'Changes have been committed successfully to Bug #247777' (Root cause: Actual object 'For Resolution as 'Fixed',
+Please specify atleast one of the following:Fixed by changelist / Fixed By Gerrit / Force Commit or change the bug's Resolution to something besides FIXED(e.g. WONTFIX, WORKSFORME, DUPLICATE)' and expected object 'Changes have been committed successfully to Bug #247777' are not equal)"/>
+         <system-out><![CDATA[2018-05-08 15:02:18 - [TEST_CASE][FAILED] - Test Cases/BugPage_GeneralTab_TestCases/VerifyBugInfoFields_CanBe_Edited_Commited: Test Cases/BugPage_GeneralTab_TestCases/VerifyBugInfoFields_CanBe_Edited_Commited FAILED because (of) Unable to verify equal between actual object 'For Resolution as 'Fixed',
+Please specify atleast one of the following:Fixed by changelist / Fixed By Gerrit / Force Commit or change the bug's Resolution to something besides FIXED(e.g. WONTFIX, WORKSFORME, DUPLICATE)' and expected object 'Changes have been committed successfully to Bug #247777' (Root cause: Actual object 'For Resolution as 'Fixed',
+Please specify atleast one of the following:Fixed by changelist / Fixed By Gerrit / Force Commit or change the bug's Resolution to something besides FIXED(e.g. WONTFIX, WORKSFORME, DUPLICATE)' and expected object 'Changes have been committed successfully to Bug #247777' are not equal)
+
+2018-05-08 15:02:18 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-08 15:02:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-08 15:02:21 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://bugzilla-ui.staging.kube.sw-infra.sjc.aristanetworks.com/login' successfully
+
+2018-05-08 15:02:28 - [MESSAGE][PASSED] - Navigate to 'http://bugzilla-ui.staging.kube.sw-infra.sjc.aristanetworks.com/login' successfully
+
+2018-05-08 15:02:28 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-05-08 15:02:29 - [MESSAGE][PASSED] - Current window maximized
+
+2018-05-08 15:02:29 - [TEST_STEP][PASSED] - setText: Text 'knagendra-ext' is set on object 'Object Repository/Page_BugsUI login/input_value_userid'
+
+2018-05-08 15:02:30 - [MESSAGE][PASSED] - Text 'knagendra-ext' is set on object 'Object Repository/Page_BugsUI login/input_value_userid'
+
+2018-05-08 15:02:30 - [TEST_STEP][PASSED] - setText: Text 'Tumkur@123' is set on object 'Object Repository/Page_BugsUI login/input_form-control ng-untouche'
+
+2018-05-08 15:02:30 - [MESSAGE][PASSED] - Text 'Tumkur@123' is set on object 'Object Repository/Page_BugsUI login/input_form-control ng-untouche'
+
+2018-05-08 15:02:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BugsUI login/button_Login' is clicked on
+
+2018-05-08 15:02:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI login/button_Login' is clicked on
+
+2018-05-08 15:02:31 - [TEST_STEP][PASSED] - setText: Text '247777' is set on object 'Object Repository/Page_BugsUI Dashboard/input_navbar-search-input'
+
+2018-05-08 15:02:31 - [MESSAGE][PASSED] - Text '247777' is set on object 'Object Repository/Page_BugsUI Dashboard/input_navbar-search-input'
+
+2018-05-08 15:02:31 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-05-08 15:02:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-05-08 15:02:32 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/Page_BugsUI Dashboard/input_navbar-search-input'
+
+2018-05-08 15:02:33 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_BugsUI Dashboard/input_navbar-search-input'
+
+2018-05-08 15:02:33 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-05-08 15:02:36 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-05-08 15:02:36 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(BugsPage_GeneralTab/a_General), 1)): Object 'Object Repository/BugsPage_GeneralTab/a_General' has attribute 'text' with value 'General'
+
+2018-05-08 15:02:36 - [MESSAGE][PASSED] - Object 'Object Repository/BugsPage_GeneralTab/a_General' is present
+
+2018-05-08 15:02:36 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/BugsPage_GeneralTab/a_General' has attribute 'text' with value 'General'
+
+2018-05-08 15:02:36 - [MESSAGE][PASSED] - Object 'Object Repository/BugsPage_GeneralTab/a_General' has attribute 'text' with value 'General'
+
+2018-05-08 15:02:36 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(BugsPage_GeneralTab/bugInfoBox), 1)): Object 'Object Repository/BugsPage_GeneralTab/i_toggleMinusBugInfoBox' is present
+
+2018-05-08 15:02:36 - [MESSAGE][PASSED] - Object 'Object Repository/BugsPage_GeneralTab/bugInfoBox' is present
+
+2018-05-08 15:02:36 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(BugsPage_GeneralTab/i_togglePlusBugInfoBox), 1)): Object 'Object Repository/BugsPage_GeneralTab/i_toggleMinusBugInfoBox' is present
+
+2018-05-08 15:02:36 - [MESSAGE][PASSED] - Object 'Object Repository/BugsPage_GeneralTab/i_togglePlusBugInfoBox' is present
+
+2018-05-08 15:02:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/BugsPage_GeneralTab/i_togglePlusBugInfoBox' is clicked on
+
+2018-05-08 15:02:36 - [MESSAGE][PASSED] - Object: 'Object Repository/BugsPage_GeneralTab/i_togglePlusBugInfoBox' is clicked on
+
+2018-05-08 15:02:36 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/BugsPage_GeneralTab/input_alias' is present
+
+2018-05-08 15:02:36 - [MESSAGE][PASSED] - Object 'Object Repository/BugsPage_GeneralTab/input_alias' is present
+
+2018-05-08 15:02:36 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/BugsPage_GeneralTab/i_toggleMinusBugInfoBox' is present
+
+2018-05-08 15:02:36 - [MESSAGE][PASSED] - Object 'Object Repository/BugsPage_GeneralTab/i_toggleMinusBugInfoBox' is present
+
+2018-05-08 15:02:36 - [TEST_STEP][PASSED] - newKey.ClearFields.ClearTextField: newKey.ClearFields.ClearTextField is PASSED
+
+2018-05-08 15:02:37 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/BugsPage_GeneralTab/input_alias'
+
+2018-05-08 15:02:37 - [MESSAGE][PASSED] - Keys 'DELETE + ' sent to object: 'Object Repository/BugsPage_GeneralTab/input_alias'
+
+2018-05-08 15:02:37 - [MESSAGE][PASSED] - newKey.ClearFields.ClearTextField is PASSED
+
+2018-05-08 15:02:37 - [TEST_STEP][PASSED] - setText: Text 'Automation_AliasName' is set on object 'Object Repository/BugsPage_GeneralTab/input_alias'
+
+2018-05-08 15:02:39 - [MESSAGE][PASSED] - Text 'Automation_AliasName' is set on object 'Object Repository/BugsPage_GeneralTab/input_alias'
+
+2018-05-08 15:02:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/BugsPage_GeneralTab/button_COMMIT' is clicked on
+
+2018-05-08 15:02:39 - [MESSAGE][PASSED] - Object: 'Object Repository/BugsPage_GeneralTab/button_COMMIT' is clicked on
+
+2018-05-08 15:02:39 - [TEST_STEP][FAILED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyAlertPresent(2)): Unable to verify equal between actual object 'For Resolution as 'Fixed',
+Please specify atleast one of the following:Fixed by changelist / Fixed By Gerrit / Force Commit or change the bug's Resolution to something besides FIXED(e.g. WONTFIX, WORKSFORME, DUPLICATE)' and expected object 'Changes have been committed successfully to Bug #247777' (Root cause: Actual object 'For Resolution as 'Fixed',
+Please specify atleast one of the following:Fixed by changelist / Fixed By Gerrit / Force Commit or change the bug's Resolution to something besides FIXED(e.g. WONTFIX, WORKSFORME, DUPLICATE)' and expected object 'Changes have been committed successfully to Bug #247777' are not equal)
+
+2018-05-08 15:02:39 - [MESSAGE][PASSED] - Alert is present after 2 second(s).
+
+2018-05-08 15:02:39 - [TEST_STEP][PASSED] - Statement - alertText = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAlertText(): Get alert text successfully: 'For Resolution as 'Fixed',
+Please specify atleast one of the following:Fixed by changelist / Fixed By Gerrit / Force Commit or change the bug's Resolution to something besides FIXED(e.g. WONTFIX, WORKSFORME, DUPLICATE)'
+
+2018-05-08 15:02:39 - [MESSAGE][PASSED] - Get alert text successfully: 'For Resolution as 'Fixed',
+Please specify atleast one of the following:Fixed by changelist / Fixed By Gerrit / Force Commit or change the bug's Resolution to something besides FIXED(e.g. WONTFIX, WORKSFORME, DUPLICATE)'
+
+2018-05-08 15:02:39 - [TEST_STEP][FAILED] - verifyEqual: Unable to verify equal between actual object 'For Resolution as 'Fixed',
+Please specify atleast one of the following:Fixed by changelist / Fixed By Gerrit / Force Commit or change the bug's Resolution to something besides FIXED(e.g. WONTFIX, WORKSFORME, DUPLICATE)' and expected object 'Changes have been committed successfully to Bug #247777' (Root cause: Actual object 'For Resolution as 'Fixed',
+Please specify atleast one of the following:Fixed by changelist / Fixed By Gerrit / Force Commit or change the bug's Resolution to something besides FIXED(e.g. WONTFIX, WORKSFORME, DUPLICATE)' and expected object 'Changes have been committed successfully to Bug #247777' are not equal)
+
+2018-05-08 15:02:39 - [MESSAGE][FAILED] - Unable to verify equal between actual object 'For Resolution as 'Fixed',
+Please specify atleast one of the following:Fixed by changelist / Fixed By Gerrit / Force Commit or change the bug's Resolution to something besides FIXED(e.g. WONTFIX, WORKSFORME, DUPLICATE)' and expected object 'Changes have been committed successfully to Bug #247777' (Root cause: Actual object 'For Resolution as 'Fixed',
+Please specify atleast one of the following:Fixed by changelist / Fixed By Gerrit / Force Commit or change the bug's Resolution to something besides FIXED(e.g. WONTFIX, WORKSFORME, DUPLICATE)' and expected object 'Changes have been committed successfully to Bug #247777' are not equal)]]></system-out>
+         <system-err><![CDATA[2018-05-08 15:02:18 - [TEST_CASE][FAILED] - Test Cases/BugPage_GeneralTab_TestCases/VerifyBugInfoFields_CanBe_Edited_Commited: Test Cases/BugPage_GeneralTab_TestCases/VerifyBugInfoFields_CanBe_Edited_Commited FAILED because (of) Unable to verify equal between actual object 'For Resolution as 'Fixed',
+Please specify atleast one of the following:Fixed by changelist / Fixed By Gerrit / Force Commit or change the bug's Resolution to something besides FIXED(e.g. WONTFIX, WORKSFORME, DUPLICATE)' and expected object 'Changes have been committed successfully to Bug #247777' (Root cause: Actual object 'For Resolution as 'Fixed',
+Please specify atleast one of the following:Fixed by changelist / Fixed By Gerrit / Force Commit or change the bug's Resolution to something besides FIXED(e.g. WONTFIX, WORKSFORME, DUPLICATE)' and expected object 'Changes have been committed successfully to Bug #247777' are not equal)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/BugPage_GeneralTab_TestCases/VerifyStatusBoxFields_canBe_Edited" classname="Test Cases/BugPage_GeneralTab_TestCases/VerifyStatusBoxFields_canBe_Edited" status="FAILED">
+         <failure type="FAILED" message="Unable to verify object 'Object Repository/BugsPage_GeneralTab/Status-Box/statusBox' is present (Root cause: org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : For Resolution as 'Fixed',
+Please specify atleast one of the following:Fixed by changelist / Fixed By Gerrit / Force Commit or change the bug's Resolution to something besides FIXED(e.g. WONTFIX, WORKSFORME, DUPLICATE)}
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HMECL001948', ip: '10.95.75.194', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\KUMAR~1.NAG\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
+Session ID: 71b7b893523f88057adfea2f397875bc
+*** Element info: {Using=xpath, value=id(&quot;collapseStatusBox&quot;)/div[@class=&quot;box-header with-border colorClass&quot;]/div[@class=&quot;box-tools pull-left&quot;]})"/>
+         <system-out><![CDATA[2018-05-08 15:02:39 - [TEST_CASE][FAILED] - Test Cases/BugPage_GeneralTab_TestCases/VerifyStatusBoxFields_canBe_Edited: Test Cases/BugPage_GeneralTab_TestCases/VerifyStatusBoxFields_canBe_Edited FAILED because (of) Unable to verify object 'Object Repository/BugsPage_GeneralTab/Status-Box/statusBox' is present (Root cause: org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : For Resolution as 'Fixed',
+Please specify atleast one of the following:Fixed by changelist / Fixed By Gerrit / Force Commit or change the bug's Resolution to something besides FIXED(e.g. WONTFIX, WORKSFORME, DUPLICATE)}
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HMECL001948', ip: '10.95.75.194', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\KUMAR~1.NAG\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
+Session ID: 71b7b893523f88057adfea2f397875bc
+*** Element info: {Using=xpath, value=id("collapseStatusBox")/div[@class="box-header with-border colorClass"]/div[@class="box-tools pull-left"]})
+
+2018-05-08 15:02:39 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-08 15:02:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-08 15:02:41 - [TEST_STEP][FAILED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(BugsPage_GeneralTab/Status-Box/statusBox), 1)): Unable to verify object 'Object Repository/BugsPage_GeneralTab/Status-Box/statusBox' is present (Root cause: org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : For Resolution as 'Fixed',
+Please specify atleast one of the following:Fixed by changelist / Fixed By Gerrit / Force Commit or change the bug's Resolution to something besides FIXED(e.g. WONTFIX, WORKSFORME, DUPLICATE)}
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HMECL001948', ip: '10.95.75.194', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\KUMAR~1.NAG\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
+Session ID: 71b7b893523f88057adfea2f397875bc
+*** Element info: {Using=xpath, value=id("collapseStatusBox")/div[@class="box-header with-border colorClass"]/div[@class="box-tools pull-left"]})
+
+2018-05-08 15:02:42 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-05-08 15:02:42 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/BugsPage_GeneralTab/Status-Box/statusBox' is present (Root cause: org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : For Resolution as 'Fixed',
+Please specify atleast one of the following:Fixed by changelist / Fixed By Gerrit / Force Commit or change the bug's Resolution to something besides FIXED(e.g. WONTFIX, WORKSFORME, DUPLICATE)}
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HMECL001948', ip: '10.95.75.194', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\KUMAR~1.NAG\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
+Session ID: 71b7b893523f88057adfea2f397875bc
+*** Element info: {Using=xpath, value=id("collapseStatusBox")/div[@class="box-header with-border colorClass"]/div[@class="box-tools pull-left"]})]]></system-out>
+         <system-err><![CDATA[2018-05-08 15:02:39 - [TEST_CASE][FAILED] - Test Cases/BugPage_GeneralTab_TestCases/VerifyStatusBoxFields_canBe_Edited: Test Cases/BugPage_GeneralTab_TestCases/VerifyStatusBoxFields_canBe_Edited FAILED because (of) Unable to verify object 'Object Repository/BugsPage_GeneralTab/Status-Box/statusBox' is present (Root cause: org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : For Resolution as 'Fixed',
+Please specify atleast one of the following:Fixed by changelist / Fixed By Gerrit / Force Commit or change the bug's Resolution to something besides FIXED(e.g. WONTFIX, WORKSFORME, DUPLICATE)}
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HMECL001948', ip: '10.95.75.194', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\KUMAR~1.NAG\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
+Session ID: 71b7b893523f88057adfea2f397875bc
+*** Element info: {Using=xpath, value=id("collapseStatusBox")/div[@class="box-header with-border colorClass"]/div[@class="box-tools pull-left"]})]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-08 15:02:17 - [TEST_SUITE][FAILED] - BugPage_GeneralTabScenarios: Test Cases/BugPage_GeneralTab_TestCases/VerifyBugInfoFields_CanBe_Edited_Commited FAILED because (of) Unable to verify equal between actual object 'For Resolution as 'Fixed',
+Please specify atleast one of the following:Fixed by changelist / Fixed By Gerrit / Force Commit or change the bug's Resolution to something besides FIXED(e.g. WONTFIX, WORKSFORME, DUPLICATE)' and expected object 'Changes have been committed successfully to Bug #247777' (Root cause: Actual object 'For Resolution as 'Fixed',
+Please specify atleast one of the following:Fixed by changelist / Fixed By Gerrit / Force Commit or change the bug's Resolution to something besides FIXED(e.g. WONTFIX, WORKSFORME, DUPLICATE)' and expected object 'Changes have been committed successfully to Bug #247777' are not equal)]]></system-out>
+      <system-err><![CDATA[2018-05-08 15:02:17 - [TEST_SUITE][FAILED] - BugPage_GeneralTabScenarios: Test Cases/BugPage_GeneralTab_TestCases/VerifyBugInfoFields_CanBe_Edited_Commited FAILED because (of) Unable to verify equal between actual object 'For Resolution as 'Fixed',
+Please specify atleast one of the following:Fixed by changelist / Fixed By Gerrit / Force Commit or change the bug's Resolution to something besides FIXED(e.g. WONTFIX, WORKSFORME, DUPLICATE)' and expected object 'Changes have been committed successfully to Bug #247777' (Root cause: Actual object 'For Resolution as 'Fixed',
+Please specify atleast one of the following:Fixed by changelist / Fixed By Gerrit / Force Commit or change the bug's Resolution to something besides FIXED(e.g. WONTFIX, WORKSFORME, DUPLICATE)' and expected object 'Changes have been committed successfully to Bug #247777' are not equal)]]></system-err>
+   </testsuite>
+</testsuites>

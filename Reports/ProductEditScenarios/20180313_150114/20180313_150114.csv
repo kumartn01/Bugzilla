@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+ProductEditScenarios,Chrome 64.0.3282.186,,2018-03-13 15:01:17,2018-03-13 15:01:54,37.089s,FAILED
+,,,,,,
+Test Cases/ProductEdit_TestCases/VerifyProductEditPageLoads,Chrome 64.0.3282.186,,2018-03-13 15:01:18,2018-03-13 15:01:37,19.602s,PASSED
+openBrowser,Chrome 64.0.3282.186,,2018-03-13 15:01:18,2018-03-13 15:01:22,4.101s,PASSED
+navigateToUrl,Chrome 64.0.3282.186,,2018-03-13 15:01:22,2018-03-13 15:01:30,7.400s,PASSED
+setText,Chrome 64.0.3282.186,,2018-03-13 15:01:30,2018-03-13 15:01:30,0.337s,PASSED
+setText,Chrome 64.0.3282.186,,2018-03-13 15:01:30,2018-03-13 15:01:30,0.294s,PASSED
+click,Chrome 64.0.3282.186,,2018-03-13 15:01:30,2018-03-13 15:01:30,0.151s,PASSED
+verifyElementAttributeValue,Chrome 64.0.3282.186,,2018-03-13 15:01:30,2018-03-13 15:01:30,0.139s,PASSED
+Statement - productEditTabVisible = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Dashboard/a_Product)),Chrome 64.0.3282.186,,2018-03-13 15:01:30,2018-03-13 15:01:31,0.239s,PASSED
+delay,Chrome 64.0.3282.186,,2018-03-13 15:01:31,2018-03-13 15:01:33,2.040s,PASSED
+Statement - If (productEditTabVisible),Chrome 64.0.3282.186,,2018-03-13 15:01:33,2018-03-13 15:01:33,0.254s,PASSED
+delay,Chrome 64.0.3282.186,,2018-03-13 15:01:33,2018-03-13 15:01:35,2.005s,PASSED
+verifyElementText,Chrome 64.0.3282.186,,2018-03-13 15:01:35,2018-03-13 15:01:35,0.139s,PASSED
+delay,Chrome 64.0.3282.186,,2018-03-13 15:01:35,2018-03-13 15:01:37,2.002s,PASSED
+,,,,,,
+Test Cases/ProductEdit_TestCases/VerifyProductName_Description_isEdited_and_updated,Chrome 64.0.3282.186,,2018-03-13 15:01:37,2018-03-13 15:01:53,16.010s,FAILED
+selectOptionByLabel,Chrome 64.0.3282.186,,2018-03-13 15:01:37,2018-03-13 15:01:38,0.150s,PASSED
+delay,Chrome 64.0.3282.186,,2018-03-13 15:01:38,2018-03-13 15:01:48,10.003s,PASSED
+selectOptionByLabel,Chrome 64.0.3282.186,,2018-03-13 15:01:48,2018-03-13 15:01:48,0.174s,PASSED
+delay,Chrome 64.0.3282.186,,2018-03-13 15:01:48,2018-03-13 15:01:50,2.005s,PASSED
+newKey.ClearFields.ClearTextField,Chrome 64.0.3282.186,,2018-03-13 15:01:50,2018-03-13 15:01:50,0.248s,PASSED
+setText,Chrome 64.0.3282.186,,2018-03-13 15:01:50,2018-03-13 15:01:50,0.198s,PASSED
+click,Chrome 64.0.3282.186,,2018-03-13 15:01:50,2018-03-13 15:01:50,0.142s,PASSED
+verifyElementPresent,Chrome 64.0.3282.186,,2018-03-13 15:01:50,2018-03-13 15:01:53,2.822s,FAILED

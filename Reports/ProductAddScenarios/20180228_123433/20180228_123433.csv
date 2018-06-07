@@ -1,0 +1,66 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+ProductAddScenarios,Chrome 63.0.3239.132,,2018-02-28 12:34:50,2018-02-28 12:35:27,37.206s,FAILED
+,,,,,,
+Test Cases/ProductAdd_TestCases/VerifyProductAddPageLoads,Chrome 63.0.3239.132,,2018-02-28 12:34:50,2018-02-28 12:35:15,24.695s,PASSED
+openBrowser,Chrome 63.0.3239.132,,2018-02-28 12:34:51,2018-02-28 12:35:00,8.839s,PASSED
+navigateToUrl,Chrome 63.0.3239.132,,2018-02-28 12:35:00,2018-02-28 12:35:08,8.197s,PASSED
+maximizeWindow,Chrome 63.0.3239.132,,2018-02-28 12:35:08,2018-02-28 12:35:09,1.254s,PASSED
+setText,Chrome 63.0.3239.132,,2018-02-28 12:35:09,2018-02-28 12:35:10,0.330s,PASSED
+setText,Chrome 63.0.3239.132,,2018-02-28 12:35:10,2018-02-28 12:35:10,0.221s,PASSED
+click,Chrome 63.0.3239.132,,2018-02-28 12:35:10,2018-02-28 12:35:10,0.588s,PASSED
+verifyElementAttributeValue,Chrome 63.0.3239.132,,2018-02-28 12:35:10,2018-02-28 12:35:11,0.111s,PASSED
+Statement - productAddTabVisible = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Dashboard/a_Product)),Chrome 63.0.3239.132,,2018-02-28 12:35:11,2018-02-28 12:35:11,0.082s,PASSED
+delay,Chrome 63.0.3239.132,,2018-02-28 12:35:11,2018-02-28 12:35:13,2.031s,PASSED
+Statement - If (productAddTabVisible),Chrome 63.0.3239.132,,2018-02-28 12:35:13,2018-02-28 12:35:13,0.452s,PASSED
+delay,Chrome 63.0.3239.132,,2018-02-28 12:35:13,2018-02-28 12:35:15,2.005s,PASSED
+verifyElementText,Chrome 63.0.3239.132,,2018-02-28 12:35:15,2018-02-28 12:35:15,0.111s,PASSED
+,,,,,,
+Test Cases/ProductAdd_TestCases/VerifyMandatoryMarkNextToFields,Chrome 63.0.3239.132,,2018-02-28 12:35:15,2018-02-28 12:35:15,0.279s,PASSED
+"Statement - mandatoryElements = com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI productAdd/ProductAdd_Fields/span_), 0)",Chrome 63.0.3239.132,,2018-02-28 12:35:15,2018-02-28 12:35:15,0.058s,PASSED
+"Statement - println(""Size of Mandatory fields is:----"" + mandatoryElements.size())",Chrome 63.0.3239.132,,2018-02-28 12:35:15,2018-02-28 12:35:15,0.006s,PASSED
+verifyEqual,Chrome 63.0.3239.132,,2018-02-28 12:35:15,2018-02-28 12:35:15,0.015s,PASSED
+,,,,,,
+Test Cases/ProductAdd_TestCases/ValidationOf_All_ProductAddPage_Fields,Chrome 63.0.3239.132,,2018-02-28 12:35:15,2018-02-28 12:35:17,1.310s,PASSED
+verifyElementText,Chrome 63.0.3239.132,,2018-02-28 12:35:16,2018-02-28 12:35:16,0.103s,PASSED
+verifyElementPresent,Chrome 63.0.3239.132,,2018-02-28 12:35:16,2018-02-28 12:35:16,0.091s,PASSED
+verifyElementText,Chrome 63.0.3239.132,,2018-02-28 12:35:16,2018-02-28 12:35:16,0.084s,PASSED
+verifyElementPresent,Chrome 63.0.3239.132,,2018-02-28 12:35:16,2018-02-28 12:35:16,0.053s,PASSED
+verifyElementText,Chrome 63.0.3239.132,,2018-02-28 12:35:16,2018-02-28 12:35:16,0.078s,PASSED
+verifyElementPresent,Chrome 63.0.3239.132,,2018-02-28 12:35:16,2018-02-28 12:35:16,0.050s,PASSED
+verifyElementText,Chrome 63.0.3239.132,,2018-02-28 12:35:16,2018-02-28 12:35:16,0.078s,PASSED
+verifyElementPresent,Chrome 63.0.3239.132,,2018-02-28 12:35:16,2018-02-28 12:35:16,0.039s,PASSED
+verifyElementText,Chrome 63.0.3239.132,,2018-02-28 12:35:16,2018-02-28 12:35:16,0.058s,PASSED
+verifyElementPresent,Chrome 63.0.3239.132,,2018-02-28 12:35:16,2018-02-28 12:35:16,0.042s,PASSED
+verifyElementText,Chrome 63.0.3239.132,,2018-02-28 12:35:16,2018-02-28 12:35:17,0.059s,PASSED
+verifyElementPresent,Chrome 63.0.3239.132,,2018-02-28 12:35:17,2018-02-28 12:35:17,0.070s,PASSED
+verifyElementText,Chrome 63.0.3239.132,,2018-02-28 12:35:17,2018-02-28 12:35:17,0.074s,PASSED
+verifyElementPresent,Chrome 63.0.3239.132,,2018-02-28 12:35:17,2018-02-28 12:35:17,0.042s,PASSED
+verifyElementText,Chrome 63.0.3239.132,,2018-02-28 12:35:17,2018-02-28 12:35:17,0.062s,PASSED
+verifyElementPresent,Chrome 63.0.3239.132,,2018-02-28 12:35:17,2018-02-28 12:35:17,0.041s,PASSED
+,,,,,,
+Test Cases/ProductAdd_TestCases/VerifyErrorMessages_for_all_mandatoryfields,Chrome 63.0.3239.132,,2018-02-28 12:35:17,2018-02-28 12:35:21,4.046s,PASSED
+scrollToElement,Chrome 63.0.3239.132,,2018-02-28 12:35:17,2018-02-28 12:35:17,0.075s,PASSED
+click,Chrome 63.0.3239.132,,2018-02-28 12:35:17,2018-02-28 12:35:17,0.126s,PASSED
+delay,Chrome 63.0.3239.132,,2018-02-28 12:35:17,2018-02-28 12:35:20,3.001s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI productAdd/Error_Messages/small_Product is required), 0))",Chrome 63.0.3239.132,,2018-02-28 12:35:20,2018-02-28 12:35:20,0.128s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI productAdd/Error_Messages/small_Product description is r), 0))",Chrome 63.0.3239.132,,2018-02-28 12:35:20,2018-02-28 12:35:20,0.126s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI productAdd/Error_Messages/small_Version is required), 0))",Chrome 63.0.3239.132,,2018-02-28 12:35:20,2018-02-28 12:35:21,0.094s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI productAdd/Error_Messages/small_Component is required), 0))",Chrome 63.0.3239.132,,2018-02-28 12:35:21,2018-02-28 12:35:21,0.092s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI productAdd/Error_Messages/small_Component description is), 0))",Chrome 63.0.3239.132,,2018-02-28 12:35:21,2018-02-28 12:35:21,0.088s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI productAdd/Error_Messages/small_Email Id is required), 0))",Chrome 63.0.3239.132,,2018-02-28 12:35:21,2018-02-28 12:35:21,0.098s,PASSED
+,,,,,,
+Test Cases/ProductAdd_TestCases/VerifyAdditionOfSuccessfulProduct,Chrome 63.0.3239.132,,2018-02-28 12:35:21,2018-02-28 12:35:26,4.972s,FAILED
+selectOptionByLabel,Chrome 63.0.3239.132,,2018-02-28 12:35:21,2018-02-28 12:35:22,1.218s,PASSED
+setText,Chrome 63.0.3239.132,,2018-02-28 12:35:22,2018-02-28 12:35:23,0.331s,PASSED
+setText,Chrome 63.0.3239.132,,2018-02-28 12:35:23,2018-02-28 12:35:23,0.355s,PASSED
+setText,Chrome 63.0.3239.132,,2018-02-28 12:35:23,2018-02-28 12:35:23,0.139s,PASSED
+setText,Chrome 63.0.3239.132,,2018-02-28 12:35:23,2018-02-28 12:35:24,0.286s,PASSED
+setText,Chrome 63.0.3239.132,,2018-02-28 12:35:24,2018-02-28 12:35:24,0.272s,PASSED
+setText,Chrome 63.0.3239.132,,2018-02-28 12:35:24,2018-02-28 12:35:24,0.174s,PASSED
+scrollToElement,Chrome 63.0.3239.132,,2018-02-28 12:35:24,2018-02-28 12:35:24,0.085s,PASSED
+click,Chrome 63.0.3239.132,,2018-02-28 12:35:24,2018-02-28 12:35:24,0.151s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI productAdd/Error_Messages/small_Invalid Email Id), 0))",Chrome 63.0.3239.132,,2018-02-28 12:35:24,2018-02-28 12:35:24,0.087s,PASSED
+"Statement - com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI productAdd/ProductAdd_Fields/input_AssignTO_addProduct), 2).clear()",Chrome 63.0.3239.132,,2018-02-28 12:35:24,2018-02-28 12:35:24,0.058s,PASSED
+setText,Chrome 63.0.3239.132,,2018-02-28 12:35:24,2018-02-28 12:35:25,0.220s,PASSED
+click,Chrome 63.0.3239.132,,2018-02-28 12:35:25,2018-02-28 12:35:25,0.072s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI productAdd/Error_Messages/small_Email Id does not exist), 0))",Chrome 63.0.3239.132,,2018-02-28 12:35:25,2018-02-28 12:35:26,1.204s,FAILED

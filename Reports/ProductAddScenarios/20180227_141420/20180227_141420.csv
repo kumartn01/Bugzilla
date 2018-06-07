@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+ProductAddScenarios,Chrome 63.0.3239.132,,2018-02-27 14:14:38,2018-02-27 14:16:04,1m - 25.339s,PASSED
+,,,,,,
+Test Cases/ProductAdd_TestCases/VerifyProductAddPageLoads,Chrome 63.0.3239.132,,2018-02-27 14:14:42,2018-02-27 14:16:00,1m - 18.016s,PASSED
+openBrowser,Chrome 63.0.3239.132,,2018-02-27 14:14:42,2018-02-27 14:15:04,22.285s,PASSED
+navigateToUrl,Chrome 63.0.3239.132,,2018-02-27 14:15:04,2018-02-27 14:15:53,48.979s,PASSED
+setText,Chrome 63.0.3239.132,,2018-02-27 14:15:53,2018-02-27 14:15:55,1.374s,PASSED
+setText,Chrome 63.0.3239.132,,2018-02-27 14:15:55,2018-02-27 14:15:55,0.271s,PASSED
+click,Chrome 63.0.3239.132,,2018-02-27 14:15:55,2018-02-27 14:15:55,0.146s,PASSED
+verifyElementAttributeValue,Chrome 63.0.3239.132,,2018-02-27 14:15:55,2018-02-27 14:15:55,0.085s,PASSED
+Statement - productAddTabVisible = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Dashboard/a_Product)),Chrome 63.0.3239.132,,2018-02-27 14:15:55,2018-02-27 14:15:55,0.078s,PASSED
+delay,Chrome 63.0.3239.132,,2018-02-27 14:15:55,2018-02-27 14:15:57,2.031s,PASSED
+Statement - If (productAddTabVisible),Chrome 63.0.3239.132,,2018-02-27 14:15:57,2018-02-27 14:15:57,0.245s,PASSED
+delay,Chrome 63.0.3239.132,,2018-02-27 14:15:57,2018-02-27 14:15:59,2.005s,PASSED
+verifyElementText,Chrome 63.0.3239.132,,2018-02-27 14:15:59,2018-02-27 14:16:00,0.092s,PASSED
+,,,,,,
+Test Cases/ProductAdd_TestCases/VerifyMandatoryMarkNextToFields,Chrome 63.0.3239.132,,2018-02-27 14:16:00,2018-02-27 14:16:00,0.434s,PASSED
+verifyElementText,Chrome 63.0.3239.132,,2018-02-27 14:16:00,2018-02-27 14:16:00,0.076s,PASSED
+"Statement - mandatoryElements = com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI productAdd/span_), 0)",Chrome 63.0.3239.132,,2018-02-27 14:16:00,2018-02-27 14:16:00,0.057s,PASSED
+"Statement - println(""Size of Mandatory fields is:----"" + mandatoryElements.size())",Chrome 63.0.3239.132,,2018-02-27 14:16:00,2018-02-27 14:16:00,0.009s,PASSED
+verifyEqual,Chrome 63.0.3239.132,,2018-02-27 14:16:00,2018-02-27 14:16:00,0.015s,PASSED

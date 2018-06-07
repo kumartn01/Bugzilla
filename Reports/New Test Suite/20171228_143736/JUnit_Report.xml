@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite" time="49" tests="2" failures="0" errors="0">
+   <testsuite name="New Test Suite" tests="2" failures="0" errors="0" time="49" timestamp="2017-12-28 14:37:40" hostname="Kumar.nagendra - HMECL000103.happiestminds.com" id="Test Suites/New Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\New Test Suite\\20171228_143736"/>
+         <property name="logFiles" value="D:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\New Test Suite\\20171228_143736\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Kumar.nagendra - HMECL000103.happiestminds.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.2.0.1"/>
+         <property name="browser" value="Chrome 63.0.3239.84"/>
+         <property name="hostAddress" value="10.95.3.71"/>
+         <property name="sessionId" value="72a31886c54de2d6ef35819d417c2069"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login" classname="Test Cases/Login" status="PASSED">
+         <system-out><![CDATA[2017-12-28 14:37:40 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+2017-12-28 14:37:41 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-12-28 14:37:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-12-28 14:37:50 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://bugzilla-ui/' successfully
+
+2017-12-28 14:38:03 - [MESSAGE][PASSED] - Navigate to 'http://bugzilla-ui/' successfully
+
+2017-12-28 14:38:03 - [TEST_STEP][PASSED] - setText: Text 'kumar.nagendra@happiestminds.com' is set on object 'Object Repository/Page_BugsUI login/input_value_email'
+
+2017-12-28 14:38:06 - [MESSAGE][PASSED] - Text 'kumar.nagendra@happiestminds.com' is set on object 'Object Repository/Page_BugsUI login/input_value_email'
+
+2017-12-28 14:38:06 - [TEST_STEP][PASSED] - setText: Text 'Kumar@123' is set on object 'Object Repository/Page_BugsUI login/input_form-control ng-untouche'
+
+2017-12-28 14:38:06 - [MESSAGE][PASSED] - Text 'Kumar@123' is set on object 'Object Repository/Page_BugsUI login/input_form-control ng-untouche'
+
+2017-12-28 14:38:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BugsUI login/button_Login' is clicked on
+
+2017-12-28 14:38:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI login/button_Login' is clicked on
+
+2017-12-28 14:38:07 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Page_BugsUI login/a_BugsUI' has attribute 'text' with value 'BugsUI '
+
+2017-12-28 14:38:07 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI login/a_BugsUI' has attribute 'text' with value 'BugsUI '
+
+2017-12-28 14:38:07 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2017-12-28 14:38:08 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Invalid_Login" classname="Test Cases/Invalid_Login" status="PASSED">
+         <system-out><![CDATA[2017-12-28 14:38:08 - [TEST_CASE][PASSED] - Test Cases/Invalid_Login: Test Cases/Invalid_Login
+
+2017-12-28 14:38:09 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-12-28 14:38:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-12-28 14:38:13 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://bugzilla-ui/' successfully
+
+2017-12-28 14:38:25 - [MESSAGE][PASSED] - Navigate to 'http://bugzilla-ui/' successfully
+
+2017-12-28 14:38:25 - [TEST_STEP][PASSED] - setText: Text 'kumar.nagendra@happiestminds.com' is set on object 'Object Repository/Page_BugsUI login/input_value_email'
+
+2017-12-28 14:38:27 - [MESSAGE][PASSED] - Text 'kumar.nagendra@happiestminds.com' is set on object 'Object Repository/Page_BugsUI login/input_value_email'
+
+2017-12-28 14:38:27 - [TEST_STEP][PASSED] - setText: Text '123' is set on object 'Object Repository/Page_BugsUI login/input_form-control ng-untouche'
+
+2017-12-28 14:38:27 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Page_BugsUI login/input_form-control ng-untouche'
+
+2017-12-28 14:38:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BugsUI login/button_Login' is clicked on
+
+2017-12-28 14:38:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI login/button_Login' is clicked on
+
+2017-12-28 14:38:28 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Page_BugsUI login/small_Invalid UserEmailPasswor' has attribute 'id' with value 'loginError'
+
+2017-12-28 14:38:28 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI login/small_Invalid UserEmailPasswor' has attribute 'id' with value 'loginError'
+
+2017-12-28 14:38:28 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2017-12-28 14:38:29 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-12-28 14:37:40 - [TEST_SUITE][PASSED] - New Test Suite: Test Cases/Invalid_Login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

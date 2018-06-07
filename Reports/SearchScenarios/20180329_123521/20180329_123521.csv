@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+SearchScenarios,Chrome 64.0.3282.186,,2018-03-29 12:35:23,2018-03-29 12:35:58,34.645s,PASSED
+,,,,,,
+Test Cases/Search_TestCases/VerifySearchPageLoads,Chrome 64.0.3282.186,,2018-03-29 12:35:25,2018-03-29 12:35:47,22.731s,PASSED
+openBrowser,Chrome 64.0.3282.186,,2018-03-29 12:35:25,2018-03-29 12:35:29,3.701s,PASSED
+navigateToUrl,Chrome 64.0.3282.186,,2018-03-29 12:35:29,2018-03-29 12:35:38,9.220s,PASSED
+maximizeWindow,Chrome 64.0.3282.186,,2018-03-29 12:35:38,2018-03-29 12:35:39,1.179s,PASSED
+setText,Chrome 64.0.3282.186,,2018-03-29 12:35:39,2018-03-29 12:35:39,0.325s,PASSED
+setText,Chrome 64.0.3282.186,,2018-03-29 12:35:39,2018-03-29 12:35:40,0.243s,PASSED
+click,Chrome 64.0.3282.186,,2018-03-29 12:35:40,2018-03-29 12:35:40,0.147s,PASSED
+verifyElementAttributeValue,Chrome 64.0.3282.186,,2018-03-29 12:35:40,2018-03-29 12:35:40,0.101s,PASSED
+delay,Chrome 64.0.3282.186,,2018-03-29 12:35:40,2018-03-29 12:35:42,2.026s,PASSED
+Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Dashboard/a_Search))),Chrome 64.0.3282.186,,2018-03-29 12:35:42,2018-03-29 12:35:42,0.216s,PASSED
+delay,Chrome 64.0.3282.186,,2018-03-29 12:35:42,2018-03-29 12:35:45,3.005s,PASSED
+verifyElementText,Chrome 64.0.3282.186,,2018-03-29 12:35:45,2018-03-29 12:35:45,0.146s,PASSED
+delay,Chrome 64.0.3282.186,,2018-03-29 12:35:45,2018-03-29 12:35:47,2.004s,PASSED
+,,,,,,
+Test Cases/Search_TestCases/Search_With_PackageOnly,Chrome 64.0.3282.186,,2018-03-29 12:35:47,2018-03-29 12:35:57,9.469s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Search/button_Package), 0))",Chrome 64.0.3282.186,,2018-03-29 12:35:48,2018-03-29 12:35:52,4.201s,PASSED
+delay,Chrome 64.0.3282.186,,2018-03-29 12:35:52,2018-03-29 12:35:57,5.004s,PASSED

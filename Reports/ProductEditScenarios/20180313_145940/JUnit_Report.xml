@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ProductEditScenarios" time="26" tests="1" failures="1" errors="0">
+   <testsuite name="ProductEditScenarios" tests="1" failures="1" errors="0" time="26" timestamp="2018-03-13 14:59:44" hostname="Kumar.nagendra - HMECL000103.happiestminds.com" id="Test Suites/ProductEditScenarios">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\ProductEditScenarios\\20180313_145940"/>
+         <property name="logFiles" value="D:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\ProductEditScenarios\\20180313_145940\\execution0.log"/>
+         <property name="attachments" value="D:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\ProductEditScenarios\\20180313_145940\\1520933408356.png"/>
+         <property name="hostName" value="Kumar.nagendra - HMECL000103.happiestminds.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.0.1"/>
+         <property name="browser" value="Chrome 64.0.3282.186"/>
+         <property name="hostAddress" value="10.95.79.244"/>
+         <property name="sessionId" value="c75ecc4e99ed8e26465009302ee045df"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/ProductEdit_TestCases/VerifyProductEditPageLoads" classname="Test Cases/ProductEdit_TestCases/VerifyProductEditPageLoads" status="PASSED">
+         <system-out><![CDATA[2018-03-13 14:59:44 - [TEST_CASE][PASSED] - Test Cases/ProductEdit_TestCases/VerifyProductEditPageLoads: Test Cases/ProductEdit_TestCases/VerifyProductEditPageLoads
+
+2018-03-13 14:59:45 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-13 14:59:51 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-13 14:59:51 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://bugzilla-ui' successfully
+
+2018-03-13 15:00:00 - [MESSAGE][PASSED] - Navigate to 'https://bugzilla-ui' successfully
+
+2018-03-13 15:00:00 - [TEST_STEP][PASSED] - setText: Text 'knagendra-ext' is set on object 'Object Repository/Page_BugsUI login/input_value_userid'
+
+2018-03-13 15:00:00 - [MESSAGE][PASSED] - Text 'knagendra-ext' is set on object 'Object Repository/Page_BugsUI login/input_value_userid'
+
+2018-03-13 15:00:00 - [TEST_STEP][PASSED] - setText: Text 'Tumkur@123' is set on object 'Object Repository/Page_BugsUI login/input_form-control ng-untouche'
+
+2018-03-13 15:00:00 - [MESSAGE][PASSED] - Text 'Tumkur@123' is set on object 'Object Repository/Page_BugsUI login/input_form-control ng-untouche'
+
+2018-03-13 15:00:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BugsUI login/button_Login' is clicked on
+
+2018-03-13 15:00:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI login/button_Login' is clicked on
+
+2018-03-13 15:00:01 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Page_BugsUI login/a_BugsUI' has attribute 'text' with value 'BugsUI '
+
+2018-03-13 15:00:01 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI login/a_BugsUI' has attribute 'text' with value 'BugsUI '
+
+2018-03-13 15:00:01 - [TEST_STEP][PASSED] - Statement - productEditTabVisible = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Dashboard/a_Product)): Object 'Object Repository/Page_BugsUI Dashboard/a_Product' is visible
+
+2018-03-13 15:00:01 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Dashboard/a_Product' is visible
+
+2018-03-13 15:00:01 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-03-13 15:00:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-03-13 15:00:03 - [TEST_STEP][PASSED] - Statement - If (productEditTabVisible): Object: 'Object Repository/Page_BugsUI Dashboard/a_EDIT' is clicked on
+
+2018-03-13 15:00:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BugsUI Dashboard/a_Product' is clicked on
+
+2018-03-13 15:00:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI Dashboard/a_Product' is clicked on
+
+2018-03-13 15:00:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BugsUI Dashboard/a_EDIT' is clicked on
+
+2018-03-13 15:00:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI Dashboard/a_EDIT' is clicked on
+
+2018-03-13 15:00:03 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-03-13 15:00:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-03-13 15:00:05 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_BugsUI productEdit/h2_Edit Product' are matched.
+
+2018-03-13 15:00:05 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_BugsUI productEdit/h2_Edit Product' are matched.
+
+2018-03-13 15:00:05 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-03-13 15:00:07 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ProductEdit_TestCases/VerifyProductName_Description_isEdited_and_updated" classname="Test Cases/ProductEdit_TestCases/VerifyProductName_Description_isEdited_and_updated" status="FAILED">
+         <failure type="FAILED" message="Unable to select option by label 'TestProduct_Automation' of object 'Object Repository/Page_BugsUI productEdit/packageDropdown'  (Root cause: org.openqa.selenium.NoSuchElementException: Cannot locate element with text: TestProduct_Automation
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HMECL000103', ip: '10.95.79.244', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)"/>
+         <system-out><![CDATA[2018-03-13 15:00:07 - [TEST_CASE][FAILED] - Test Cases/ProductEdit_TestCases/VerifyProductName_Description_isEdited_and_updated: Test Cases/ProductEdit_TestCases/VerifyProductName_Description_isEdited_and_updated FAILED because (of) Unable to select option by label 'TestProduct_Automation' of object 'Object Repository/Page_BugsUI productEdit/packageDropdown'  (Root cause: org.openqa.selenium.NoSuchElementException: Cannot locate element with text: TestProduct_Automation
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HMECL000103', ip: '10.95.79.244', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-03-13 15:00:07 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'Software' are selected in object 'Object Repository/Page_BugsUI productEdit/classificationDropdown' 
+
+2018-03-13 15:00:08 - [MESSAGE][PASSED] - All options with label 'Software' are selected in object 'Object Repository/Page_BugsUI productEdit/classificationDropdown' 
+
+2018-03-13 15:00:08 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Page_BugsUI productEdit/packageDropdown' is present
+
+2018-03-13 15:00:08 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI productEdit/packageDropdown' is present
+
+2018-03-13 15:00:08 - [TEST_STEP][FAILED] - selectOptionByLabel: Unable to select option by label 'TestProduct_Automation' of object 'Object Repository/Page_BugsUI productEdit/packageDropdown'  (Root cause: org.openqa.selenium.NoSuchElementException: Cannot locate element with text: TestProduct_Automation
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HMECL000103', ip: '10.95.79.244', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-03-13 15:00:09 - [MESSAGE][FAILED] - Unable to select option by label 'TestProduct_Automation' of object 'Object Repository/Page_BugsUI productEdit/packageDropdown'  (Root cause: org.openqa.selenium.NoSuchElementException: Cannot locate element with text: TestProduct_Automation
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HMECL000103', ip: '10.95.79.244', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+[[ATTACHMENT|D:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\ProductEditScenarios\\20180313_145940\\1520933408356.png]]]]></system-out>
+         <system-err><![CDATA[2018-03-13 15:00:07 - [TEST_CASE][FAILED] - Test Cases/ProductEdit_TestCases/VerifyProductName_Description_isEdited_and_updated: Test Cases/ProductEdit_TestCases/VerifyProductName_Description_isEdited_and_updated FAILED because (of) Unable to select option by label 'TestProduct_Automation' of object 'Object Repository/Page_BugsUI productEdit/packageDropdown'  (Root cause: org.openqa.selenium.NoSuchElementException: Cannot locate element with text: TestProduct_Automation
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HMECL000103', ip: '10.95.79.244', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-03-13 14:59:44 - [TEST_SUITE][FAILED] - ProductEditScenarios: Test Cases/ProductEdit_TestCases/VerifyProductName_Description_isEdited_and_updated FAILED because (of) Unable to select option by label 'TestProduct_Automation' of object 'Object Repository/Page_BugsUI productEdit/packageDropdown'  (Root cause: org.openqa.selenium.NoSuchElementException: Cannot locate element with text: TestProduct_Automation
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HMECL000103', ip: '10.95.79.244', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-out>
+      <system-err><![CDATA[2018-03-13 14:59:44 - [TEST_SUITE][FAILED] - ProductEditScenarios: Test Cases/ProductEdit_TestCases/VerifyProductName_Description_isEdited_and_updated FAILED because (of) Unable to select option by label 'TestProduct_Automation' of object 'Object Repository/Page_BugsUI productEdit/packageDropdown'  (Root cause: org.openqa.selenium.NoSuchElementException: Cannot locate element with text: TestProduct_Automation
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HMECL000103', ip: '10.95.79.244', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-err>
+   </testsuite>
+</testsuites>

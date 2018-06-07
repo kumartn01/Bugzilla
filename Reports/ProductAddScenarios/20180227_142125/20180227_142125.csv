@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+ProductAddScenarios,Chrome 63.0.3239.132,,2018-02-27 14:21:30,2018-02-27 14:21:50,20.003s,PASSED
+,,,,,,
+Test Cases/ProductAdd_TestCases/VerifyProductAddPageLoads,Chrome 63.0.3239.132,,2018-02-27 14:21:31,2018-02-27 14:21:49,18.007s,PASSED
+openBrowser,Chrome 63.0.3239.132,,2018-02-27 14:21:32,2018-02-27 14:21:37,4.979s,PASSED
+navigateToUrl,Chrome 63.0.3239.132,,2018-02-27 14:21:37,2018-02-27 14:21:44,7.026s,PASSED
+setText,Chrome 63.0.3239.132,,2018-02-27 14:21:44,2018-02-27 14:21:44,0.397s,PASSED
+setText,Chrome 63.0.3239.132,,2018-02-27 14:21:44,2018-02-27 14:21:44,0.236s,PASSED
+click,Chrome 63.0.3239.132,,2018-02-27 14:21:44,2018-02-27 14:21:44,0.137s,PASSED
+verifyElementAttributeValue,Chrome 63.0.3239.132,,2018-02-27 14:21:44,2018-02-27 14:21:44,0.102s,PASSED
+Statement - productAddTabVisible = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Dashboard/a_Product)),Chrome 63.0.3239.132,,2018-02-27 14:21:44,2018-02-27 14:21:45,0.113s,PASSED
+delay,Chrome 63.0.3239.132,,2018-02-27 14:21:45,2018-02-27 14:21:47,2.049s,PASSED
+Statement - If (productAddTabVisible),Chrome 63.0.3239.132,,2018-02-27 14:21:47,2018-02-27 14:21:47,0.373s,PASSED
+delay,Chrome 63.0.3239.132,,2018-02-27 14:21:47,2018-02-27 14:21:49,2.005s,PASSED
+verifyElementText,Chrome 63.0.3239.132,,2018-02-27 14:21:49,2018-02-27 14:21:49,0.105s,PASSED
+,,,,,,
+Test Cases/ProductAdd_TestCases/VerifyMandatoryMarkNextToFields,Chrome 63.0.3239.132,,2018-02-27 14:21:49,2018-02-27 14:21:49,0.347s,PASSED
+"Statement - mandatoryElements = com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI productAdd/span_), 0)",Chrome 63.0.3239.132,,2018-02-27 14:21:49,2018-02-27 14:21:49,0.056s,PASSED
+"Statement - println(""Size of Mandatory fields is:----"" + mandatoryElements.size())",Chrome 63.0.3239.132,,2018-02-27 14:21:49,2018-02-27 14:21:49,0.006s,PASSED
+verifyEqual,Chrome 63.0.3239.132,,2018-02-27 14:21:49,2018-02-27 14:21:49,0.026s,PASSED

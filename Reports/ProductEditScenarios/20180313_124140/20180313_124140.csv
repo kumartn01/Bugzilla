@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+ProductEditScenarios,Chrome 64.0.3282.186,,2018-03-13 12:41:47,2018-03-13 12:42:38,50.997s,FAILED
+,,,,,,
+Test Cases/ProductEdit_TestCases/VerifyProductEditPageLoads,Chrome 64.0.3282.186,,2018-03-13 12:41:47,2018-03-13 12:42:31,44.148s,PASSED
+openBrowser,Chrome 64.0.3282.186,,2018-03-13 12:41:48,2018-03-13 12:41:53,5.168s,PASSED
+navigateToUrl,Chrome 64.0.3282.186,,2018-03-13 12:41:53,2018-03-13 12:42:22,29.527s,PASSED
+setText,Chrome 64.0.3282.186,,2018-03-13 12:42:22,2018-03-13 12:42:24,2.016s,PASSED
+setText,Chrome 64.0.3282.186,,2018-03-13 12:42:24,2018-03-13 12:42:25,0.264s,PASSED
+click,Chrome 64.0.3282.186,,2018-03-13 12:42:25,2018-03-13 12:42:25,0.140s,PASSED
+verifyElementAttributeValue,Chrome 64.0.3282.186,,2018-03-13 12:42:25,2018-03-13 12:42:25,0.096s,PASSED
+Statement - productEditTabVisible = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Dashboard/a_Product)),Chrome 64.0.3282.186,,2018-03-13 12:42:25,2018-03-13 12:42:25,0.085s,PASSED
+delay,Chrome 64.0.3282.186,,2018-03-13 12:42:25,2018-03-13 12:42:27,2.027s,PASSED
+Statement - If (productEditTabVisible),Chrome 64.0.3282.186,,2018-03-13 12:42:27,2018-03-13 12:42:27,0.230s,PASSED
+delay,Chrome 64.0.3282.186,,2018-03-13 12:42:27,2018-03-13 12:42:29,2.005s,PASSED
+verifyElementText,Chrome 64.0.3282.186,,2018-03-13 12:42:29,2018-03-13 12:42:29,0.107s,PASSED
+delay,Chrome 64.0.3282.186,,2018-03-13 12:42:29,2018-03-13 12:42:31,2.015s,PASSED
+,,,,,,
+Test Cases/ProductEdit_TestCases/VerifyProductName_Description_isEdited_and_updated,Chrome 64.0.3282.186,,2018-03-13 12:42:31,2018-03-13 12:42:33,1.702s,FAILED
+selectOptionByLabel,Chrome 64.0.3282.186,,2018-03-13 12:42:32,2018-03-13 12:42:32,0.179s,PASSED
+waitForElementVisible,Chrome 64.0.3282.186,,2018-03-13 12:42:32,2018-03-13 12:42:33,0.819s,PASSED
+selectOptionByLabel,Chrome 64.0.3282.186,,2018-03-13 12:42:33,2018-03-13 12:42:33,0.440s,FAILED

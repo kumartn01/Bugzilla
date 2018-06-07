@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>bugInfo_Component</name>
+   <tag></tag>
+   <elementGuidId>ce694ff6-5304-4d34-8c27-2deebec12a8a</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>dropdownCustom ng-pristine ng-untouched ng-valid</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-options</name>
+      <type>Main</type>
+      <value>defaultUI for defaultUI in defaultcomponentArray</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-model</name>
+      <type>Main</type>
+      <value>Changed.selected_component</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Unknown1Unknown4test1unknown</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;hideBugInfoBoxOnInit&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col-xs-12 col-md-4&quot;]/div[@class=&quot;row pad&quot;]/div[@class=&quot;col-xs-7 col-md-8 col-lg-8&quot;]/div[@class=&quot;ng-scope&quot;]/select[@class=&quot;dropdownCustom ng-pristine ng-untouched ng-valid&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="LoginScenarios" time="74" tests="3" failures="1" errors="0">
+   <testsuite name="LoginScenarios" tests="3" failures="1" errors="0" time="74" timestamp="2018-02-28 15:54:49" hostname="Kumar.nagendra - HMECL000103.happiestminds.com" id="Test Suites/LoginScenarios">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\LoginScenarios\\20180228_155447"/>
+         <property name="logFiles" value="D:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\LoginScenarios\\20180228_155447\\execution0.log"/>
+         <property name="attachments" value="D:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\LoginScenarios\\20180228_155447\\1519813537472.png, D:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\LoginScenarios\\20180228_155447\\1519813537863.png"/>
+         <property name="hostName" value="Kumar.nagendra - HMECL000103.happiestminds.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.0.1"/>
+         <property name="browser" value="Chrome 63.0.3239.132"/>
+         <property name="hostAddress" value="10.95.79.244"/>
+         <property name="sessionId" value="3516688eb1b391948d1303c2caae542b"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login_TestCases/VerifyPresenceOfFields_Links_LoginPage" classname="Test Cases/Login_TestCases/VerifyPresenceOfFields_Links_LoginPage" status="PASSED">
+         <system-out><![CDATA[2018-02-28 15:54:50 - [TEST_CASE][PASSED] - Test Cases/Login_TestCases/VerifyPresenceOfFields_Links_LoginPage: Test Cases/Login_TestCases/VerifyPresenceOfFields_Links_LoginPage
+
+2018-02-28 15:54:50 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-02-28 15:54:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-02-28 15:54:55 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://bugzilla-ui/' successfully
+
+2018-02-28 15:55:02 - [MESSAGE][PASSED] - Navigate to 'https://bugzilla-ui/' successfully
+
+2018-02-28 15:55:02 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_BugsUI login/input_value_userid' is present
+
+2018-02-28 15:55:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-02-28 15:55:03 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI login/input_value_userid' is present
+
+2018-02-28 15:55:03 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_BugsUI login/input_form-control ng-untouche' is present
+
+2018-02-28 15:55:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-02-28 15:55:03 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI login/input_form-control ng-untouche' is present
+
+2018-02-28 15:55:03 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_BugsUI login/strong_User Id' are matched.
+
+2018-02-28 15:55:04 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_BugsUI login/strong_User Id' are matched.
+
+2018-02-28 15:55:04 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_BugsUI login/strong_Password' are matched.
+
+2018-02-28 15:55:04 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_BugsUI login/strong_Password' are matched.
+
+2018-02-28 15:55:04 - [TEST_STEP][PASSED] - Statement - loginButtonPresent = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI login/button_Login), 0): Object 'Object Repository/Page_BugsUI login/button_Login' is present
+
+2018-02-28 15:55:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-02-28 15:55:04 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI login/button_Login' is present
+
+2018-02-28 15:55:04 - [TEST_STEP][PASSED] - Statement - If (loginButtonPresent): Object 'Object Repository/Page_BugsUI login/button_Login' is clickable
+
+2018-02-28 15:55:04 - [TEST_STEP][PASSED] - verifyElementClickable: Object 'Object Repository/Page_BugsUI login/button_Login' is clickable
+
+2018-02-28 15:55:04 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI login/button_Login' is clickable]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login_TestCases/InvalidLoginsCases" classname="Test Cases/Login_TestCases/InvalidLoginsCases" status="FAILED">
+         <failure type="FAILED" message="Verify element text of test object 'Object Repository/Page_BugsUI login/small_Email Id is Required.' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI login/small_Email Id is Required.' located by 'By.xpath: //small[@id = 'userEmailError' and (text() = 'Email Id is Required.' or . = 'Email Id is Required.')]' not found)"/>
+         <system-out><![CDATA[2018-02-28 15:55:04 - [TEST_CASE][FAILED] - Test Cases/Login_TestCases/InvalidLoginsCases: Test Cases/Login_TestCases/InvalidLoginsCases FAILED because (of) Verify element text of test object 'Object Repository/Page_BugsUI login/small_Email Id is Required.' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI login/small_Email Id is Required.' located by 'By.xpath: //small[@id = 'userEmailError' and (text() = 'Email Id is Required.' or . = 'Email Id is Required.')]' not found)
+
+2018-02-28 15:55:04 - [TEST_STEP][PASSED] - setText: Text 'knagendra-ext' is set on object 'Object Repository/Page_BugsUI login/input_value_userid'
+
+2018-02-28 15:55:05 - [MESSAGE][PASSED] - Text 'knagendra-ext' is set on object 'Object Repository/Page_BugsUI login/input_value_userid'
+
+2018-02-28 15:55:05 - [TEST_STEP][PASSED] - Statement - loginButtonClickable = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementClickable(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI login/button_Login)): Object 'Object Repository/Page_BugsUI login/button_Login' is clickable
+
+2018-02-28 15:55:05 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI login/button_Login' is clickable
+
+2018-02-28 15:55:05 - [TEST_STEP][PASSED] - Statement - If (loginButtonClickable): Object: 'Object Repository/Page_BugsUI login/button_Login' is clicked on
+
+2018-02-28 15:55:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BugsUI login/button_Login' is clicked on
+
+2018-02-28 15:55:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI login/button_Login' is clicked on
+
+2018-02-28 15:55:05 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_BugsUI login/small_Password is Required.' are matched.
+
+2018-02-28 15:55:05 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_BugsUI login/small_Password is Required.' are matched.
+
+2018-02-28 15:55:05 - [TEST_STEP][PASSED] - setText: Text '123' is set on object 'Object Repository/Page_BugsUI login/input_form-control ng-untouche'
+
+2018-02-28 15:55:05 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Page_BugsUI login/input_form-control ng-untouche'
+
+2018-02-28 15:55:05 - [TEST_STEP][PASSED] - Statement - com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI login/input_value_userid), 2).clear(): Found 1 web elements with id: 'Object Repository/Page_BugsUI login/input_value_userid' located by 'By.xpath: //input[@name = 'value_email' and @type = 'text' and @placeholder = 'Enter Your User Id']' in '2' second(s)
+
+2018-02-28 15:55:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BugsUI login/button_Login' is clicked on
+
+2018-02-28 15:55:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI login/button_Login' is clicked on
+
+2018-02-28 15:55:05 - [TEST_STEP][FAILED] - verifyElementText: Verify element text of test object 'Object Repository/Page_BugsUI login/small_Email Id is Required.' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI login/small_Email Id is Required.' located by 'By.xpath: //small[@id = 'userEmailError' and (text() = 'Email Id is Required.' or . = 'Email Id is Required.')]' not found)
+
+2018-02-28 15:55:37 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI login/small_Email Id is Required.' located by 'By.xpath: //small[@id = 'userEmailError' and (text() = 'Email Id is Required.' or . = 'Email Id is Required.')]' not found
+[[ATTACHMENT|D:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\LoginScenarios\\20180228_155447\\1519813537472.png]]
+
+2018-02-28 15:55:38 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/Page_BugsUI login/small_Email Id is Required.' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI login/small_Email Id is Required.' located by 'By.xpath: //small[@id = 'userEmailError' and (text() = 'Email Id is Required.' or . = 'Email Id is Required.')]' not found)
+[[ATTACHMENT|D:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\LoginScenarios\\20180228_155447\\1519813537863.png]]]]></system-out>
+         <system-err><![CDATA[2018-02-28 15:55:04 - [TEST_CASE][FAILED] - Test Cases/Login_TestCases/InvalidLoginsCases: Test Cases/Login_TestCases/InvalidLoginsCases FAILED because (of) Verify element text of test object 'Object Repository/Page_BugsUI login/small_Email Id is Required.' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI login/small_Email Id is Required.' located by 'By.xpath: //small[@id = 'userEmailError' and (text() = 'Email Id is Required.' or . = 'Email Id is Required.')]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login_TestCases/ValidSuccessfulLogin" classname="Test Cases/Login_TestCases/ValidSuccessfulLogin" status="PASSED">
+         <system-out><![CDATA[2018-02-28 15:55:38 - [TEST_CASE][PASSED] - Test Cases/Login_TestCases/ValidSuccessfulLogin: Test Cases/Login_TestCases/ValidSuccessfulLogin
+
+2018-02-28 15:55:38 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-02-28 15:55:38 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-02-28 15:55:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-02-28 15:55:41 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://bugzilla-ui/' successfully
+
+2018-02-28 15:55:49 - [MESSAGE][PASSED] - Navigate to 'https://bugzilla-ui/' successfully
+
+2018-02-28 15:55:49 - [TEST_STEP][PASSED] - setText: Text 'knagendra-ext' is set on object 'Object Repository/Page_BugsUI login/input_value_userid'
+
+2018-02-28 15:55:50 - [MESSAGE][PASSED] - Text 'knagendra-ext' is set on object 'Object Repository/Page_BugsUI login/input_value_userid'
+
+2018-02-28 15:55:50 - [TEST_STEP][PASSED] - setText: Text 'Kumar@123' is set on object 'Object Repository/Page_BugsUI login/input_form-control ng-untouche'
+
+2018-02-28 15:55:50 - [MESSAGE][PASSED] - Text 'Kumar@123' is set on object 'Object Repository/Page_BugsUI login/input_form-control ng-untouche'
+
+2018-02-28 15:55:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BugsUI login/button_Login' is clicked on
+
+2018-02-28 15:55:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI login/button_Login' is clicked on
+
+2018-02-28 15:55:50 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Page_BugsUI login/a_BugsUI' has attribute 'text' with value 'BugsUI '
+
+2018-02-28 15:55:50 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI login/a_BugsUI' has attribute 'text' with value 'BugsUI '
+
+2018-02-28 15:55:50 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-02-28 15:55:51 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login_TestCases/Login using ENTER keyword" classname="Test Cases/Login_TestCases/Login using ENTER keyword" status="PASSED">
+         <system-out><![CDATA[2018-02-28 15:55:51 - [TEST_CASE][PASSED] - Test Cases/Login_TestCases/Login using ENTER keyword: Test Cases/Login_TestCases/Login using ENTER keyword
+
+2018-02-28 15:55:51 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-02-28 15:55:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-02-28 15:55:53 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://bugzilla-ui/' successfully
+
+2018-02-28 15:56:01 - [MESSAGE][PASSED] - Navigate to 'https://bugzilla-ui/' successfully
+
+2018-02-28 15:56:01 - [TEST_STEP][PASSED] - setText: Text 'knagendra-ext' is set on object 'Object Repository/Page_BugsUI login/input_value_userid'
+
+2018-02-28 15:56:02 - [MESSAGE][PASSED] - Text 'knagendra-ext' is set on object 'Object Repository/Page_BugsUI login/input_value_userid'
+
+2018-02-28 15:56:02 - [TEST_STEP][PASSED] - setText: Text 'Kumar@123' is set on object 'Object Repository/Page_BugsUI login/input_form-control ng-untouche'
+
+2018-02-28 15:56:02 - [MESSAGE][PASSED] - Text 'Kumar@123' is set on object 'Object Repository/Page_BugsUI login/input_form-control ng-untouche'
+
+2018-02-28 15:56:02 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/Page_BugsUI login/input_form-control ng-untouche'
+
+2018-02-28 15:56:02 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_BugsUI login/input_form-control ng-untouche'
+
+2018-02-28 15:56:02 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Page_BugsUI login/a_BugsUI' has attribute 'text' with value 'BugsUI '
+
+2018-02-28 15:56:02 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI login/a_BugsUI' has attribute 'text' with value 'BugsUI '
+
+2018-02-28 15:56:02 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-02-28 15:56:03 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-02-28 15:54:49 - [TEST_SUITE][FAILED] - LoginScenarios: Test Cases/Login_TestCases/InvalidLoginsCases FAILED because (of) Verify element text of test object 'Object Repository/Page_BugsUI login/small_Email Id is Required.' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI login/small_Email Id is Required.' located by 'By.xpath: //small[@id = 'userEmailError' and (text() = 'Email Id is Required.' or . = 'Email Id is Required.')]' not found)]]></system-out>
+      <system-err><![CDATA[2018-02-28 15:54:49 - [TEST_SUITE][FAILED] - LoginScenarios: Test Cases/Login_TestCases/InvalidLoginsCases FAILED because (of) Verify element text of test object 'Object Repository/Page_BugsUI login/small_Email Id is Required.' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI login/small_Email Id is Required.' located by 'By.xpath: //small[@id = 'userEmailError' and (text() = 'Email Id is Required.' or . = 'Email Id is Required.')]' not found)]]></system-err>
+   </testsuite>
+</testsuites>

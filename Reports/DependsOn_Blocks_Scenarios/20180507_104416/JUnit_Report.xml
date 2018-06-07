@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="DependsOn_Blocks_Scenarios" time="98" tests="0" failures="4" errors="0">
+   <testsuite name="DependsOn_Blocks_Scenarios" tests="0" failures="4" errors="0" time="98" timestamp="2018-05-07 10:44:19" hostname="Kumar.nagendra - HMECL001948.happiestminds.com" id="Test Suites/DependsOn_Blocks_Scenarios">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\DependsOn_Blocks_Scenarios\\20180507_104416"/>
+         <property name="logFiles" value="C:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\DependsOn_Blocks_Scenarios\\20180507_104416\\execution0.log"/>
+         <property name="attachments" value="C:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\DependsOn_Blocks_Scenarios\\20180507_104416\\1525670079728.png, C:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\DependsOn_Blocks_Scenarios\\20180507_104416\\1525670080122.png, C:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\DependsOn_Blocks_Scenarios\\20180507_104416\\1525670084000.png, C:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\DependsOn_Blocks_Scenarios\\20180507_104416\\1525670084435.png, C:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\DependsOn_Blocks_Scenarios\\20180507_104416\\1525670120609.png, C:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\DependsOn_Blocks_Scenarios\\20180507_104416\\1525670156780.png"/>
+         <property name="hostName" value="Kumar.nagendra - HMECL001948.happiestminds.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.0.1"/>
+         <property name="browser" value="Chrome 66.0.3359.139"/>
+         <property name="hostAddress" value="10.95.75.194"/>
+         <property name="sessionId" value="2102c7379aca46bf17cfe64266be4eeb"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Depends_Blocks_TestCases/Verify whether user can open Depends on and Blocks section" classname="Test Cases/Depends_Blocks_TestCases/Verify whether user can open Depends on and Blocks section" status="FAILED">
+         <failure type="FAILED" message="Unable to verify object 'Object Repository/Page_BugsUI_Depends_Blocks/a_Depends and Blocks' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI_Depends_Blocks/a_Depends and Blocks' located by 'By.xpath: //a[(text() = 'Depends and Blocks' or . = 'Depends and Blocks')]' not found)"/>
+         <system-out><![CDATA[2018-05-07 10:44:20 - [TEST_CASE][FAILED] - Test Cases/Depends_Blocks_TestCases/Verify whether user can open Depends on and Blocks section: Test Cases/Depends_Blocks_TestCases/Verify whether user can open Depends on and Blocks section FAILED because (of) Unable to verify object 'Object Repository/Page_BugsUI_Depends_Blocks/a_Depends and Blocks' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI_Depends_Blocks/a_Depends and Blocks' located by 'By.xpath: //a[(text() = 'Depends and Blocks' or . = 'Depends and Blocks')]' not found)
+
+2018-05-07 10:44:20 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-07 10:44:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-07 10:44:25 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://bugzilla-ui.staging.kube.sw-infra.sjc.aristanetworks.com/login' successfully
+
+2018-05-07 10:44:30 - [MESSAGE][PASSED] - Navigate to 'http://bugzilla-ui.staging.kube.sw-infra.sjc.aristanetworks.com/login' successfully
+
+2018-05-07 10:44:30 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-05-07 10:44:31 - [MESSAGE][PASSED] - Current window maximized
+
+2018-05-07 10:44:31 - [TEST_STEP][PASSED] - setText: Text 'knagendra-ext' is set on object 'Object Repository/Page_BugsUI login/input_value_userid'
+
+2018-05-07 10:44:32 - [MESSAGE][PASSED] - Text 'knagendra-ext' is set on object 'Object Repository/Page_BugsUI login/input_value_userid'
+
+2018-05-07 10:44:32 - [TEST_STEP][PASSED] - setText: Text 'Tumkur@123' is set on object 'Object Repository/Page_BugsUI login/input_form-control ng-untouche'
+
+2018-05-07 10:44:33 - [MESSAGE][PASSED] - Text 'Tumkur@123' is set on object 'Object Repository/Page_BugsUI login/input_form-control ng-untouche'
+
+2018-05-07 10:44:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BugsUI login/button_Login' is clicked on
+
+2018-05-07 10:44:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI login/button_Login' is clicked on
+
+2018-05-07 10:44:33 - [TEST_STEP][PASSED] - setText: Text '254833' is set on object 'Object Repository/Page_BugsUI Dashboard/input_navbar-search-input'
+
+2018-05-07 10:44:34 - [MESSAGE][PASSED] - Text '254833' is set on object 'Object Repository/Page_BugsUI Dashboard/input_navbar-search-input'
+
+2018-05-07 10:44:34 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-05-07 10:44:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-05-07 10:44:35 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/Page_BugsUI Dashboard/input_navbar-search-input'
+
+2018-05-07 10:44:35 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_BugsUI Dashboard/input_navbar-search-input'
+
+2018-05-07 10:44:35 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-05-07 10:44:38 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-05-07 10:44:38 - [TEST_STEP][FAILED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI_Depends_Blocks/a_Depends and Blocks), 1)): Unable to verify object 'Object Repository/Page_BugsUI_Depends_Blocks/a_Depends and Blocks' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI_Depends_Blocks/a_Depends and Blocks' located by 'By.xpath: //a[(text() = 'Depends and Blocks' or . = 'Depends and Blocks')]' not found)
+
+2018-05-07 10:44:40 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI_Depends_Blocks/a_Depends and Blocks' located by 'By.xpath: //a[(text() = 'Depends and Blocks' or . = 'Depends and Blocks')]' not found
+[[ATTACHMENT|C:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\DependsOn_Blocks_Scenarios\\20180507_104416\\1525670079728.png]]
+
+2018-05-07 10:44:40 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Page_BugsUI_Depends_Blocks/a_Depends and Blocks' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI_Depends_Blocks/a_Depends and Blocks' located by 'By.xpath: //a[(text() = 'Depends and Blocks' or . = 'Depends and Blocks')]' not found)
+[[ATTACHMENT|C:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\DependsOn_Blocks_Scenarios\\20180507_104416\\1525670080122.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-07 10:44:20 - [TEST_CASE][FAILED] - Test Cases/Depends_Blocks_TestCases/Verify whether user can open Depends on and Blocks section: Test Cases/Depends_Blocks_TestCases/Verify whether user can open Depends on and Blocks section FAILED because (of) Unable to verify object 'Object Repository/Page_BugsUI_Depends_Blocks/a_Depends and Blocks' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI_Depends_Blocks/a_Depends and Blocks' located by 'By.xpath: //a[(text() = 'Depends and Blocks' or . = 'Depends and Blocks')]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Depends_Blocks_TestCases/Verify_fields_in_DependsOn_and_Blocks_section" classname="Test Cases/Depends_Blocks_TestCases/Verify_fields_in_DependsOn_and_Blocks_section" status="FAILED">
+         <failure type="FAILED" message="Unable to verify object 'Object Repository/Page_BugsUI_Depends_Blocks/dependsOn_deleteButton' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI_Depends_Blocks/dependsOn_deleteButton' located by 'By.xpath: //img[@src = 'images/delete.png' and @id = 'delBtn' and @ng-click = 'deleteBtnDependsOn($event)']' not found)"/>
+         <system-out><![CDATA[2018-05-07 10:44:40 - [TEST_CASE][FAILED] - Test Cases/Depends_Blocks_TestCases/Verify_fields_in_DependsOn_and_Blocks_section: Test Cases/Depends_Blocks_TestCases/Verify_fields_in_DependsOn_and_Blocks_section FAILED because (of) Unable to verify object 'Object Repository/Page_BugsUI_Depends_Blocks/dependsOn_deleteButton' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI_Depends_Blocks/dependsOn_deleteButton' located by 'By.xpath: //img[@src = 'images/delete.png' and @id = 'delBtn' and @ng-click = 'deleteBtnDependsOn($event)']' not found)
+
+2018-05-07 10:44:40 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-07 10:44:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-07 10:44:42 - [TEST_STEP][FAILED] - verifyElementPresent: Unable to verify object 'Object Repository/Page_BugsUI_Depends_Blocks/dependsOn_deleteButton' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI_Depends_Blocks/dependsOn_deleteButton' located by 'By.xpath: //img[@src = 'images/delete.png' and @id = 'delBtn' and @ng-click = 'deleteBtnDependsOn($event)']' not found)
+
+2018-05-07 10:44:44 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI_Depends_Blocks/dependsOn_deleteButton' located by 'By.xpath: //img[@src = 'images/delete.png' and @id = 'delBtn' and @ng-click = 'deleteBtnDependsOn($event)']' not found
+[[ATTACHMENT|C:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\DependsOn_Blocks_Scenarios\\20180507_104416\\1525670084000.png]]
+
+2018-05-07 10:44:44 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Page_BugsUI_Depends_Blocks/dependsOn_deleteButton' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI_Depends_Blocks/dependsOn_deleteButton' located by 'By.xpath: //img[@src = 'images/delete.png' and @id = 'delBtn' and @ng-click = 'deleteBtnDependsOn($event)']' not found)
+[[ATTACHMENT|C:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\DependsOn_Blocks_Scenarios\\20180507_104416\\1525670084435.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-07 10:44:40 - [TEST_CASE][FAILED] - Test Cases/Depends_Blocks_TestCases/Verify_fields_in_DependsOn_and_Blocks_section: Test Cases/Depends_Blocks_TestCases/Verify_fields_in_DependsOn_and_Blocks_section FAILED because (of) Unable to verify object 'Object Repository/Page_BugsUI_Depends_Blocks/dependsOn_deleteButton' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI_Depends_Blocks/dependsOn_deleteButton' located by 'By.xpath: //img[@src = 'images/delete.png' and @id = 'delBtn' and @ng-click = 'deleteBtnDependsOn($event)']' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Depends_Blocks_TestCases/Verify_user_can_add _new BugId_under_DependsOn_section" classname="Test Cases/Depends_Blocks_TestCases/Verify_user_can_add _new BugId_under_DependsOn_section" status="FAILED">
+         <failure type="FAILED" message="Unable to set text '09090909' of object 'Object Repository/Page_BugsUI_Depends_Blocks/div_dependsOnBug1' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI_Depends_Blocks/div_dependsOnBug1' located by 'By.xpath: //div[@id = 'dependsOnBug1']' not found)"/>
+         <system-out><![CDATA[2018-05-07 10:44:44 - [TEST_CASE][FAILED] - Test Cases/Depends_Blocks_TestCases/Verify_user_can_add _new BugId_under_DependsOn_section: Test Cases/Depends_Blocks_TestCases/Verify_user_can_add _new BugId_under_DependsOn_section FAILED because (of) Unable to set text '09090909' of object 'Object Repository/Page_BugsUI_Depends_Blocks/div_dependsOnBug1' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI_Depends_Blocks/div_dependsOnBug1' located by 'By.xpath: //div[@id = 'dependsOnBug1']' not found)
+
+2018-05-07 10:44:45 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-07 10:44:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-07 10:44:47 - [TEST_STEP][FAILED] - setText: Unable to set text '09090909' of object 'Object Repository/Page_BugsUI_Depends_Blocks/div_dependsOnBug1' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI_Depends_Blocks/div_dependsOnBug1' located by 'By.xpath: //div[@id = 'dependsOnBug1']' not found)
+
+2018-05-07 10:45:21 - [MESSAGE][FAILED] - Unable to set text '09090909' of object 'Object Repository/Page_BugsUI_Depends_Blocks/div_dependsOnBug1' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI_Depends_Blocks/div_dependsOnBug1' located by 'By.xpath: //div[@id = 'dependsOnBug1']' not found)
+[[ATTACHMENT|C:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\DependsOn_Blocks_Scenarios\\20180507_104416\\1525670120609.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-07 10:44:44 - [TEST_CASE][FAILED] - Test Cases/Depends_Blocks_TestCases/Verify_user_can_add _new BugId_under_DependsOn_section: Test Cases/Depends_Blocks_TestCases/Verify_user_can_add _new BugId_under_DependsOn_section FAILED because (of) Unable to set text '09090909' of object 'Object Repository/Page_BugsUI_Depends_Blocks/div_dependsOnBug1' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI_Depends_Blocks/div_dependsOnBug1' located by 'By.xpath: //div[@id = 'dependsOnBug1']' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Depends_Blocks_TestCases/Verify_user_can_add _same BugId_under_DependsOn_and blocks_section" classname="Test Cases/Depends_Blocks_TestCases/Verify_user_can_add _same BugId_under_DependsOn_and blocks_section" status="FAILED">
+         <failure type="FAILED" message="Unable to set text '252923' of object 'Object Repository/Page_BugsUI_Depends_Blocks/div_blockedBug1' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI_Depends_Blocks/div_blockedBug1' located by 'By.xpath: //div[@id = 'blockedBug1']' not found)"/>
+         <system-out><![CDATA[2018-05-07 10:45:21 - [TEST_CASE][FAILED] - Test Cases/Depends_Blocks_TestCases/Verify_user_can_add _same BugId_under_DependsOn_and blocks_section: Test Cases/Depends_Blocks_TestCases/Verify_user_can_add _same BugId_under_DependsOn_and blocks_section FAILED because (of) Unable to set text '252923' of object 'Object Repository/Page_BugsUI_Depends_Blocks/div_blockedBug1' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI_Depends_Blocks/div_blockedBug1' located by 'By.xpath: //div[@id = 'blockedBug1']' not found)
+
+2018-05-07 10:45:21 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-07 10:45:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-07 10:45:23 - [TEST_STEP][FAILED] - setText: Unable to set text '252923' of object 'Object Repository/Page_BugsUI_Depends_Blocks/div_blockedBug1' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI_Depends_Blocks/div_blockedBug1' located by 'By.xpath: //div[@id = 'blockedBug1']' not found)
+
+2018-05-07 10:45:57 - [MESSAGE][FAILED] - Unable to set text '252923' of object 'Object Repository/Page_BugsUI_Depends_Blocks/div_blockedBug1' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI_Depends_Blocks/div_blockedBug1' located by 'By.xpath: //div[@id = 'blockedBug1']' not found)
+[[ATTACHMENT|C:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\DependsOn_Blocks_Scenarios\\20180507_104416\\1525670156780.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-07 10:45:21 - [TEST_CASE][FAILED] - Test Cases/Depends_Blocks_TestCases/Verify_user_can_add _same BugId_under_DependsOn_and blocks_section: Test Cases/Depends_Blocks_TestCases/Verify_user_can_add _same BugId_under_DependsOn_and blocks_section FAILED because (of) Unable to set text '252923' of object 'Object Repository/Page_BugsUI_Depends_Blocks/div_blockedBug1' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI_Depends_Blocks/div_blockedBug1' located by 'By.xpath: //div[@id = 'blockedBug1']' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-07 10:44:19 - [TEST_SUITE][FAILED] - DependsOn_Blocks_Scenarios: Test Cases/Depends_Blocks_TestCases/Verify whether user can open Depends on and Blocks section FAILED because (of) Unable to verify object 'Object Repository/Page_BugsUI_Depends_Blocks/a_Depends and Blocks' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI_Depends_Blocks/a_Depends and Blocks' located by 'By.xpath: //a[(text() = 'Depends and Blocks' or . = 'Depends and Blocks')]' not found)]]></system-out>
+      <system-err><![CDATA[2018-05-07 10:44:19 - [TEST_SUITE][FAILED] - DependsOn_Blocks_Scenarios: Test Cases/Depends_Blocks_TestCases/Verify whether user can open Depends on and Blocks section FAILED because (of) Unable to verify object 'Object Repository/Page_BugsUI_Depends_Blocks/a_Depends and Blocks' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI_Depends_Blocks/a_Depends and Blocks' located by 'By.xpath: //a[(text() = 'Depends and Blocks' or . = 'Depends and Blocks')]' not found)]]></system-err>
+   </testsuite>
+</testsuites>

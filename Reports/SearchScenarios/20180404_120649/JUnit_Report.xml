@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="SearchScenarios" time="53" tests="2" failures="0" errors="0">
+   <testsuite name="SearchScenarios" tests="2" failures="0" errors="0" time="53" timestamp="2018-04-04 12:06:52" hostname="Kumar.nagendra - HMECL000103.happiestminds.com" id="Test Suites/SearchScenarios">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\SearchScenarios\\20180404_120649"/>
+         <property name="logFiles" value="D:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\SearchScenarios\\20180404_120649\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Kumar.nagendra - HMECL000103.happiestminds.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.0.1"/>
+         <property name="browser" value="Chrome 64.0.3282.186"/>
+         <property name="hostAddress" value="10.95.79.244"/>
+         <property name="sessionId" value="a0d2bcc99598990316f9717c10496a26"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Search_TestCases/VerifySearchPageLoads" classname="Test Cases/Search_TestCases/VerifySearchPageLoads" status="PASSED">
+         <system-out><![CDATA[2018-04-04 12:06:53 - [TEST_CASE][PASSED] - Test Cases/Search_TestCases/VerifySearchPageLoads: Test Cases/Search_TestCases/VerifySearchPageLoads
+
+2018-04-04 12:06:54 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-04-04 12:07:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-04-04 12:07:05 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://bugzilla-ui' successfully
+
+2018-04-04 12:07:11 - [MESSAGE][PASSED] - Navigate to 'https://bugzilla-ui' successfully
+
+2018-04-04 12:07:11 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-04-04 12:07:12 - [MESSAGE][PASSED] - Current window maximized
+
+2018-04-04 12:07:12 - [TEST_STEP][PASSED] - setText: Text 'knagendra-ext' is set on object 'Object Repository/Page_BugsUI login/input_value_userid'
+
+2018-04-04 12:07:12 - [MESSAGE][PASSED] - Text 'knagendra-ext' is set on object 'Object Repository/Page_BugsUI login/input_value_userid'
+
+2018-04-04 12:07:12 - [TEST_STEP][PASSED] - setText: Text 'Tumkur@123' is set on object 'Object Repository/Page_BugsUI login/input_form-control ng-untouche'
+
+2018-04-04 12:07:13 - [MESSAGE][PASSED] - Text 'Tumkur@123' is set on object 'Object Repository/Page_BugsUI login/input_form-control ng-untouche'
+
+2018-04-04 12:07:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BugsUI login/button_Login' is clicked on
+
+2018-04-04 12:07:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI login/button_Login' is clicked on
+
+2018-04-04 12:07:13 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Page_BugsUI login/a_BugsUI' has attribute 'text' with value 'BugsUI '
+
+2018-04-04 12:07:13 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI login/a_BugsUI' has attribute 'text' with value 'BugsUI '
+
+2018-04-04 12:07:13 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-04 12:07:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-04 12:07:15 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Dashboard/a_Search))): Object: 'Object Repository/Page_BugsUI Dashboard/a_Search' is clicked on
+
+2018-04-04 12:07:15 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Dashboard/a_Search' is visible
+
+2018-04-04 12:07:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BugsUI Dashboard/a_Search' is clicked on
+
+2018-04-04 12:07:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI Dashboard/a_Search' is clicked on
+
+2018-04-04 12:07:16 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-04-04 12:07:21 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-04-04 12:07:21 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_BugsUI Search/h3_Search Parameters' are matched.
+
+2018-04-04 12:07:21 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_BugsUI Search/h3_Search Parameters' are matched.
+
+2018-04-04 12:07:21 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-04-04 12:07:26 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Search_TestCases/Search_With_PackageOnly" classname="Test Cases/Search_TestCases/Search_With_PackageOnly" status="PASSED">
+         <system-out><![CDATA[2018-04-04 12:07:26 - [TEST_CASE][PASSED] - Test Cases/Search_TestCases/Search_With_PackageOnly: Test Cases/Search_TestCases/Search_With_PackageOnly
+
+2018-04-04 12:07:26 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Search/button_Package), 0)): Object: 'Object Repository/Page_BugsUI Search/button_Package' is clicked on
+
+2018-04-04 12:07:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-04-04 12:07:26 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Search/button_Package' is present
+
+2018-04-04 12:07:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BugsUI Search/button_Package' is clicked on
+
+2018-04-04 12:07:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI Search/button_Package' is clicked on
+
+2018-04-04 12:07:30 - [TEST_STEP][PASSED] - delay: Delayed 6 second(s)
+
+2018-04-04 12:07:36 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2018-04-04 12:07:36 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Search/input_form-control searchField), 5)): Object: 'Object Repository/Page_BugsUI Search/a_BugsUITest' is clicked on
+
+2018-04-04 12:07:37 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Search/input_form-control searchField' is present
+
+2018-04-04 12:07:37 - [TEST_STEP][PASSED] - setText: Text 'bugsuitest' is set on object 'Object Repository/Page_BugsUI Search/input_form-control searchField'
+
+2018-04-04 12:07:38 - [MESSAGE][PASSED] - Text 'bugsuitest' is set on object 'Object Repository/Page_BugsUI Search/input_form-control searchField'
+
+2018-04-04 12:07:38 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Search/a_BugsUITest), 0)): Object: 'Object Repository/Page_BugsUI Search/a_BugsUITest' is clicked on
+
+2018-04-04 12:07:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-04-04 12:07:38 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Search/a_BugsUITest' is present
+
+2018-04-04 12:07:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BugsUI Search/a_BugsUITest' is clicked on
+
+2018-04-04 12:07:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI Search/a_BugsUITest' is clicked on
+
+2018-04-04 12:07:38 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-04 12:07:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-04 12:07:40 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Search/button_Search), 0)): Object: 'Object Repository/Page_BugsUI Search/button_Search' is clicked on
+
+2018-04-04 12:07:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-04-04 12:07:40 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Search/button_Search' is present
+
+2018-04-04 12:07:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BugsUI Search/button_Search' is clicked on
+
+2018-04-04 12:07:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI Search/button_Search' is clicked on
+
+2018-04-04 12:07:40 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-04-04 12:07:45 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-04-04 12:07:45 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_BugsUI Search/h3_ResultFound' is present
+
+2018-04-04 12:07:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-04-04 12:07:45 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Search/h3_ResultFound' is present
+
+2018-04-04 12:07:45 - [TEST_STEP][PASSED] - Statement - resultFoundText = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Search/h3_ResultFound)): Text of object 'Object Repository/Page_BugsUI Search/h3_ResultFound' is: 'Result : 99 Bugs found'
+
+2018-04-04 12:07:45 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_BugsUI Search/h3_ResultFound' is: 'Result : 99 Bugs found'
+
+2018-04-04 12:07:45 - [TEST_STEP][PASSED] - Statement - If (resultFoundText.contains("Result :") && resultFoundText.contains("Bugs found")): null
+
+2018-04-04 12:07:45 - [TEST_STEP][PASSED] - Statement - assert true: null
+
+2018-04-04 12:07:45 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_BugsUI Search/div_searchResult' is present
+
+2018-04-04 12:07:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-04-04 12:07:45 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Search/div_searchResult' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-04-04 12:06:52 - [TEST_SUITE][PASSED] - SearchScenarios: Test Cases/Search_TestCases/Search_With_PackageOnly]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>VerifyErrorMessages_for_all_mandatoryfields</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0a122b61-4895-48b9-afcf-647b6390999f</testCaseGuid>
+</TestCaseEntity>

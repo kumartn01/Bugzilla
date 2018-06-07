@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+ProductEditScenarios,Chrome 64.0.3282.186,,2018-03-13 12:33:26,2018-03-13 12:34:33,1m - 7.387s,FAILED
+,,,,,,
+Test Cases/ProductEdit_TestCases/VerifyProductEditPageLoads,Chrome 64.0.3282.186,,2018-03-13 12:33:27,2018-03-13 12:34:14,47.544s,FAILED
+openBrowser,Chrome 64.0.3282.186,,2018-03-13 12:33:27,2018-03-13 12:33:34,6.978s,PASSED
+navigateToUrl,Chrome 64.0.3282.186,,2018-03-13 12:33:34,2018-03-13 12:33:41,6.285s,PASSED
+setText,Chrome 64.0.3282.186,,2018-03-13 12:33:41,2018-03-13 12:34:14,33.740s,FAILED
+,,,,,,
+Test Cases/ProductEdit_TestCases/VerifyProductName_Description_isEdited_and_updated,Chrome 64.0.3282.186,,2018-03-13 12:34:14,2018-03-13 12:34:31,16.424s,FAILED
+selectOptionByLabel,Chrome 64.0.3282.186,,2018-03-13 12:34:15,2018-03-13 12:34:31,16.050s,FAILED

@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+ProductEditScenarios,Chrome 64.0.3282.186,,2018-03-13 12:39:20,2018-03-13 12:39:46,25.662s,FAILED
+,,,,,,
+Test Cases/ProductEdit_TestCases/VerifyProductEditPageLoads,Chrome 64.0.3282.186,,2018-03-13 12:39:21,2018-03-13 12:39:40,19.471s,PASSED
+openBrowser,Chrome 64.0.3282.186,,2018-03-13 12:39:21,2018-03-13 12:39:26,4.752s,PASSED
+navigateToUrl,Chrome 64.0.3282.186,,2018-03-13 12:39:26,2018-03-13 12:39:34,7.927s,PASSED
+setText,Chrome 64.0.3282.186,,2018-03-13 12:39:34,2018-03-13 12:39:34,0.316s,PASSED
+setText,Chrome 64.0.3282.186,,2018-03-13 12:39:34,2018-03-13 12:39:35,0.292s,PASSED
+click,Chrome 64.0.3282.186,,2018-03-13 12:39:35,2018-03-13 12:39:35,0.217s,PASSED
+verifyElementAttributeValue,Chrome 64.0.3282.186,,2018-03-13 12:39:35,2018-03-13 12:39:35,0.216s,PASSED
+Statement - productEditTabVisible = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Dashboard/a_Product)),Chrome 64.0.3282.186,,2018-03-13 12:39:35,2018-03-13 12:39:35,0.176s,PASSED
+delay,Chrome 64.0.3282.186,,2018-03-13 12:39:35,2018-03-13 12:39:37,2.044s,PASSED
+Statement - If (productEditTabVisible),Chrome 64.0.3282.186,,2018-03-13 12:39:37,2018-03-13 12:39:38,0.257s,PASSED
+delay,Chrome 64.0.3282.186,,2018-03-13 12:39:38,2018-03-13 12:39:40,2.004s,PASSED
+verifyElementText,Chrome 64.0.3282.186,,2018-03-13 12:39:40,2018-03-13 12:39:40,0.611s,PASSED
+,,,,,,
+Test Cases/ProductEdit_TestCases/VerifyProductName_Description_isEdited_and_updated,Chrome 64.0.3282.186,,2018-03-13 12:39:40,2018-03-13 12:39:41,0.649s,FAILED
+selectOptionByLabel,Chrome 64.0.3282.186,,2018-03-13 12:39:40,2018-03-13 12:39:41,0.412s,FAILED

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>VerifyProductCanBeDeleted</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0ee6ecf9-de49-402c-8b37-058d3c5e4541</testCaseGuid>
+</TestCaseEntity>

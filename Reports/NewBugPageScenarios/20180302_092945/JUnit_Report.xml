@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="NewBugPageScenarios" time="91" tests="2" failures="2" errors="0">
+   <testsuite name="NewBugPageScenarios" tests="2" failures="2" errors="0" time="91" timestamp="2018-03-02 09:31:01" hostname="Kumar.nagendra - HMECL000103.happiestminds.com" id="Test Suites/NewBugPageScenarios">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\NewBugPageScenarios\\20180302_092945"/>
+         <property name="logFiles" value="D:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\NewBugPageScenarios\\20180302_092945\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Kumar.nagendra - HMECL000103.happiestminds.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.0.1"/>
+         <property name="browser" value="Chrome 63.0.3239.132"/>
+         <property name="hostAddress" value="10.95.79.244"/>
+         <property name="sessionId" value="2522f14c362c2bb800a51bc34a399508"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/NewBugCreation_TestCases/NewBugPage" classname="Test Cases/NewBugCreation_TestCases/NewBugPage" status="PASSED">
+         <system-out><![CDATA[2018-03-02 09:31:02 - [TEST_CASE][PASSED] - Test Cases/NewBugCreation_TestCases/NewBugPage: Test Cases/NewBugCreation_TestCases/NewBugPage
+
+2018-03-02 09:31:02 - [TEST_STEP][PASSED] - Statement - act_classification_Options = new java.util.ArrayList(): null
+
+2018-03-02 09:31:02 - [TEST_STEP][PASSED] - Statement - exp_classification_Options = new java.util.ArrayList(): null
+
+2018-03-02 09:31:02 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-02 09:31:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-02 09:31:06 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-03-02 09:31:08 - [MESSAGE][PASSED] - Current window maximized
+
+2018-03-02 09:31:08 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://bugzilla-ui/' successfully
+
+2018-03-02 09:31:13 - [MESSAGE][PASSED] - Navigate to 'https://bugzilla-ui/' successfully
+
+2018-03-02 09:31:13 - [TEST_STEP][PASSED] - setText: Text 'knagendra-ext' is set on object 'Object Repository/Page_BugsUI login/input_value_userid'
+
+2018-03-02 09:31:14 - [MESSAGE][PASSED] - Text 'knagendra-ext' is set on object 'Object Repository/Page_BugsUI login/input_value_userid'
+
+2018-03-02 09:31:14 - [TEST_STEP][PASSED] - setText: Text 'Tumkur@123' is set on object 'Object Repository/Page_BugsUI login/input_form-control ng-untouche'
+
+2018-03-02 09:31:14 - [MESSAGE][PASSED] - Text 'Tumkur@123' is set on object 'Object Repository/Page_BugsUI login/input_form-control ng-untouche'
+
+2018-03-02 09:31:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BugsUI login/button_Login' is clicked on
+
+2018-03-02 09:31:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI login/button_Login' is clicked on
+
+2018-03-02 09:31:14 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-03-02 09:31:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-03-02 09:31:17 - [TEST_STEP][PASSED] - Statement - newBugTabVisible = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Dashboard/a_New bug)): Object 'Object Repository/Page_BugsUI Dashboard/a_New bug' is visible
+
+2018-03-02 09:31:19 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Dashboard/a_New bug' is visible
+
+2018-03-02 09:31:19 - [TEST_STEP][PASSED] - Statement - If (newBugTabVisible): Object: 'Object Repository/Page_BugsUI Dashboard/a_New bug' is clicked on
+
+2018-03-02 09:31:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BugsUI Dashboard/a_New bug' is clicked on
+
+2018-03-02 09:31:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI Dashboard/a_New bug' is clicked on
+
+2018-03-02 09:31:19 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_BugsUI New Bug/h5_Please select the classific' are matched.
+
+2018-03-02 09:31:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_BugsUI New Bug/h5_Please select the classific' are matched.
+
+2018-03-02 09:31:20 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_BugsUI New Bug/span_Classification' are matched.
+
+2018-03-02 09:31:24 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_BugsUI New Bug/span_Classification' are matched.
+
+2018-03-02 09:31:24 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-03-02 09:31:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-03-02 09:31:26 - [TEST_STEP][PASSED] - Statement - defaultClassificationValue = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI New Bug/DefaultClassification)): Text of object 'Object Repository/Page_BugsUI New Bug/DefaultClassification' is: ''
+
+2018-03-02 09:31:30 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_BugsUI New Bug/DefaultClassification' is: ''
+
+2018-03-02 09:31:30 - [TEST_STEP][PASSED] - Statement - println("------Selected default value------:" + defaultClassificationValue): null
+
+2018-03-02 09:31:30 - [TEST_STEP][PASSED] - verifyEqual: Actual object '' and expected object '' are equal
+
+2018-03-02 09:31:30 - [MESSAGE][PASSED] - Actual object '' and expected object '' are equal
+
+2018-03-02 09:31:30 - [TEST_STEP][PASSED] - Statement - defaultPackageUIValue = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI New Bug/DefaultPackageUI)): Text of object 'Object Repository/Page_BugsUI New Bug/DefaultPackageUI' is: ''
+
+2018-03-02 09:31:30 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_BugsUI New Bug/DefaultPackageUI' is: ''
+
+2018-03-02 09:31:30 - [TEST_STEP][PASSED] - Statement - println("------Selected default package value------:" + defaultPackageUIValue): null
+
+2018-03-02 09:31:30 - [TEST_STEP][PASSED] - verifyEqual: Actual object '' and expected object '' are equal
+
+2018-03-02 09:31:30 - [MESSAGE][PASSED] - Actual object '' and expected object '' are equal
+
+2018-03-02 09:31:30 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-03-02 09:31:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-03-02 09:31:31 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'Software' are selected in object 'Object Repository/Page_BugsUI New Bug/DropdownClassification' 
+
+2018-03-02 09:31:35 - [MESSAGE][PASSED] - All options with label 'Software' are selected in object 'Object Repository/Page_BugsUI New Bug/DropdownClassification' 
+
+2018-03-02 09:31:35 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_BugsUI New Bug/span_Package' are matched.
+
+2018-03-02 09:31:35 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_BugsUI New Bug/span_Package' are matched.
+
+2018-03-02 09:31:35 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-03-02 09:31:38 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-03-02 09:31:38 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'BugsUITest' are selected in object 'Object Repository/Page_BugsUI New Bug/DropdownPackage' 
+
+2018-03-02 09:31:40 - [MESSAGE][PASSED] - All options with label 'BugsUITest' are selected in object 'Object Repository/Page_BugsUI New Bug/DropdownPackage' 
+
+2018-03-02 09:31:40 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_BugsUI New Bug/div_box-body' is present
+
+2018-03-02 09:31:40 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI New Bug/div_box-body' is present
+
+2018-03-02 09:31:40 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_BugsUI New Bug/span_Status' is present
+
+2018-03-02 09:31:41 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI New Bug/span_Status' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NewBugCreation_TestCases/ValidateNewBugPageFields" classname="Test Cases/NewBugCreation_TestCases/ValidateNewBugPageFields" status="PASSED">
+         <system-out><![CDATA[2018-03-02 09:31:41 - [TEST_CASE][PASSED] - Test Cases/NewBugCreation_TestCases/ValidateNewBugPageFields: Test Cases/NewBugCreation_TestCases/ValidateNewBugPageFields
+
+2018-03-02 09:31:41 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageLabels/span_Est.Hours' are matched.
+
+2018-03-02 09:31:45 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageLabels/span_Est.Hours' are matched.
+
+2018-03-02 09:31:45 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/input_EstimatedHrs' is present
+
+2018-03-02 09:31:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-03-02 09:31:45 - [MESSAGE][PASSED] - Object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/input_EstimatedHrs' is present
+
+2018-03-02 09:31:45 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageLabels/span_Cc' are matched.
+
+2018-03-02 09:31:45 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageLabels/span_Cc' are matched.
+
+2018-03-02 09:31:45 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/input_CC' is present
+
+2018-03-02 09:31:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-03-02 09:31:46 - [MESSAGE][PASSED] - Object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/input_CC' is present
+
+2018-03-02 09:31:46 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageLabels/span_Assign To' are matched.
+
+2018-03-02 09:31:46 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageLabels/span_Assign To' are matched.
+
+2018-03-02 09:31:46 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/input_AssignTo' is present
+
+2018-03-02 09:31:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-03-02 09:31:46 - [MESSAGE][PASSED] - Object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/input_AssignTo' is present
+
+2018-03-02 09:31:46 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageLabels/span_Reporter' are matched.
+
+2018-03-02 09:31:46 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageLabels/span_Reporter' are matched.
+
+2018-03-02 09:31:46 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/input_Reporter' is present
+
+2018-03-02 09:31:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-03-02 09:31:50 - [MESSAGE][PASSED] - Object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/input_Reporter' is present
+
+2018-03-02 09:31:50 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageLabels/span_Priority' are matched.
+
+2018-03-02 09:31:51 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageLabels/span_Priority' are matched.
+
+2018-03-02 09:31:51 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/select-Priority' is present
+
+2018-03-02 09:31:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-03-02 09:31:56 - [MESSAGE][PASSED] - Object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/select-Priority' is present
+
+2018-03-02 09:31:56 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageLabels/span_Platform' are matched.
+
+2018-03-02 09:31:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageLabels/span_Platform' are matched.
+
+2018-03-02 09:31:56 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/select_platform' is present
+
+2018-03-02 09:31:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-03-02 09:31:56 - [MESSAGE][PASSED] - Object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/select_platform' is present
+
+2018-03-02 09:31:56 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageLabels/span_Build' are matched.
+
+2018-03-02 09:31:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageLabels/span_Build' are matched.
+
+2018-03-02 09:31:56 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/input_Build' is present
+
+2018-03-02 09:32:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-03-02 09:32:01 - [MESSAGE][PASSED] - Object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/input_Build' is present
+
+2018-03-02 09:32:01 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageLabels/span_Severity' are matched.
+
+2018-03-02 09:32:01 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageLabels/span_Severity' are matched.
+
+2018-03-02 09:32:01 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/select_Severity' is present
+
+2018-03-02 09:32:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-03-02 09:32:01 - [MESSAGE][PASSED] - Object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/select_Severity' is present
+
+2018-03-02 09:32:01 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageLabels/span_Version' are matched.
+
+2018-03-02 09:32:01 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageLabels/span_Version' are matched.
+
+2018-03-02 09:32:01 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/select_Version' is present
+
+2018-03-02 09:32:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-03-02 09:32:01 - [MESSAGE][PASSED] - Object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/select_Version' is present
+
+2018-03-02 09:32:01 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageLabels/span_Component' are matched.
+
+2018-03-02 09:32:02 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageLabels/span_Component' are matched.
+
+2018-03-02 09:32:02 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/select-Component' is present
+
+2018-03-02 09:32:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-03-02 09:32:06 - [MESSAGE][PASSED] - Object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/select-Component' is present
+
+2018-03-02 09:32:06 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageLabels/span_Status' are matched.
+
+2018-03-02 09:32:06 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageLabels/span_Status' are matched.
+
+2018-03-02 09:32:06 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/Mandatory-Mark' are matched.
+
+2018-03-02 09:32:06 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/Mandatory-Mark' are matched.
+
+2018-03-02 09:32:06 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageLabels/span_Summary' are matched.
+
+2018-03-02 09:32:06 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageLabels/span_Summary' are matched.
+
+2018-03-02 09:32:06 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/input_Summary' is present
+
+2018-03-02 09:32:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-03-02 09:32:07 - [MESSAGE][PASSED] - Object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/input_Summary' is present
+
+2018-03-02 09:32:07 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageLabels/span_Description' are matched.
+
+2018-03-02 09:32:11 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageLabels/span_Description' are matched.
+
+2018-03-02 09:32:11 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/input_EstimatedHrs' is present
+
+2018-03-02 09:32:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-03-02 09:32:11 - [MESSAGE][PASSED] - Object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/input_EstimatedHrs' is present
+
+2018-03-02 09:32:11 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageLabels/span_Depends on' are matched.
+
+2018-03-02 09:32:11 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageLabels/span_Depends on' are matched.
+
+2018-03-02 09:32:11 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/input_EstimatedHrs' is present
+
+2018-03-02 09:32:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-03-02 09:32:11 - [MESSAGE][PASSED] - Object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/input_EstimatedHrs' is present
+
+2018-03-02 09:32:11 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageLabels/span_Blocks' are matched.
+
+2018-03-02 09:32:11 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageLabels/span_Blocks' are matched.
+
+2018-03-02 09:32:11 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/input_EstimatedHrs' is present
+
+2018-03-02 09:32:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-03-02 09:32:11 - [MESSAGE][PASSED] - Object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/input_EstimatedHrs' is present
+
+2018-03-02 09:32:11 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/button_Commit' is present
+
+2018-03-02 09:32:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-03-02 09:32:11 - [MESSAGE][PASSED] - Object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/button_Commit' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NewBugCreation_TestCases/VerifyValidBug_Present_In_Depends_and_Blocks_field" classname="Test Cases/NewBugCreation_TestCases/VerifyValidBug_Present_In_Depends_and_Blocks_field" status="FAILED">
+         <failure type="FAILED" message="Unable to verify alert present (Root cause: No alert found after 2 second(s).)"/>
+         <system-out><![CDATA[2018-03-02 09:32:11 - [TEST_CASE][FAILED] - Test Cases/NewBugCreation_TestCases/VerifyValidBug_Present_In_Depends_and_Blocks_field: Test Cases/NewBugCreation_TestCases/VerifyValidBug_Present_In_Depends_and_Blocks_field FAILED because (of) Unable to verify alert present (Root cause: No alert found after 2 second(s).)
+
+2018-03-02 09:32:12 - [TEST_STEP][PASSED] - setText: Text 'Testing for Automation' is set on object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/input_Summary'
+
+2018-03-02 09:32:12 - [MESSAGE][PASSED] - Text 'Testing for Automation' is set on object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/input_Summary'
+
+2018-03-02 09:32:12 - [TEST_STEP][PASSED] - setText: Text '1010101010110' is set on object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/input_dependsOn'
+
+2018-03-02 09:32:17 - [MESSAGE][PASSED] - Text '1010101010110' is set on object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/input_dependsOn'
+
+2018-03-02 09:32:17 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/button_Commit' successfully
+
+2018-03-02 09:32:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-03-02 09:32:17 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/button_Commit' successfully
+
+2018-03-02 09:32:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/button_Commit' is clicked on
+
+2018-03-02 09:32:17 - [MESSAGE][PASSED] - Object: 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/button_Commit' is clicked on
+
+2018-03-02 09:32:17 - [TEST_STEP][FAILED] - Statement - altertPresent = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyAlertPresent(2): Unable to verify alert present (Root cause: No alert found after 2 second(s).)
+
+2018-03-02 09:32:27 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-03-02 09:32:27 - [MESSAGE][FAILED] - No alert found after 2 second(s).
+
+2018-03-02 09:32:27 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-03-02 09:32:27 - [MESSAGE][FAILED] - Unable to verify alert present (Root cause: No alert found after 2 second(s).)]]></system-out>
+         <system-err><![CDATA[2018-03-02 09:32:11 - [TEST_CASE][FAILED] - Test Cases/NewBugCreation_TestCases/VerifyValidBug_Present_In_Depends_and_Blocks_field: Test Cases/NewBugCreation_TestCases/VerifyValidBug_Present_In_Depends_and_Blocks_field FAILED because (of) Unable to verify alert present (Root cause: No alert found after 2 second(s).)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NewBugCreation_TestCases/NewBugCreation" classname="Test Cases/NewBugCreation_TestCases/NewBugCreation" status="FAILED">
+         <failure type="FAILED" message="Unable to set text 'Description for Test automation' of object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/input_Description' (Root cause: org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Following Bug Id(s)/Alias entered under 'Depends on' do not exist:
+1010101010110}
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10240 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HMECL000103', ip: '10.95.79.244', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\KUMAR~1.NAG\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.132, webStorageEnabled: true}
+Session ID: 2522f14c362c2bb800a51bc34a399508
+*** Element info: {Using=xpath, value=//textarea[@type = 'text']})"/>
+         <system-out><![CDATA[2018-03-02 09:32:27 - [TEST_CASE][FAILED] - Test Cases/NewBugCreation_TestCases/NewBugCreation: Test Cases/NewBugCreation_TestCases/NewBugCreation FAILED because (of) Unable to set text 'Description for Test automation' of object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/input_Description' (Root cause: org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Following Bug Id(s)/Alias entered under 'Depends on' do not exist:
+1010101010110}
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10240 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HMECL000103', ip: '10.95.79.244', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\KUMAR~1.NAG\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.132, webStorageEnabled: true}
+Session ID: 2522f14c362c2bb800a51bc34a399508
+*** Element info: {Using=xpath, value=//textarea[@type = 'text']})
+
+2018-03-02 09:32:28 - [TEST_STEP][FAILED] - setText: Unable to set text 'Description for Test automation' of object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/input_Description' (Root cause: org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Following Bug Id(s)/Alias entered under 'Depends on' do not exist:
+1010101010110}
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10240 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HMECL000103', ip: '10.95.79.244', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\KUMAR~1.NAG\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.132, webStorageEnabled: true}
+Session ID: 2522f14c362c2bb800a51bc34a399508
+*** Element info: {Using=xpath, value=//textarea[@type = 'text']})
+
+2018-03-02 09:32:32 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-03-02 09:32:32 - [MESSAGE][FAILED] - Unable to set text 'Description for Test automation' of object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/input_Description' (Root cause: org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Following Bug Id(s)/Alias entered under 'Depends on' do not exist:
+1010101010110}
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10240 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HMECL000103', ip: '10.95.79.244', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\KUMAR~1.NAG\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.132, webStorageEnabled: true}
+Session ID: 2522f14c362c2bb800a51bc34a399508
+*** Element info: {Using=xpath, value=//textarea[@type = 'text']})]]></system-out>
+         <system-err><![CDATA[2018-03-02 09:32:27 - [TEST_CASE][FAILED] - Test Cases/NewBugCreation_TestCases/NewBugCreation: Test Cases/NewBugCreation_TestCases/NewBugCreation FAILED because (of) Unable to set text 'Description for Test automation' of object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/input_Description' (Root cause: org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Following Bug Id(s)/Alias entered under 'Depends on' do not exist:
+1010101010110}
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10240 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HMECL000103', ip: '10.95.79.244', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\KUMAR~1.NAG\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.132, webStorageEnabled: true}
+Session ID: 2522f14c362c2bb800a51bc34a399508
+*** Element info: {Using=xpath, value=//textarea[@type = 'text']})]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-03-02 09:31:01 - [TEST_SUITE][FAILED] - NewBugPageScenarios: Test Cases/NewBugCreation_TestCases/VerifyValidBug_Present_In_Depends_and_Blocks_field FAILED because (of) Unable to verify alert present (Root cause: No alert found after 2 second(s).)]]></system-out>
+      <system-err><![CDATA[2018-03-02 09:31:01 - [TEST_SUITE][FAILED] - NewBugPageScenarios: Test Cases/NewBugCreation_TestCases/VerifyValidBug_Present_In_Depends_and_Blocks_field FAILED because (of) Unable to verify alert present (Root cause: No alert found after 2 second(s).)]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Reporter</name>
+   <tag></tag>
+   <elementGuidId>5c925921-5e0c-4cfc-a68b-99c76b03d1c5</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>email</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>value_Reporter</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control ng-pristine ng-untouched ng-valid-email ng-valid ng-valid-required</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-model</name>
+      <type>Main</type>
+      <value>Reportee</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-blur</name>
+      <type>Main</type>
+      <value>reporterBLUR()</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;activity&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-12 col-xs-12&quot;]/div[@class=&quot;box box-success&quot;]/div[@class=&quot;box-body&quot;]/form[@class=&quot;ng-pristine ng-invalid ng-invalid-required ng-valid-maxlength ng-valid-email ng-valid-min&quot;]/div[@class=&quot;chart&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-xs-10 col-md-10 col-lg-10&quot;]/input[@class=&quot;form-control ng-pristine ng-untouched ng-valid-email ng-valid ng-valid-required&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+SearchScenarios,Chrome 64.0.3282.186,,2018-03-29 14:16:16,2018-03-29 14:17:37,1m - 21.818s,INCOMPLETE
+,,,,,,
+Test Cases/Search_TestCases/VerifySearchPageLoads,Chrome 64.0.3282.186,,2018-03-29 14:16:16,2018-03-29 14:17:37,1m - 21.200s,FAILED
+openBrowser,Chrome 64.0.3282.186,,2018-03-29 14:16:16,2018-03-29 14:16:36,19.523s,PASSED
+navigateToUrl,Chrome 64.0.3282.186,,2018-03-29 14:16:36,2018-03-29 14:17:37,1m - 1.192s,FAILED
+,,,,,,
+Test Cases/Search_TestCases/Search_With_PackageOnly,Chrome 64.0.3282.186,,2018-03-29 14:17:37,2018-03-29 14:17:37,0.102s,PASSED

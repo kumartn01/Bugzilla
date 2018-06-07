@@ -1,0 +1,38 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+DependsOn_Blocks_Scenarios,Chrome 65.0.3325.181,,2018-04-25 13:58:36,2018-04-25 13:59:03,27.432s,PASSED
+,,,,,,
+Test Cases/Depends_Blocks_TestCases/Verify whether user can open Depends on and Blocks section,Chrome 65.0.3325.181,,2018-04-25 13:58:36,2018-04-25 13:58:59,22.486s,PASSED
+openBrowser,Chrome 65.0.3325.181,,2018-04-25 13:58:37,2018-04-25 13:58:40,3.098s,PASSED
+navigateToUrl,Chrome 65.0.3325.181,,2018-04-25 13:58:40,2018-04-25 13:58:45,5.419s,PASSED
+maximizeWindow,Chrome 65.0.3325.181,,2018-04-25 13:58:45,2018-04-25 13:58:45,0.234s,PASSED
+setText,Chrome 65.0.3325.181,,2018-04-25 13:58:45,2018-04-25 13:58:46,1.178s,PASSED
+setText,Chrome 65.0.3325.181,,2018-04-25 13:58:46,2018-04-25 13:58:47,0.874s,PASSED
+click,Chrome 65.0.3325.181,,2018-04-25 13:58:47,2018-04-25 13:58:48,0.289s,PASSED
+setText,Chrome 65.0.3325.181,,2018-04-25 13:58:48,2018-04-25 13:58:48,0.609s,PASSED
+delay,Chrome 65.0.3325.181,,2018-04-25 13:58:48,2018-04-25 13:58:49,1.048s,PASSED
+sendKeys,Chrome 65.0.3325.181,,2018-04-25 13:58:49,2018-04-25 13:58:50,0.323s,PASSED
+delay,Chrome 65.0.3325.181,,2018-04-25 13:58:50,2018-04-25 13:58:53,3.003s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI_Depends_Blocks/a_Depends and Blocks), 1))",Chrome 65.0.3325.181,,2018-04-25 13:58:53,2018-04-25 13:58:53,0.403s,PASSED
+delay,Chrome 65.0.3325.181,,2018-04-25 13:58:53,2018-04-25 13:58:55,2.004s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI_Depends_Blocks/h3_Bug 247777 blocks), 1))",Chrome 65.0.3325.181,,2018-04-25 13:58:55,2018-04-25 13:58:55,0.264s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI_Depends_Blocks/h3_Bug 247777 depends on), 1))",Chrome 65.0.3325.181,,2018-04-25 13:58:55,2018-04-25 13:58:56,0.194s,PASSED
+delay,Chrome 65.0.3325.181,,2018-04-25 13:58:56,2018-04-25 13:58:59,3.002s,PASSED
+,,,,,,
+Test Cases/Depends_Blocks_TestCases/Verify_fields_in_DependsOn_and_Blocks_section,Chrome 65.0.3325.181,,2018-04-25 13:58:59,2018-04-25 13:59:02,3.625s,PASSED
+delay,Chrome 65.0.3325.181,,2018-04-25 13:58:59,2018-04-25 13:59:01,2.009s,PASSED
+verifyElementPresent,Chrome 65.0.3325.181,,2018-04-25 13:59:01,2018-04-25 13:59:01,0.114s,PASSED
+verifyElementPresent,Chrome 65.0.3325.181,,2018-04-25 13:59:01,2018-04-25 13:59:01,0.088s,PASSED
+verifyElementPresent,Chrome 65.0.3325.181,,2018-04-25 13:59:01,2018-04-25 13:59:01,0.068s,PASSED
+verifyElementPresent,Chrome 65.0.3325.181,,2018-04-25 13:59:01,2018-04-25 13:59:01,0.066s,PASSED
+verifyElementPresent,Chrome 65.0.3325.181,,2018-04-25 13:59:01,2018-04-25 13:59:01,0.098s,PASSED
+verifyElementPresent,Chrome 65.0.3325.181,,2018-04-25 13:59:01,2018-04-25 13:59:01,0.070s,PASSED
+verifyElementPresent,Chrome 65.0.3325.181,,2018-04-25 13:59:01,2018-04-25 13:59:01,0.066s,PASSED
+verifyElementPresent,Chrome 65.0.3325.181,,2018-04-25 13:59:01,2018-04-25 13:59:02,0.074s,PASSED
+verifyElementPresent,Chrome 65.0.3325.181,,2018-04-25 13:59:02,2018-04-25 13:59:02,0.084s,PASSED
+verifyElementPresent,Chrome 65.0.3325.181,,2018-04-25 13:59:02,2018-04-25 13:59:02,0.084s,PASSED
+verifyElementPresent,Chrome 65.0.3325.181,,2018-04-25 13:59:02,2018-04-25 13:59:02,0.076s,PASSED
+verifyElementPresent,Chrome 65.0.3325.181,,2018-04-25 13:59:02,2018-04-25 13:59:02,0.054s,PASSED
+verifyElementPresent,Chrome 65.0.3325.181,,2018-04-25 13:59:02,2018-04-25 13:59:02,0.103s,PASSED
+verifyElementPresent,Chrome 65.0.3325.181,,2018-04-25 13:59:02,2018-04-25 13:59:02,0.085s,PASSED
+verifyElementPresent,Chrome 65.0.3325.181,,2018-04-25 13:59:02,2018-04-25 13:59:02,0.077s,PASSED
+verifyElementPresent,Chrome 65.0.3325.181,,2018-04-25 13:59:02,2018-04-25 13:59:02,0.081s,PASSED

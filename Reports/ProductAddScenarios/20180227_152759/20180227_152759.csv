@@ -1,0 +1,48 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+ProductAddScenarios,Chrome 63.0.3239.132,,2018-02-27 15:28:03,2018-02-27 15:29:00,57.381s,FAILED
+,,,,,,
+Test Cases/ProductAdd_TestCases/VerifyProductAddPageLoads,Chrome 63.0.3239.132,,2018-02-27 15:28:03,2018-02-27 15:28:55,51.194s,PASSED
+openBrowser,Chrome 63.0.3239.132,,2018-02-27 15:28:04,2018-02-27 15:28:10,5.652s,PASSED
+navigateToUrl,Chrome 63.0.3239.132,,2018-02-27 15:28:10,2018-02-27 15:28:49,39.230s,PASSED
+setText,Chrome 63.0.3239.132,,2018-02-27 15:28:49,2018-02-27 15:28:49,0.305s,PASSED
+setText,Chrome 63.0.3239.132,,2018-02-27 15:28:49,2018-02-27 15:28:49,0.249s,PASSED
+click,Chrome 63.0.3239.132,,2018-02-27 15:28:49,2018-02-27 15:28:50,0.168s,PASSED
+verifyElementAttributeValue,Chrome 63.0.3239.132,,2018-02-27 15:28:50,2018-02-27 15:28:50,0.145s,PASSED
+Statement - productAddTabVisible = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Dashboard/a_Product)),Chrome 63.0.3239.132,,2018-02-27 15:28:50,2018-02-27 15:28:50,0.104s,PASSED
+delay,Chrome 63.0.3239.132,,2018-02-27 15:28:50,2018-02-27 15:28:52,2.036s,PASSED
+Statement - If (productAddTabVisible),Chrome 63.0.3239.132,,2018-02-27 15:28:52,2018-02-27 15:28:52,0.233s,PASSED
+delay,Chrome 63.0.3239.132,,2018-02-27 15:28:52,2018-02-27 15:28:54,2.005s,PASSED
+verifyElementText,Chrome 63.0.3239.132,,2018-02-27 15:28:54,2018-02-27 15:28:55,0.614s,PASSED
+,,,,,,
+Test Cases/ProductAdd_TestCases/VerifyMandatoryMarkNextToFields,Chrome 63.0.3239.132,,2018-02-27 15:28:55,2018-02-27 15:28:55,0.299s,PASSED
+"Statement - mandatoryElements = com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI productAdd/span_), 0)",Chrome 63.0.3239.132,,2018-02-27 15:28:55,2018-02-27 15:28:55,0.054s,PASSED
+"Statement - println(""Size of Mandatory fields is:----"" + mandatoryElements.size())",Chrome 63.0.3239.132,,2018-02-27 15:28:55,2018-02-27 15:28:55,0.005s,PASSED
+verifyEqual,Chrome 63.0.3239.132,,2018-02-27 15:28:55,2018-02-27 15:28:55,0.015s,PASSED
+,,,,,,
+Test Cases/ProductAdd_TestCases/ValidationOf_All_ProductAddPage_Fields,Chrome 63.0.3239.132,,2018-02-27 15:28:55,2018-02-27 15:28:56,1.017s,PASSED
+verifyElementText,Chrome 63.0.3239.132,,2018-02-27 15:28:55,2018-02-27 15:28:55,0.061s,PASSED
+verifyElementPresent,Chrome 63.0.3239.132,,2018-02-27 15:28:55,2018-02-27 15:28:55,0.048s,PASSED
+verifyElementText,Chrome 63.0.3239.132,,2018-02-27 15:28:55,2018-02-27 15:28:55,0.060s,PASSED
+verifyElementPresent,Chrome 63.0.3239.132,,2018-02-27 15:28:55,2018-02-27 15:28:55,0.035s,PASSED
+verifyElementText,Chrome 63.0.3239.132,,2018-02-27 15:28:55,2018-02-27 15:28:55,0.057s,PASSED
+verifyElementPresent,Chrome 63.0.3239.132,,2018-02-27 15:28:55,2018-02-27 15:28:56,0.033s,PASSED
+verifyElementText,Chrome 63.0.3239.132,,2018-02-27 15:28:56,2018-02-27 15:28:56,0.061s,PASSED
+verifyElementPresent,Chrome 63.0.3239.132,,2018-02-27 15:28:56,2018-02-27 15:28:56,0.031s,PASSED
+verifyElementText,Chrome 63.0.3239.132,,2018-02-27 15:28:56,2018-02-27 15:28:56,0.057s,PASSED
+verifyElementPresent,Chrome 63.0.3239.132,,2018-02-27 15:28:56,2018-02-27 15:28:56,0.032s,PASSED
+verifyElementText,Chrome 63.0.3239.132,,2018-02-27 15:28:56,2018-02-27 15:28:56,0.053s,PASSED
+verifyElementPresent,Chrome 63.0.3239.132,,2018-02-27 15:28:56,2018-02-27 15:28:56,0.037s,PASSED
+verifyElementText,Chrome 63.0.3239.132,,2018-02-27 15:28:56,2018-02-27 15:28:56,0.069s,PASSED
+verifyElementPresent,Chrome 63.0.3239.132,,2018-02-27 15:28:56,2018-02-27 15:28:56,0.052s,PASSED
+verifyElementText,Chrome 63.0.3239.132,,2018-02-27 15:28:56,2018-02-27 15:28:56,0.062s,PASSED
+verifyElementPresent,Chrome 63.0.3239.132,,2018-02-27 15:28:56,2018-02-27 15:28:56,0.028s,PASSED
+,,,,,,
+Test Cases/ProductAdd_TestCases/VerifyAdditionOfSuccessfulProduct,Chrome 63.0.3239.132,,2018-02-27 15:28:56,2018-02-27 15:28:58,2.245s,FAILED
+selectOptionByLabel,Chrome 63.0.3239.132,,2018-02-27 15:28:56,2018-02-27 15:28:56,0.153s,PASSED
+setText,Chrome 63.0.3239.132,,2018-02-27 15:28:56,2018-02-27 15:28:57,0.270s,PASSED
+setText,Chrome 63.0.3239.132,,2018-02-27 15:28:57,2018-02-27 15:28:57,0.325s,PASSED
+setText,Chrome 63.0.3239.132,,2018-02-27 15:28:57,2018-02-27 15:28:57,0.127s,PASSED
+setText,Chrome 63.0.3239.132,,2018-02-27 15:28:57,2018-02-27 15:28:57,0.254s,PASSED
+setText,Chrome 63.0.3239.132,,2018-02-27 15:28:57,2018-02-27 15:28:58,0.212s,PASSED
+setText,Chrome 63.0.3239.132,,2018-02-27 15:28:58,2018-02-27 15:28:58,0.299s,PASSED
+click,Chrome 63.0.3239.132,,2018-02-27 15:28:58,2018-02-27 15:28:58,0.424s,FAILED

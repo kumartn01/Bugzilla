@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+SearchScenarios,Chrome 64.0.3282.186,,2018-03-29 14:51:17,2018-03-29 14:52:22,1m - 5.580s,FAILED
+,,,,,,
+Test Cases/Search_TestCases/VerifySearchPageLoads,Chrome 64.0.3282.186,,2018-03-29 14:51:17,2018-03-29 14:52:02,45.038s,PASSED
+openBrowser,Chrome 64.0.3282.186,,2018-03-29 14:51:18,2018-03-29 14:51:23,5.667s,PASSED
+navigateToUrl,Chrome 64.0.3282.186,,2018-03-29 14:51:23,2018-03-29 14:51:44,20.940s,PASSED
+maximizeWindow,Chrome 64.0.3282.186,,2018-03-29 14:51:44,2018-03-29 14:51:46,1.158s,PASSED
+setText,Chrome 64.0.3282.186,,2018-03-29 14:51:46,2018-03-29 14:51:50,3.997s,PASSED
+setText,Chrome 64.0.3282.186,,2018-03-29 14:51:50,2018-03-29 14:51:50,0.209s,PASSED
+click,Chrome 64.0.3282.186,,2018-03-29 14:51:50,2018-03-29 14:51:50,0.131s,PASSED
+verifyElementAttributeValue,Chrome 64.0.3282.186,,2018-03-29 14:51:50,2018-03-29 14:51:50,0.089s,PASSED
+delay,Chrome 64.0.3282.186,,2018-03-29 14:51:50,2018-03-29 14:51:52,2.031s,PASSED
+Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Dashboard/a_Search))),Chrome 64.0.3282.186,,2018-03-29 14:51:52,2018-03-29 14:51:52,0.232s,PASSED
+delay,Chrome 64.0.3282.186,,2018-03-29 14:51:52,2018-03-29 14:51:57,5.005s,PASSED
+verifyElementText,Chrome 64.0.3282.186,,2018-03-29 14:51:57,2018-03-29 14:51:57,0.117s,PASSED
+delay,Chrome 64.0.3282.186,,2018-03-29 14:51:57,2018-03-29 14:52:02,5.004s,PASSED
+,,,,,,
+Test Cases/Search_TestCases/Search_With_PackageOnly,Chrome 64.0.3282.186,,2018-03-29 14:52:02,2018-03-29 14:52:22,19.133s,FAILED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Search/button_Package), 0))",Chrome 64.0.3282.186,,2018-03-29 14:52:03,2018-03-29 14:52:07,4.509s,PASSED
+delay,Chrome 64.0.3282.186,,2018-03-29 14:52:07,2018-03-29 14:52:12,5.005s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Search/ul_Check All   Uncheck All  Do), 0))",Chrome 64.0.3282.186,,2018-03-29 14:52:12,2018-03-29 14:52:14,1.672s,PASSED
+delay,Chrome 64.0.3282.186,,2018-03-29 14:52:14,2018-03-29 14:52:16,2.003s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Search/button_Search), 0))",Chrome 64.0.3282.186,,2018-03-29 14:52:16,2018-03-29 14:52:16,0.242s,PASSED
+delay,Chrome 64.0.3282.186,,2018-03-29 14:52:16,2018-03-29 14:52:21,5.002s,PASSED
+verifyElementPresent,Chrome 64.0.3282.186,,2018-03-29 14:52:21,2018-03-29 14:52:22,0.390s,FAILED

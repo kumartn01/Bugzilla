@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ProductAddScenarios" time="69" tests="4" failures="1" errors="0">
+   <testsuite name="ProductAddScenarios" tests="4" failures="1" errors="0" time="69" timestamp="2018-02-28 12:40:08" hostname="Kumar.nagendra - HMECL000103.happiestminds.com" id="Test Suites/ProductAddScenarios">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\ProductAddScenarios\\20180228_124006"/>
+         <property name="logFiles" value="D:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\ProductAddScenarios\\20180228_124006\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Kumar.nagendra - HMECL000103.happiestminds.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.0.1"/>
+         <property name="browser" value="Chrome 63.0.3239.132"/>
+         <property name="hostAddress" value="10.95.79.244"/>
+         <property name="sessionId" value="e5753fc53f758232234d40afb2439ec5"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/ProductAdd_TestCases/VerifyProductAddPageLoads" classname="Test Cases/ProductAdd_TestCases/VerifyProductAddPageLoads" status="PASSED">
+         <system-out><![CDATA[2018-02-28 12:40:09 - [TEST_CASE][PASSED] - Test Cases/ProductAdd_TestCases/VerifyProductAddPageLoads: Test Cases/ProductAdd_TestCases/VerifyProductAddPageLoads
+
+2018-02-28 12:40:09 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-02-28 12:40:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-02-28 12:40:32 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://bugzilla-ui/login' successfully
+
+2018-02-28 12:40:59 - [MESSAGE][PASSED] - Navigate to 'https://bugzilla-ui/login' successfully
+
+2018-02-28 12:40:59 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-02-28 12:41:00 - [MESSAGE][PASSED] - Current window maximized
+
+2018-02-28 12:41:00 - [TEST_STEP][PASSED] - setText: Text 'knagendra-ext' is set on object 'Object Repository/Page_BugsUI login/input_value_userid'
+
+2018-02-28 12:41:00 - [MESSAGE][PASSED] - Text 'knagendra-ext' is set on object 'Object Repository/Page_BugsUI login/input_value_userid'
+
+2018-02-28 12:41:00 - [TEST_STEP][PASSED] - setText: Text 'Tumkur@123' is set on object 'Object Repository/Page_BugsUI login/input_form-control ng-untouche'
+
+2018-02-28 12:41:01 - [MESSAGE][PASSED] - Text 'Tumkur@123' is set on object 'Object Repository/Page_BugsUI login/input_form-control ng-untouche'
+
+2018-02-28 12:41:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BugsUI login/button_Login' is clicked on
+
+2018-02-28 12:41:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI login/button_Login' is clicked on
+
+2018-02-28 12:41:01 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Page_BugsUI login/a_BugsUI' has attribute 'text' with value 'BugsUI '
+
+2018-02-28 12:41:01 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI login/a_BugsUI' has attribute 'text' with value 'BugsUI '
+
+2018-02-28 12:41:01 - [TEST_STEP][PASSED] - Statement - productAddTabVisible = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Dashboard/a_Product)): Object 'Object Repository/Page_BugsUI Dashboard/a_Product' is visible
+
+2018-02-28 12:41:01 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Dashboard/a_Product' is visible
+
+2018-02-28 12:41:01 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-02-28 12:41:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-02-28 12:41:03 - [TEST_STEP][PASSED] - Statement - If (productAddTabVisible): Object: 'Object Repository/Page_BugsUI Dashboard/a_ADD' is clicked on
+
+2018-02-28 12:41:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BugsUI Dashboard/a_Product' is clicked on
+
+2018-02-28 12:41:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI Dashboard/a_Product' is clicked on
+
+2018-02-28 12:41:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BugsUI Dashboard/a_ADD' is clicked on
+
+2018-02-28 12:41:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI Dashboard/a_ADD' is clicked on
+
+2018-02-28 12:41:03 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-02-28 12:41:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-02-28 12:41:05 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/h2_Add Product' are matched.
+
+2018-02-28 12:41:06 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/h2_Add Product' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ProductAdd_TestCases/VerifyMandatoryMarkNextToFields" classname="Test Cases/ProductAdd_TestCases/VerifyMandatoryMarkNextToFields" status="PASSED">
+         <system-out><![CDATA[2018-02-28 12:41:06 - [TEST_CASE][PASSED] - Test Cases/ProductAdd_TestCases/VerifyMandatoryMarkNextToFields: Test Cases/ProductAdd_TestCases/VerifyMandatoryMarkNextToFields
+
+2018-02-28 12:41:06 - [TEST_STEP][PASSED] - Statement - mandatoryElements = com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI productAdd/ProductAdd_Fields/span_), 0): Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-02-28 12:41:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-02-28 12:41:06 - [TEST_STEP][PASSED] - Statement - println("Size of Mandatory fields is:----" + mandatoryElements.size()): null
+
+2018-02-28 12:41:06 - [TEST_STEP][PASSED] - verifyEqual: Actual object '7' and expected object '7' are equal
+
+2018-02-28 12:41:06 - [MESSAGE][PASSED] - Actual object '7' and expected object '7' are equal]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ProductAdd_TestCases/ValidationOf_All_ProductAddPage_Fields" classname="Test Cases/ProductAdd_TestCases/ValidationOf_All_ProductAddPage_Fields" status="PASSED">
+         <system-out><![CDATA[2018-02-28 12:41:06 - [TEST_CASE][PASSED] - Test Cases/ProductAdd_TestCases/ValidationOf_All_ProductAddPage_Fields: Test Cases/ProductAdd_TestCases/ValidationOf_All_ProductAddPage_Fields
+
+2018-02-28 12:41:06 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/span_Classification' are matched.
+
+2018-02-28 12:41:06 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/span_Classification' are matched.
+
+2018-02-28 12:41:06 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/select_Classification' is present
+
+2018-02-28 12:41:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-02-28 12:41:06 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/select_Classification' is present
+
+2018-02-28 12:41:06 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/span_Product' are matched.
+
+2018-02-28 12:41:06 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/span_Product' are matched.
+
+2018-02-28 12:41:06 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/input_productName_addProduct' is present
+
+2018-02-28 12:41:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-02-28 12:41:06 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/input_productName_addProduct' is present
+
+2018-02-28 12:41:06 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/span_Description' are matched.
+
+2018-02-28 12:41:07 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/span_Description' are matched.
+
+2018-02-28 12:41:07 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/textarea_productDescription_ad' is present
+
+2018-02-28 12:41:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-02-28 12:41:07 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/textarea_productDescription_ad' is present
+
+2018-02-28 12:41:07 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/span_Closed for bug entry' are matched.
+
+2018-02-28 12:41:07 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/span_Closed for bug entry' are matched.
+
+2018-02-28 12:41:07 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/input_bugentry_addProduct' is present
+
+2018-02-28 12:41:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-02-28 12:41:07 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/input_bugentry_addProduct' is present
+
+2018-02-28 12:41:07 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/span_Version' are matched.
+
+2018-02-28 12:41:07 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/span_Version' are matched.
+
+2018-02-28 12:41:07 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/input_version_addProduct' is present
+
+2018-02-28 12:41:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-02-28 12:41:07 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/input_version_addProduct' is present
+
+2018-02-28 12:41:07 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/span_Component' are matched.
+
+2018-02-28 12:41:07 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/span_Component' are matched.
+
+2018-02-28 12:41:07 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/input_component_addProduct' is present
+
+2018-02-28 12:41:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-02-28 12:41:07 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/input_component_addProduct' is present
+
+2018-02-28 12:41:07 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/span_Comp Desc' are matched.
+
+2018-02-28 12:41:07 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/span_Comp Desc' are matched.
+
+2018-02-28 12:41:07 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/textarea_componentDescription_' is present
+
+2018-02-28 12:41:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-02-28 12:41:07 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/textarea_componentDescription_' is present
+
+2018-02-28 12:41:07 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/span_Default Assignee' are matched.
+
+2018-02-28 12:41:07 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/span_Default Assignee' are matched.
+
+2018-02-28 12:41:07 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/input_AssignTO_addProduct' is present
+
+2018-02-28 12:41:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-02-28 12:41:07 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/input_AssignTO_addProduct' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ProductAdd_TestCases/VerifyErrorMessages_for_all_mandatoryfields" classname="Test Cases/ProductAdd_TestCases/VerifyErrorMessages_for_all_mandatoryfields" status="PASSED">
+         <system-out><![CDATA[2018-02-28 12:41:07 - [TEST_CASE][PASSED] - Test Cases/ProductAdd_TestCases/VerifyErrorMessages_for_all_mandatoryfields: Test Cases/ProductAdd_TestCases/VerifyErrorMessages_for_all_mandatoryfields
+
+2018-02-28 12:41:07 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/button_ADD' successfully
+
+2018-02-28 12:41:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-02-28 12:41:07 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/button_ADD' successfully
+
+2018-02-28 12:41:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/button_ADD' is clicked on
+
+2018-02-28 12:41:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/button_ADD' is clicked on
+
+2018-02-28 12:41:07 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-02-28 12:41:10 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-02-28 12:41:10 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI productAdd/Error_Messages/small_Product is required), 0)): Actual text 'Product is required !!' and expected text 'Product is required !!' are matched 
+
+2018-02-28 12:41:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-02-28 12:41:10 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI productAdd/Error_Messages/small_Product is required' is present
+
+2018-02-28 12:41:10 - [TEST_STEP][PASSED] - Statement - productRequired = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI productAdd/Error_Messages/small_Product is required)): Text of object 'Object Repository/Page_BugsUI productAdd/Error_Messages/small_Product is required' is: 'Product is required !!'
+
+2018-02-28 12:41:11 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_BugsUI productAdd/Error_Messages/small_Product is required' is: 'Product is required !!'
+
+2018-02-28 12:41:11 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Product is required !!' and expected text 'Product is required !!' are matched 
+
+2018-02-28 12:41:11 - [MESSAGE][PASSED] - Actual text 'Product is required !!' and expected text 'Product is required !!' are matched 
+
+2018-02-28 12:41:11 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI productAdd/Error_Messages/small_Product description is r), 0)): Actual text 'Product description is required !!' and expected text 'Product description is required !!' are matched 
+
+2018-02-28 12:41:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-02-28 12:41:11 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI productAdd/Error_Messages/small_Product description is r' is present
+
+2018-02-28 12:41:11 - [TEST_STEP][PASSED] - Statement - productDescRequired = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI productAdd/Error_Messages/small_Product description is r)): Text of object 'Object Repository/Page_BugsUI productAdd/Error_Messages/small_Product description is r' is: 'Product description is required !!'
+
+2018-02-28 12:41:11 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_BugsUI productAdd/Error_Messages/small_Product description is r' is: 'Product description is required !!'
+
+2018-02-28 12:41:11 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Product description is required !!' and expected text 'Product description is required !!' are matched 
+
+2018-02-28 12:41:11 - [MESSAGE][PASSED] - Actual text 'Product description is required !!' and expected text 'Product description is required !!' are matched 
+
+2018-02-28 12:41:11 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI productAdd/Error_Messages/small_Version is required), 0)): Actual text 'Version is required !!' and expected text 'Version is required !!' are matched 
+
+2018-02-28 12:41:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-02-28 12:41:11 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI productAdd/Error_Messages/small_Version is required' is present
+
+2018-02-28 12:41:11 - [TEST_STEP][PASSED] - Statement - versionRequired = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI productAdd/Error_Messages/small_Version is required)): Text of object 'Object Repository/Page_BugsUI productAdd/Error_Messages/small_Version is required' is: 'Version is required !!'
+
+2018-02-28 12:41:11 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_BugsUI productAdd/Error_Messages/small_Version is required' is: 'Version is required !!'
+
+2018-02-28 12:41:11 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Version is required !!' and expected text 'Version is required !!' are matched 
+
+2018-02-28 12:41:11 - [MESSAGE][PASSED] - Actual text 'Version is required !!' and expected text 'Version is required !!' are matched 
+
+2018-02-28 12:41:11 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI productAdd/Error_Messages/small_Component is required), 0)): Actual text 'Component is required !!' and expected text 'Component is required !!' are matched 
+
+2018-02-28 12:41:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-02-28 12:41:11 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI productAdd/Error_Messages/small_Component is required' is present
+
+2018-02-28 12:41:11 - [TEST_STEP][PASSED] - Statement - componentRequired = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI productAdd/Error_Messages/small_Component is required)): Text of object 'Object Repository/Page_BugsUI productAdd/Error_Messages/small_Component is required' is: 'Component is required !!'
+
+2018-02-28 12:41:11 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_BugsUI productAdd/Error_Messages/small_Component is required' is: 'Component is required !!'
+
+2018-02-28 12:41:11 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Component is required !!' and expected text 'Component is required !!' are matched 
+
+2018-02-28 12:41:11 - [MESSAGE][PASSED] - Actual text 'Component is required !!' and expected text 'Component is required !!' are matched 
+
+2018-02-28 12:41:11 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI productAdd/Error_Messages/small_Component description is), 0)): Actual text 'Component description is required !!' and expected text 'Component description is required !!' are matched 
+
+2018-02-28 12:41:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-02-28 12:41:11 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI productAdd/Error_Messages/small_Component description is' is present
+
+2018-02-28 12:41:11 - [TEST_STEP][PASSED] - Statement - componentDescRequired = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI productAdd/Error_Messages/small_Component description is)): Text of object 'Object Repository/Page_BugsUI productAdd/Error_Messages/small_Component description is' is: 'Component description is required !!'
+
+2018-02-28 12:41:11 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_BugsUI productAdd/Error_Messages/small_Component description is' is: 'Component description is required !!'
+
+2018-02-28 12:41:11 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Component description is required !!' and expected text 'Component description is required !!' are matched 
+
+2018-02-28 12:41:11 - [MESSAGE][PASSED] - Actual text 'Component description is required !!' and expected text 'Component description is required !!' are matched 
+
+2018-02-28 12:41:11 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI productAdd/Error_Messages/small_Email Id is required), 0)): Actual text 'Email Id is required !!' and expected text 'Email Id is required !!' are matched 
+
+2018-02-28 12:41:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-02-28 12:41:11 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI productAdd/Error_Messages/small_Email Id is required' is present
+
+2018-02-28 12:41:11 - [TEST_STEP][PASSED] - Statement - emailIdRequired = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI productAdd/Error_Messages/small_Email Id is required)): Text of object 'Object Repository/Page_BugsUI productAdd/Error_Messages/small_Email Id is required' is: 'Email Id is required !!'
+
+2018-02-28 12:41:11 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_BugsUI productAdd/Error_Messages/small_Email Id is required' is: 'Email Id is required !!'
+
+2018-02-28 12:41:11 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Email Id is required !!' and expected text 'Email Id is required !!' are matched 
+
+2018-02-28 12:41:11 - [MESSAGE][PASSED] - Actual text 'Email Id is required !!' and expected text 'Email Id is required !!' are matched]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ProductAdd_TestCases/VerifyAdditionOfSuccessfulProduct" classname="Test Cases/ProductAdd_TestCases/VerifyAdditionOfSuccessfulProduct" status="FAILED">
+         <failure type="FAILED" message="Unable to verify match between actual text '' and expected text 'Email Id does not exist !!' (Root cause: Actual text '' and expected text 'Email Id does not exist !!' are not matched)"/>
+         <system-out><![CDATA[2018-02-28 12:41:11 - [TEST_CASE][FAILED] - Test Cases/ProductAdd_TestCases/VerifyAdditionOfSuccessfulProduct: Test Cases/ProductAdd_TestCases/VerifyAdditionOfSuccessfulProduct FAILED because (of) Unable to verify match between actual text '' and expected text 'Email Id does not exist !!' (Root cause: Actual text '' and expected text 'Email Id does not exist !!' are not matched)
+
+2018-02-28 12:41:11 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'Software' are selected in object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/select_Classification' 
+
+2018-02-28 12:41:11 - [MESSAGE][PASSED] - All options with label 'Software' are selected in object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/select_Classification' 
+
+2018-02-28 12:41:11 - [TEST_STEP][PASSED] - setText: Text 'TestProduct_Automation' is set on object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/input_productName_addProduct'
+
+2018-02-28 12:41:12 - [MESSAGE][PASSED] - Text 'TestProduct_Automation' is set on object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/input_productName_addProduct'
+
+2018-02-28 12:41:12 - [TEST_STEP][PASSED] - setText: Text 'TestProduct Automation Description' is set on object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/textarea_productDescription_ad'
+
+2018-02-28 12:41:12 - [MESSAGE][PASSED] - Text 'TestProduct Automation Description' is set on object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/textarea_productDescription_ad'
+
+2018-02-28 12:41:12 - [TEST_STEP][PASSED] - setText: Text '1' is set on object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/input_version_addProduct'
+
+2018-02-28 12:41:12 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/input_version_addProduct'
+
+2018-02-28 12:41:12 - [TEST_STEP][PASSED] - setText: Text 'Test_Component_Automation' is set on object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/input_component_addProduct'
+
+2018-02-28 12:41:13 - [MESSAGE][PASSED] - Text 'Test_Component_Automation' is set on object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/input_component_addProduct'
+
+2018-02-28 12:41:13 - [TEST_STEP][PASSED] - setText: Text 'TestComponent Description' is set on object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/textarea_componentDescription_'
+
+2018-02-28 12:41:13 - [MESSAGE][PASSED] - Text 'TestComponent Description' is set on object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/textarea_componentDescription_'
+
+2018-02-28 12:41:13 - [TEST_STEP][PASSED] - setText: Text 'kumar' is set on object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/input_AssignTO_addProduct'
+
+2018-02-28 12:41:13 - [MESSAGE][PASSED] - Text 'kumar' is set on object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/input_AssignTO_addProduct'
+
+2018-02-28 12:41:13 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/button_ADD' successfully
+
+2018-02-28 12:41:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-02-28 12:41:13 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/button_ADD' successfully
+
+2018-02-28 12:41:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/button_ADD' is clicked on
+
+2018-02-28 12:41:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/button_ADD' is clicked on
+
+2018-02-28 12:41:13 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI productAdd/Error_Messages/small_Invalid Email Id), 0)): Actual text 'Invalid Email Id !!' and expected text 'Invalid Email Id !!' are matched 
+
+2018-02-28 12:41:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-02-28 12:41:13 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI productAdd/Error_Messages/small_Invalid Email Id' is present
+
+2018-02-28 12:41:13 - [TEST_STEP][PASSED] - Statement - invalidEmailId = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI productAdd/Error_Messages/small_Invalid Email Id)): Text of object 'Object Repository/Page_BugsUI productAdd/Error_Messages/small_Invalid Email Id' is: 'Invalid Email Id !!'
+
+2018-02-28 12:41:13 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_BugsUI productAdd/Error_Messages/small_Invalid Email Id' is: 'Invalid Email Id !!'
+
+2018-02-28 12:41:13 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Invalid Email Id !!' and expected text 'Invalid Email Id !!' are matched 
+
+2018-02-28 12:41:13 - [MESSAGE][PASSED] - Actual text 'Invalid Email Id !!' and expected text 'Invalid Email Id !!' are matched 
+
+2018-02-28 12:41:13 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-02-28 12:41:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-02-28 12:41:15 - [TEST_STEP][PASSED] - Statement - com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI productAdd/ProductAdd_Fields/input_AssignTO_addProduct), 2).clear(): Found 1 web elements with id: 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/input_AssignTO_addProduct' located by 'By.xpath: //input[@type = 'text' and @name = 'AssignTO_addProduct']' in '2' second(s)
+
+2018-02-28 12:41:15 - [TEST_STEP][PASSED] - setText: Text 'kumar@happiestminds.com' is set on object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/input_AssignTO_addProduct'
+
+2018-02-28 12:41:16 - [MESSAGE][PASSED] - Text 'kumar@happiestminds.com' is set on object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/input_AssignTO_addProduct'
+
+2018-02-28 12:41:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/button_ADD' is clicked on
+
+2018-02-28 12:41:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/button_ADD' is clicked on
+
+2018-02-28 12:41:16 - [TEST_STEP][FAILED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI productAdd/Error_Messages/small_Email Id does not exist), 0)): Unable to verify match between actual text '' and expected text 'Email Id does not exist !!' (Root cause: Actual text '' and expected text 'Email Id does not exist !!' are not matched)
+
+2018-02-28 12:41:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-02-28 12:41:16 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI productAdd/Error_Messages/small_Email Id does not exist' is present
+
+2018-02-28 12:41:16 - [TEST_STEP][PASSED] - Statement - emailDoesNotExist = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI productAdd/Error_Messages/small_Email Id does not exist)): Text of object 'Object Repository/Page_BugsUI productAdd/Error_Messages/small_Email Id does not exist' is: ''
+
+2018-02-28 12:41:16 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_BugsUI productAdd/Error_Messages/small_Email Id does not exist' is: ''
+
+2018-02-28 12:41:16 - [TEST_STEP][FAILED] - verifyMatch: Unable to verify match between actual text '' and expected text 'Email Id does not exist !!' (Root cause: Actual text '' and expected text 'Email Id does not exist !!' are not matched)
+
+2018-02-28 12:41:16 - [MESSAGE][FAILED] - Unable to verify match between actual text '' and expected text 'Email Id does not exist !!' (Root cause: Actual text '' and expected text 'Email Id does not exist !!' are not matched)]]></system-out>
+         <system-err><![CDATA[2018-02-28 12:41:11 - [TEST_CASE][FAILED] - Test Cases/ProductAdd_TestCases/VerifyAdditionOfSuccessfulProduct: Test Cases/ProductAdd_TestCases/VerifyAdditionOfSuccessfulProduct FAILED because (of) Unable to verify match between actual text '' and expected text 'Email Id does not exist !!' (Root cause: Actual text '' and expected text 'Email Id does not exist !!' are not matched)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-02-28 12:40:08 - [TEST_SUITE][FAILED] - ProductAddScenarios: Test Cases/ProductAdd_TestCases/VerifyAdditionOfSuccessfulProduct FAILED because (of) Unable to verify match between actual text '' and expected text 'Email Id does not exist !!' (Root cause: Actual text '' and expected text 'Email Id does not exist !!' are not matched)]]></system-out>
+      <system-err><![CDATA[2018-02-28 12:40:08 - [TEST_SUITE][FAILED] - ProductAddScenarios: Test Cases/ProductAdd_TestCases/VerifyAdditionOfSuccessfulProduct FAILED because (of) Unable to verify match between actual text '' and expected text 'Email Id does not exist !!' (Root cause: Actual text '' and expected text 'Email Id does not exist !!' are not matched)]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>VerifyValidBug_Present_In_Depends_and_Blocks_field</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>91ebc5ae-b8fc-4dd1-afab-dd2be004e290</testCaseGuid>
+</TestCaseEntity>

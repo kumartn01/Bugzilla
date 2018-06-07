@@ -1,0 +1,45 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+ProductAddScenarios,Chrome 63.0.3239.132,,2018-02-28 11:30:22,2018-02-28 11:30:50,28.079s,ERROR
+,,,,,,
+Test Cases/ProductAdd_TestCases/VerifyProductAddPageLoads,Chrome 63.0.3239.132,,2018-02-28 11:30:22,2018-02-28 11:30:46,23.285s,PASSED
+openBrowser,Chrome 63.0.3239.132,,2018-02-28 11:30:23,2018-02-28 11:30:31,7.594s,PASSED
+navigateToUrl,Chrome 63.0.3239.132,,2018-02-28 11:30:31,2018-02-28 11:30:38,7.774s,PASSED
+maximizeWindow,Chrome 63.0.3239.132,,2018-02-28 11:30:38,2018-02-28 11:30:40,1.194s,PASSED
+setText,Chrome 63.0.3239.132,,2018-02-28 11:30:40,2018-02-28 11:30:40,0.273s,PASSED
+setText,Chrome 63.0.3239.132,,2018-02-28 11:30:40,2018-02-28 11:30:40,0.173s,PASSED
+click,Chrome 63.0.3239.132,,2018-02-28 11:30:40,2018-02-28 11:30:40,0.158s,PASSED
+verifyElementAttributeValue,Chrome 63.0.3239.132,,2018-02-28 11:30:40,2018-02-28 11:30:40,0.097s,PASSED
+Statement - productAddTabVisible = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Dashboard/a_Product)),Chrome 63.0.3239.132,,2018-02-28 11:30:40,2018-02-28 11:30:40,0.109s,PASSED
+delay,Chrome 63.0.3239.132,,2018-02-28 11:30:40,2018-02-28 11:30:42,2.027s,PASSED
+Statement - If (productAddTabVisible),Chrome 63.0.3239.132,,2018-02-28 11:30:42,2018-02-28 11:30:44,1.242s,PASSED
+delay,Chrome 63.0.3239.132,,2018-02-28 11:30:44,2018-02-28 11:30:46,2.004s,PASSED
+verifyElementText,Chrome 63.0.3239.132,,2018-02-28 11:30:46,2018-02-28 11:30:46,0.100s,PASSED
+,,,,,,
+Test Cases/ProductAdd_TestCases/VerifyMandatoryMarkNextToFields,Chrome 63.0.3239.132,,2018-02-28 11:30:46,2018-02-28 11:30:46,0.378s,PASSED
+"Statement - mandatoryElements = com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI productAdd/ProductAdd_Fields/span_), 0)",Chrome 63.0.3239.132,,2018-02-28 11:30:46,2018-02-28 11:30:46,0.074s,PASSED
+"Statement - println(""Size of Mandatory fields is:----"" + mandatoryElements.size())",Chrome 63.0.3239.132,,2018-02-28 11:30:46,2018-02-28 11:30:46,0.006s,PASSED
+verifyEqual,Chrome 63.0.3239.132,,2018-02-28 11:30:46,2018-02-28 11:30:46,0.015s,PASSED
+,,,,,,
+Test Cases/ProductAdd_TestCases/ValidationOf_All_ProductAddPage_Fields,Chrome 63.0.3239.132,,2018-02-28 11:30:46,2018-02-28 11:30:47,1.209s,PASSED
+verifyElementText,Chrome 63.0.3239.132,,2018-02-28 11:30:47,2018-02-28 11:30:47,0.074s,PASSED
+verifyElementPresent,Chrome 63.0.3239.132,,2018-02-28 11:30:47,2018-02-28 11:30:47,0.060s,PASSED
+verifyElementText,Chrome 63.0.3239.132,,2018-02-28 11:30:47,2018-02-28 11:30:47,0.107s,PASSED
+verifyElementPresent,Chrome 63.0.3239.132,,2018-02-28 11:30:47,2018-02-28 11:30:47,0.044s,PASSED
+verifyElementText,Chrome 63.0.3239.132,,2018-02-28 11:30:47,2018-02-28 11:30:47,0.069s,PASSED
+verifyElementPresent,Chrome 63.0.3239.132,,2018-02-28 11:30:47,2018-02-28 11:30:47,0.041s,PASSED
+verifyElementText,Chrome 63.0.3239.132,,2018-02-28 11:30:47,2018-02-28 11:30:47,0.069s,PASSED
+verifyElementPresent,Chrome 63.0.3239.132,,2018-02-28 11:30:47,2018-02-28 11:30:47,0.030s,PASSED
+verifyElementText,Chrome 63.0.3239.132,,2018-02-28 11:30:47,2018-02-28 11:30:47,0.058s,PASSED
+verifyElementPresent,Chrome 63.0.3239.132,,2018-02-28 11:30:47,2018-02-28 11:30:47,0.030s,PASSED
+verifyElementText,Chrome 63.0.3239.132,,2018-02-28 11:30:47,2018-02-28 11:30:47,0.052s,PASSED
+verifyElementPresent,Chrome 63.0.3239.132,,2018-02-28 11:30:47,2018-02-28 11:30:47,0.039s,PASSED
+verifyElementText,Chrome 63.0.3239.132,,2018-02-28 11:30:47,2018-02-28 11:30:47,0.050s,PASSED
+verifyElementPresent,Chrome 63.0.3239.132,,2018-02-28 11:30:47,2018-02-28 11:30:47,0.033s,PASSED
+verifyElementText,Chrome 63.0.3239.132,,2018-02-28 11:30:47,2018-02-28 11:30:47,0.054s,PASSED
+verifyElementPresent,Chrome 63.0.3239.132,,2018-02-28 11:30:47,2018-02-28 11:30:47,0.027s,PASSED
+,,,,,,
+Test Cases/ProductAdd_TestCases/VerifyErrorMessages_for_all_mandatoryfields,Chrome 63.0.3239.132,,2018-02-28 11:30:47,2018-02-28 11:30:49,1.490s,ERROR
+scrollToElement,Chrome 63.0.3239.132,,2018-02-28 11:30:48,2018-02-28 11:30:48,0.066s,PASSED
+click,Chrome 63.0.3239.132,,2018-02-28 11:30:48,2018-02-28 11:30:48,0.100s,PASSED
+delay,Chrome 63.0.3239.132,,2018-02-28 11:30:48,2018-02-28 11:30:49,1.004s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI productAdd/Error_Messages/small_Product is required, 0)))",Chrome 63.0.3239.132,,2018-02-28 11:30:49,2018-02-28 11:30:49,0.004s,PASSED

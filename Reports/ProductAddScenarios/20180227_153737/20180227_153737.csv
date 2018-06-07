@@ -1,0 +1,56 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+ProductAddScenarios,Chrome 63.0.3239.132,,2018-02-27 15:37:39,2018-02-27 15:38:07,27.278s,PASSED
+,,,,,,
+Test Cases/ProductAdd_TestCases/VerifyProductAddPageLoads,Chrome 63.0.3239.132,,2018-02-27 15:37:40,2018-02-27 15:38:00,19.789s,PASSED
+openBrowser,Chrome 63.0.3239.132,,2018-02-27 15:37:41,2018-02-27 15:37:45,4.254s,PASSED
+navigateToUrl,Chrome 63.0.3239.132,,2018-02-27 15:37:45,2018-02-27 15:37:53,8.384s,PASSED
+maximizeWindow,Chrome 63.0.3239.132,,2018-02-27 15:37:53,2018-02-27 15:37:54,1.210s,PASSED
+setText,Chrome 63.0.3239.132,,2018-02-27 15:37:54,2018-02-27 15:37:55,0.260s,PASSED
+setText,Chrome 63.0.3239.132,,2018-02-27 15:37:55,2018-02-27 15:37:55,0.193s,PASSED
+click,Chrome 63.0.3239.132,,2018-02-27 15:37:55,2018-02-27 15:37:55,0.165s,PASSED
+verifyElementAttributeValue,Chrome 63.0.3239.132,,2018-02-27 15:37:55,2018-02-27 15:37:55,0.161s,PASSED
+Statement - productAddTabVisible = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Dashboard/a_Product)),Chrome 63.0.3239.132,,2018-02-27 15:37:55,2018-02-27 15:37:55,0.115s,PASSED
+delay,Chrome 63.0.3239.132,,2018-02-27 15:37:55,2018-02-27 15:37:57,2.041s,PASSED
+Statement - If (productAddTabVisible),Chrome 63.0.3239.132,,2018-02-27 15:37:57,2018-02-27 15:37:58,0.401s,PASSED
+delay,Chrome 63.0.3239.132,,2018-02-27 15:37:58,2018-02-27 15:38:00,2.005s,PASSED
+verifyElementText,Chrome 63.0.3239.132,,2018-02-27 15:38:00,2018-02-27 15:38:00,0.098s,PASSED
+,,,,,,
+Test Cases/ProductAdd_TestCases/VerifyMandatoryMarkNextToFields,Chrome 63.0.3239.132,,2018-02-27 15:38:00,2018-02-27 15:38:00,0.337s,PASSED
+"Statement - mandatoryElements = com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI productAdd/span_), 0)",Chrome 63.0.3239.132,,2018-02-27 15:38:00,2018-02-27 15:38:00,0.072s,PASSED
+"Statement - println(""Size of Mandatory fields is:----"" + mandatoryElements.size())",Chrome 63.0.3239.132,,2018-02-27 15:38:00,2018-02-27 15:38:00,0.005s,PASSED
+verifyEqual,Chrome 63.0.3239.132,,2018-02-27 15:38:00,2018-02-27 15:38:00,0.015s,PASSED
+,,,,,,
+Test Cases/ProductAdd_TestCases/ValidationOf_All_ProductAddPage_Fields,Chrome 63.0.3239.132,,2018-02-27 15:38:00,2018-02-27 15:38:01,1.240s,PASSED
+verifyElementText,Chrome 63.0.3239.132,,2018-02-27 15:38:00,2018-02-27 15:38:01,0.086s,PASSED
+verifyElementPresent,Chrome 63.0.3239.132,,2018-02-27 15:38:01,2018-02-27 15:38:01,0.056s,PASSED
+verifyElementText,Chrome 63.0.3239.132,,2018-02-27 15:38:01,2018-02-27 15:38:01,0.085s,PASSED
+verifyElementPresent,Chrome 63.0.3239.132,,2018-02-27 15:38:01,2018-02-27 15:38:01,0.055s,PASSED
+verifyElementText,Chrome 63.0.3239.132,,2018-02-27 15:38:01,2018-02-27 15:38:01,0.077s,PASSED
+verifyElementPresent,Chrome 63.0.3239.132,,2018-02-27 15:38:01,2018-02-27 15:38:01,0.043s,PASSED
+verifyElementText,Chrome 63.0.3239.132,,2018-02-27 15:38:01,2018-02-27 15:38:01,0.084s,PASSED
+verifyElementPresent,Chrome 63.0.3239.132,,2018-02-27 15:38:01,2018-02-27 15:38:01,0.037s,PASSED
+verifyElementText,Chrome 63.0.3239.132,,2018-02-27 15:38:01,2018-02-27 15:38:01,0.062s,PASSED
+verifyElementPresent,Chrome 63.0.3239.132,,2018-02-27 15:38:01,2018-02-27 15:38:01,0.029s,PASSED
+verifyElementText,Chrome 63.0.3239.132,,2018-02-27 15:38:01,2018-02-27 15:38:01,0.056s,PASSED
+verifyElementPresent,Chrome 63.0.3239.132,,2018-02-27 15:38:01,2018-02-27 15:38:01,0.036s,PASSED
+verifyElementText,Chrome 63.0.3239.132,,2018-02-27 15:38:01,2018-02-27 15:38:01,0.059s,PASSED
+verifyElementPresent,Chrome 63.0.3239.132,,2018-02-27 15:38:01,2018-02-27 15:38:01,0.030s,PASSED
+verifyElementText,Chrome 63.0.3239.132,,2018-02-27 15:38:01,2018-02-27 15:38:01,0.061s,PASSED
+verifyElementPresent,Chrome 63.0.3239.132,,2018-02-27 15:38:01,2018-02-27 15:38:01,0.035s,PASSED
+,,,,,,
+Test Cases/ProductAdd_TestCases/VerifyAdditionOfSuccessfulProduct,Chrome 63.0.3239.132,,2018-02-27 15:38:01,2018-02-27 15:38:06,4.241s,PASSED
+selectOptionByLabel,Chrome 63.0.3239.132,,2018-02-27 15:38:02,2018-02-27 15:38:02,0.154s,PASSED
+setText,Chrome 63.0.3239.132,,2018-02-27 15:38:02,2018-02-27 15:38:02,0.281s,PASSED
+setText,Chrome 63.0.3239.132,,2018-02-27 15:38:02,2018-02-27 15:38:02,0.309s,PASSED
+setText,Chrome 63.0.3239.132,,2018-02-27 15:38:02,2018-02-27 15:38:02,0.117s,PASSED
+setText,Chrome 63.0.3239.132,,2018-02-27 15:38:02,2018-02-27 15:38:03,0.242s,PASSED
+setText,Chrome 63.0.3239.132,,2018-02-27 15:38:03,2018-02-27 15:38:03,0.225s,PASSED
+setText,Chrome 63.0.3239.132,,2018-02-27 15:38:03,2018-02-27 15:38:03,0.269s,PASSED
+scrollToElement,Chrome 63.0.3239.132,,2018-02-27 15:38:03,2018-02-27 15:38:03,0.075s,PASSED
+click,Chrome 63.0.3239.132,,2018-02-27 15:38:03,2018-02-27 15:38:03,0.139s,PASSED
+delay,Chrome 63.0.3239.132,,2018-02-27 15:38:03,2018-02-27 15:38:05,2.082s,PASSED
+"Statement - successAlert = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI productAdd/div_Successfully added the pro), 0)",Chrome 63.0.3239.132,,2018-02-27 15:38:05,2018-02-27 15:38:06,0.062s,PASSED
+Statement - text = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 63.0.3239.132,,2018-02-27 15:38:06,2018-02-27 15:38:06,0.001s,PASSED
+Statement - If (successAlert),Chrome 63.0.3239.132,,2018-02-27 15:38:06,2018-02-27 15:38:06,0.067s,PASSED
+"Statement - println(""Success text is--------"" + text)",Chrome 63.0.3239.132,,2018-02-27 15:38:06,2018-02-27 15:38:06,0.001s,PASSED
+verifyMatch,Chrome 63.0.3239.132,,2018-02-27 15:38:06,2018-02-27 15:38:06,0.010s,PASSED

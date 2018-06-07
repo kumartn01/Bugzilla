@@ -1,0 +1,36 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+ProductAddScenarios,Chrome 63.0.3239.132,,2018-02-27 14:37:37,2018-02-27 14:39:27,1m - 49.492s,PASSED
+,,,,,,
+Test Cases/ProductAdd_TestCases/VerifyProductAddPageLoads,Chrome 63.0.3239.132,,2018-02-27 14:37:38,2018-02-27 14:39:22,1m - 44.400s,PASSED
+openBrowser,Chrome 63.0.3239.132,,2018-02-27 14:37:38,2018-02-27 14:37:42,4.257s,PASSED
+navigateToUrl,Chrome 63.0.3239.132,,2018-02-27 14:37:42,2018-02-27 14:39:17,1m - 34.465s,PASSED
+setText,Chrome 63.0.3239.132,,2018-02-27 14:39:17,2018-02-27 14:39:17,0.274s,PASSED
+setText,Chrome 63.0.3239.132,,2018-02-27 14:39:17,2018-02-27 14:39:17,0.185s,PASSED
+click,Chrome 63.0.3239.132,,2018-02-27 14:39:17,2018-02-27 14:39:17,0.127s,PASSED
+verifyElementAttributeValue,Chrome 63.0.3239.132,,2018-02-27 14:39:17,2018-02-27 14:39:18,0.093s,PASSED
+Statement - productAddTabVisible = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Dashboard/a_Product)),Chrome 63.0.3239.132,,2018-02-27 14:39:18,2018-02-27 14:39:18,0.095s,PASSED
+delay,Chrome 63.0.3239.132,,2018-02-27 14:39:18,2018-02-27 14:39:20,2.039s,PASSED
+Statement - If (productAddTabVisible),Chrome 63.0.3239.132,,2018-02-27 14:39:20,2018-02-27 14:39:20,0.226s,PASSED
+delay,Chrome 63.0.3239.132,,2018-02-27 14:39:20,2018-02-27 14:39:22,2.005s,PASSED
+verifyElementText,Chrome 63.0.3239.132,,2018-02-27 14:39:22,2018-02-27 14:39:22,0.105s,PASSED
+,,,,,,
+Test Cases/ProductAdd_TestCases/VerifyMandatoryMarkNextToFields,Chrome 63.0.3239.132,,2018-02-27 14:39:22,2018-02-27 14:39:22,0.330s,PASSED
+"Statement - mandatoryElements = com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI productAdd/span_), 0)",Chrome 63.0.3239.132,,2018-02-27 14:39:22,2018-02-27 14:39:22,0.085s,PASSED
+"Statement - println(""Size of Mandatory fields is:----"" + mandatoryElements.size())",Chrome 63.0.3239.132,,2018-02-27 14:39:22,2018-02-27 14:39:22,0.006s,PASSED
+verifyEqual,Chrome 63.0.3239.132,,2018-02-27 14:39:22,2018-02-27 14:39:22,0.016s,PASSED
+,,,,,,
+Test Cases/ProductAdd_TestCases/ValidationOf_All_ProductAddPage_Fields,Chrome 63.0.3239.132,,2018-02-27 14:39:22,2018-02-27 14:39:24,2.007s,PASSED
+verifyElementText,Chrome 63.0.3239.132,,2018-02-27 14:39:23,2018-02-27 14:39:23,0.069s,PASSED
+verifyElementPresent,Chrome 63.0.3239.132,,2018-02-27 14:39:23,2018-02-27 14:39:23,0.072s,PASSED
+verifyElementText,Chrome 63.0.3239.132,,2018-02-27 14:39:23,2018-02-27 14:39:23,0.090s,PASSED
+verifyElementPresent,Chrome 63.0.3239.132,,2018-02-27 14:39:23,2018-02-27 14:39:23,0.064s,PASSED
+verifyElementText,Chrome 63.0.3239.132,,2018-02-27 14:39:23,2018-02-27 14:39:23,0.082s,PASSED
+verifyElementPresent,Chrome 63.0.3239.132,,2018-02-27 14:39:23,2018-02-27 14:39:23,0.038s,PASSED
+verifyElementText,Chrome 63.0.3239.132,,2018-02-27 14:39:23,2018-02-27 14:39:24,0.954s,PASSED
+verifyElementPresent,Chrome 63.0.3239.132,,2018-02-27 14:39:24,2018-02-27 14:39:24,0.042s,PASSED
+verifyElementText,Chrome 63.0.3239.132,,2018-02-27 14:39:24,2018-02-27 14:39:24,0.065s,PASSED
+verifyElementPresent,Chrome 63.0.3239.132,,2018-02-27 14:39:24,2018-02-27 14:39:24,0.037s,PASSED
+verifyElementText,Chrome 63.0.3239.132,,2018-02-27 14:39:24,2018-02-27 14:39:24,0.058s,PASSED
+verifyElementPresent,Chrome 63.0.3239.132,,2018-02-27 14:39:24,2018-02-27 14:39:24,0.033s,PASSED
+verifyElementText,Chrome 63.0.3239.132,,2018-02-27 14:39:24,2018-02-27 14:39:24,0.058s,PASSED
+verifyElementPresent,Chrome 63.0.3239.132,,2018-02-27 14:39:24,2018-02-27 14:39:24,0.031s,PASSED

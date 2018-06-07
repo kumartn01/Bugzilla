@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="BugPage_GeneralTabScenarios" time="50" tests="2" failures="0" errors="0">
+   <testsuite name="BugPage_GeneralTabScenarios" tests="2" failures="0" errors="0" time="50" timestamp="2018-05-08 15:03:22" hostname="Kumar.nagendra - HMECL001948.happiestminds.com" id="Test Suites/BugPage_GeneralTabScenarios">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\BugPage_GeneralTabScenarios\\20180508_150320"/>
+         <property name="logFiles" value="C:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\BugPage_GeneralTabScenarios\\20180508_150320\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Kumar.nagendra - HMECL001948.happiestminds.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.0.1"/>
+         <property name="browser" value="Chrome 66.0.3359.139"/>
+         <property name="hostAddress" value="10.95.75.194"/>
+         <property name="sessionId" value="a71e5b4fdfd8f3a011fb6296b1f1a36b"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/BugPage_GeneralTab_TestCases/VerifyBugInfoFields_CanBe_Edited_Commited" classname="Test Cases/BugPage_GeneralTab_TestCases/VerifyBugInfoFields_CanBe_Edited_Commited" status="PASSED">
+         <system-out><![CDATA[2018-05-08 15:03:23 - [TEST_CASE][PASSED] - Test Cases/BugPage_GeneralTab_TestCases/VerifyBugInfoFields_CanBe_Edited_Commited: Test Cases/BugPage_GeneralTab_TestCases/VerifyBugInfoFields_CanBe_Edited_Commited
+
+2018-05-08 15:03:23 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-08 15:03:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-08 15:03:26 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://bugzilla-ui.staging.kube.sw-infra.sjc.aristanetworks.com/login' successfully
+
+2018-05-08 15:03:32 - [MESSAGE][PASSED] - Navigate to 'http://bugzilla-ui.staging.kube.sw-infra.sjc.aristanetworks.com/login' successfully
+
+2018-05-08 15:03:32 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-05-08 15:03:33 - [MESSAGE][PASSED] - Current window maximized
+
+2018-05-08 15:03:33 - [TEST_STEP][PASSED] - setText: Text 'knagendra-ext' is set on object 'Object Repository/Page_BugsUI login/input_value_userid'
+
+2018-05-08 15:03:34 - [MESSAGE][PASSED] - Text 'knagendra-ext' is set on object 'Object Repository/Page_BugsUI login/input_value_userid'
+
+2018-05-08 15:03:34 - [TEST_STEP][PASSED] - setText: Text 'Tumkur@123' is set on object 'Object Repository/Page_BugsUI login/input_form-control ng-untouche'
+
+2018-05-08 15:03:34 - [MESSAGE][PASSED] - Text 'Tumkur@123' is set on object 'Object Repository/Page_BugsUI login/input_form-control ng-untouche'
+
+2018-05-08 15:03:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BugsUI login/button_Login' is clicked on
+
+2018-05-08 15:03:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI login/button_Login' is clicked on
+
+2018-05-08 15:03:35 - [TEST_STEP][PASSED] - setText: Text '247777' is set on object 'Object Repository/Page_BugsUI Dashboard/input_navbar-search-input'
+
+2018-05-08 15:03:35 - [MESSAGE][PASSED] - Text '247777' is set on object 'Object Repository/Page_BugsUI Dashboard/input_navbar-search-input'
+
+2018-05-08 15:03:35 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-05-08 15:03:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-05-08 15:03:36 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/Page_BugsUI Dashboard/input_navbar-search-input'
+
+2018-05-08 15:03:37 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_BugsUI Dashboard/input_navbar-search-input'
+
+2018-05-08 15:03:37 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-05-08 15:03:40 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-05-08 15:03:40 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(BugsPage_GeneralTab/a_General), 1)): Object 'Object Repository/BugsPage_GeneralTab/a_General' has attribute 'text' with value 'General'
+
+2018-05-08 15:03:40 - [MESSAGE][PASSED] - Object 'Object Repository/BugsPage_GeneralTab/a_General' is present
+
+2018-05-08 15:03:40 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/BugsPage_GeneralTab/a_General' has attribute 'text' with value 'General'
+
+2018-05-08 15:03:40 - [MESSAGE][PASSED] - Object 'Object Repository/BugsPage_GeneralTab/a_General' has attribute 'text' with value 'General'
+
+2018-05-08 15:03:40 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(BugsPage_GeneralTab/bugInfoBox), 1)): Object 'Object Repository/BugsPage_GeneralTab/i_toggleMinusBugInfoBox' is present
+
+2018-05-08 15:03:40 - [MESSAGE][PASSED] - Object 'Object Repository/BugsPage_GeneralTab/bugInfoBox' is present
+
+2018-05-08 15:03:40 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(BugsPage_GeneralTab/i_togglePlusBugInfoBox), 1)): Object 'Object Repository/BugsPage_GeneralTab/i_toggleMinusBugInfoBox' is present
+
+2018-05-08 15:03:40 - [MESSAGE][PASSED] - Object 'Object Repository/BugsPage_GeneralTab/i_togglePlusBugInfoBox' is present
+
+2018-05-08 15:03:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/BugsPage_GeneralTab/i_togglePlusBugInfoBox' is clicked on
+
+2018-05-08 15:03:40 - [MESSAGE][PASSED] - Object: 'Object Repository/BugsPage_GeneralTab/i_togglePlusBugInfoBox' is clicked on
+
+2018-05-08 15:03:40 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/BugsPage_GeneralTab/input_alias' is present
+
+2018-05-08 15:03:40 - [MESSAGE][PASSED] - Object 'Object Repository/BugsPage_GeneralTab/input_alias' is present
+
+2018-05-08 15:03:40 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/BugsPage_GeneralTab/i_toggleMinusBugInfoBox' is present
+
+2018-05-08 15:03:40 - [MESSAGE][PASSED] - Object 'Object Repository/BugsPage_GeneralTab/i_toggleMinusBugInfoBox' is present
+
+2018-05-08 15:03:40 - [TEST_STEP][PASSED] - newKey.ClearFields.ClearTextField: newKey.ClearFields.ClearTextField is PASSED
+
+2018-05-08 15:03:41 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/BugsPage_GeneralTab/input_alias'
+
+2018-05-08 15:03:41 - [MESSAGE][PASSED] - Keys 'DELETE + ' sent to object: 'Object Repository/BugsPage_GeneralTab/input_alias'
+
+2018-05-08 15:03:41 - [MESSAGE][PASSED] - newKey.ClearFields.ClearTextField is PASSED
+
+2018-05-08 15:03:41 - [TEST_STEP][PASSED] - setText: Text 'Automation_AliasName' is set on object 'Object Repository/BugsPage_GeneralTab/input_alias'
+
+2018-05-08 15:03:43 - [MESSAGE][PASSED] - Text 'Automation_AliasName' is set on object 'Object Repository/BugsPage_GeneralTab/input_alias'
+
+2018-05-08 15:03:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/BugsPage_GeneralTab/button_COMMIT' is clicked on
+
+2018-05-08 15:03:43 - [MESSAGE][PASSED] - Object: 'Object Repository/BugsPage_GeneralTab/button_COMMIT' is clicked on
+
+2018-05-08 15:03:43 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyAlertPresent(2)): Alert accepted
+
+2018-05-08 15:03:45 - [MESSAGE][PASSED] - Alert is present after 2 second(s).
+
+2018-05-08 15:03:45 - [TEST_STEP][PASSED] - Statement - alertText = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAlertText(): Get alert text successfully: 'Changes have been committed successfully to Bug #247777'
+
+2018-05-08 15:03:45 - [MESSAGE][PASSED] - Get alert text successfully: 'Changes have been committed successfully to Bug #247777'
+
+2018-05-08 15:03:45 - [TEST_STEP][PASSED] - verifyEqual: Actual object 'Changes have been committed successfully to Bug #247777' and expected object 'Changes have been committed successfully to Bug #247777' are equal
+
+2018-05-08 15:03:45 - [MESSAGE][PASSED] - Actual object 'Changes have been committed successfully to Bug #247777' and expected object 'Changes have been committed successfully to Bug #247777' are equal
+
+2018-05-08 15:03:45 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2018-05-08 15:03:45 - [MESSAGE][PASSED] - Alert accepted
+
+2018-05-08 15:03:45 - [TEST_STEP][PASSED] - delay: Delayed 6 second(s)
+
+2018-05-08 15:03:51 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2018-05-08 15:03:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/BugsPage_GeneralTab/i_togglePlusBugInfoBox' is clicked on
+
+2018-05-08 15:03:51 - [MESSAGE][PASSED] - Object: 'Object Repository/BugsPage_GeneralTab/i_togglePlusBugInfoBox' is clicked on
+
+2018-05-08 15:03:51 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-08 15:03:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-08 15:03:53 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/BugsPage_GeneralTab/bugInfo_Package' is present
+
+2018-05-08 15:03:53 - [MESSAGE][PASSED] - Object 'Object Repository/BugsPage_GeneralTab/bugInfo_Package' is present
+
+2018-05-08 15:03:53 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/BugsPage_GeneralTab/bugInfo_classification' is present
+
+2018-05-08 15:03:53 - [MESSAGE][PASSED] - Object 'Object Repository/BugsPage_GeneralTab/bugInfo_classification' is present
+
+2018-05-08 15:03:53 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/BugsPage_GeneralTab/bugInfo_Component' is present
+
+2018-05-08 15:03:53 - [MESSAGE][PASSED] - Object 'Object Repository/BugsPage_GeneralTab/bugInfo_Component' is present
+
+2018-05-08 15:03:53 - [TEST_STEP][PASSED] - newKey.ClearFields.ClearTextField: newKey.ClearFields.ClearTextField is PASSED
+
+2018-05-08 15:03:53 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/BugsPage_GeneralTab/input_alias'
+
+2018-05-08 15:03:54 - [MESSAGE][PASSED] - Keys 'DELETE + ' sent to object: 'Object Repository/BugsPage_GeneralTab/input_alias'
+
+2018-05-08 15:03:54 - [MESSAGE][PASSED] - newKey.ClearFields.ClearTextField is PASSED
+
+2018-05-08 15:03:54 - [TEST_STEP][PASSED] - Statement - newAliasName = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(BugsPage_GeneralTab/input_alias)): Text of object 'Object Repository/BugsPage_GeneralTab/input_alias' is: ''
+
+2018-05-08 15:03:54 - [MESSAGE][PASSED] - Text of object 'Object Repository/BugsPage_GeneralTab/input_alias' is: ''
+
+2018-05-08 15:03:54 - [TEST_STEP][PASSED] - setText: Text 'auto' is set on object 'Object Repository/BugsPage_GeneralTab/input_alias'
+
+2018-05-08 15:03:54 - [MESSAGE][PASSED] - Text 'auto' is set on object 'Object Repository/BugsPage_GeneralTab/input_alias'
+
+2018-05-08 15:03:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/BugsPage_GeneralTab/button_COMMIT' is clicked on
+
+2018-05-08 15:03:55 - [MESSAGE][PASSED] - Object: 'Object Repository/BugsPage_GeneralTab/button_COMMIT' is clicked on
+
+2018-05-08 15:03:55 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyAlertPresent(2)): Alert accepted
+
+2018-05-08 15:03:56 - [MESSAGE][PASSED] - Alert is present after 2 second(s).
+
+2018-05-08 15:03:56 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2018-05-08 15:03:56 - [MESSAGE][PASSED] - Alert accepted
+
+2018-05-08 15:03:56 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2018-05-08 15:04:00 - [MESSAGE][PASSED] - Delayed 4 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/BugPage_GeneralTab_TestCases/VerifyStatusBoxFields_canBe_Edited" classname="Test Cases/BugPage_GeneralTab_TestCases/VerifyStatusBoxFields_canBe_Edited" status="PASSED">
+         <system-out><![CDATA[2018-05-08 15:04:00 - [TEST_CASE][PASSED] - Test Cases/BugPage_GeneralTab_TestCases/VerifyStatusBoxFields_canBe_Edited: Test Cases/BugPage_GeneralTab_TestCases/VerifyStatusBoxFields_canBe_Edited
+
+2018-05-08 15:04:00 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-08 15:04:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-08 15:04:02 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(BugsPage_GeneralTab/Status-Box/statusBox), 1)): Object 'Object Repository/BugsPage_GeneralTab/Status-Box/i_toggleMinusStatusBox' is present
+
+2018-05-08 15:04:02 - [MESSAGE][PASSED] - Object 'Object Repository/BugsPage_GeneralTab/Status-Box/statusBox' is present
+
+2018-05-08 15:04:02 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(BugsPage_GeneralTab/Status-Box/i_togglePlusStatusBox), 1)): Object 'Object Repository/BugsPage_GeneralTab/Status-Box/i_toggleMinusStatusBox' is present
+
+2018-05-08 15:04:02 - [MESSAGE][PASSED] - Object 'Object Repository/BugsPage_GeneralTab/Status-Box/i_togglePlusStatusBox' is present
+
+2018-05-08 15:04:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/BugsPage_GeneralTab/Status-Box/i_togglePlusStatusBox' is clicked on
+
+2018-05-08 15:04:03 - [MESSAGE][PASSED] - Object: 'Object Repository/BugsPage_GeneralTab/Status-Box/i_togglePlusStatusBox' is clicked on
+
+2018-05-08 15:04:03 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/BugsPage_GeneralTab/Status-Box/statusBox_status_dropdown' is present
+
+2018-05-08 15:04:03 - [MESSAGE][PASSED] - Object 'Object Repository/BugsPage_GeneralTab/Status-Box/statusBox_status_dropdown' is present
+
+2018-05-08 15:04:03 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/BugsPage_GeneralTab/Status-Box/statusBox_Platform_dropdown' is present
+
+2018-05-08 15:04:03 - [MESSAGE][PASSED] - Object 'Object Repository/BugsPage_GeneralTab/Status-Box/statusBox_Platform_dropdown' is present
+
+2018-05-08 15:04:03 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/BugsPage_GeneralTab/Status-Box/statusBox_Priority_dropdown' is present
+
+2018-05-08 15:04:03 - [MESSAGE][PASSED] - Object 'Object Repository/BugsPage_GeneralTab/Status-Box/statusBox_Priority_dropdown' is present
+
+2018-05-08 15:04:03 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/BugsPage_GeneralTab/Status-Box/statusBox_Severity_dropdown' is present
+
+2018-05-08 15:04:03 - [MESSAGE][PASSED] - Object 'Object Repository/BugsPage_GeneralTab/Status-Box/statusBox_Severity_dropdown' is present
+
+2018-05-08 15:04:03 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/BugsPage_GeneralTab/Status-Box/statusBox_Resoluion_dropdown' is present
+
+2018-05-08 15:04:03 - [MESSAGE][PASSED] - Object 'Object Repository/BugsPage_GeneralTab/Status-Box/statusBox_Resoluion_dropdown' is present
+
+2018-05-08 15:04:03 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/BugsPage_GeneralTab/Status-Box/i_toggleMinusStatusBox' is present
+
+2018-05-08 15:04:03 - [MESSAGE][PASSED] - Object 'Object Repository/BugsPage_GeneralTab/Status-Box/i_toggleMinusStatusBox' is present
+
+2018-05-08 15:04:03 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'CLOSED' are selected in object 'Object Repository/BugsPage_GeneralTab/Status-Box/statusBox_status_dropdown' 
+
+2018-05-08 15:04:04 - [MESSAGE][PASSED] - All options with label 'CLOSED' are selected in object 'Object Repository/BugsPage_GeneralTab/Status-Box/statusBox_status_dropdown' 
+
+2018-05-08 15:04:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/BugsPage_GeneralTab/button_COMMIT' is clicked on
+
+2018-05-08 15:04:04 - [MESSAGE][PASSED] - Object: 'Object Repository/BugsPage_GeneralTab/button_COMMIT' is clicked on
+
+2018-05-08 15:04:04 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-08 15:04:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-08 15:04:06 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyAlertPresent(2)): Alert accepted
+
+2018-05-08 15:04:06 - [MESSAGE][PASSED] - Alert is present after 2 second(s).
+
+2018-05-08 15:04:06 - [TEST_STEP][PASSED] - Statement - alertText = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAlertText(): Get alert text successfully: 'For Resolution as 'Fixed',
+Please specify atleast one of the following:Fixed by changelist / Fixed By Gerrit / Force Commit or change the bug's Resolution to something besides FIXED(e.g. WONTFIX, WORKSFORME, DUPLICATE)'
+
+2018-05-08 15:04:06 - [MESSAGE][PASSED] - Get alert text successfully: 'For Resolution as 'Fixed',
+Please specify atleast one of the following:Fixed by changelist / Fixed By Gerrit / Force Commit or change the bug's Resolution to something besides FIXED(e.g. WONTFIX, WORKSFORME, DUPLICATE)'
+
+2018-05-08 15:04:06 - [TEST_STEP][PASSED] - Statement - If (alertText.contains("Please specify atleast one of the following:Fixed by changelist")): Alert accepted
+
+2018-05-08 15:04:06 - [TEST_STEP][PASSED] - Statement - assert true: null
+
+2018-05-08 15:04:06 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2018-05-08 15:04:06 - [MESSAGE][PASSED] - Alert accepted
+
+2018-05-08 15:04:06 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(BugsPage_GeneralTab/checkbox_forceCommit), 1)): Delayed 2 second(s)
+
+2018-05-08 15:04:06 - [MESSAGE][PASSED] - Object 'Object Repository/BugsPage_GeneralTab/checkbox_forceCommit' is present
+
+2018-05-08 15:04:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/BugsPage_GeneralTab/checkbox_forceCommit' is clicked on
+
+2018-05-08 15:04:06 - [MESSAGE][PASSED] - Object: 'Object Repository/BugsPage_GeneralTab/checkbox_forceCommit' is clicked on
+
+2018-05-08 15:04:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/BugsPage_GeneralTab/button_COMMIT' is clicked on
+
+2018-05-08 15:04:07 - [MESSAGE][PASSED] - Object: 'Object Repository/BugsPage_GeneralTab/button_COMMIT' is clicked on
+
+2018-05-08 15:04:07 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-08 15:04:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-08 15:04:09 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyAlertPresent(2)): Alert dismissed
+
+2018-05-08 15:04:09 - [MESSAGE][PASSED] - Alert is present after 2 second(s).
+
+2018-05-08 15:04:09 - [TEST_STEP][PASSED] - Statement - alertText = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAlertText(): Get alert text successfully: 'Do you want to add comments?'
+
+2018-05-08 15:04:09 - [MESSAGE][PASSED] - Get alert text successfully: 'Do you want to add comments?'
+
+2018-05-08 15:04:09 - [TEST_STEP][PASSED] - Statement - If (alertText.contains("Do you want to add comments?")): Alert dismissed
+
+2018-05-08 15:04:09 - [TEST_STEP][PASSED] - Statement - assert true: null
+
+2018-05-08 15:04:09 - [TEST_STEP][PASSED] - dismissAlert: Alert dismissed
+
+2018-05-08 15:04:09 - [MESSAGE][PASSED] - Alert dismissed
+
+2018-05-08 15:04:09 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyAlertPresent(2)): Alert accepted
+
+2018-05-08 15:04:09 - [MESSAGE][PASSED] - Alert is present after 2 second(s).
+
+2018-05-08 15:04:09 - [TEST_STEP][PASSED] - Statement - alertText = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAlertText(): Get alert text successfully: 'Changes have been committed successfully to Bug #247777'
+
+2018-05-08 15:04:09 - [MESSAGE][PASSED] - Get alert text successfully: 'Changes have been committed successfully to Bug #247777'
+
+2018-05-08 15:04:09 - [TEST_STEP][PASSED] - Statement - If (alertText.contains("Changes have been committed successfully to Bug #247777")): Alert accepted
+
+2018-05-08 15:04:09 - [TEST_STEP][PASSED] - Statement - assert true: null
+
+2018-05-08 15:04:09 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2018-05-08 15:04:09 - [MESSAGE][PASSED] - Alert accepted
+
+2018-05-08 15:04:09 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-05-08 15:04:12 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-08 15:03:22 - [TEST_SUITE][PASSED] - BugPage_GeneralTabScenarios: Test Cases/BugPage_GeneralTab_TestCases/VerifyStatusBoxFields_canBe_Edited]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

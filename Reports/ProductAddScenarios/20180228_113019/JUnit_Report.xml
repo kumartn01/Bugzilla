@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ProductAddScenarios" time="28" tests="3" failures="0" errors="1">
+   <testsuite name="ProductAddScenarios" tests="3" failures="0" errors="1" time="28" timestamp="2018-02-28 11:30:22" hostname="Kumar.nagendra - HMECL000103.happiestminds.com" id="Test Suites/ProductAddScenarios">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\ProductAddScenarios\\20180228_113019"/>
+         <property name="logFiles" value="D:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\ProductAddScenarios\\20180228_113019\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Kumar.nagendra - HMECL000103.happiestminds.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.0.1"/>
+         <property name="browser" value="Chrome 63.0.3239.132"/>
+         <property name="hostAddress" value="10.95.79.244"/>
+         <property name="sessionId" value="81b6afe4f9f5367c683598565c19aff3"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/ProductAdd_TestCases/VerifyProductAddPageLoads" classname="Test Cases/ProductAdd_TestCases/VerifyProductAddPageLoads" status="PASSED">
+         <system-out><![CDATA[2018-02-28 11:30:22 - [TEST_CASE][PASSED] - Test Cases/ProductAdd_TestCases/VerifyProductAddPageLoads: Test Cases/ProductAdd_TestCases/VerifyProductAddPageLoads
+
+2018-02-28 11:30:23 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-02-28 11:30:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-02-28 11:30:31 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://bugzilla-ui/login' successfully
+
+2018-02-28 11:30:38 - [MESSAGE][PASSED] - Navigate to 'https://bugzilla-ui/login' successfully
+
+2018-02-28 11:30:38 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-02-28 11:30:40 - [MESSAGE][PASSED] - Current window maximized
+
+2018-02-28 11:30:40 - [TEST_STEP][PASSED] - setText: Text 'knagendra-ext' is set on object 'Object Repository/Page_BugsUI login/input_value_userid'
+
+2018-02-28 11:30:40 - [MESSAGE][PASSED] - Text 'knagendra-ext' is set on object 'Object Repository/Page_BugsUI login/input_value_userid'
+
+2018-02-28 11:30:40 - [TEST_STEP][PASSED] - setText: Text 'Tumkur@123' is set on object 'Object Repository/Page_BugsUI login/input_form-control ng-untouche'
+
+2018-02-28 11:30:40 - [MESSAGE][PASSED] - Text 'Tumkur@123' is set on object 'Object Repository/Page_BugsUI login/input_form-control ng-untouche'
+
+2018-02-28 11:30:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BugsUI login/button_Login' is clicked on
+
+2018-02-28 11:30:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI login/button_Login' is clicked on
+
+2018-02-28 11:30:40 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Page_BugsUI login/a_BugsUI' has attribute 'text' with value 'BugsUI '
+
+2018-02-28 11:30:40 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI login/a_BugsUI' has attribute 'text' with value 'BugsUI '
+
+2018-02-28 11:30:40 - [TEST_STEP][PASSED] - Statement - productAddTabVisible = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Dashboard/a_Product)): Object 'Object Repository/Page_BugsUI Dashboard/a_Product' is visible
+
+2018-02-28 11:30:40 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Dashboard/a_Product' is visible
+
+2018-02-28 11:30:40 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-02-28 11:30:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-02-28 11:30:42 - [TEST_STEP][PASSED] - Statement - If (productAddTabVisible): Object: 'Object Repository/Page_BugsUI Dashboard/a_ADD' is clicked on
+
+2018-02-28 11:30:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BugsUI Dashboard/a_Product' is clicked on
+
+2018-02-28 11:30:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI Dashboard/a_Product' is clicked on
+
+2018-02-28 11:30:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BugsUI Dashboard/a_ADD' is clicked on
+
+2018-02-28 11:30:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI Dashboard/a_ADD' is clicked on
+
+2018-02-28 11:30:44 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-02-28 11:30:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-02-28 11:30:46 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/h2_Add Product' are matched.
+
+2018-02-28 11:30:46 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/h2_Add Product' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ProductAdd_TestCases/VerifyMandatoryMarkNextToFields" classname="Test Cases/ProductAdd_TestCases/VerifyMandatoryMarkNextToFields" status="PASSED">
+         <system-out><![CDATA[2018-02-28 11:30:46 - [TEST_CASE][PASSED] - Test Cases/ProductAdd_TestCases/VerifyMandatoryMarkNextToFields: Test Cases/ProductAdd_TestCases/VerifyMandatoryMarkNextToFields
+
+2018-02-28 11:30:46 - [TEST_STEP][PASSED] - Statement - mandatoryElements = com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI productAdd/ProductAdd_Fields/span_), 0): Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-02-28 11:30:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-02-28 11:30:46 - [TEST_STEP][PASSED] - Statement - println("Size of Mandatory fields is:----" + mandatoryElements.size()): null
+
+2018-02-28 11:30:46 - [TEST_STEP][PASSED] - verifyEqual: Actual object '7' and expected object '7' are equal
+
+2018-02-28 11:30:46 - [MESSAGE][PASSED] - Actual object '7' and expected object '7' are equal]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ProductAdd_TestCases/ValidationOf_All_ProductAddPage_Fields" classname="Test Cases/ProductAdd_TestCases/ValidationOf_All_ProductAddPage_Fields" status="PASSED">
+         <system-out><![CDATA[2018-02-28 11:30:46 - [TEST_CASE][PASSED] - Test Cases/ProductAdd_TestCases/ValidationOf_All_ProductAddPage_Fields: Test Cases/ProductAdd_TestCases/ValidationOf_All_ProductAddPage_Fields
+
+2018-02-28 11:30:47 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/span_Classification' are matched.
+
+2018-02-28 11:30:47 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/span_Classification' are matched.
+
+2018-02-28 11:30:47 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/select_Classification' is present
+
+2018-02-28 11:30:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-02-28 11:30:47 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/select_Classification' is present
+
+2018-02-28 11:30:47 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/span_Product' are matched.
+
+2018-02-28 11:30:47 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/span_Product' are matched.
+
+2018-02-28 11:30:47 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/input_productName_addProduct' is present
+
+2018-02-28 11:30:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-02-28 11:30:47 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/input_productName_addProduct' is present
+
+2018-02-28 11:30:47 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/span_Description' are matched.
+
+2018-02-28 11:30:47 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/span_Description' are matched.
+
+2018-02-28 11:30:47 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/textarea_productDescription_ad' is present
+
+2018-02-28 11:30:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-02-28 11:30:47 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/textarea_productDescription_ad' is present
+
+2018-02-28 11:30:47 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/span_Closed for bug entry' are matched.
+
+2018-02-28 11:30:47 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/span_Closed for bug entry' are matched.
+
+2018-02-28 11:30:47 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/input_bugentry_addProduct' is present
+
+2018-02-28 11:30:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-02-28 11:30:47 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/input_bugentry_addProduct' is present
+
+2018-02-28 11:30:47 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/span_Version' are matched.
+
+2018-02-28 11:30:47 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/span_Version' are matched.
+
+2018-02-28 11:30:47 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/input_version_addProduct' is present
+
+2018-02-28 11:30:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-02-28 11:30:47 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/input_version_addProduct' is present
+
+2018-02-28 11:30:47 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/span_Component' are matched.
+
+2018-02-28 11:30:47 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/span_Component' are matched.
+
+2018-02-28 11:30:47 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/input_component_addProduct' is present
+
+2018-02-28 11:30:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-02-28 11:30:47 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/input_component_addProduct' is present
+
+2018-02-28 11:30:47 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/span_Comp Desc' are matched.
+
+2018-02-28 11:30:47 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/span_Comp Desc' are matched.
+
+2018-02-28 11:30:47 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/textarea_componentDescription_' is present
+
+2018-02-28 11:30:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-02-28 11:30:47 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/textarea_componentDescription_' is present
+
+2018-02-28 11:30:47 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/span_Default Assignee' are matched.
+
+2018-02-28 11:30:47 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/span_Default Assignee' are matched.
+
+2018-02-28 11:30:47 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/input_AssignTO_addProduct' is present
+
+2018-02-28 11:30:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-02-28 11:30:47 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/input_AssignTO_addProduct' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ProductAdd_TestCases/VerifyErrorMessages_for_all_mandatoryfields" classname="Test Cases/ProductAdd_TestCases/VerifyErrorMessages_for_all_mandatoryfields" status="ERROR">
+         <error type="ERROR" message="Test Cases/ProductAdd_TestCases/VerifyErrorMessages_for_all_mandatoryfields FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.testobject.ObjectRepository.findTestObject() is applicable for argument types: (java.lang.String, java.lang.Integer) values: [Page_BugsUI productAdd/Error_Messages/small_Product is required, ...]
+Possible solutions: findTestObject(java.lang.String), findTestObject(java.lang.String, java.util.Map)"/>
+         <system-out><![CDATA[2018-02-28 11:30:47 - [TEST_CASE][ERROR] - Test Cases/ProductAdd_TestCases/VerifyErrorMessages_for_all_mandatoryfields: Test Cases/ProductAdd_TestCases/VerifyErrorMessages_for_all_mandatoryfields FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.testobject.ObjectRepository.findTestObject() is applicable for argument types: (java.lang.String, java.lang.Integer) values: [Page_BugsUI productAdd/Error_Messages/small_Product is required, ...]
+Possible solutions: findTestObject(java.lang.String), findTestObject(java.lang.String, java.util.Map)
+
+2018-02-28 11:30:48 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/button_ADD' successfully
+
+2018-02-28 11:30:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-02-28 11:30:48 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/button_ADD' successfully
+
+2018-02-28 11:30:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/button_ADD' is clicked on
+
+2018-02-28 11:30:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/button_ADD' is clicked on
+
+2018-02-28 11:30:48 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-02-28 11:30:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-02-28 11:30:49 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI productAdd/Error_Messages/small_Product is required, 0))): null]]></system-out>
+         <system-err><![CDATA[2018-02-28 11:30:47 - [TEST_CASE][ERROR] - Test Cases/ProductAdd_TestCases/VerifyErrorMessages_for_all_mandatoryfields: Test Cases/ProductAdd_TestCases/VerifyErrorMessages_for_all_mandatoryfields FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.testobject.ObjectRepository.findTestObject() is applicable for argument types: (java.lang.String, java.lang.Integer) values: [Page_BugsUI productAdd/Error_Messages/small_Product is required, ...]
+Possible solutions: findTestObject(java.lang.String), findTestObject(java.lang.String, java.util.Map)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-02-28 11:30:22 - [TEST_SUITE][ERROR] - ProductAddScenarios: Test Cases/ProductAdd_TestCases/VerifyErrorMessages_for_all_mandatoryfields FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.testobject.ObjectRepository.findTestObject() is applicable for argument types: (java.lang.String, java.lang.Integer) values: [Page_BugsUI productAdd/Error_Messages/small_Product is required, ...]
+Possible solutions: findTestObject(java.lang.String), findTestObject(java.lang.String, java.util.Map)]]></system-out>
+      <system-err><![CDATA[2018-02-28 11:30:22 - [TEST_SUITE][ERROR] - ProductAddScenarios: Test Cases/ProductAdd_TestCases/VerifyErrorMessages_for_all_mandatoryfields FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.testobject.ObjectRepository.findTestObject() is applicable for argument types: (java.lang.String, java.lang.Integer) values: [Page_BugsUI productAdd/Error_Messages/small_Product is required, ...]
+Possible solutions: findTestObject(java.lang.String), findTestObject(java.lang.String, java.util.Map)]]></system-err>
+   </testsuite>
+</testsuites>

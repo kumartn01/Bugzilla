@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="DependsOn_Blocks_Scenarios" time="48" tests="2" failures="1" errors="0">
+   <testsuite name="DependsOn_Blocks_Scenarios" tests="2" failures="1" errors="0" time="48" timestamp="2018-04-25 16:18:53" hostname="Kumar.nagendra - HMECL001948.happiestminds.com" id="Test Suites/DependsOn_Blocks_Scenarios">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\DependsOn_Blocks_Scenarios\\20180425_161851"/>
+         <property name="logFiles" value="C:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\DependsOn_Blocks_Scenarios\\20180425_161851\\execution0.log"/>
+         <property name="attachments" value="C:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\DependsOn_Blocks_Scenarios\\20180425_161851\\1524653380132.png, C:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\DependsOn_Blocks_Scenarios\\20180425_161851\\1524653380703.png"/>
+         <property name="hostName" value="Kumar.nagendra - HMECL001948.happiestminds.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.0.1"/>
+         <property name="browser" value="Chrome 65.0.3325.181"/>
+         <property name="hostAddress" value="10.95.75.194"/>
+         <property name="sessionId" value="afa9c0f4f1352da5323e6977b2c8a6be"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Depends_Blocks_TestCases/Verify whether user can open Depends on and Blocks section" classname="Test Cases/Depends_Blocks_TestCases/Verify whether user can open Depends on and Blocks section" status="PASSED">
+         <system-out><![CDATA[2018-04-25 16:18:54 - [TEST_CASE][PASSED] - Test Cases/Depends_Blocks_TestCases/Verify whether user can open Depends on and Blocks section: Test Cases/Depends_Blocks_TestCases/Verify whether user can open Depends on and Blocks section
+
+2018-04-25 16:18:54 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-04-25 16:18:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-04-25 16:18:57 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://bugzilla-ui.staging.kube.sw-infra.sjc.aristanetworks.com/login' successfully
+
+2018-04-25 16:19:11 - [MESSAGE][PASSED] - Navigate to 'http://bugzilla-ui.staging.kube.sw-infra.sjc.aristanetworks.com/login' successfully
+
+2018-04-25 16:19:11 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-04-25 16:19:11 - [MESSAGE][PASSED] - Current window maximized
+
+2018-04-25 16:19:11 - [TEST_STEP][PASSED] - setText: Text 'knagendra-ext' is set on object 'Object Repository/Page_BugsUI login/input_value_userid'
+
+2018-04-25 16:19:13 - [MESSAGE][PASSED] - Text 'knagendra-ext' is set on object 'Object Repository/Page_BugsUI login/input_value_userid'
+
+2018-04-25 16:19:13 - [TEST_STEP][PASSED] - setText: Text 'Tumkur@123' is set on object 'Object Repository/Page_BugsUI login/input_form-control ng-untouche'
+
+2018-04-25 16:19:14 - [MESSAGE][PASSED] - Text 'Tumkur@123' is set on object 'Object Repository/Page_BugsUI login/input_form-control ng-untouche'
+
+2018-04-25 16:19:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BugsUI login/button_Login' is clicked on
+
+2018-04-25 16:19:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI login/button_Login' is clicked on
+
+2018-04-25 16:19:14 - [TEST_STEP][PASSED] - setText: Text '254833' is set on object 'Object Repository/Page_BugsUI Dashboard/input_navbar-search-input'
+
+2018-04-25 16:19:14 - [MESSAGE][PASSED] - Text '254833' is set on object 'Object Repository/Page_BugsUI Dashboard/input_navbar-search-input'
+
+2018-04-25 16:19:14 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-04-25 16:19:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-25 16:19:15 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/Page_BugsUI Dashboard/input_navbar-search-input'
+
+2018-04-25 16:19:16 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_BugsUI Dashboard/input_navbar-search-input'
+
+2018-04-25 16:19:16 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-04-25 16:19:19 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-04-25 16:19:19 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI_Depends_Blocks/a_Depends and Blocks), 1)): Object: 'Object Repository/Page_BugsUI_Depends_Blocks/a_Depends and Blocks' is clicked on
+
+2018-04-25 16:19:19 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI_Depends_Blocks/a_Depends and Blocks' is present
+
+2018-04-25 16:19:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BugsUI_Depends_Blocks/a_Depends and Blocks' is clicked on
+
+2018-04-25 16:19:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI_Depends_Blocks/a_Depends and Blocks' is clicked on
+
+2018-04-25 16:19:19 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-25 16:19:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-25 16:19:21 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI_Depends_Blocks/h3_Bug blocks), 1)): null
+
+2018-04-25 16:19:21 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI_Depends_Blocks/h3_Bug blocks' is present
+
+2018-04-25 16:19:21 - [TEST_STEP][PASSED] - Statement - blocksText = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI_Depends_Blocks/h3_Bug blocks)): Text of object 'Object Repository/Page_BugsUI_Depends_Blocks/h3_Bug blocks' is: 'Bug 254833 blocks :'
+
+2018-04-25 16:19:21 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_BugsUI_Depends_Blocks/h3_Bug blocks' is: 'Bug 254833 blocks :'
+
+2018-04-25 16:19:21 - [TEST_STEP][PASSED] - Statement - If (blocksText.equals("Bug 254833 blocks :")): null
+
+2018-04-25 16:19:21 - [TEST_STEP][PASSED] - Statement - assert true: null
+
+2018-04-25 16:19:21 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI_Depends_Blocks/h3_Bug depends on), 1)): null
+
+2018-04-25 16:19:22 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI_Depends_Blocks/h3_Bug depends on' is present
+
+2018-04-25 16:19:22 - [TEST_STEP][PASSED] - Statement - blocksText = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI_Depends_Blocks/h3_Bug depends on)): Text of object 'Object Repository/Page_BugsUI_Depends_Blocks/h3_Bug depends on' is: 'Bug 254833 depends on :'
+
+2018-04-25 16:19:22 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_BugsUI_Depends_Blocks/h3_Bug depends on' is: 'Bug 254833 depends on :'
+
+2018-04-25 16:19:22 - [TEST_STEP][PASSED] - Statement - If (blocksText.equals("Bug 254833 depends on :")): null
+
+2018-04-25 16:19:22 - [TEST_STEP][PASSED] - Statement - assert true: null
+
+2018-04-25 16:19:22 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-04-25 16:19:25 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Depends_Blocks_TestCases/Verify_fields_in_DependsOn_and_Blocks_section" classname="Test Cases/Depends_Blocks_TestCases/Verify_fields_in_DependsOn_and_Blocks_section" status="PASSED">
+         <system-out><![CDATA[2018-04-25 16:19:25 - [TEST_CASE][PASSED] - Test Cases/Depends_Blocks_TestCases/Verify_fields_in_DependsOn_and_Blocks_section: Test Cases/Depends_Blocks_TestCases/Verify_fields_in_DependsOn_and_Blocks_section
+
+2018-04-25 16:19:25 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-25 16:19:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-25 16:19:27 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_BugsUI_Depends_Blocks/dependsOn_deleteButton' is present
+
+2018-04-25 16:19:27 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI_Depends_Blocks/dependsOn_deleteButton' is present
+
+2018-04-25 16:19:27 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_BugsUI_Depends_Blocks/dependsOn_ID' is present
+
+2018-04-25 16:19:27 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI_Depends_Blocks/dependsOn_ID' is present
+
+2018-04-25 16:19:27 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_BugsUI_Depends_Blocks/dependsOn_Priority' is present
+
+2018-04-25 16:19:27 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI_Depends_Blocks/dependsOn_Priority' is present
+
+2018-04-25 16:19:27 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_BugsUI_Depends_Blocks/dependsOn_Summary' is present
+
+2018-04-25 16:19:27 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI_Depends_Blocks/dependsOn_Summary' is present
+
+2018-04-25 16:19:27 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_BugsUI_Depends_Blocks/dependsOn_Assigned To' is present
+
+2018-04-25 16:19:27 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI_Depends_Blocks/dependsOn_Assigned To' is present
+
+2018-04-25 16:19:27 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_BugsUI_Depends_Blocks/dependOn_Status' is present
+
+2018-04-25 16:19:27 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI_Depends_Blocks/dependOn_Status' is present
+
+2018-04-25 16:19:27 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_BugsUI_Depends_Blocks/div_dependsOnBug1' is present
+
+2018-04-25 16:19:27 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI_Depends_Blocks/div_dependsOnBug1' is present
+
+2018-04-25 16:19:27 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_BugsUI_Depends_Blocks/dependsOn_Add_button' is present
+
+2018-04-25 16:19:28 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI_Depends_Blocks/dependsOn_Add_button' is present
+
+2018-04-25 16:19:28 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_BugsUI_Depends_Blocks/blocks_deleteButton' is present
+
+2018-04-25 16:19:28 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI_Depends_Blocks/blocks_deleteButton' is present
+
+2018-04-25 16:19:28 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_BugsUI_Depends_Blocks/blocks_ID' is present
+
+2018-04-25 16:19:28 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI_Depends_Blocks/blocks_ID' is present
+
+2018-04-25 16:19:28 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_BugsUI_Depends_Blocks/blocks_Priority' is present
+
+2018-04-25 16:19:28 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI_Depends_Blocks/blocks_Priority' is present
+
+2018-04-25 16:19:28 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_BugsUI_Depends_Blocks/blocks_Summary' is present
+
+2018-04-25 16:19:28 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI_Depends_Blocks/blocks_Summary' is present
+
+2018-04-25 16:19:28 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_BugsUI_Depends_Blocks/blocks_Assigned To' is present
+
+2018-04-25 16:19:28 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI_Depends_Blocks/blocks_Assigned To' is present
+
+2018-04-25 16:19:28 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_BugsUI_Depends_Blocks/blocks_Status' is present
+
+2018-04-25 16:19:28 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI_Depends_Blocks/blocks_Status' is present
+
+2018-04-25 16:19:28 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_BugsUI_Depends_Blocks/div_blockedBug1' is present
+
+2018-04-25 16:19:28 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI_Depends_Blocks/div_blockedBug1' is present
+
+2018-04-25 16:19:28 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_BugsUI_Depends_Blocks/blocks_Add_button' is present
+
+2018-04-25 16:19:28 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI_Depends_Blocks/blocks_Add_button' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Depends_Blocks_TestCases/Verify_user_can_add _new BugId_under_DependsOn_section" classname="Test Cases/Depends_Blocks_TestCases/Verify_user_can_add _new BugId_under_DependsOn_section" status="FAILED">
+         <failure type="FAILED" message="Unable to verify object 'Object Repository/Page_BugsUI_Depends_Blocks/a_252923' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI_Depends_Blocks/a_252923' located by 'By.xpath: id(&quot;dependsOnTable&quot;)/tbody[1]/tr[1]/td[2]/a[1][count(. | //a[@href = '252923' and (text() = '252923' or . = '252923')]) = count(//a[@href = '252923' and (text() = '252923' or . = '252923')])]' not found)"/>
+         <system-out><![CDATA[2018-04-25 16:19:28 - [TEST_CASE][FAILED] - Test Cases/Depends_Blocks_TestCases/Verify_user_can_add _new BugId_under_DependsOn_section: Test Cases/Depends_Blocks_TestCases/Verify_user_can_add _new BugId_under_DependsOn_section FAILED because (of) Unable to verify object 'Object Repository/Page_BugsUI_Depends_Blocks/a_252923' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI_Depends_Blocks/a_252923' located by 'By.xpath: id("dependsOnTable")/tbody[1]/tr[1]/td[2]/a[1][count(. | //a[@href = '252923' and (text() = '252923' or . = '252923')]) = count(//a[@href = '252923' and (text() = '252923' or . = '252923')])]' not found)
+
+2018-04-25 16:19:28 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-25 16:19:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-25 16:19:30 - [TEST_STEP][PASSED] - setText: Text '09090909' is set on object 'Object Repository/Page_BugsUI_Depends_Blocks/div_dependsOnBug1'
+
+2018-04-25 16:19:31 - [MESSAGE][PASSED] - Text '09090909' is set on object 'Object Repository/Page_BugsUI_Depends_Blocks/div_dependsOnBug1'
+
+2018-04-25 16:19:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BugsUI_Depends_Blocks/dependsOn_Add_button' is clicked on
+
+2018-04-25 16:19:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI_Depends_Blocks/dependsOn_Add_button' is clicked on
+
+2018-04-25 16:19:31 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyAlertPresent(2)): Alert accepted
+
+2018-04-25 16:19:33 - [MESSAGE][PASSED] - Alert is present after 2 second(s).
+
+2018-04-25 16:19:33 - [TEST_STEP][PASSED] - Statement - alertText = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAlertText(): Get alert text successfully: 'Following Bug Id(s) entered under 'depends on' do not exist:
+09090909'
+
+2018-04-25 16:19:33 - [MESSAGE][PASSED] - Get alert text successfully: 'Following Bug Id(s) entered under 'depends on' do not exist:
+09090909'
+
+2018-04-25 16:19:33 - [TEST_STEP][PASSED] - Statement - alertText.contains("Following Bug Id(s) entered under 'depends on' does not exist:"): null
+
+2018-04-25 16:19:33 - [TEST_STEP][PASSED] - Statement - alertText.contains("09090909"): null
+
+2018-04-25 16:19:33 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2018-04-25 16:19:33 - [MESSAGE][PASSED] - Alert accepted
+
+2018-04-25 16:19:33 - [TEST_STEP][PASSED] - newKey.ClearFields.ClearTextField: newKey.ClearFields.ClearTextField is PASSED
+
+2018-04-25 16:19:33 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/Page_BugsUI_Depends_Blocks/div_dependsOnBug1'
+
+2018-04-25 16:19:33 - [MESSAGE][PASSED] - Keys 'DELETE + ' sent to object: 'Object Repository/Page_BugsUI_Depends_Blocks/div_dependsOnBug1'
+
+2018-04-25 16:19:33 - [MESSAGE][PASSED] - newKey.ClearFields.ClearTextField is PASSED
+
+2018-04-25 16:19:33 - [TEST_STEP][PASSED] - setText: Text '252923' is set on object 'Object Repository/Page_BugsUI_Depends_Blocks/div_dependsOnBug1'
+
+2018-04-25 16:19:34 - [MESSAGE][PASSED] - Text '252923' is set on object 'Object Repository/Page_BugsUI_Depends_Blocks/div_dependsOnBug1'
+
+2018-04-25 16:19:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BugsUI_Depends_Blocks/dependsOn_Add_button' is clicked on
+
+2018-04-25 16:19:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI_Depends_Blocks/dependsOn_Add_button' is clicked on
+
+2018-04-25 16:19:34 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyAlertPresent(2)): Alert accepted
+
+2018-04-25 16:19:35 - [MESSAGE][PASSED] - Alert is present after 2 second(s).
+
+2018-04-25 16:19:35 - [TEST_STEP][PASSED] - Statement - alertText = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAlertText(): Get alert text successfully: 'Changes have been committed successfully to Bug #254833'
+
+2018-04-25 16:19:35 - [MESSAGE][PASSED] - Get alert text successfully: 'Changes have been committed successfully to Bug #254833'
+
+2018-04-25 16:19:35 - [TEST_STEP][PASSED] - verifyEqual: Actual object 'Changes have been committed successfully to Bug #254833' and expected object 'Changes have been committed successfully to Bug #254833' are equal
+
+2018-04-25 16:19:35 - [MESSAGE][PASSED] - Actual object 'Changes have been committed successfully to Bug #254833' and expected object 'Changes have been committed successfully to Bug #254833' are equal
+
+2018-04-25 16:19:35 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2018-04-25 16:19:35 - [MESSAGE][PASSED] - Alert accepted
+
+2018-04-25 16:19:35 - [TEST_STEP][FAILED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI_Depends_Blocks/a_252923), 1)): Unable to verify object 'Object Repository/Page_BugsUI_Depends_Blocks/a_252923' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI_Depends_Blocks/a_252923' located by 'By.xpath: id("dependsOnTable")/tbody[1]/tr[1]/td[2]/a[1][count(. | //a[@href = '252923' and (text() = '252923' or . = '252923')]) = count(//a[@href = '252923' and (text() = '252923' or . = '252923')])]' not found)
+
+2018-04-25 16:19:40 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI_Depends_Blocks/a_252923' located by 'By.xpath: id("dependsOnTable")/tbody[1]/tr[1]/td[2]/a[1][count(. | //a[@href = '252923' and (text() = '252923' or . = '252923')]) = count(//a[@href = '252923' and (text() = '252923' or . = '252923')])]' not found
+[[ATTACHMENT|C:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\DependsOn_Blocks_Scenarios\\20180425_161851\\1524653380132.png]]
+
+2018-04-25 16:19:41 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Page_BugsUI_Depends_Blocks/a_252923' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI_Depends_Blocks/a_252923' located by 'By.xpath: id("dependsOnTable")/tbody[1]/tr[1]/td[2]/a[1][count(. | //a[@href = '252923' and (text() = '252923' or . = '252923')]) = count(//a[@href = '252923' and (text() = '252923' or . = '252923')])]' not found)
+[[ATTACHMENT|C:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\DependsOn_Blocks_Scenarios\\20180425_161851\\1524653380703.png]]]]></system-out>
+         <system-err><![CDATA[2018-04-25 16:19:28 - [TEST_CASE][FAILED] - Test Cases/Depends_Blocks_TestCases/Verify_user_can_add _new BugId_under_DependsOn_section: Test Cases/Depends_Blocks_TestCases/Verify_user_can_add _new BugId_under_DependsOn_section FAILED because (of) Unable to verify object 'Object Repository/Page_BugsUI_Depends_Blocks/a_252923' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI_Depends_Blocks/a_252923' located by 'By.xpath: id("dependsOnTable")/tbody[1]/tr[1]/td[2]/a[1][count(. | //a[@href = '252923' and (text() = '252923' or . = '252923')]) = count(//a[@href = '252923' and (text() = '252923' or . = '252923')])]' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-04-25 16:18:53 - [TEST_SUITE][FAILED] - DependsOn_Blocks_Scenarios: Test Cases/Depends_Blocks_TestCases/Verify_user_can_add _new BugId_under_DependsOn_section FAILED because (of) Unable to verify object 'Object Repository/Page_BugsUI_Depends_Blocks/a_252923' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI_Depends_Blocks/a_252923' located by 'By.xpath: id("dependsOnTable")/tbody[1]/tr[1]/td[2]/a[1][count(. | //a[@href = '252923' and (text() = '252923' or . = '252923')]) = count(//a[@href = '252923' and (text() = '252923' or . = '252923')])]' not found)]]></system-out>
+      <system-err><![CDATA[2018-04-25 16:18:53 - [TEST_SUITE][FAILED] - DependsOn_Blocks_Scenarios: Test Cases/Depends_Blocks_TestCases/Verify_user_can_add _new BugId_under_DependsOn_section FAILED because (of) Unable to verify object 'Object Repository/Page_BugsUI_Depends_Blocks/a_252923' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI_Depends_Blocks/a_252923' located by 'By.xpath: id("dependsOnTable")/tbody[1]/tr[1]/td[2]/a[1][count(. | //a[@href = '252923' and (text() = '252923' or . = '252923')]) = count(//a[@href = '252923' and (text() = '252923' or . = '252923')])]' not found)]]></system-err>
+   </testsuite>
+</testsuites>

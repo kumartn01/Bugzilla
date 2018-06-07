@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+SearchScenarios,Chrome 64.0.3282.186,,2018-03-29 14:41:08,2018-03-29 14:41:47,38.708s,INCOMPLETE
+,,,,,,
+Test Cases/Search_TestCases/VerifySearchPageLoads,Chrome 64.0.3282.186,,2018-03-29 14:41:09,2018-03-29 14:41:47,38.064s,PASSED
+openBrowser,Chrome 64.0.3282.186,,2018-03-29 14:41:09,2018-03-29 14:41:13,3.703s,PASSED
+navigateToUrl,Chrome 64.0.3282.186,,2018-03-29 14:41:13,2018-03-29 14:41:32,19.164s,PASSED
+maximizeWindow,Chrome 64.0.3282.186,,2018-03-29 14:41:32,2018-03-29 14:41:33,1.215s,PASSED
+setText,Chrome 64.0.3282.186,,2018-03-29 14:41:33,2018-03-29 14:41:34,0.391s,PASSED
+setText,Chrome 64.0.3282.186,,2018-03-29 14:41:34,2018-03-29 14:41:34,0.240s,PASSED
+click,Chrome 64.0.3282.186,,2018-03-29 14:41:34,2018-03-29 14:41:34,0.223s,PASSED
+verifyElementAttributeValue,Chrome 64.0.3282.186,,2018-03-29 14:41:34,2018-03-29 14:41:34,0.212s,PASSED
+delay,Chrome 64.0.3282.186,,2018-03-29 14:41:34,2018-03-29 14:41:36,2.038s,PASSED
+Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Dashboard/a_Search))),Chrome 64.0.3282.186,,2018-03-29 14:41:36,2018-03-29 14:41:36,0.200s,PASSED
+delay,Chrome 64.0.3282.186,,2018-03-29 14:41:36,2018-03-29 14:41:41,5.005s,PASSED
+verifyElementText,Chrome 64.0.3282.186,,2018-03-29 14:41:41,2018-03-29 14:41:42,0.125s,PASSED
+delay,Chrome 64.0.3282.186,,2018-03-29 14:41:42,2018-03-29 14:41:47,5.003s,PASSED
+,,,,,,
+Test Cases/Search_TestCases/Search_With_PackageOnly,Chrome 64.0.3282.186,,2018-03-29 14:41:47,2018-03-29 14:41:47,0.046s,PASSED

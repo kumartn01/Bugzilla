@@ -1,0 +1,38 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+BugPage_GeneralTabScenarios,Chrome 66.0.3359.139,,2018-05-08 14:37:29,2018-05-08 14:38:45,1m - 16.722s,FAILED
+,,,,,,
+Test Cases/BugPage_GeneralTab_TestCases/VerifyBugInfoFields_CanBe_Edited_Commited,Chrome 66.0.3359.139,,2018-05-08 14:37:30,2018-05-08 14:38:07,37.086s,PASSED
+openBrowser,Chrome 66.0.3359.139,,2018-05-08 14:37:30,2018-05-08 14:37:34,3.512s,PASSED
+navigateToUrl,Chrome 66.0.3359.139,,2018-05-08 14:37:34,2018-05-08 14:37:40,6.292s,PASSED
+maximizeWindow,Chrome 66.0.3359.139,,2018-05-08 14:37:40,2018-05-08 14:37:40,0.181s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-08 14:37:40,2018-05-08 14:37:41,1.037s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-08 14:37:41,2018-05-08 14:37:42,0.875s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-08 14:37:42,2018-05-08 14:37:42,0.299s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-08 14:37:42,2018-05-08 14:37:43,0.587s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-08 14:37:43,2018-05-08 14:37:44,1.043s,PASSED
+sendKeys,Chrome 66.0.3359.139,,2018-05-08 14:37:44,2018-05-08 14:37:44,0.317s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-08 14:37:44,2018-05-08 14:37:47,3.002s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(BugsPage_GeneralTab/a_General), 1))",Chrome 66.0.3359.139,,2018-05-08 14:37:47,2018-05-08 14:37:47,0.263s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(BugsPage_GeneralTab/bugInfoBox), 1))",Chrome 66.0.3359.139,,2018-05-08 14:37:47,2018-05-08 14:37:48,0.644s,PASSED
+newKey.ClearFields.ClearTextField,Chrome 66.0.3359.139,,2018-05-08 14:37:48,2018-05-08 14:37:49,0.506s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-08 14:37:49,2018-05-08 14:37:50,1.595s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-08 14:37:50,2018-05-08 14:37:50,0.262s,PASSED
+Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyAlertPresent(2)),Chrome 66.0.3359.139,,2018-05-08 14:37:50,2018-05-08 14:37:52,1.181s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-08 14:37:52,2018-05-08 14:37:58,6.003s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-08 14:37:58,2018-05-08 14:37:58,0.276s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-08 14:37:58,2018-05-08 14:38:00,2.002s,PASSED
+verifyElementPresent,Chrome 66.0.3359.139,,2018-05-08 14:38:00,2018-05-08 14:38:00,0.084s,PASSED
+verifyElementPresent,Chrome 66.0.3359.139,,2018-05-08 14:38:00,2018-05-08 14:38:00,0.077s,PASSED
+verifyElementPresent,Chrome 66.0.3359.139,,2018-05-08 14:38:00,2018-05-08 14:38:00,0.049s,PASSED
+newKey.ClearFields.ClearTextField,Chrome 66.0.3359.139,,2018-05-08 14:38:00,2018-05-08 14:38:01,0.460s,PASSED
+Statement - newAliasName = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(BugsPage_GeneralTab/input_alias)),Chrome 66.0.3359.139,,2018-05-08 14:38:01,2018-05-08 14:38:01,0.139s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-08 14:38:01,2018-05-08 14:38:01,0.555s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-08 14:38:01,2018-05-08 14:38:02,0.265s,PASSED
+Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyAlertPresent(2)),Chrome 66.0.3359.139,,2018-05-08 14:38:02,2018-05-08 14:38:03,1.064s,PASSED
+delay,Chrome 66.0.3359.139,,2018-05-08 14:38:03,2018-05-08 14:38:07,4.001s,PASSED
+,,,,,,
+Test Cases/BugPage_GeneralTab_TestCases/VerifyStatusBoxFields_canBe_Edited,Chrome 66.0.3359.139,,2018-05-08 14:38:07,2018-05-08 14:38:45,37.927s,FAILED
+delay,Chrome 66.0.3359.139,,2018-05-08 14:38:07,2018-05-08 14:38:09,2.006s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(BugsPage_GeneralTab/Status-Box/statusBox), 1))",Chrome 66.0.3359.139,,2018-05-08 14:38:09,2018-05-08 14:38:10,0.940s,PASSED
+selectOptionByLabel,Chrome 66.0.3359.139,,2018-05-08 14:38:10,2018-05-08 14:38:10,0.412s,PASSED
+Statement - resolutionValue = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI New Bug/DefaultPackageUI)),Chrome 66.0.3359.139,,2018-05-08 14:38:10,2018-05-08 14:38:45,34.269s,FAILED
