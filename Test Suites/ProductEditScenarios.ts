@@ -4,7 +4,7 @@
    <name>ProductEditScenarios</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-03-21T12:38:40</lastRun>
+   <lastRun>2018-05-29T14:49:02</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -18,21 +18,21 @@
       <testCaseId>Test Cases/ProductEdit_TestCases/VerifyProductEditPageLoads</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>d7895d4d-0ada-4074-9a1e-4244a9ecbcef</guid>
+      <guid>a15445c0-03d1-4a4f-9d9f-df4c82ae6b21</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ProductEdit_TestCases/VerifyProductName_Description_isEdited_and_updated</testCaseId>
+      <testCaseId>Test Cases/ProductEdit_TestCases/VerifyProductCanBeDeleted</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>201ea52e-2f5a-4abc-92ef-80816f9bfd5d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ProductEdit_TestCases/VerifyMadatoryComponentCanBeDeleted</testCaseId>
+      <testCaseId>Test Cases/ProductEdit_TestCases/VerifyVersionAndComponentFields</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>a15445c0-03d1-4a4f-9d9f-df4c82ae6b21</guid>
+      <guid>d7895d4d-0ada-4074-9a1e-4244a9ecbcef</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/ProductEdit_TestCases/VerifyProductCanBeDeleted</testCaseId>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/ProductEdit_TestCases/VerifyProductName_Description_isEdited_and_updated</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

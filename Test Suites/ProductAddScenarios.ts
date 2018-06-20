@@ -4,7 +4,7 @@
    <name>ProductAddScenarios</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-03-02T10:08:01</lastRun>
+   <lastRun>2018-06-15T12:26:08</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

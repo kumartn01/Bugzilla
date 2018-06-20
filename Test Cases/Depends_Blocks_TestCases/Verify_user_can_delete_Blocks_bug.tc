@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify_user_can_delete_Blocks_bug</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>82291462-f5d1-48a3-a209-cb96de203fe0</testCaseGuid>
+</TestCaseEntity>

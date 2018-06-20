@@ -1,0 +1,34 @@
+import com.kms.katalon.core.logging.KeywordLogger
+import com.kms.katalon.core.exception.StepFailedException
+import com.kms.katalon.core.reporting.ReportUtil
+import com.kms.katalon.core.main.TestCaseMain
+import com.kms.katalon.core.testdata.TestDataColumn
+import groovy.lang.MissingPropertyException
+import com.kms.katalon.core.testcase.TestCaseBinding
+import com.kms.katalon.core.driver.internal.DriverCleanerCollector
+import com.kms.katalon.core.model.FailureHandling
+import com.kms.katalon.core.configuration.RunConfiguration
+import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
+
+Map<String, String> suiteProperties = new HashMap<String, String>();
+
+
+suiteProperties.put('id', 'Test Suites/RegressionTestSuite')
+
+suiteProperties.put('name', 'RegressionTestSuite')
+
+suiteProperties.put('description', '')
+ 
+
+DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.webui.contribution.WebUiDriverCleaner())
+DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.mobile.contribution.MobileDriverCleaner())
+
+
+
+RunConfiguration.setExecutionSettingFile("C:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\RegressionTestSuite\\20180620_120139\\execution.properties")
+
+TestCaseMain.beforeStart()
+
+TestCaseMain.startTestSuite('Test Suites/RegressionTestSuite', suiteProperties, [new TestCaseBinding('Test Cases/Login_TestCases/VerifyPresenceOfFields_Links_LoginPage', 'Test Cases/Login_TestCases/VerifyPresenceOfFields_Links_LoginPage',  null), new TestCaseBinding('Test Cases/Login_TestCases/InvalidLoginsCases', 'Test Cases/Login_TestCases/InvalidLoginsCases',  null), new TestCaseBinding('Test Cases/Login_TestCases/ValidSuccessfulLogin', 'Test Cases/Login_TestCases/ValidSuccessfulLogin',  null), new TestCaseBinding('Test Cases/Login_TestCases/Login using ENTER keyword', 'Test Cases/Login_TestCases/Login using ENTER keyword',  null), new TestCaseBinding('Test Cases/NewBugCreation_TestCases/NewBugPage', 'Test Cases/NewBugCreation_TestCases/NewBugPage',  null), new TestCaseBinding('Test Cases/NewBugCreation_TestCases/ValidateNewBugPageFields', 'Test Cases/NewBugCreation_TestCases/ValidateNewBugPageFields',  null), new TestCaseBinding('Test Cases/NewBugCreation_TestCases/VerifyValidBug_Present_In_Depends_and_Blocks_field', 'Test Cases/NewBugCreation_TestCases/VerifyValidBug_Present_In_Depends_and_Blocks_field',  null), new TestCaseBinding('Test Cases/NewBugCreation_TestCases/NewBugCreation', 'Test Cases/NewBugCreation_TestCases/NewBugCreation',  null), new TestCaseBinding('Test Cases/ProductAdd_TestCases/VerifyProductAddPageLoads', 'Test Cases/ProductAdd_TestCases/VerifyProductAddPageLoads',  null), new TestCaseBinding('Test Cases/ProductAdd_TestCases/VerifyMandatoryMarkNextToFields', 'Test Cases/ProductAdd_TestCases/VerifyMandatoryMarkNextToFields',  null), new TestCaseBinding('Test Cases/ProductAdd_TestCases/ValidationOf_All_ProductAddPage_Fields', 'Test Cases/ProductAdd_TestCases/ValidationOf_All_ProductAddPage_Fields',  null), new TestCaseBinding('Test Cases/ProductAdd_TestCases/VerifyErrorMessages_for_all_mandatoryfields', 'Test Cases/ProductAdd_TestCases/VerifyErrorMessages_for_all_mandatoryfields',  null), new TestCaseBinding('Test Cases/ProductAdd_TestCases/VerifyAdditionOfSuccessfulProduct', 'Test Cases/ProductAdd_TestCases/VerifyAdditionOfSuccessfulProduct',  null), new TestCaseBinding('Test Cases/ProductAdd_TestCases/VerifyNewProductAdded_In_package_dropdown', 'Test Cases/ProductAdd_TestCases/VerifyNewProductAdded_In_package_dropdown',  null), new TestCaseBinding('Test Cases/Depends_Blocks_TestCases/Verify whether user can open Depends on and Blocks section', 'Test Cases/Depends_Blocks_TestCases/Verify whether user can open Depends on and Blocks section',  null), new TestCaseBinding('Test Cases/Depends_Blocks_TestCases/Verify_fields_in_DependsOn_and_Blocks_section', 'Test Cases/Depends_Blocks_TestCases/Verify_fields_in_DependsOn_and_Blocks_section',  null), new TestCaseBinding('Test Cases/Depends_Blocks_TestCases/Verify_user_can_add _new BugId_under_DependsOn_section', 'Test Cases/Depends_Blocks_TestCases/Verify_user_can_add _new BugId_under_DependsOn_section',  null), new TestCaseBinding('Test Cases/Depends_Blocks_TestCases/Verify_user_can_add _same BugId_under_DependsOn_and blocks_section', 'Test Cases/Depends_Blocks_TestCases/Verify_user_can_add _same BugId_under_DependsOn_and blocks_section',  null), new TestCaseBinding('Test Cases/Depends_Blocks_TestCases/Verify_user_can_delete_DependsOn_bug', 'Test Cases/Depends_Blocks_TestCases/Verify_user_can_delete_DependsOn_bug',  null), new TestCaseBinding('Test Cases/Depends_Blocks_TestCases/Verify_user_can_delete_Blocks_bug', 'Test Cases/Depends_Blocks_TestCases/Verify_user_can_delete_Blocks_bug',  null), new TestCaseBinding('Test Cases/BugPage_GeneralTab_TestCases/VerifyBugInfoFields_CanBe_Edited_Commited', 'Test Cases/BugPage_GeneralTab_TestCases/VerifyBugInfoFields_CanBe_Edited_Commited',  null), new TestCaseBinding('Test Cases/BugPage_GeneralTab_TestCases/VerifyStatusBoxFields_canBe_Edited', 'Test Cases/BugPage_GeneralTab_TestCases/VerifyStatusBoxFields_canBe_Edited',  null), new TestCaseBinding('Test Cases/BugPage_GeneralTab_TestCases/VerifyPeopleBoxFields', 'Test Cases/BugPage_GeneralTab_TestCases/VerifyPeopleBoxFields',  null), new TestCaseBinding('Test Cases/BugPage_GeneralTab_TestCases/VerifyTrackingBoxFields', 'Test Cases/BugPage_GeneralTab_TestCases/VerifyTrackingBoxFields',  null), new TestCaseBinding('Test Cases/BugPage_GeneralTab_TestCases/VerifyReleaseSection', 'Test Cases/BugPage_GeneralTab_TestCases/VerifyReleaseSection',  null), new TestCaseBinding('Test Cases/BugPage_Description_Comments_TestCases/Verify_User_Reply_Description', 'Test Cases/BugPage_Description_Comments_TestCases/Verify_User_Reply_Description',  null), new TestCaseBinding('Test Cases/Search_TestCases/VerifySearchPageLoads', 'Test Cases/Search_TestCases/VerifySearchPageLoads',  null), new TestCaseBinding('Test Cases/Search_TestCases/Search_With_PackageOnly', 'Test Cases/Search_TestCases/Search_With_PackageOnly',  null), new TestCaseBinding('Test Cases/Search_TestCases/Verify_searchResult_bugId_clickable', 'Test Cases/Search_TestCases/Verify_searchResult_bugId_clickable',  null), new TestCaseBinding('Test Cases/ProductEdit_TestCases/VerifyProductEditPageLoads', 'Test Cases/ProductEdit_TestCases/VerifyProductEditPageLoads',  null), new TestCaseBinding('Test Cases/ProductEdit_TestCases/VerifyProductCanBeDeleted', 'Test Cases/ProductEdit_TestCases/VerifyProductCanBeDeleted',  null), new TestCaseBinding('Test Cases/ProductEdit_TestCases/VerifyVersionAndComponentFields', 'Test Cases/ProductEdit_TestCases/VerifyVersionAndComponentFields',  null)])

@@ -40,6 +40,8 @@ WebUI.setText(findTestObject('Page_BugsUI_Depends_Blocks/div_blockedBug1'), '254
 
 WebUI.click(findTestObject('Page_BugsUI_Depends_Blocks/blocks_Add_button'))
 
+WebUI.delay(2)
+
 if (WebUI.verifyAlertPresent(2)) {
 	
 	alertText = WebUI.getAlertText()

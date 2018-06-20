@@ -1,0 +1,28 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+ProductEditScenarios,Chrome 66.0.3359.181,,2018-05-29 14:55:00,2018-05-29 14:56:03,1m - 2.887s,FAILED
+,,,,,,
+Test Cases/ProductEdit_TestCases/VerifyProductEditPageLoads,Chrome 66.0.3359.181,,2018-05-29 14:55:00,2018-05-29 14:55:23,22.664s,PASSED
+openBrowser,Chrome 66.0.3359.181,,2018-05-29 14:55:01,2018-05-29 14:55:03,2.836s,PASSED
+maximizeWindow,Chrome 66.0.3359.181,,2018-05-29 14:55:03,2018-05-29 14:55:04,0.184s,PASSED
+navigateToUrl,Chrome 66.0.3359.181,,2018-05-29 14:55:04,2018-05-29 14:55:09,5.410s,PASSED
+setText,Chrome 66.0.3359.181,,2018-05-29 14:55:09,2018-05-29 14:55:11,1.451s,PASSED
+setText,Chrome 66.0.3359.181,,2018-05-29 14:55:11,2018-05-29 14:55:11,0.844s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-29 14:55:11,2018-05-29 14:55:12,0.328s,PASSED
+verifyElementAttributeValue,Chrome 66.0.3359.181,,2018-05-29 14:55:12,2018-05-29 14:55:12,0.188s,PASSED
+delay,Chrome 66.0.3359.181,,2018-05-29 14:55:12,2018-05-29 14:55:14,2.033s,PASSED
+Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Dashboard/a_Product))),Chrome 66.0.3359.181,,2018-05-29 14:55:14,2018-05-29 14:55:15,0.739s,PASSED
+delay,Chrome 66.0.3359.181,,2018-05-29 14:55:15,2018-05-29 14:55:19,4.004s,PASSED
+verifyElementText,Chrome 66.0.3359.181,,2018-05-29 14:55:19,2018-05-29 14:55:19,0.168s,PASSED
+delay,Chrome 66.0.3359.181,,2018-05-29 14:55:19,2018-05-29 14:55:23,4.003s,PASSED
+,,,,,,
+Test Cases/ProductEdit_TestCases/VerifyProductCanBeDeleted,Chrome 66.0.3359.181,,2018-05-29 14:55:23,2018-05-29 14:55:41,18.406s,FAILED
+delay,Chrome 66.0.3359.181,,2018-05-29 14:55:23,2018-05-29 14:55:25,2.004s,PASSED
+selectOptionByLabel,Chrome 66.0.3359.181,,2018-05-29 14:55:25,2018-05-29 14:55:26,0.442s,PASSED
+delay,Chrome 66.0.3359.181,,2018-05-29 14:55:26,2018-05-29 14:55:41,15.005s,PASSED
+selectOptionByLabel,Chrome 66.0.3359.181,,2018-05-29 14:55:41,2018-05-29 14:55:41,0.637s,FAILED
+,,,,,,
+Test Cases/ProductEdit_TestCases/VerifyVersionAndComponentFields,Chrome 66.0.3359.181,,2018-05-29 14:55:41,2018-05-29 14:56:01,20.183s,FAILED
+openBrowser,Chrome 66.0.3359.181,,2018-05-29 14:55:42,2018-05-29 14:55:44,2.127s,PASSED
+maximizeWindow,Chrome 66.0.3359.181,,2018-05-29 14:55:44,2018-05-29 14:55:44,0.168s,PASSED
+navigateToUrl,Chrome 66.0.3359.181,,2018-05-29 14:55:44,2018-05-29 14:55:53,9.528s,PASSED
+setText,Chrome 66.0.3359.181,,2018-05-29 14:55:53,2018-05-29 14:56:01,8.053s,FAILED

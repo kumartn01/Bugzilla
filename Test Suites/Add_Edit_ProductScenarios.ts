@@ -39,6 +39,6 @@
       <guid>b0c241fd-c8b7-4b13-a37d-ac1e72c4f8ea</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ProductEdit_TestCases/VerifyMadatoryComponentCanBeDeleted</testCaseId>
+      <testCaseId>Test Cases/ProductEdit_TestCases/VerifyVersionAndComponentFields</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

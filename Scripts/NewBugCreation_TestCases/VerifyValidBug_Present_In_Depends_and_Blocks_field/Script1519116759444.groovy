@@ -27,7 +27,7 @@ WebUI.scrollToElement(findTestObject('ValidateNewBugPageFieldsObjects/NewBugPage
 
 WebUI.click(findTestObject('ValidateNewBugPageFieldsObjects/NewBugPageFields/button_Commit'))
 
-altertPresent = WebUI.verifyAlertPresent(2)
+altertPresent = WebUI.verifyAlertPresent(5)
 
 def alertText
 
@@ -51,7 +51,7 @@ WebUI.setText(findTestObject('ValidateNewBugPageFieldsObjects/NewBugPageFields/i
 
 WebUI.click(findTestObject('ValidateNewBugPageFieldsObjects/NewBugPageFields/button_Commit'))
 
-altertPresent = WebUI.verifyAlertPresent(2)
+altertPresent = WebUI.verifyAlertPresent(5)
 
 def alertText_blocks
 

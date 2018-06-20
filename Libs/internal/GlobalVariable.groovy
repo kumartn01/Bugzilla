@@ -19,6 +19,6 @@ public class GlobalVariable {
     /**
      * <p></p>
      */
-	public static Object url = 'http://bugzilla-ui.staging.kube.sw-infra.sjc.aristanetworks.com/login'
+	public static Object url = 'http://bugzilla-ui.staging.kube.sw-infra.sjc.aristanetworks.com/'
 	 
 }

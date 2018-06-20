@@ -40,12 +40,9 @@ if(WebUI.verifyElementPresent(findTestObject('Page_BugsUI Search/input_form-cont
 }
 
 
-WebUI.delay(4)
+WebUI.delay(3)
 
-if(WebUI.verifyElementPresent(findTestObject('Page_BugsUI Search/button_Search'),0)){
-	
-	WebUI.click(findTestObject('Page_BugsUI Search/button_Search'))
-}
+WebUI.click(findTestObject('Page_BugsUI Search/button_Search'))
 
 WebUI.delay(5)
 

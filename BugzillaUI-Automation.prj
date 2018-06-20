@@ -4,5 +4,6 @@
    <name>BugzillaUI-Automation</name>
    <tag></tag>
    <UUID>793f5231-c0a6-404a-acf6-62177c5b0db2</UUID>
+   <migratedVersion>5.4.0</migratedVersion>
    <pageLoadTimeout>30</pageLoadTimeout>
 </Project>

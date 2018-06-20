@@ -4,7 +4,7 @@
    <tag></tag>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'http://bugzilla-ui.staging.kube.sw-infra.sjc.aristanetworks.com/login'</initValue>
+      <initValue>'http://bugzilla-ui.staging.kube.sw-infra.sjc.aristanetworks.com/'</initValue>
       <name>url</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

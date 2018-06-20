@@ -4,7 +4,7 @@
    <name>BugPage_GeneralTabScenarios</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-05-14T14:50:55</lastRun>
+   <lastRun>2018-06-14T14:39:01</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -36,13 +36,19 @@
       <testCaseId>Test Cases/BugPage_GeneralTab_TestCases/VerifyTrackingBoxFields</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>975abf18-a915-4f18-88ca-4f35c9cd54c4</guid>
+      <guid>88c5552b-bed2-4b8e-ba6e-b1eca7263c96</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/BugPage_GeneralTab_TestCases/VerifyReleaseSection</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c7927dec-a48d-41e2-8cbf-99d4d29386c0</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/BugPage_Description_Comments_TestCases/Verify_User_Reply_Description</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>a13db9e6-5eaa-468a-b134-97ee18a52fcd</guid>
+      <guid>f21c2d71-0907-4811-b736-fe8434136bfa</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
       <testCaseId>Test Cases/BugPage_Description_Comments_TestCases/Verify_DescriptionSection_CanBe_Minimixed_Expanded</testCaseId>

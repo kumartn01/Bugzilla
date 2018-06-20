@@ -4,7 +4,7 @@
    <name>DependsOn_Blocks_Scenarios</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-05-07T11:48:25</lastRun>
+   <lastRun>2018-06-14T15:42:35</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -34,5 +34,17 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Depends_Blocks_TestCases/Verify_user_can_add _same BugId_under_DependsOn_and blocks_section</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>15e49e45-8486-4647-9562-a2e89310f197</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Depends_Blocks_TestCases/Verify_user_can_delete_DependsOn_bug</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a6d1125b-c3d2-432c-9f6d-b160e960bafd</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Depends_Blocks_TestCases/Verify_user_can_delete_Blocks_bug</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

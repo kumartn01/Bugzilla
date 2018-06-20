@@ -48,12 +48,18 @@ if(WebUI.verifyElementPresent(findTestObject('BugsPage_Description/a_Reply'), 0)
 
 WebUI.delay(3)
 
-if(WebUI.verifyElementPresent(findTestObject('BugsPage_Description/div_In reply to Bug Description'), 0)){
+if(WebUI.verifyElementPresent(findTestObject('BugsPage_Description/pre_textUserComment'), 0)){
 	
-	assert true
-}
-else{
-	assert false
+	replyDescription =	WebUiBuiltInKeywords.getText(findTestObject('BugsPage_Description/pre_textUserComment'))
+	
+	println ("relpy ------"+replyDescription)
+	
+	if(replyDescription.contains('In reply to Bug Description')){
+		assert true
+	}
+	else{
+		assert false
+	}
 }
 
 

@@ -23,10 +23,11 @@ import org.openqa.selenium.Keys as Keys
 
 //WebUI.verifyElementPresent(findTestObject('ValidateNewBugPageFieldsObjects/NewBugPageLabels/span_Est.Hours'),0)
 
-WebUI.verifyElementText(findTestObject('ValidateNewBugPageFieldsObjects/NewBugPageLabels/span_Est.Hours'), 'Est.Hours :')
+//WebUI.verifyElementText(findTestObject('ValidateNewBugPageFieldsObjects/NewBugPageLabels/span_Est.Hours'), 'Est.Hours :')
 
 WebUI.verifyElementPresent(findTestObject('ValidateNewBugPageFieldsObjects/NewBugPageFields/input_EstimatedHrs'), 0)
 
+WebUI.delay(2)
 WebUI.verifyElementText(findTestObject('ValidateNewBugPageFieldsObjects/NewBugPageLabels/span_Cc'),'Cc :')
 
 WebUI.verifyElementPresent(findTestObject('ValidateNewBugPageFieldsObjects/NewBugPageFields/input_CC'), 0)

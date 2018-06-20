@@ -40,7 +40,7 @@ if(WebUI.verifyElementPresent(findTestObject('Page_BugsUI productAdd/Error_Messa
 	WebUI.verifyMatch(versionRequired, 'Version is required !!', false)
 }
 
-if(WebUI.verifyElementPresent(findTestObject('Page_BugsUI productAdd/Error_Messages/small_Component is required'), 0)){
+/*if(WebUI.verifyElementPresent(findTestObject('Page_BugsUI productAdd/Error_Messages/small_Component is required'), 0)){
 	componentRequired = WebUI.getText(findTestObject('Page_BugsUI productAdd/Error_Messages/small_Component is required'))
 	WebUI.verifyMatch(componentRequired, 'Component is required !!', false)
 }
@@ -48,7 +48,7 @@ if(WebUI.verifyElementPresent(findTestObject('Page_BugsUI productAdd/Error_Messa
 if(WebUI.verifyElementPresent(findTestObject('Page_BugsUI productAdd/Error_Messages/small_Component description is'), 0)){
 	componentDescRequired = WebUI.getText(findTestObject('Page_BugsUI productAdd/Error_Messages/small_Component description is'))
 	WebUI.verifyMatch(componentDescRequired, 'Component description is required !!', false)
-}
+}*/
 
 if(WebUI.verifyElementPresent(findTestObject('Page_BugsUI productAdd/Error_Messages/small_Email Id is required'), 0)){
 	emailIdRequired = WebUI.getText(findTestObject('Page_BugsUI productAdd/Error_Messages/small_Email Id is required'))

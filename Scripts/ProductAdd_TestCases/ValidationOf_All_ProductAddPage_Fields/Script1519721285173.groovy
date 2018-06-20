@@ -43,9 +43,9 @@ WebUI.verifyElementText(findTestObject('Page_BugsUI productAdd/ProductAdd_Fields
 
 WebUI.verifyElementPresent(findTestObject('Page_BugsUI productAdd/ProductAdd_Fields/input_component_addProduct'), 0)
 
-WebUI.verifyElementText(findTestObject('Page_BugsUI productAdd/ProductAdd_Fields/span_Comp Desc'), 'Comp Desc :')
+//WebUI.verifyElementText(findTestObject('Page_BugsUI productAdd/ProductAdd_Fields/span_Comp Desc'), 'Comp Desc :')
 
-WebUI.verifyElementPresent(findTestObject('Page_BugsUI productAdd/ProductAdd_Fields/textarea_componentDescription_'), 0)
+//WebUI.verifyElementPresent(findTestObject('Page_BugsUI productAdd/ProductAdd_Fields/textarea_componentDescription_'), 0)
 
 WebUI.verifyElementText(findTestObject('Page_BugsUI productAdd/ProductAdd_Fields/span_Default Assignee'), 'Default Assignee :')
 

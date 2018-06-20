@@ -24,7 +24,7 @@ mandatoryElements = WebUiCommonHelper.findWebElements(findTestObject('Page_BugsU
 
 println('Size of Mandatory fields is:----'+mandatoryElements.size()) 
 
-WebUI.verifyEqual(mandatoryElements.size(), 7)
+WebUI.verifyEqual(mandatoryElements.size(), 5)
 
 
 

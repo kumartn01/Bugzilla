@@ -64,7 +64,7 @@ WebUI.setText(findTestObject('BugsPage_GeneralTab/input_alias'), 'Automation_Ali
 
 WebUI.click(findTestObject('BugsPage_GeneralTab/button_COMMIT'))
 
-if (WebUI.verifyAlertPresent(2)) {
+if (WebUI.verifyAlertPresent(4)) {
 	
 	alertText = WebUI.getAlertText()
 	
@@ -93,7 +93,7 @@ WebUI.setText(findTestObject('BugsPage_GeneralTab/input_alias'), 'auto')
 
 WebUI.click(findTestObject('BugsPage_GeneralTab/button_COMMIT'))
 
-if (WebUI.verifyAlertPresent(2)) {
+if (WebUI.verifyAlertPresent(4)) {
 	
 	WebUI.acceptAlert()
 }

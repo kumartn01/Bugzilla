@@ -1,0 +1,31 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+ProductEditScenarios,Chrome 66.0.3359.181,,2018-05-28 14:00:09,2018-05-28 14:00:58,49.494s,PASSED
+,,,,,,
+Test Cases/ProductEdit_TestCases/VerifyProductEditPageLoads,Chrome 66.0.3359.181,,2018-05-28 14:00:09,2018-05-28 14:00:32,22.275s,PASSED
+openBrowser,Chrome 66.0.3359.181,,2018-05-28 14:00:10,2018-05-28 14:00:13,2.937s,PASSED
+maximizeWindow,Chrome 66.0.3359.181,,2018-05-28 14:00:13,2018-05-28 14:00:13,0.220s,PASSED
+navigateToUrl,Chrome 66.0.3359.181,,2018-05-28 14:00:13,2018-05-28 14:00:18,4.799s,PASSED
+setText,Chrome 66.0.3359.181,,2018-05-28 14:00:18,2018-05-28 14:00:19,1.507s,PASSED
+setText,Chrome 66.0.3359.181,,2018-05-28 14:00:19,2018-05-28 14:00:20,0.837s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-28 14:00:20,2018-05-28 14:00:20,0.275s,PASSED
+verifyElementAttributeValue,Chrome 66.0.3359.181,,2018-05-28 14:00:20,2018-05-28 14:00:21,0.190s,PASSED
+delay,Chrome 66.0.3359.181,,2018-05-28 14:00:21,2018-05-28 14:00:23,2.043s,PASSED
+Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Dashboard/a_Product))),Chrome 66.0.3359.181,,2018-05-28 14:00:23,2018-05-28 14:00:24,0.813s,PASSED
+delay,Chrome 66.0.3359.181,,2018-05-28 14:00:24,2018-05-28 14:00:28,4.003s,PASSED
+verifyElementText,Chrome 66.0.3359.181,,2018-05-28 14:00:28,2018-05-28 14:00:28,0.184s,PASSED
+delay,Chrome 66.0.3359.181,,2018-05-28 14:00:28,2018-05-28 14:00:32,4.000s,PASSED
+,,,,,,
+Test Cases/ProductEdit_TestCases/VerifyProductCanBeDeleted,Chrome 66.0.3359.181,,2018-05-28 14:00:32,2018-05-28 14:00:58,25.854s,PASSED
+delay,Chrome 66.0.3359.181,,2018-05-28 14:00:32,2018-05-28 14:00:34,2.006s,PASSED
+selectOptionByLabel,Chrome 66.0.3359.181,,2018-05-28 14:00:34,2018-05-28 14:00:34,0.424s,PASSED
+delay,Chrome 66.0.3359.181,,2018-05-28 14:00:34,2018-05-28 14:00:49,15.003s,PASSED
+selectOptionByLabel,Chrome 66.0.3359.181,,2018-05-28 14:00:49,2018-05-28 14:00:50,0.458s,PASSED
+delay,Chrome 66.0.3359.181,,2018-05-28 14:00:50,2018-05-28 14:00:53,3.004s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI productEdit/product_Delete_button), 0))",Chrome 66.0.3359.181,,2018-05-28 14:00:53,2018-05-28 14:00:53,0.350s,PASSED
+Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyAlertPresent(3)),Chrome 66.0.3359.181,,2018-05-28 14:00:53,2018-05-28 14:00:53,0.086s,PASSED
+delay,Chrome 66.0.3359.181,,2018-05-28 14:00:53,2018-05-28 14:00:55,2.002s,PASSED
+verifyElementPresent,Chrome 66.0.3359.181,,2018-05-28 14:00:55,2018-05-28 14:00:55,0.070s,PASSED
+Statement - productDeleteMessage = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI productEdit/div_Successfully deleted the p)),Chrome 66.0.3359.181,,2018-05-28 14:00:55,2018-05-28 14:00:56,0.127s,PASSED
+"Statement - println(""------Selected default package value------:"" + productDeleteMessage)",Chrome 66.0.3359.181,,2018-05-28 14:00:56,2018-05-28 14:00:56,0.000s,PASSED
+delay,Chrome 66.0.3359.181,,2018-05-28 14:00:56,2018-05-28 14:00:58,2.001s,PASSED
+verifyEqual,Chrome 66.0.3359.181,,2018-05-28 14:00:58,2018-05-28 14:00:58,0.012s,PASSED

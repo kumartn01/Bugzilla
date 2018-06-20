@@ -3,11 +3,11 @@
    <description></description>
    <name>i_fa fa-minus</name>
    <tag></tag>
-   <elementGuidId>36665e19-fcfc-451e-8c9e-0401cbe55d6a</elementGuidId>
+   <elementGuidId>28d15d87-bea5-420c-9a0e-31e0bff5c47d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>id(&quot;activity&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;box box-success&quot;]/div[@class=&quot;box-header with-border colorClass&quot;]/div[@class=&quot;box-tools pull-left&quot;]/button[@class=&quot;btn btn-box-tool&quot;]/i[@class=&quot;fa fa-minus&quot;][count(. | //i[@class = 'fa fa-minus']) = count(//i[@class = 'fa fa-minus'])]</value>
+         <value>//i[@class=&quot;fa fa-minus&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -20,7 +20,7 @@
       <value>i</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -31,6 +31,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;activity&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;box box-success&quot;]/div[@class=&quot;box-header with-border colorClass&quot;]/div[@class=&quot;box-tools pull-left&quot;]/button[@class=&quot;btn btn-box-tool&quot;]/i[@class=&quot;fa fa-minus&quot;]</value>
+      <value>//i[@class=&quot;fa fa-minus&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

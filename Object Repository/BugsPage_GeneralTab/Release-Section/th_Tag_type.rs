@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>th_Tag_type</name>
+   <tag></tag>
+   <elementGuidId>222e09be-912e-4408-a712-d9b8f9249d83</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>th</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Tag_type</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;hideReleaseNoteBoxOnInit&quot;)/div[@class=&quot;row pad&quot;]/div[@class=&quot;col-xs-12 col-md-12 col-lg-12&quot;]/table[@class=&quot;table&quot;]/tbody[1]/tr[1]/th[2]</value>
+   </webElementProperties>
+</WebElementEntity>

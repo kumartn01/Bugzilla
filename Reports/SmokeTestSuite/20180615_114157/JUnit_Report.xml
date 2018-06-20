@@ -1,0 +1,1373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="SmokeTestSuite" time="264" tests="10" failures="8" errors="0">
+   <testsuite name="SmokeTestSuite" tests="10" failures="8" errors="0" time="264" timestamp="2018-06-15 11:42:03" hostname="Kumar.nagendra - HMECL001948.happiestminds.com" id="Test Suites/SmokeTestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\SmokeTestSuite\\20180615_114157"/>
+         <property name="logFiles" value="C:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\SmokeTestSuite\\20180615_114157\\execution0.log"/>
+         <property name="attachments" value="C:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\SmokeTestSuite\\20180615_114157\\1529043260090.png, C:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\SmokeTestSuite\\20180615_114157\\1529043260505.png, C:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\SmokeTestSuite\\20180615_114157\\1529043349151.png, C:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\SmokeTestSuite\\20180615_114157\\1529043385958.png"/>
+         <property name="hostName" value="Kumar.nagendra - HMECL001948.happiestminds.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.0.1"/>
+         <property name="browser" value="Chrome 67.0.3396.79"/>
+         <property name="hostAddress" value="10.95.75.194"/>
+         <property name="sessionId" value="f91f5337a87ad430c89aa039455bee1b"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login_TestCases/VerifyPresenceOfFields_Links_LoginPage" classname="Test Cases/Login_TestCases/VerifyPresenceOfFields_Links_LoginPage" status="PASSED">
+         <system-out><![CDATA[2018-06-15 11:42:04 - [TEST_CASE][PASSED] - Test Cases/Login_TestCases/VerifyPresenceOfFields_Links_LoginPage: Test Cases/Login_TestCases/VerifyPresenceOfFields_Links_LoginPage
+
+2018-06-15 11:42:04 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-06-15 11:42:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-15 11:42:08 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://us142.sjc.aristanetworks.com:7000/' successfully
+
+2018-06-15 11:42:15 - [MESSAGE][PASSED] - Navigate to 'http://us142.sjc.aristanetworks.com:7000/' successfully
+
+2018-06-15 11:42:15 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_BugsUI login/input_value_userid' is present
+
+2018-06-15 11:42:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-06-15 11:42:16 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI login/input_value_userid' is present
+
+2018-06-15 11:42:16 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_BugsUI login/input_form-control ng-untouche' is present
+
+2018-06-15 11:42:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-06-15 11:42:16 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI login/input_form-control ng-untouche' is present
+
+2018-06-15 11:42:16 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_BugsUI login/strong_User Id' are matched.
+
+2018-06-15 11:42:16 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_BugsUI login/strong_User Id' are matched.
+
+2018-06-15 11:42:16 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_BugsUI login/strong_Password' are matched.
+
+2018-06-15 11:42:16 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_BugsUI login/strong_Password' are matched.
+
+2018-06-15 11:42:16 - [TEST_STEP][PASSED] - Statement - loginButtonPresent = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI login/button_Login), 0): Object 'Object Repository/Page_BugsUI login/button_Login' is present
+
+2018-06-15 11:42:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-06-15 11:42:16 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI login/button_Login' is present
+
+2018-06-15 11:42:16 - [TEST_STEP][PASSED] - Statement - If (loginButtonPresent): Object 'Object Repository/Page_BugsUI login/button_Login' is clickable
+
+2018-06-15 11:42:16 - [TEST_STEP][PASSED] - verifyElementClickable: Object 'Object Repository/Page_BugsUI login/button_Login' is clickable
+
+2018-06-15 11:42:17 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI login/button_Login' is clickable]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login_TestCases/InvalidLoginsCases" classname="Test Cases/Login_TestCases/InvalidLoginsCases" status="PASSED">
+         <system-out><![CDATA[2018-06-15 11:42:17 - [TEST_CASE][PASSED] - Test Cases/Login_TestCases/InvalidLoginsCases: Test Cases/Login_TestCases/InvalidLoginsCases
+
+2018-06-15 11:42:17 - [TEST_STEP][PASSED] - setText: Text 'knagendra-ext' is set on object 'Object Repository/Page_BugsUI login/input_value_userid'
+
+2018-06-15 11:42:18 - [MESSAGE][PASSED] - Text 'knagendra-ext' is set on object 'Object Repository/Page_BugsUI login/input_value_userid'
+
+2018-06-15 11:42:18 - [TEST_STEP][PASSED] - Statement - loginButtonClickable = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementClickable(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI login/button_Login)): Object 'Object Repository/Page_BugsUI login/button_Login' is clickable
+
+2018-06-15 11:42:18 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI login/button_Login' is clickable
+
+2018-06-15 11:42:18 - [TEST_STEP][PASSED] - Statement - If (loginButtonClickable): Object: 'Object Repository/Page_BugsUI login/button_Login' is clicked on
+
+2018-06-15 11:42:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BugsUI login/button_Login' is clicked on
+
+2018-06-15 11:42:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI login/button_Login' is clicked on
+
+2018-06-15 11:42:18 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_BugsUI login/small_Password is Required.' are matched.
+
+2018-06-15 11:42:18 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_BugsUI login/small_Password is Required.' are matched.
+
+2018-06-15 11:42:18 - [TEST_STEP][PASSED] - setText: Text '123' is set on object 'Object Repository/Page_BugsUI login/input_form-control ng-untouche'
+
+2018-06-15 11:42:19 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Page_BugsUI login/input_form-control ng-untouche'
+
+2018-06-15 11:42:19 - [TEST_STEP][PASSED] - Statement - com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI login/input_value_userid), 2).clear(): Found 1 web elements with id: 'Object Repository/Page_BugsUI login/input_value_userid' located by 'By.xpath: //input[@name = 'value_email' and @type = 'text' and @placeholder = 'Enter Your User Id']' in '2' second(s)
+
+2018-06-15 11:42:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BugsUI login/button_Login' is clicked on
+
+2018-06-15 11:42:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI login/button_Login' is clicked on
+
+2018-06-15 11:42:19 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_BugsUI login/small_User Id is Required.' are matched.
+
+2018-06-15 11:42:19 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_BugsUI login/small_User Id is Required.' are matched.
+
+2018-06-15 11:42:19 - [TEST_STEP][PASSED] - setText: Text 'knagendra-ext' is set on object 'Object Repository/Page_BugsUI login/input_value_userid'
+
+2018-06-15 11:42:20 - [MESSAGE][PASSED] - Text 'knagendra-ext' is set on object 'Object Repository/Page_BugsUI login/input_value_userid'
+
+2018-06-15 11:42:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BugsUI login/button_Login' is clicked on
+
+2018-06-15 11:42:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI login/button_Login' is clicked on
+
+2018-06-15 11:42:21 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-06-15 11:42:24 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-06-15 11:42:24 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI login/small_Invalid User IdPassword), 0)): Actual text 'Invalid User Id/Password !!' and expected text 'Invalid User Id/Password !!' are matched 
+
+2018-06-15 11:42:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-06-15 11:42:24 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI login/small_Invalid User IdPassword' is present
+
+2018-06-15 11:42:24 - [TEST_STEP][PASSED] - Statement - text = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI login/small_Invalid User IdPassword)): Text of object 'Object Repository/Page_BugsUI login/small_Invalid User IdPassword' is: 'Invalid User Id/Password !!'
+
+2018-06-15 11:42:24 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_BugsUI login/small_Invalid User IdPassword' is: 'Invalid User Id/Password !!'
+
+2018-06-15 11:42:24 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Invalid User Id/Password !!' and expected text 'Invalid User Id/Password !!' are matched 
+
+2018-06-15 11:42:24 - [MESSAGE][PASSED] - Actual text 'Invalid User Id/Password !!' and expected text 'Invalid User Id/Password !!' are matched 
+
+2018-06-15 11:42:24 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-06-15 11:42:25 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login_TestCases/ValidSuccessfulLogin" classname="Test Cases/Login_TestCases/ValidSuccessfulLogin" status="PASSED">
+         <system-out><![CDATA[2018-06-15 11:42:25 - [TEST_CASE][PASSED] - Test Cases/Login_TestCases/ValidSuccessfulLogin: Test Cases/Login_TestCases/ValidSuccessfulLogin
+
+2018-06-15 11:42:25 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-06-15 11:42:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-15 11:42:27 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://us142.sjc.aristanetworks.com:7000/' successfully
+
+2018-06-15 11:42:34 - [MESSAGE][PASSED] - Navigate to 'http://us142.sjc.aristanetworks.com:7000/' successfully
+
+2018-06-15 11:42:34 - [TEST_STEP][PASSED] - setText: Text 'knagendra-ext' is set on object 'Object Repository/Page_BugsUI login/input_value_userid'
+
+2018-06-15 11:42:37 - [MESSAGE][PASSED] - Text 'knagendra-ext' is set on object 'Object Repository/Page_BugsUI login/input_value_userid'
+
+2018-06-15 11:42:37 - [TEST_STEP][PASSED] - setText: Text 'Kumar@123' is set on object 'Object Repository/Page_BugsUI login/input_form-control ng-untouche'
+
+2018-06-15 11:42:38 - [MESSAGE][PASSED] - Text 'Kumar@123' is set on object 'Object Repository/Page_BugsUI login/input_form-control ng-untouche'
+
+2018-06-15 11:42:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BugsUI login/button_Login' is clicked on
+
+2018-06-15 11:42:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI login/button_Login' is clicked on
+
+2018-06-15 11:42:38 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Page_BugsUI login/a_BugsUI' has attribute 'text' with value 'BugsUI '
+
+2018-06-15 11:42:38 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI login/a_BugsUI' has attribute 'text' with value 'BugsUI '
+
+2018-06-15 11:42:38 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-06-15 11:42:39 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NewBugCreation_TestCases/NewBugPage" classname="Test Cases/NewBugCreation_TestCases/NewBugPage" status="PASSED">
+         <system-out><![CDATA[2018-06-15 11:42:39 - [TEST_CASE][PASSED] - Test Cases/NewBugCreation_TestCases/NewBugPage: Test Cases/NewBugCreation_TestCases/NewBugPage
+
+2018-06-15 11:42:39 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-06-15 11:42:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-15 11:42:41 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-06-15 11:42:41 - [MESSAGE][PASSED] - Current window maximized
+
+2018-06-15 11:42:41 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://us142.sjc.aristanetworks.com:7000/' successfully
+
+2018-06-15 11:42:48 - [MESSAGE][PASSED] - Navigate to 'http://us142.sjc.aristanetworks.com:7000/' successfully
+
+2018-06-15 11:42:48 - [TEST_STEP][PASSED] - setText: Text 'knagendra-ext' is set on object 'Object Repository/Page_BugsUI login/input_value_userid'
+
+2018-06-15 11:42:50 - [MESSAGE][PASSED] - Text 'knagendra-ext' is set on object 'Object Repository/Page_BugsUI login/input_value_userid'
+
+2018-06-15 11:42:50 - [TEST_STEP][PASSED] - setText: Text 'Tumkur@123' is set on object 'Object Repository/Page_BugsUI login/input_form-control ng-untouche'
+
+2018-06-15 11:42:51 - [MESSAGE][PASSED] - Text 'Tumkur@123' is set on object 'Object Repository/Page_BugsUI login/input_form-control ng-untouche'
+
+2018-06-15 11:42:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BugsUI login/button_Login' is clicked on
+
+2018-06-15 11:42:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI login/button_Login' is clicked on
+
+2018-06-15 11:42:51 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-06-15 11:42:54 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-06-15 11:42:54 - [TEST_STEP][PASSED] - Statement - newBugTabVisible = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Dashboard/a_New bug)): Object 'Object Repository/Page_BugsUI Dashboard/a_New bug' is visible
+
+2018-06-15 11:42:54 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Dashboard/a_New bug' is visible
+
+2018-06-15 11:42:54 - [TEST_STEP][PASSED] - Statement - If (newBugTabVisible): Object: 'Object Repository/Page_BugsUI Dashboard/a_New bug' is clicked on
+
+2018-06-15 11:42:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BugsUI Dashboard/a_New bug' is clicked on
+
+2018-06-15 11:42:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI Dashboard/a_New bug' is clicked on
+
+2018-06-15 11:42:54 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_BugsUI New Bug/h5_Please select the classific' are matched.
+
+2018-06-15 11:42:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_BugsUI New Bug/h5_Please select the classific' are matched.
+
+2018-06-15 11:42:56 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_BugsUI New Bug/span_Classification' are matched.
+
+2018-06-15 11:42:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_BugsUI New Bug/span_Classification' are matched.
+
+2018-06-15 11:42:56 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-06-15 11:42:59 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-06-15 11:42:59 - [TEST_STEP][PASSED] - Statement - defaultClassificationValue = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI New Bug/DefaultClassification)): Text of object 'Object Repository/Page_BugsUI New Bug/DefaultClassification' is: ''
+
+2018-06-15 11:42:59 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_BugsUI New Bug/DefaultClassification' is: ''
+
+2018-06-15 11:42:59 - [TEST_STEP][PASSED] - Statement - println("------Selected default value------:" + defaultClassificationValue): null
+
+2018-06-15 11:42:59 - [TEST_STEP][PASSED] - verifyEqual: Actual object '' and expected object '' are equal
+
+2018-06-15 11:42:59 - [MESSAGE][PASSED] - Actual object '' and expected object '' are equal
+
+2018-06-15 11:42:59 - [TEST_STEP][PASSED] - Statement - defaultPackageUIValue = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI New Bug/DefaultPackageUI)): Text of object 'Object Repository/Page_BugsUI New Bug/DefaultPackageUI' is: ''
+
+2018-06-15 11:42:59 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_BugsUI New Bug/DefaultPackageUI' is: ''
+
+2018-06-15 11:42:59 - [TEST_STEP][PASSED] - Statement - println("------Selected default package value------:" + defaultPackageUIValue): null
+
+2018-06-15 11:42:59 - [TEST_STEP][PASSED] - verifyEqual: Actual object '' and expected object '' are equal
+
+2018-06-15 11:42:59 - [MESSAGE][PASSED] - Actual object '' and expected object '' are equal
+
+2018-06-15 11:42:59 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-06-15 11:43:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-06-15 11:43:00 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'Software' are selected in object 'Object Repository/Page_BugsUI New Bug/DropdownClassification' 
+
+2018-06-15 11:43:01 - [MESSAGE][PASSED] - All options with label 'Software' are selected in object 'Object Repository/Page_BugsUI New Bug/DropdownClassification' 
+
+2018-06-15 11:43:01 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_BugsUI New Bug/span_Package' are matched.
+
+2018-06-15 11:43:01 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_BugsUI New Bug/span_Package' are matched.
+
+2018-06-15 11:43:01 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-06-15 11:43:04 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-06-15 11:43:04 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'BugsUITest' are selected in object 'Object Repository/Page_BugsUI New Bug/DropdownPackage' 
+
+2018-06-15 11:43:05 - [MESSAGE][PASSED] - All options with label 'BugsUITest' are selected in object 'Object Repository/Page_BugsUI New Bug/DropdownPackage' 
+
+2018-06-15 11:43:05 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_BugsUI New Bug/div_box-body' is present
+
+2018-06-15 11:43:05 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI New Bug/div_box-body' is present
+
+2018-06-15 11:43:05 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_BugsUI New Bug/span_Status' is present
+
+2018-06-15 11:43:05 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI New Bug/span_Status' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NewBugCreation_TestCases/ValidateNewBugPageFields" classname="Test Cases/NewBugCreation_TestCases/ValidateNewBugPageFields" status="PASSED">
+         <system-out><![CDATA[2018-06-15 11:43:05 - [TEST_CASE][PASSED] - Test Cases/NewBugCreation_TestCases/ValidateNewBugPageFields: Test Cases/NewBugCreation_TestCases/ValidateNewBugPageFields
+
+2018-06-15 11:43:05 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/input_EstimatedHrs' is present
+
+2018-06-15 11:43:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-06-15 11:43:05 - [MESSAGE][PASSED] - Object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/input_EstimatedHrs' is present
+
+2018-06-15 11:43:05 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageLabels/span_Cc' are matched.
+
+2018-06-15 11:43:06 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageLabels/span_Cc' are matched.
+
+2018-06-15 11:43:06 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/input_CC' is present
+
+2018-06-15 11:43:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-06-15 11:43:06 - [MESSAGE][PASSED] - Object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/input_CC' is present
+
+2018-06-15 11:43:06 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageLabels/span_Assign To' are matched.
+
+2018-06-15 11:43:06 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageLabels/span_Assign To' are matched.
+
+2018-06-15 11:43:06 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/input_AssignTo' is present
+
+2018-06-15 11:43:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-06-15 11:43:06 - [MESSAGE][PASSED] - Object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/input_AssignTo' is present
+
+2018-06-15 11:43:06 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageLabels/span_Reporter' are matched.
+
+2018-06-15 11:43:06 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageLabels/span_Reporter' are matched.
+
+2018-06-15 11:43:06 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/input_Reporter' is present
+
+2018-06-15 11:43:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-06-15 11:43:06 - [MESSAGE][PASSED] - Object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/input_Reporter' is present
+
+2018-06-15 11:43:06 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageLabels/span_Priority' are matched.
+
+2018-06-15 11:43:06 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageLabels/span_Priority' are matched.
+
+2018-06-15 11:43:06 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/select-Priority' is present
+
+2018-06-15 11:43:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-06-15 11:43:06 - [MESSAGE][PASSED] - Object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/select-Priority' is present
+
+2018-06-15 11:43:06 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageLabels/span_Platform' are matched.
+
+2018-06-15 11:43:06 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageLabels/span_Platform' are matched.
+
+2018-06-15 11:43:06 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/select_platform' is present
+
+2018-06-15 11:43:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-06-15 11:43:07 - [MESSAGE][PASSED] - Object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/select_platform' is present
+
+2018-06-15 11:43:07 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageLabels/span_Build' are matched.
+
+2018-06-15 11:43:07 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageLabels/span_Build' are matched.
+
+2018-06-15 11:43:07 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/input_Build' is present
+
+2018-06-15 11:43:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-06-15 11:43:07 - [MESSAGE][PASSED] - Object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/input_Build' is present
+
+2018-06-15 11:43:07 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageLabels/span_Severity' are matched.
+
+2018-06-15 11:43:07 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageLabels/span_Severity' are matched.
+
+2018-06-15 11:43:07 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/select_Severity' is present
+
+2018-06-15 11:43:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-06-15 11:43:07 - [MESSAGE][PASSED] - Object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/select_Severity' is present
+
+2018-06-15 11:43:07 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageLabels/span_Version' are matched.
+
+2018-06-15 11:43:07 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageLabels/span_Version' are matched.
+
+2018-06-15 11:43:07 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/select_Version' is present
+
+2018-06-15 11:43:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-06-15 11:43:07 - [MESSAGE][PASSED] - Object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/select_Version' is present
+
+2018-06-15 11:43:07 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageLabels/span_Component' are matched.
+
+2018-06-15 11:43:07 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageLabels/span_Component' are matched.
+
+2018-06-15 11:43:07 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/select-Component' is present
+
+2018-06-15 11:43:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-06-15 11:43:07 - [MESSAGE][PASSED] - Object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/select-Component' is present
+
+2018-06-15 11:43:07 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageLabels/span_Status' are matched.
+
+2018-06-15 11:43:07 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageLabels/span_Status' are matched.
+
+2018-06-15 11:43:07 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/Mandatory-Mark' are matched.
+
+2018-06-15 11:43:08 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/Mandatory-Mark' are matched.
+
+2018-06-15 11:43:08 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageLabels/span_Summary' are matched.
+
+2018-06-15 11:43:08 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageLabels/span_Summary' are matched.
+
+2018-06-15 11:43:08 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/input_Summary' is present
+
+2018-06-15 11:43:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-06-15 11:43:08 - [MESSAGE][PASSED] - Object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/input_Summary' is present
+
+2018-06-15 11:43:08 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageLabels/span_Description' are matched.
+
+2018-06-15 11:43:08 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageLabels/span_Description' are matched.
+
+2018-06-15 11:43:08 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/input_EstimatedHrs' is present
+
+2018-06-15 11:43:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-06-15 11:43:08 - [MESSAGE][PASSED] - Object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/input_EstimatedHrs' is present
+
+2018-06-15 11:43:08 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageLabels/span_Depends on' are matched.
+
+2018-06-15 11:43:08 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageLabels/span_Depends on' are matched.
+
+2018-06-15 11:43:08 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/input_EstimatedHrs' is present
+
+2018-06-15 11:43:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-06-15 11:43:08 - [MESSAGE][PASSED] - Object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/input_EstimatedHrs' is present
+
+2018-06-15 11:43:08 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageLabels/span_Blocks' are matched.
+
+2018-06-15 11:43:08 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageLabels/span_Blocks' are matched.
+
+2018-06-15 11:43:08 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/input_EstimatedHrs' is present
+
+2018-06-15 11:43:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-06-15 11:43:08 - [MESSAGE][PASSED] - Object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/input_EstimatedHrs' is present
+
+2018-06-15 11:43:08 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/button_Commit' is present
+
+2018-06-15 11:43:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-06-15 11:43:08 - [MESSAGE][PASSED] - Object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/button_Commit' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NewBugCreation_TestCases/VerifyValidBug_Present_In_Depends_and_Blocks_field" classname="Test Cases/NewBugCreation_TestCases/VerifyValidBug_Present_In_Depends_and_Blocks_field" status="PASSED">
+         <system-out><![CDATA[2018-06-15 11:43:08 - [TEST_CASE][PASSED] - Test Cases/NewBugCreation_TestCases/VerifyValidBug_Present_In_Depends_and_Blocks_field: Test Cases/NewBugCreation_TestCases/VerifyValidBug_Present_In_Depends_and_Blocks_field
+
+2018-06-15 11:43:09 - [TEST_STEP][PASSED] - setText: Text 'Testing for Automation' is set on object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/input_Summary'
+
+2018-06-15 11:43:10 - [MESSAGE][PASSED] - Text 'Testing for Automation' is set on object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/input_Summary'
+
+2018-06-15 11:43:10 - [TEST_STEP][PASSED] - setText: Text '1010101010110' is set on object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/input_dependsOn'
+
+2018-06-15 11:43:11 - [MESSAGE][PASSED] - Text '1010101010110' is set on object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/input_dependsOn'
+
+2018-06-15 11:43:11 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/button_Commit' successfully
+
+2018-06-15 11:43:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-06-15 11:43:11 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/button_Commit' successfully
+
+2018-06-15 11:43:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/button_Commit' is clicked on
+
+2018-06-15 11:43:12 - [MESSAGE][PASSED] - Object: 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/button_Commit' is clicked on
+
+2018-06-15 11:43:12 - [TEST_STEP][PASSED] - Statement - altertPresent = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyAlertPresent(2): Alert is present after 2 second(s).
+
+2018-06-15 11:43:13 - [MESSAGE][PASSED] - Alert is present after 2 second(s).
+
+2018-06-15 11:43:13 - [TEST_STEP][PASSED] - Statement - alertText = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2018-06-15 11:43:13 - [TEST_STEP][PASSED] - Statement - If (altertPresent): Alert accepted
+
+2018-06-15 11:43:13 - [TEST_STEP][PASSED] - Statement - alertText = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAlertText(): Get alert text successfully: 'Following Bug Id(s)/Alias entered under 'Depends on' do not exist:
+1010101010110'
+
+2018-06-15 11:43:13 - [MESSAGE][PASSED] - Get alert text successfully: 'Following Bug Id(s)/Alias entered under 'Depends on' do not exist:
+1010101010110'
+
+2018-06-15 11:43:13 - [TEST_STEP][PASSED] - Statement - println("alertText for wrong depends on is:-" + alertText): null
+
+2018-06-15 11:43:13 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2018-06-15 11:43:13 - [MESSAGE][PASSED] - Alert accepted
+
+2018-06-15 11:43:13 - [TEST_STEP][PASSED] - Statement - If (alertText.contains("Following Bug Id(s)/Alias entered under 'Depends on' do not exist:") && alertText.contains("1010101010110")): null
+
+2018-06-15 11:43:13 - [TEST_STEP][PASSED] - Statement - assert true: null
+
+2018-06-15 11:43:13 - [TEST_STEP][PASSED] - newKey.ClearFields.ClearTextField: newKey.ClearFields.ClearTextField is PASSED
+
+2018-06-15 11:43:13 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/input_dependsOn'
+
+2018-06-15 11:43:13 - [MESSAGE][PASSED] - Keys 'DELETE + ' sent to object: 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/input_dependsOn'
+
+2018-06-15 11:43:13 - [MESSAGE][PASSED] - newKey.ClearFields.ClearTextField is PASSED
+
+2018-06-15 11:43:13 - [TEST_STEP][PASSED] - setText: Text '1111111111' is set on object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/input_blocks'
+
+2018-06-15 11:43:14 - [MESSAGE][PASSED] - Text '1111111111' is set on object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/input_blocks'
+
+2018-06-15 11:43:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/button_Commit' is clicked on
+
+2018-06-15 11:43:14 - [MESSAGE][PASSED] - Object: 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/button_Commit' is clicked on
+
+2018-06-15 11:43:14 - [TEST_STEP][PASSED] - Statement - altertPresent = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyAlertPresent(2): Alert is present after 2 second(s).
+
+2018-06-15 11:43:15 - [MESSAGE][PASSED] - Alert is present after 2 second(s).
+
+2018-06-15 11:43:15 - [TEST_STEP][PASSED] - Statement - alertText_blocks = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2018-06-15 11:43:15 - [TEST_STEP][PASSED] - Statement - If (altertPresent): Alert accepted
+
+2018-06-15 11:43:15 - [TEST_STEP][PASSED] - Statement - alertText_blocks = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAlertText(): Get alert text successfully: 'Following Bug Id(s)/Alias entered under 'Blocks' do not exist:
+1111111111'
+
+2018-06-15 11:43:15 - [MESSAGE][PASSED] - Get alert text successfully: 'Following Bug Id(s)/Alias entered under 'Blocks' do not exist:
+1111111111'
+
+2018-06-15 11:43:15 - [TEST_STEP][PASSED] - Statement - println("alertText for wrong Blocks on is:-" + alertText_blocks): null
+
+2018-06-15 11:43:15 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2018-06-15 11:43:15 - [MESSAGE][PASSED] - Alert accepted
+
+2018-06-15 11:43:15 - [TEST_STEP][PASSED] - Statement - If (alertText_blocks.contains("Following Bug Id(s)/Alias entered under 'Blocks' do not exist:") && alertText_blocks.contains("1111111111")): null
+
+2018-06-15 11:43:15 - [TEST_STEP][PASSED] - Statement - assert true: null
+
+2018-06-15 11:43:15 - [TEST_STEP][PASSED] - newKey.ClearFields.ClearTextField: newKey.ClearFields.ClearTextField is PASSED
+
+2018-06-15 11:43:16 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/input_blocks'
+
+2018-06-15 11:43:16 - [MESSAGE][PASSED] - Keys 'DELETE + ' sent to object: 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/input_blocks'
+
+2018-06-15 11:43:16 - [MESSAGE][PASSED] - newKey.ClearFields.ClearTextField is PASSED
+
+2018-06-15 11:43:16 - [TEST_STEP][PASSED] - setText: Text '247777' is set on object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/input_dependsOn'
+
+2018-06-15 11:43:16 - [MESSAGE][PASSED] - Text '247777' is set on object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/input_dependsOn'
+
+2018-06-15 11:43:16 - [TEST_STEP][PASSED] - setText: Text '247777' is set on object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/input_blocks'
+
+2018-06-15 11:43:17 - [MESSAGE][PASSED] - Text '247777' is set on object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/input_blocks'
+
+2018-06-15 11:43:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/button_Commit' is clicked on
+
+2018-06-15 11:43:17 - [MESSAGE][PASSED] - Object: 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/button_Commit' is clicked on
+
+2018-06-15 11:43:17 - [TEST_STEP][PASSED] - Statement - altertPresent = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyAlertPresent(2): Alert is present after 2 second(s).
+
+2018-06-15 11:43:18 - [MESSAGE][PASSED] - Alert is present after 2 second(s).
+
+2018-06-15 11:43:18 - [TEST_STEP][PASSED] - Statement - alertText_circularDependency = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2018-06-15 11:43:18 - [TEST_STEP][PASSED] - Statement - If (altertPresent): Alert accepted
+
+2018-06-15 11:43:18 - [TEST_STEP][PASSED] - Statement - alertText_circularDependency = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAlertText(): Get alert text successfully: 'The following bug(s) would appear on both the 'depends on' and 'blocks' parts of the dependency tree if these changes are committed: 
+247777 (Automation_AliasName). This would create a circular dependency, which is not allowed.'
+
+2018-06-15 11:43:18 - [MESSAGE][PASSED] - Get alert text successfully: 'The following bug(s) would appear on both the 'depends on' and 'blocks' parts of the dependency tree if these changes are committed: 
+247777 (Automation_AliasName). This would create a circular dependency, which is not allowed.'
+
+2018-06-15 11:43:18 - [TEST_STEP][PASSED] - Statement - println("alertText for wrong Blocks on is:-" + alertText_circularDependency): null
+
+2018-06-15 11:43:18 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2018-06-15 11:43:18 - [MESSAGE][PASSED] - Alert accepted
+
+2018-06-15 11:43:18 - [TEST_STEP][PASSED] - Statement - If (alertText_circularDependency.contains("This would create a circular dependency, which is not allowed.") && alertText_circularDependency.contains("247777")): null
+
+2018-06-15 11:43:18 - [TEST_STEP][PASSED] - Statement - assert true: null
+
+2018-06-15 11:43:18 - [TEST_STEP][PASSED] - newKey.ClearFields.ClearTextField: newKey.ClearFields.ClearTextField is PASSED
+
+2018-06-15 11:43:19 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/input_blocks'
+
+2018-06-15 11:43:19 - [MESSAGE][PASSED] - Keys 'DELETE + ' sent to object: 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/input_blocks'
+
+2018-06-15 11:43:19 - [MESSAGE][PASSED] - newKey.ClearFields.ClearTextField is PASSED
+
+2018-06-15 11:43:19 - [TEST_STEP][PASSED] - setText: Text '193666' is set on object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/input_blocks'
+
+2018-06-15 11:43:19 - [MESSAGE][PASSED] - Text '193666' is set on object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/input_blocks']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NewBugCreation_TestCases/NewBugCreation" classname="Test Cases/NewBugCreation_TestCases/NewBugCreation" status="PASSED">
+         <system-out><![CDATA[2018-06-15 11:43:19 - [TEST_CASE][PASSED] - Test Cases/NewBugCreation_TestCases/NewBugCreation: Test Cases/NewBugCreation_TestCases/NewBugCreation
+
+2018-06-15 11:43:20 - [TEST_STEP][PASSED] - setText: Text 'Description for Test automation' is set on object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/input_Description'
+
+2018-06-15 11:43:22 - [MESSAGE][PASSED] - Text 'Description for Test automation' is set on object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/input_Description'
+
+2018-06-15 11:43:22 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/button_Commit' successfully
+
+2018-06-15 11:43:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-06-15 11:43:22 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/button_Commit' successfully
+
+2018-06-15 11:43:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/button_Commit' is clicked on
+
+2018-06-15 11:43:22 - [MESSAGE][PASSED] - Object: 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/button_Commit' is clicked on
+
+2018-06-15 11:43:22 - [TEST_STEP][PASSED] - Statement - altertPresent = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyAlertPresent(6): Alert is present after 6 second(s).
+
+2018-06-15 11:43:24 - [MESSAGE][PASSED] - Alert is present after 6 second(s).
+
+2018-06-15 11:43:24 - [TEST_STEP][PASSED] - Statement - alertText = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2018-06-15 11:43:24 - [TEST_STEP][PASSED] - Statement - If (altertPresent): Alert accepted
+
+2018-06-15 11:43:24 - [TEST_STEP][PASSED] - Statement - alertText = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAlertText(): Get alert text successfully: 'Sucessfully Created New Bugno.#254944'
+
+2018-06-15 11:43:24 - [MESSAGE][PASSED] - Get alert text successfully: 'Sucessfully Created New Bugno.#254944'
+
+2018-06-15 11:43:24 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2018-06-15 11:43:24 - [MESSAGE][PASSED] - Alert accepted
+
+2018-06-15 11:43:24 - [TEST_STEP][PASSED] - Statement - newBugNo = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI New Bug/BugNo)): Text of object 'Object Repository/Page_BugsUI New Bug/BugNo' is: 'Bug# 254944 :'
+
+2018-06-15 11:43:29 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_BugsUI New Bug/BugNo' is: 'Bug# 254944 :'
+
+2018-06-15 11:43:29 - [TEST_STEP][PASSED] - Statement - bugId = newBugNo.substring(5, 11): null
+
+2018-06-15 11:43:29 - [TEST_STEP][PASSED] - Statement - println("alert text is -" + alertText): null
+
+2018-06-15 11:43:29 - [TEST_STEP][PASSED] - Statement - println("bugId -" + bugId): null
+
+2018-06-15 11:43:29 - [TEST_STEP][PASSED] - Statement - If (alertText.contains(bugId)): null
+
+2018-06-15 11:43:29 - [TEST_STEP][PASSED] - Statement - assert true: null
+
+2018-06-15 11:43:29 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-06-15 11:43:30 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ProductAdd_TestCases/VerifyProductAddPageLoads" classname="Test Cases/ProductAdd_TestCases/VerifyProductAddPageLoads" status="PASSED">
+         <system-out><![CDATA[2018-06-15 11:43:30 - [TEST_CASE][PASSED] - Test Cases/ProductAdd_TestCases/VerifyProductAddPageLoads: Test Cases/ProductAdd_TestCases/VerifyProductAddPageLoads
+
+2018-06-15 11:43:30 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-06-15 11:43:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-15 11:43:33 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://us142.sjc.aristanetworks.com:7000/' successfully
+
+2018-06-15 11:43:39 - [MESSAGE][PASSED] - Navigate to 'http://us142.sjc.aristanetworks.com:7000/' successfully
+
+2018-06-15 11:43:39 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-06-15 11:43:39 - [MESSAGE][PASSED] - Current window maximized
+
+2018-06-15 11:43:39 - [TEST_STEP][PASSED] - setText: Text 'knagendra-ext' is set on object 'Object Repository/Page_BugsUI login/input_value_userid'
+
+2018-06-15 11:43:41 - [MESSAGE][PASSED] - Text 'knagendra-ext' is set on object 'Object Repository/Page_BugsUI login/input_value_userid'
+
+2018-06-15 11:43:41 - [TEST_STEP][PASSED] - setText: Text 'Tumkur@123' is set on object 'Object Repository/Page_BugsUI login/input_form-control ng-untouche'
+
+2018-06-15 11:43:42 - [MESSAGE][PASSED] - Text 'Tumkur@123' is set on object 'Object Repository/Page_BugsUI login/input_form-control ng-untouche'
+
+2018-06-15 11:43:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BugsUI login/button_Login' is clicked on
+
+2018-06-15 11:43:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI login/button_Login' is clicked on
+
+2018-06-15 11:43:42 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Page_BugsUI login/a_BugsUI' has attribute 'text' with value 'BugsUI '
+
+2018-06-15 11:43:42 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI login/a_BugsUI' has attribute 'text' with value 'BugsUI '
+
+2018-06-15 11:43:42 - [TEST_STEP][PASSED] - Statement - productAddTabVisible = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Dashboard/a_Product)): Object 'Object Repository/Page_BugsUI Dashboard/a_Product' is visible
+
+2018-06-15 11:43:42 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Dashboard/a_Product' is visible
+
+2018-06-15 11:43:42 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-06-15 11:43:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-06-15 11:43:44 - [TEST_STEP][PASSED] - Statement - If (productAddTabVisible): Object: 'Object Repository/Page_BugsUI Dashboard/a_ADD' is clicked on
+
+2018-06-15 11:43:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BugsUI Dashboard/a_Product' is clicked on
+
+2018-06-15 11:43:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI Dashboard/a_Product' is clicked on
+
+2018-06-15 11:43:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BugsUI Dashboard/a_ADD' is clicked on
+
+2018-06-15 11:43:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI Dashboard/a_ADD' is clicked on
+
+2018-06-15 11:43:45 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-06-15 11:43:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-06-15 11:43:47 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/h2_Add Product' are matched.
+
+2018-06-15 11:43:47 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/h2_Add Product' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ProductAdd_TestCases/VerifyAdditionOfSuccessfulProduct" classname="Test Cases/ProductAdd_TestCases/VerifyAdditionOfSuccessfulProduct" status="FAILED">
+         <failure type="FAILED" message="Unable to verify object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/div_Successfully added the pro' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/div_Successfully added the pro' located by 'By.xpath: //div[@class = 'alert alert-success' and @ng-class = concat('{' , &quot;'&quot; , 'alert-dismissible' , &quot;'&quot; , ': message.dismissButton}')]' not found)"/>
+         <system-out><![CDATA[2018-06-15 11:43:47 - [TEST_CASE][FAILED] - Test Cases/ProductAdd_TestCases/VerifyAdditionOfSuccessfulProduct: Test Cases/ProductAdd_TestCases/VerifyAdditionOfSuccessfulProduct FAILED because (of) Unable to verify object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/div_Successfully added the pro' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/div_Successfully added the pro' located by 'By.xpath: //div[@class = 'alert alert-success' and @ng-class = concat('{' , "'" , 'alert-dismissible' , "'" , ': message.dismissButton}')]' not found)
+
+2018-06-15 11:43:48 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'Software' are selected in object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/select_Classification' 
+
+2018-06-15 11:43:48 - [MESSAGE][PASSED] - All options with label 'Software' are selected in object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/select_Classification' 
+
+2018-06-15 11:43:48 - [TEST_STEP][PASSED] - setText: Text 'TestProduct_Automation' is set on object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/input_productName_addProduct'
+
+2018-06-15 11:43:50 - [MESSAGE][PASSED] - Text 'TestProduct_Automation' is set on object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/input_productName_addProduct'
+
+2018-06-15 11:43:50 - [TEST_STEP][PASSED] - setText: Text 'TestProduct Automation Description' is set on object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/textarea_productDescription_ad'
+
+2018-06-15 11:43:52 - [MESSAGE][PASSED] - Text 'TestProduct Automation Description' is set on object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/textarea_productDescription_ad'
+
+2018-06-15 11:43:52 - [TEST_STEP][PASSED] - setText: Text '1' is set on object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/input_version_addProduct'
+
+2018-06-15 11:43:52 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/input_version_addProduct'
+
+2018-06-15 11:43:52 - [TEST_STEP][PASSED] - setText: Text 'Test_Component_Automation' is set on object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/input_component_addProduct'
+
+2018-06-15 11:43:54 - [MESSAGE][PASSED] - Text 'Test_Component_Automation' is set on object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/input_component_addProduct'
+
+2018-06-15 11:43:54 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-06-15 11:43:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-06-15 11:43:56 - [TEST_STEP][PASSED] - setText: Text 'TestComponent Description' is set on object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/textarea_componentDescription_'
+
+2018-06-15 11:43:57 - [MESSAGE][PASSED] - Text 'TestComponent Description' is set on object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/textarea_componentDescription_'
+
+2018-06-15 11:43:57 - [TEST_STEP][PASSED] - setText: Text 'kumar' is set on object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/input_AssignTO_addProduct'
+
+2018-06-15 11:43:58 - [MESSAGE][PASSED] - Text 'kumar' is set on object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/input_AssignTO_addProduct'
+
+2018-06-15 11:43:58 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/button_ADD' successfully
+
+2018-06-15 11:43:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-06-15 11:43:58 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/button_ADD' successfully
+
+2018-06-15 11:43:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/button_ADD' is clicked on
+
+2018-06-15 11:43:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/button_ADD' is clicked on
+
+2018-06-15 11:43:58 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI productAdd/Error_Messages/small_Invalid Email Id), 0)): Actual text 'Invalid Email Id !!' and expected text 'Invalid Email Id !!' are matched 
+
+2018-06-15 11:43:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-06-15 11:43:59 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI productAdd/Error_Messages/small_Invalid Email Id' is present
+
+2018-06-15 11:43:59 - [TEST_STEP][PASSED] - Statement - invalidEmailId = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI productAdd/Error_Messages/small_Invalid Email Id)): Text of object 'Object Repository/Page_BugsUI productAdd/Error_Messages/small_Invalid Email Id' is: 'Invalid Email Id !!'
+
+2018-06-15 11:43:59 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_BugsUI productAdd/Error_Messages/small_Invalid Email Id' is: 'Invalid Email Id !!'
+
+2018-06-15 11:43:59 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Invalid Email Id !!' and expected text 'Invalid Email Id !!' are matched 
+
+2018-06-15 11:43:59 - [MESSAGE][PASSED] - Actual text 'Invalid Email Id !!' and expected text 'Invalid Email Id !!' are matched 
+
+2018-06-15 11:43:59 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-06-15 11:44:02 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-06-15 11:44:02 - [TEST_STEP][PASSED] - Statement - com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI productAdd/ProductAdd_Fields/input_AssignTO_addProduct), 2).clear(): Found 1 web elements with id: 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/input_AssignTO_addProduct' located by 'By.xpath: //input[@type = 'text' and @name = 'AssignTO_addProduct']' in '2' second(s)
+
+2018-06-15 11:44:02 - [TEST_STEP][PASSED] - setText: Text 'kumar@happiestminds.com' is set on object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/input_AssignTO_addProduct'
+
+2018-06-15 11:44:03 - [MESSAGE][PASSED] - Text 'kumar@happiestminds.com' is set on object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/input_AssignTO_addProduct'
+
+2018-06-15 11:44:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/button_ADD' is clicked on
+
+2018-06-15 11:44:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/button_ADD' is clicked on
+
+2018-06-15 11:44:03 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-06-15 11:44:06 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-06-15 11:44:06 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI productAdd/Error_Messages/small_Email Id does not exist), 0)): Actual text 'Email Id does not exist !!' and expected text 'Email Id does not exist !!' are matched 
+
+2018-06-15 11:44:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-06-15 11:44:07 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI productAdd/Error_Messages/small_Email Id does not exist' is present
+
+2018-06-15 11:44:07 - [TEST_STEP][PASSED] - Statement - emailDoesNotExist = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI productAdd/Error_Messages/small_Email Id does not exist)): Text of object 'Object Repository/Page_BugsUI productAdd/Error_Messages/small_Email Id does not exist' is: 'Email Id does not exist !!'
+
+2018-06-15 11:44:07 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_BugsUI productAdd/Error_Messages/small_Email Id does not exist' is: 'Email Id does not exist !!'
+
+2018-06-15 11:44:07 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Email Id does not exist !!' and expected text 'Email Id does not exist !!' are matched 
+
+2018-06-15 11:44:07 - [MESSAGE][PASSED] - Actual text 'Email Id does not exist !!' and expected text 'Email Id does not exist !!' are matched 
+
+2018-06-15 11:44:07 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-06-15 11:44:10 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-06-15 11:44:10 - [TEST_STEP][PASSED] - Statement - com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI productAdd/ProductAdd_Fields/input_AssignTO_addProduct), 2).clear(): Found 1 web elements with id: 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/input_AssignTO_addProduct' located by 'By.xpath: //input[@type = 'text' and @name = 'AssignTO_addProduct']' in '2' second(s)
+
+2018-06-15 11:44:10 - [TEST_STEP][PASSED] - setText: Text 'kumar.nagendra@happiestminds.com' is set on object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/input_AssignTO_addProduct'
+
+2018-06-15 11:44:12 - [MESSAGE][PASSED] - Text 'kumar.nagendra@happiestminds.com' is set on object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/input_AssignTO_addProduct'
+
+2018-06-15 11:44:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/button_ADD' is clicked on
+
+2018-06-15 11:44:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/button_ADD' is clicked on
+
+2018-06-15 11:44:12 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-06-15 11:44:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-06-15 11:44:13 - [TEST_STEP][FAILED] - Statement - successAlert = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI productAdd/ProductAdd_Fields/div_Successfully added the pro), 6): Unable to verify object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/div_Successfully added the pro' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/div_Successfully added the pro' located by 'By.xpath: //div[@class = 'alert alert-success' and @ng-class = concat('{' , "'" , 'alert-dismissible' , "'" , ': message.dismissButton}')]' not found)
+
+2018-06-15 11:44:20 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/div_Successfully added the pro' located by 'By.xpath: //div[@class = 'alert alert-success' and @ng-class = concat('{' , "'" , 'alert-dismissible' , "'" , ': message.dismissButton}')]' not found
+[[ATTACHMENT|C:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\SmokeTestSuite\\20180615_114157\\1529043260090.png]]
+
+2018-06-15 11:44:20 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/div_Successfully added the pro' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/div_Successfully added the pro' located by 'By.xpath: //div[@class = 'alert alert-success' and @ng-class = concat('{' , "'" , 'alert-dismissible' , "'" , ': message.dismissButton}')]' not found)
+[[ATTACHMENT|C:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\SmokeTestSuite\\20180615_114157\\1529043260505.png]]]]></system-out>
+         <system-err><![CDATA[2018-06-15 11:43:47 - [TEST_CASE][FAILED] - Test Cases/ProductAdd_TestCases/VerifyAdditionOfSuccessfulProduct: Test Cases/ProductAdd_TestCases/VerifyAdditionOfSuccessfulProduct FAILED because (of) Unable to verify object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/div_Successfully added the pro' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/div_Successfully added the pro' located by 'By.xpath: //div[@class = 'alert alert-success' and @ng-class = concat('{' , "'" , 'alert-dismissible' , "'" , ': message.dismissButton}')]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/BugPage_GeneralTab_TestCases/VerifyBugInfoFields_CanBe_Edited_Commited" classname="Test Cases/BugPage_GeneralTab_TestCases/VerifyBugInfoFields_CanBe_Edited_Commited" status="FAILED">
+         <failure type="FAILED" message="Unable to verify equal between actual object 'Nothing to commit!!!' and expected object 'Changes have been committed successfully to Bug #247777' (Root cause: Actual object 'Nothing to commit!!!' and expected object 'Changes have been committed successfully to Bug #247777' are not equal)"/>
+         <system-out><![CDATA[2018-06-15 11:44:20 - [TEST_CASE][FAILED] - Test Cases/BugPage_GeneralTab_TestCases/VerifyBugInfoFields_CanBe_Edited_Commited: Test Cases/BugPage_GeneralTab_TestCases/VerifyBugInfoFields_CanBe_Edited_Commited FAILED because (of) Unable to verify equal between actual object 'Nothing to commit!!!' and expected object 'Changes have been committed successfully to Bug #247777' (Root cause: Actual object 'Nothing to commit!!!' and expected object 'Changes have been committed successfully to Bug #247777' are not equal)
+
+2018-06-15 11:44:21 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-06-15 11:44:21 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-06-15 11:44:24 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-15 11:44:24 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://us142.sjc.aristanetworks.com:7000/' successfully
+
+2018-06-15 11:44:29 - [MESSAGE][PASSED] - Navigate to 'http://us142.sjc.aristanetworks.com:7000/' successfully
+
+2018-06-15 11:44:29 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-06-15 11:44:30 - [MESSAGE][PASSED] - Current window maximized
+
+2018-06-15 11:44:30 - [TEST_STEP][PASSED] - setText: Text 'knagendra-ext' is set on object 'Object Repository/Page_BugsUI login/input_value_userid'
+
+2018-06-15 11:44:31 - [MESSAGE][PASSED] - Text 'knagendra-ext' is set on object 'Object Repository/Page_BugsUI login/input_value_userid'
+
+2018-06-15 11:44:31 - [TEST_STEP][PASSED] - setText: Text 'Tumkur@123' is set on object 'Object Repository/Page_BugsUI login/input_form-control ng-untouche'
+
+2018-06-15 11:44:32 - [MESSAGE][PASSED] - Text 'Tumkur@123' is set on object 'Object Repository/Page_BugsUI login/input_form-control ng-untouche'
+
+2018-06-15 11:44:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BugsUI login/button_Login' is clicked on
+
+2018-06-15 11:44:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI login/button_Login' is clicked on
+
+2018-06-15 11:44:32 - [TEST_STEP][PASSED] - setText: Text '247777' is set on object 'Object Repository/Page_BugsUI Dashboard/input_navbar-search-input'
+
+2018-06-15 11:44:33 - [MESSAGE][PASSED] - Text '247777' is set on object 'Object Repository/Page_BugsUI Dashboard/input_navbar-search-input'
+
+2018-06-15 11:44:33 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-06-15 11:44:34 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-06-15 11:44:34 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/Page_BugsUI Dashboard/input_navbar-search-input'
+
+2018-06-15 11:44:34 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_BugsUI Dashboard/input_navbar-search-input'
+
+2018-06-15 11:44:34 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-06-15 11:44:37 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-06-15 11:44:37 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(BugsPage_GeneralTab/a_General), 1)): Object 'Object Repository/BugsPage_GeneralTab/a_General' has attribute 'text' with value 'General'
+
+2018-06-15 11:44:37 - [MESSAGE][PASSED] - Object 'Object Repository/BugsPage_GeneralTab/a_General' is present
+
+2018-06-15 11:44:37 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/BugsPage_GeneralTab/a_General' has attribute 'text' with value 'General'
+
+2018-06-15 11:44:37 - [MESSAGE][PASSED] - Object 'Object Repository/BugsPage_GeneralTab/a_General' has attribute 'text' with value 'General'
+
+2018-06-15 11:44:37 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(BugsPage_GeneralTab/bugInfoBox), 1)): Object 'Object Repository/BugsPage_GeneralTab/i_toggleMinusBugInfoBox' is present
+
+2018-06-15 11:44:37 - [MESSAGE][PASSED] - Object 'Object Repository/BugsPage_GeneralTab/bugInfoBox' is present
+
+2018-06-15 11:44:37 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(BugsPage_GeneralTab/i_togglePlusBugInfoBox), 1)): Object 'Object Repository/BugsPage_GeneralTab/i_toggleMinusBugInfoBox' is present
+
+2018-06-15 11:44:37 - [MESSAGE][PASSED] - Object 'Object Repository/BugsPage_GeneralTab/i_togglePlusBugInfoBox' is present
+
+2018-06-15 11:44:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/BugsPage_GeneralTab/i_togglePlusBugInfoBox' is clicked on
+
+2018-06-15 11:44:38 - [MESSAGE][PASSED] - Object: 'Object Repository/BugsPage_GeneralTab/i_togglePlusBugInfoBox' is clicked on
+
+2018-06-15 11:44:38 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/BugsPage_GeneralTab/input_alias' is present
+
+2018-06-15 11:44:38 - [MESSAGE][PASSED] - Object 'Object Repository/BugsPage_GeneralTab/input_alias' is present
+
+2018-06-15 11:44:38 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/BugsPage_GeneralTab/i_toggleMinusBugInfoBox' is present
+
+2018-06-15 11:44:38 - [MESSAGE][PASSED] - Object 'Object Repository/BugsPage_GeneralTab/i_toggleMinusBugInfoBox' is present
+
+2018-06-15 11:44:38 - [TEST_STEP][PASSED] - newKey.ClearFields.ClearTextField: newKey.ClearFields.ClearTextField is PASSED
+
+2018-06-15 11:44:39 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/BugsPage_GeneralTab/input_alias'
+
+2018-06-15 11:44:39 - [MESSAGE][PASSED] - Keys 'DELETE + ' sent to object: 'Object Repository/BugsPage_GeneralTab/input_alias'
+
+2018-06-15 11:44:39 - [MESSAGE][PASSED] - newKey.ClearFields.ClearTextField is PASSED
+
+2018-06-15 11:44:39 - [TEST_STEP][PASSED] - setText: Text 'Automation_AliasName' is set on object 'Object Repository/BugsPage_GeneralTab/input_alias'
+
+2018-06-15 11:44:41 - [MESSAGE][PASSED] - Text 'Automation_AliasName' is set on object 'Object Repository/BugsPage_GeneralTab/input_alias'
+
+2018-06-15 11:44:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/BugsPage_GeneralTab/button_COMMIT' is clicked on
+
+2018-06-15 11:44:41 - [MESSAGE][PASSED] - Object: 'Object Repository/BugsPage_GeneralTab/button_COMMIT' is clicked on
+
+2018-06-15 11:44:41 - [TEST_STEP][FAILED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyAlertPresent(2)): Unable to verify equal between actual object 'Nothing to commit!!!' and expected object 'Changes have been committed successfully to Bug #247777' (Root cause: Actual object 'Nothing to commit!!!' and expected object 'Changes have been committed successfully to Bug #247777' are not equal)
+
+2018-06-15 11:44:41 - [MESSAGE][PASSED] - Alert is present after 2 second(s).
+
+2018-06-15 11:44:41 - [TEST_STEP][PASSED] - Statement - alertText = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAlertText(): Get alert text successfully: 'Nothing to commit!!!'
+
+2018-06-15 11:44:41 - [MESSAGE][PASSED] - Get alert text successfully: 'Nothing to commit!!!'
+
+2018-06-15 11:44:41 - [TEST_STEP][FAILED] - verifyEqual: Unable to verify equal between actual object 'Nothing to commit!!!' and expected object 'Changes have been committed successfully to Bug #247777' (Root cause: Actual object 'Nothing to commit!!!' and expected object 'Changes have been committed successfully to Bug #247777' are not equal)
+
+2018-06-15 11:44:41 - [MESSAGE][FAILED] - Unable to verify equal between actual object 'Nothing to commit!!!' and expected object 'Changes have been committed successfully to Bug #247777' (Root cause: Actual object 'Nothing to commit!!!' and expected object 'Changes have been committed successfully to Bug #247777' are not equal)]]></system-out>
+         <system-err><![CDATA[2018-06-15 11:44:20 - [TEST_CASE][FAILED] - Test Cases/BugPage_GeneralTab_TestCases/VerifyBugInfoFields_CanBe_Edited_Commited: Test Cases/BugPage_GeneralTab_TestCases/VerifyBugInfoFields_CanBe_Edited_Commited FAILED because (of) Unable to verify equal between actual object 'Nothing to commit!!!' and expected object 'Changes have been committed successfully to Bug #247777' (Root cause: Actual object 'Nothing to commit!!!' and expected object 'Changes have been committed successfully to Bug #247777' are not equal)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/BugPage_GeneralTab_TestCases/VerifyStatusBoxFields_canBe_Edited" classname="Test Cases/BugPage_GeneralTab_TestCases/VerifyStatusBoxFields_canBe_Edited" status="FAILED">
+         <failure type="FAILED" message="Unable to verify object 'Object Repository/BugsPage_GeneralTab/Status-Box/statusBox' is present (Root cause: org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Nothing to commit!!!}
+  (Session info: chrome=67.0.3396.79)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HMECL001948', ip: '10.95.75.194', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\KUMAR~1.NAG\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.79, webStorageEnabled: true}
+Session ID: 28e76529c27acb5f353e2f4b26bb575c
+*** Element info: {Using=xpath, value=id(&quot;collapseStatusBox&quot;)/div[@class=&quot;box-header with-border colorClass&quot;]/div[@class=&quot;box-tools pull-left&quot;]})"/>
+         <system-out><![CDATA[2018-06-15 11:44:41 - [TEST_CASE][FAILED] - Test Cases/BugPage_GeneralTab_TestCases/VerifyStatusBoxFields_canBe_Edited: Test Cases/BugPage_GeneralTab_TestCases/VerifyStatusBoxFields_canBe_Edited FAILED because (of) Unable to verify object 'Object Repository/BugsPage_GeneralTab/Status-Box/statusBox' is present (Root cause: org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Nothing to commit!!!}
+  (Session info: chrome=67.0.3396.79)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HMECL001948', ip: '10.95.75.194', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\KUMAR~1.NAG\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.79, webStorageEnabled: true}
+Session ID: 28e76529c27acb5f353e2f4b26bb575c
+*** Element info: {Using=xpath, value=id("collapseStatusBox")/div[@class="box-header with-border colorClass"]/div[@class="box-tools pull-left"]})
+
+2018-06-15 11:44:42 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-06-15 11:44:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-06-15 11:44:44 - [TEST_STEP][FAILED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(BugsPage_GeneralTab/Status-Box/statusBox), 1)): Unable to verify object 'Object Repository/BugsPage_GeneralTab/Status-Box/statusBox' is present (Root cause: org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Nothing to commit!!!}
+  (Session info: chrome=67.0.3396.79)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HMECL001948', ip: '10.95.75.194', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\KUMAR~1.NAG\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.79, webStorageEnabled: true}
+Session ID: 28e76529c27acb5f353e2f4b26bb575c
+*** Element info: {Using=xpath, value=id("collapseStatusBox")/div[@class="box-header with-border colorClass"]/div[@class="box-tools pull-left"]})
+
+2018-06-15 11:44:44 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-06-15 11:44:44 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/BugsPage_GeneralTab/Status-Box/statusBox' is present (Root cause: org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Nothing to commit!!!}
+  (Session info: chrome=67.0.3396.79)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HMECL001948', ip: '10.95.75.194', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\KUMAR~1.NAG\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.79, webStorageEnabled: true}
+Session ID: 28e76529c27acb5f353e2f4b26bb575c
+*** Element info: {Using=xpath, value=id("collapseStatusBox")/div[@class="box-header with-border colorClass"]/div[@class="box-tools pull-left"]})]]></system-out>
+         <system-err><![CDATA[2018-06-15 11:44:41 - [TEST_CASE][FAILED] - Test Cases/BugPage_GeneralTab_TestCases/VerifyStatusBoxFields_canBe_Edited: Test Cases/BugPage_GeneralTab_TestCases/VerifyStatusBoxFields_canBe_Edited FAILED because (of) Unable to verify object 'Object Repository/BugsPage_GeneralTab/Status-Box/statusBox' is present (Root cause: org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Nothing to commit!!!}
+  (Session info: chrome=67.0.3396.79)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HMECL001948', ip: '10.95.75.194', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\KUMAR~1.NAG\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.79, webStorageEnabled: true}
+Session ID: 28e76529c27acb5f353e2f4b26bb575c
+*** Element info: {Using=xpath, value=id("collapseStatusBox")/div[@class="box-header with-border colorClass"]/div[@class="box-tools pull-left"]})]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/BugPage_GeneralTab_TestCases/VerifyPeopleBoxFields" classname="Test Cases/BugPage_GeneralTab_TestCases/VerifyPeopleBoxFields" status="FAILED">
+         <failure type="FAILED" message="Unable to verify object 'Object Repository/BugsPage_GeneralTab/People-Box/peopleBox' is present (Root cause: org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Nothing to commit!!!}
+  (Session info: chrome=67.0.3396.79)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HMECL001948', ip: '10.95.75.194', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\KUMAR~1.NAG\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.79, webStorageEnabled: true}
+Session ID: 28e76529c27acb5f353e2f4b26bb575c
+*** Element info: {Using=xpath, value=id(&quot;collapsePeopleBox&quot;)/div[@class=&quot;box-header with-border colorClass&quot;]/div[@class=&quot;box-tools pull-left&quot;]})"/>
+         <system-out><![CDATA[2018-06-15 11:44:44 - [TEST_CASE][FAILED] - Test Cases/BugPage_GeneralTab_TestCases/VerifyPeopleBoxFields: Test Cases/BugPage_GeneralTab_TestCases/VerifyPeopleBoxFields FAILED because (of) Unable to verify object 'Object Repository/BugsPage_GeneralTab/People-Box/peopleBox' is present (Root cause: org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Nothing to commit!!!}
+  (Session info: chrome=67.0.3396.79)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HMECL001948', ip: '10.95.75.194', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\KUMAR~1.NAG\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.79, webStorageEnabled: true}
+Session ID: 28e76529c27acb5f353e2f4b26bb575c
+*** Element info: {Using=xpath, value=id("collapsePeopleBox")/div[@class="box-header with-border colorClass"]/div[@class="box-tools pull-left"]})
+
+2018-06-15 11:44:44 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-06-15 11:44:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-06-15 11:44:46 - [TEST_STEP][FAILED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(BugsPage_GeneralTab/People-Box/peopleBox), 1)): Unable to verify object 'Object Repository/BugsPage_GeneralTab/People-Box/peopleBox' is present (Root cause: org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Nothing to commit!!!}
+  (Session info: chrome=67.0.3396.79)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HMECL001948', ip: '10.95.75.194', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\KUMAR~1.NAG\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.79, webStorageEnabled: true}
+Session ID: 28e76529c27acb5f353e2f4b26bb575c
+*** Element info: {Using=xpath, value=id("collapsePeopleBox")/div[@class="box-header with-border colorClass"]/div[@class="box-tools pull-left"]})
+
+2018-06-15 11:44:46 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-06-15 11:44:46 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/BugsPage_GeneralTab/People-Box/peopleBox' is present (Root cause: org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Nothing to commit!!!}
+  (Session info: chrome=67.0.3396.79)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HMECL001948', ip: '10.95.75.194', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\KUMAR~1.NAG\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.79, webStorageEnabled: true}
+Session ID: 28e76529c27acb5f353e2f4b26bb575c
+*** Element info: {Using=xpath, value=id("collapsePeopleBox")/div[@class="box-header with-border colorClass"]/div[@class="box-tools pull-left"]})]]></system-out>
+         <system-err><![CDATA[2018-06-15 11:44:44 - [TEST_CASE][FAILED] - Test Cases/BugPage_GeneralTab_TestCases/VerifyPeopleBoxFields: Test Cases/BugPage_GeneralTab_TestCases/VerifyPeopleBoxFields FAILED because (of) Unable to verify object 'Object Repository/BugsPage_GeneralTab/People-Box/peopleBox' is present (Root cause: org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Nothing to commit!!!}
+  (Session info: chrome=67.0.3396.79)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HMECL001948', ip: '10.95.75.194', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\KUMAR~1.NAG\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.79, webStorageEnabled: true}
+Session ID: 28e76529c27acb5f353e2f4b26bb575c
+*** Element info: {Using=xpath, value=id("collapsePeopleBox")/div[@class="box-header with-border colorClass"]/div[@class="box-tools pull-left"]})]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/BugPage_GeneralTab_TestCases/VerifyTrackingBoxFields" classname="Test Cases/BugPage_GeneralTab_TestCases/VerifyTrackingBoxFields" status="FAILED">
+         <failure type="FAILED" message="Unable to verify object 'Object Repository/BugsPage_GeneralTab/Tracking-Box/trackingBox' is present (Root cause: org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Nothing to commit!!!}
+  (Session info: chrome=67.0.3396.79)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HMECL001948', ip: '10.95.75.194', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\KUMAR~1.NAG\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.79, webStorageEnabled: true}
+Session ID: 28e76529c27acb5f353e2f4b26bb575c
+*** Element info: {Using=xpath, value=id(&quot;collapseTrackingBox&quot;)/div[@class=&quot;box-header with-border colorClass&quot;]/div[@class=&quot;box-tools pull-left&quot;]})"/>
+         <system-out><![CDATA[2018-06-15 11:44:46 - [TEST_CASE][FAILED] - Test Cases/BugPage_GeneralTab_TestCases/VerifyTrackingBoxFields: Test Cases/BugPage_GeneralTab_TestCases/VerifyTrackingBoxFields FAILED because (of) Unable to verify object 'Object Repository/BugsPage_GeneralTab/Tracking-Box/trackingBox' is present (Root cause: org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Nothing to commit!!!}
+  (Session info: chrome=67.0.3396.79)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HMECL001948', ip: '10.95.75.194', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\KUMAR~1.NAG\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.79, webStorageEnabled: true}
+Session ID: 28e76529c27acb5f353e2f4b26bb575c
+*** Element info: {Using=xpath, value=id("collapseTrackingBox")/div[@class="box-header with-border colorClass"]/div[@class="box-tools pull-left"]})
+
+2018-06-15 11:44:46 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-06-15 11:44:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-06-15 11:44:48 - [TEST_STEP][FAILED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(BugsPage_GeneralTab/Tracking-Box/trackingBox), 1)): Unable to verify object 'Object Repository/BugsPage_GeneralTab/Tracking-Box/trackingBox' is present (Root cause: org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Nothing to commit!!!}
+  (Session info: chrome=67.0.3396.79)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HMECL001948', ip: '10.95.75.194', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\KUMAR~1.NAG\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.79, webStorageEnabled: true}
+Session ID: 28e76529c27acb5f353e2f4b26bb575c
+*** Element info: {Using=xpath, value=id("collapseTrackingBox")/div[@class="box-header with-border colorClass"]/div[@class="box-tools pull-left"]})
+
+2018-06-15 11:44:48 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-06-15 11:44:48 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/BugsPage_GeneralTab/Tracking-Box/trackingBox' is present (Root cause: org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Nothing to commit!!!}
+  (Session info: chrome=67.0.3396.79)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HMECL001948', ip: '10.95.75.194', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\KUMAR~1.NAG\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.79, webStorageEnabled: true}
+Session ID: 28e76529c27acb5f353e2f4b26bb575c
+*** Element info: {Using=xpath, value=id("collapseTrackingBox")/div[@class="box-header with-border colorClass"]/div[@class="box-tools pull-left"]})]]></system-out>
+         <system-err><![CDATA[2018-06-15 11:44:46 - [TEST_CASE][FAILED] - Test Cases/BugPage_GeneralTab_TestCases/VerifyTrackingBoxFields: Test Cases/BugPage_GeneralTab_TestCases/VerifyTrackingBoxFields FAILED because (of) Unable to verify object 'Object Repository/BugsPage_GeneralTab/Tracking-Box/trackingBox' is present (Root cause: org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Nothing to commit!!!}
+  (Session info: chrome=67.0.3396.79)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HMECL001948', ip: '10.95.75.194', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\KUMAR~1.NAG\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.79, webStorageEnabled: true}
+Session ID: 28e76529c27acb5f353e2f4b26bb575c
+*** Element info: {Using=xpath, value=id("collapseTrackingBox")/div[@class="box-header with-border colorClass"]/div[@class="box-tools pull-left"]})]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/BugPage_Description_Comments_TestCases/Verify_User_Reply_Description" classname="Test Cases/BugPage_Description_Comments_TestCases/Verify_User_Reply_Description" status="FAILED">
+         <failure type="FAILED" message="Unable to scroll to object 'Object Repository/BugsPage_Description/h3_Description' (Root cause: org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Nothing to commit!!!}
+  (Session info: chrome=67.0.3396.79)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HMECL001948', ip: '10.95.75.194', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\KUMAR~1.NAG\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.79, webStorageEnabled: true}
+Session ID: 28e76529c27acb5f353e2f4b26bb575c
+*** Element info: {Using=xpath, value=//h3[(text() = 'Description : ' or . = 'Description : ')]})"/>
+         <system-out><![CDATA[2018-06-15 11:44:48 - [TEST_CASE][FAILED] - Test Cases/BugPage_Description_Comments_TestCases/Verify_User_Reply_Description: Test Cases/BugPage_Description_Comments_TestCases/Verify_User_Reply_Description FAILED because (of) Unable to scroll to object 'Object Repository/BugsPage_Description/h3_Description' (Root cause: org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Nothing to commit!!!}
+  (Session info: chrome=67.0.3396.79)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HMECL001948', ip: '10.95.75.194', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\KUMAR~1.NAG\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.79, webStorageEnabled: true}
+Session ID: 28e76529c27acb5f353e2f4b26bb575c
+*** Element info: {Using=xpath, value=//h3[(text() = 'Description : ' or . = 'Description : ')]})
+
+2018-06-15 11:44:49 - [TEST_STEP][FAILED] - scrollToElement: Unable to scroll to object 'Object Repository/BugsPage_Description/h3_Description' (Root cause: org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Nothing to commit!!!}
+  (Session info: chrome=67.0.3396.79)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HMECL001948', ip: '10.95.75.194', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\KUMAR~1.NAG\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.79, webStorageEnabled: true}
+Session ID: 28e76529c27acb5f353e2f4b26bb575c
+*** Element info: {Using=xpath, value=//h3[(text() = 'Description : ' or . = 'Description : ')]})
+
+2018-06-15 11:44:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-06-15 11:44:49 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-06-15 11:44:49 - [MESSAGE][FAILED] - Unable to scroll to object 'Object Repository/BugsPage_Description/h3_Description' (Root cause: org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Nothing to commit!!!}
+  (Session info: chrome=67.0.3396.79)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HMECL001948', ip: '10.95.75.194', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\KUMAR~1.NAG\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.79, webStorageEnabled: true}
+Session ID: 28e76529c27acb5f353e2f4b26bb575c
+*** Element info: {Using=xpath, value=//h3[(text() = 'Description : ' or . = 'Description : ')]})]]></system-out>
+         <system-err><![CDATA[2018-06-15 11:44:48 - [TEST_CASE][FAILED] - Test Cases/BugPage_Description_Comments_TestCases/Verify_User_Reply_Description: Test Cases/BugPage_Description_Comments_TestCases/Verify_User_Reply_Description FAILED because (of) Unable to scroll to object 'Object Repository/BugsPage_Description/h3_Description' (Root cause: org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Nothing to commit!!!}
+  (Session info: chrome=67.0.3396.79)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HMECL001948', ip: '10.95.75.194', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\KUMAR~1.NAG\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.79, webStorageEnabled: true}
+Session ID: 28e76529c27acb5f353e2f4b26bb575c
+*** Element info: {Using=xpath, value=//h3[(text() = 'Description : ' or . = 'Description : ')]})]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Search_TestCases/VerifySearchPageLoads" classname="Test Cases/Search_TestCases/VerifySearchPageLoads" status="PASSED">
+         <system-out><![CDATA[2018-06-15 11:44:49 - [TEST_CASE][PASSED] - Test Cases/Search_TestCases/VerifySearchPageLoads: Test Cases/Search_TestCases/VerifySearchPageLoads
+
+2018-06-15 11:44:49 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-06-15 11:44:49 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-06-15 11:44:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-15 11:44:52 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://us142.sjc.aristanetworks.com:7000/' successfully
+
+2018-06-15 11:44:57 - [MESSAGE][PASSED] - Navigate to 'http://us142.sjc.aristanetworks.com:7000/' successfully
+
+2018-06-15 11:44:57 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-06-15 11:44:57 - [MESSAGE][PASSED] - Current window maximized
+
+2018-06-15 11:44:57 - [TEST_STEP][PASSED] - setText: Text 'knagendra-ext' is set on object 'Object Repository/Page_BugsUI login/input_value_userid'
+
+2018-06-15 11:44:59 - [MESSAGE][PASSED] - Text 'knagendra-ext' is set on object 'Object Repository/Page_BugsUI login/input_value_userid'
+
+2018-06-15 11:44:59 - [TEST_STEP][PASSED] - setText: Text 'Tumkur@123' is set on object 'Object Repository/Page_BugsUI login/input_form-control ng-untouche'
+
+2018-06-15 11:45:00 - [MESSAGE][PASSED] - Text 'Tumkur@123' is set on object 'Object Repository/Page_BugsUI login/input_form-control ng-untouche'
+
+2018-06-15 11:45:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BugsUI login/button_Login' is clicked on
+
+2018-06-15 11:45:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI login/button_Login' is clicked on
+
+2018-06-15 11:45:00 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Page_BugsUI login/a_BugsUI' has attribute 'text' with value 'BugsUI '
+
+2018-06-15 11:45:01 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI login/a_BugsUI' has attribute 'text' with value 'BugsUI '
+
+2018-06-15 11:45:01 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-06-15 11:45:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-06-15 11:45:03 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Dashboard/a_Search))): Object: 'Object Repository/Page_BugsUI Dashboard/a_Search' is clicked on
+
+2018-06-15 11:45:03 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Dashboard/a_Search' is visible
+
+2018-06-15 11:45:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BugsUI Dashboard/a_Search' is clicked on
+
+2018-06-15 11:45:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI Dashboard/a_Search' is clicked on
+
+2018-06-15 11:45:03 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-06-15 11:45:08 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-06-15 11:45:08 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_BugsUI Search/h3_Search Parameters' are matched.
+
+2018-06-15 11:45:08 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_BugsUI Search/h3_Search Parameters' are matched.
+
+2018-06-15 11:45:08 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-06-15 11:45:13 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Search_TestCases/Search_With_PackageOnly" classname="Test Cases/Search_TestCases/Search_With_PackageOnly" status="PASSED">
+         <system-out><![CDATA[2018-06-15 11:45:13 - [TEST_CASE][PASSED] - Test Cases/Search_TestCases/Search_With_PackageOnly: Test Cases/Search_TestCases/Search_With_PackageOnly
+
+2018-06-15 11:45:14 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Search/button_Package), 0)): Object: 'Object Repository/Page_BugsUI Search/button_Package' is clicked on
+
+2018-06-15 11:45:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-06-15 11:45:14 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Search/button_Package' is present
+
+2018-06-15 11:45:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BugsUI Search/button_Package' is clicked on
+
+2018-06-15 11:45:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI Search/button_Package' is clicked on
+
+2018-06-15 11:45:17 - [TEST_STEP][PASSED] - delay: Delayed 6 second(s)
+
+2018-06-15 11:45:23 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2018-06-15 11:45:23 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Search/input_form-control searchField), 5)): Object: 'Object Repository/Page_BugsUI Search/a_BugsUITest' is clicked on
+
+2018-06-15 11:45:23 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Search/input_form-control searchField' is present
+
+2018-06-15 11:45:23 - [TEST_STEP][PASSED] - setText: Text 'bugsuitest' is set on object 'Object Repository/Page_BugsUI Search/input_form-control searchField'
+
+2018-06-15 11:45:24 - [MESSAGE][PASSED] - Text 'bugsuitest' is set on object 'Object Repository/Page_BugsUI Search/input_form-control searchField'
+
+2018-06-15 11:45:24 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Search/a_BugsUITest), 0)): Object: 'Object Repository/Page_BugsUI Search/a_BugsUITest' is clicked on
+
+2018-06-15 11:45:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-06-15 11:45:24 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Search/a_BugsUITest' is present
+
+2018-06-15 11:45:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BugsUI Search/a_BugsUITest' is clicked on
+
+2018-06-15 11:45:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI Search/a_BugsUITest' is clicked on
+
+2018-06-15 11:45:25 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-06-15 11:45:28 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-06-15 11:45:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BugsUI Search/button_Search' is clicked on
+
+2018-06-15 11:45:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI Search/button_Search' is clicked on
+
+2018-06-15 11:45:28 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-06-15 11:45:33 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-06-15 11:45:33 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_BugsUI Search/h3_ResultFound' is present
+
+2018-06-15 11:45:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-06-15 11:45:33 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Search/h3_ResultFound' is present
+
+2018-06-15 11:45:33 - [TEST_STEP][PASSED] - Statement - resultFoundText = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Search/h3_ResultFound)): Text of object 'Object Repository/Page_BugsUI Search/h3_ResultFound' is: 'Result : 190 Bugs found'
+
+2018-06-15 11:45:34 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_BugsUI Search/h3_ResultFound' is: 'Result : 190 Bugs found'
+
+2018-06-15 11:45:34 - [TEST_STEP][PASSED] - Statement - If (resultFoundText.contains("Result :") && resultFoundText.contains("Bugs found")): null
+
+2018-06-15 11:45:34 - [TEST_STEP][PASSED] - Statement - assert true: null
+
+2018-06-15 11:45:34 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_BugsUI Search/div_searchResult' is present
+
+2018-06-15 11:45:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-06-15 11:45:34 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Search/div_searchResult' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ProductEdit_TestCases/VerifyProductEditPageLoads" classname="Test Cases/ProductEdit_TestCases/VerifyProductEditPageLoads" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Page_BugsUI Dashboard/a_EDIT' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element &lt;a class=&quot;cursorPointer&quot; ng-click=&quot;mainTabsChange('productEdit',$event)&quot;>...&lt;/a> is not clickable at point (274, 116). Other element would receive the click: &lt;div class=&quot;row mask&quot; ng-show=&quot;showLoader&quot;>...&lt;/div>
+  (Session info: chrome=67.0.3396.79)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HMECL001948', ip: '10.95.75.194', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\KUMAR~1.NAG\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.79, webStorageEnabled: true}
+Session ID: f91f5337a87ad430c89aa039455bee1b)"/>
+         <system-out><![CDATA[2018-06-15 11:45:34 - [TEST_CASE][FAILED] - Test Cases/ProductEdit_TestCases/VerifyProductEditPageLoads: Test Cases/ProductEdit_TestCases/VerifyProductEditPageLoads FAILED because (of) Unable to click on object 'Object Repository/Page_BugsUI Dashboard/a_EDIT' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <a class="cursorPointer" ng-click="mainTabsChange('productEdit',$event)">...</a> is not clickable at point (274, 116). Other element would receive the click: <div class="row mask" ng-show="showLoader">...</div>
+  (Session info: chrome=67.0.3396.79)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HMECL001948', ip: '10.95.75.194', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\KUMAR~1.NAG\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.79, webStorageEnabled: true}
+Session ID: f91f5337a87ad430c89aa039455bee1b)
+
+2018-06-15 11:45:34 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-06-15 11:45:34 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-06-15 11:45:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-15 11:45:37 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-06-15 11:45:37 - [MESSAGE][PASSED] - Current window maximized
+
+2018-06-15 11:45:37 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://us142.sjc.aristanetworks.com:7000/' successfully
+
+2018-06-15 11:45:42 - [MESSAGE][PASSED] - Navigate to 'http://us142.sjc.aristanetworks.com:7000/' successfully
+
+2018-06-15 11:45:42 - [TEST_STEP][PASSED] - setText: Text 'knagendra-ext' is set on object 'Object Repository/Page_BugsUI login/input_value_userid'
+
+2018-06-15 11:45:44 - [MESSAGE][PASSED] - Text 'knagendra-ext' is set on object 'Object Repository/Page_BugsUI login/input_value_userid'
+
+2018-06-15 11:45:44 - [TEST_STEP][PASSED] - setText: Text 'Tumkur@123' is set on object 'Object Repository/Page_BugsUI login/input_form-control ng-untouche'
+
+2018-06-15 11:45:45 - [MESSAGE][PASSED] - Text 'Tumkur@123' is set on object 'Object Repository/Page_BugsUI login/input_form-control ng-untouche'
+
+2018-06-15 11:45:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BugsUI login/button_Login' is clicked on
+
+2018-06-15 11:45:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI login/button_Login' is clicked on
+
+2018-06-15 11:45:46 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Page_BugsUI login/a_BugsUI' has attribute 'text' with value 'BugsUI '
+
+2018-06-15 11:45:46 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI login/a_BugsUI' has attribute 'text' with value 'BugsUI '
+
+2018-06-15 11:45:46 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-06-15 11:45:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-06-15 11:45:48 - [TEST_STEP][FAILED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Dashboard/a_Product))): Unable to click on object 'Object Repository/Page_BugsUI Dashboard/a_EDIT' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <a class="cursorPointer" ng-click="mainTabsChange('productEdit',$event)">...</a> is not clickable at point (274, 116). Other element would receive the click: <div class="row mask" ng-show="showLoader">...</div>
+  (Session info: chrome=67.0.3396.79)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HMECL001948', ip: '10.95.75.194', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\KUMAR~1.NAG\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.79, webStorageEnabled: true}
+Session ID: f91f5337a87ad430c89aa039455bee1b)
+
+2018-06-15 11:45:48 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Dashboard/a_Product' is visible
+
+2018-06-15 11:45:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BugsUI Dashboard/a_Product' is clicked on
+
+2018-06-15 11:45:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI Dashboard/a_Product' is clicked on
+
+2018-06-15 11:45:48 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_BugsUI Dashboard/a_EDIT' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <a class="cursorPointer" ng-click="mainTabsChange('productEdit',$event)">...</a> is not clickable at point (274, 116). Other element would receive the click: <div class="row mask" ng-show="showLoader">...</div>
+  (Session info: chrome=67.0.3396.79)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HMECL001948', ip: '10.95.75.194', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\KUMAR~1.NAG\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.79, webStorageEnabled: true}
+Session ID: f91f5337a87ad430c89aa039455bee1b)
+
+2018-06-15 11:45:49 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_BugsUI Dashboard/a_EDIT' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <a class="cursorPointer" ng-click="mainTabsChange('productEdit',$event)">...</a> is not clickable at point (274, 116). Other element would receive the click: <div class="row mask" ng-show="showLoader">...</div>
+  (Session info: chrome=67.0.3396.79)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HMECL001948', ip: '10.95.75.194', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\KUMAR~1.NAG\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.79, webStorageEnabled: true}
+Session ID: f91f5337a87ad430c89aa039455bee1b)
+[[ATTACHMENT|C:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\SmokeTestSuite\\20180615_114157\\1529043349151.png]]]]></system-out>
+         <system-err><![CDATA[2018-06-15 11:45:34 - [TEST_CASE][FAILED] - Test Cases/ProductEdit_TestCases/VerifyProductEditPageLoads: Test Cases/ProductEdit_TestCases/VerifyProductEditPageLoads FAILED because (of) Unable to click on object 'Object Repository/Page_BugsUI Dashboard/a_EDIT' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <a class="cursorPointer" ng-click="mainTabsChange('productEdit',$event)">...</a> is not clickable at point (274, 116). Other element would receive the click: <div class="row mask" ng-show="showLoader">...</div>
+  (Session info: chrome=67.0.3396.79)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HMECL001948', ip: '10.95.75.194', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\KUMAR~1.NAG\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.79, webStorageEnabled: true}
+Session ID: f91f5337a87ad430c89aa039455bee1b)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ProductEdit_TestCases/VerifyProductCanBeDeleted" classname="Test Cases/ProductEdit_TestCases/VerifyProductCanBeDeleted" status="FAILED">
+         <failure type="FAILED" message="Unable to select option by label 'Software' of object 'Object Repository/Page_BugsUI productEdit/classificationDropdown'  (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI productEdit/classificationDropdown' located by 'By.xpath: //select[@id = 'classifications_editProduct' and @ng-model = 'UPDATE.classifications_editProduct']' not found)"/>
+         <system-out><![CDATA[2018-06-15 11:45:49 - [TEST_CASE][FAILED] - Test Cases/ProductEdit_TestCases/VerifyProductCanBeDeleted: Test Cases/ProductEdit_TestCases/VerifyProductCanBeDeleted FAILED because (of) Unable to select option by label 'Software' of object 'Object Repository/Page_BugsUI productEdit/classificationDropdown'  (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI productEdit/classificationDropdown' located by 'By.xpath: //select[@id = 'classifications_editProduct' and @ng-model = 'UPDATE.classifications_editProduct']' not found)
+
+2018-06-15 11:45:49 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-06-15 11:45:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-06-15 11:45:51 - [TEST_STEP][FAILED] - selectOptionByLabel: Unable to select option by label 'Software' of object 'Object Repository/Page_BugsUI productEdit/classificationDropdown'  (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI productEdit/classificationDropdown' located by 'By.xpath: //select[@id = 'classifications_editProduct' and @ng-model = 'UPDATE.classifications_editProduct']' not found)
+
+2018-06-15 11:46:26 - [MESSAGE][FAILED] - Unable to select option by label 'Software' of object 'Object Repository/Page_BugsUI productEdit/classificationDropdown'  (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI productEdit/classificationDropdown' located by 'By.xpath: //select[@id = 'classifications_editProduct' and @ng-model = 'UPDATE.classifications_editProduct']' not found)
+[[ATTACHMENT|C:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\SmokeTestSuite\\20180615_114157\\1529043385958.png]]]]></system-out>
+         <system-err><![CDATA[2018-06-15 11:45:49 - [TEST_CASE][FAILED] - Test Cases/ProductEdit_TestCases/VerifyProductCanBeDeleted: Test Cases/ProductEdit_TestCases/VerifyProductCanBeDeleted FAILED because (of) Unable to select option by label 'Software' of object 'Object Repository/Page_BugsUI productEdit/classificationDropdown'  (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI productEdit/classificationDropdown' located by 'By.xpath: //select[@id = 'classifications_editProduct' and @ng-model = 'UPDATE.classifications_editProduct']' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-06-15 11:42:03 - [TEST_SUITE][FAILED] - SmokeTestSuite: Test Cases/ProductAdd_TestCases/VerifyAdditionOfSuccessfulProduct FAILED because (of) Unable to verify object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/div_Successfully added the pro' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/div_Successfully added the pro' located by 'By.xpath: //div[@class = 'alert alert-success' and @ng-class = concat('{' , "'" , 'alert-dismissible' , "'" , ': message.dismissButton}')]' not found)]]></system-out>
+      <system-err><![CDATA[2018-06-15 11:42:03 - [TEST_SUITE][FAILED] - SmokeTestSuite: Test Cases/ProductAdd_TestCases/VerifyAdditionOfSuccessfulProduct FAILED because (of) Unable to verify object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/div_Successfully added the pro' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/div_Successfully added the pro' located by 'By.xpath: //div[@class = 'alert alert-success' and @ng-class = concat('{' , "'" , 'alert-dismissible' , "'" , ': message.dismissButton}')]' not found)]]></system-err>
+   </testsuite>
+</testsuites>

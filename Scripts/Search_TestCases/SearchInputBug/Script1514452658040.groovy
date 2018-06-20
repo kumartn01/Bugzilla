@@ -51,5 +51,4 @@ if (val.equals('General')) {
 
 WebUI.closeBrowser()
 
-CustomKeywords.'newKey.Dashboard.add2nums'(2, 4)
 

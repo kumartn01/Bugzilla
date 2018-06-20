@@ -1,0 +1,32 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+BugPage_GeneralTabScenarios,Chrome 67.0.3396.79,,2018-06-14 10:58:33,2018-06-14 10:59:03,29.403s,FAILED
+,,,,,,
+Test Cases/BugPage_GeneralTab_TestCases/VerifyBugInfoFields_CanBe_Edited_Commited,Chrome 67.0.3396.79,,2018-06-14 10:58:34,2018-06-14 10:58:55,21.002s,FAILED
+openBrowser,Chrome 67.0.3396.79,,2018-06-14 10:58:34,2018-06-14 10:58:37,2.953s,PASSED
+navigateToUrl,Chrome 67.0.3396.79,,2018-06-14 10:58:37,2018-06-14 10:58:42,5.145s,PASSED
+maximizeWindow,Chrome 67.0.3396.79,,2018-06-14 10:58:42,2018-06-14 10:58:42,0.184s,PASSED
+setText,Chrome 67.0.3396.79,,2018-06-14 10:58:42,2018-06-14 10:58:44,1.510s,PASSED
+setText,Chrome 67.0.3396.79,,2018-06-14 10:58:44,2018-06-14 10:58:45,0.817s,PASSED
+click,Chrome 67.0.3396.79,,2018-06-14 10:58:45,2018-06-14 10:58:45,0.272s,PASSED
+setText,Chrome 67.0.3396.79,,2018-06-14 10:58:45,2018-06-14 10:58:46,0.640s,PASSED
+delay,Chrome 67.0.3396.79,,2018-06-14 10:58:46,2018-06-14 10:58:47,1.067s,PASSED
+sendKeys,Chrome 67.0.3396.79,,2018-06-14 10:58:47,2018-06-14 10:58:47,0.291s,PASSED
+delay,Chrome 67.0.3396.79,,2018-06-14 10:58:47,2018-06-14 10:58:50,3.004s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(BugsPage_GeneralTab/a_General), 1))",Chrome 67.0.3396.79,,2018-06-14 10:58:50,2018-06-14 10:58:51,0.843s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(BugsPage_GeneralTab/bugInfoBox), 1))",Chrome 67.0.3396.79,,2018-06-14 10:58:51,2018-06-14 10:58:52,0.752s,PASSED
+newKey.ClearFields.ClearTextField,Chrome 67.0.3396.79,,2018-06-14 10:58:52,2018-06-14 10:58:52,0.483s,PASSED
+setText,Chrome 67.0.3396.79,,2018-06-14 10:58:52,2018-06-14 10:58:54,2.169s,PASSED
+click,Chrome 67.0.3396.79,,2018-06-14 10:58:54,2018-06-14 10:58:55,0.251s,PASSED
+Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyAlertPresent(2)),Chrome 67.0.3396.79,,2018-06-14 10:58:55,2018-06-14 10:58:55,0.099s,FAILED
+,,,,,,
+Test Cases/BugPage_GeneralTab_TestCases/VerifyStatusBoxFields_canBe_Edited,Chrome 67.0.3396.79,,2018-06-14 10:58:55,2018-06-14 10:58:57,2.439s,FAILED
+delay,Chrome 67.0.3396.79,,2018-06-14 10:58:55,2018-06-14 10:58:57,2.003s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(BugsPage_GeneralTab/Status-Box/statusBox), 1))",Chrome 67.0.3396.79,,2018-06-14 10:58:57,2018-06-14 10:58:57,0.078s,FAILED
+,,,,,,
+Test Cases/BugPage_GeneralTab_TestCases/VerifyPeopleBoxFields,Chrome 67.0.3396.79,,2018-06-14 10:58:57,2018-06-14 10:58:59,2.340s,FAILED
+delay,Chrome 67.0.3396.79,,2018-06-14 10:58:57,2018-06-14 10:58:59,2.005s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(BugsPage_GeneralTab/People-Box/peopleBox), 1))",Chrome 67.0.3396.79,,2018-06-14 10:58:59,2018-06-14 10:58:59,0.047s,FAILED
+,,,,,,
+Test Cases/BugPage_GeneralTab_TestCases/VerifyTrackingBoxFields,Chrome 67.0.3396.79,,2018-06-14 10:58:59,2018-06-14 10:59:02,2.330s,FAILED
+delay,Chrome 67.0.3396.79,,2018-06-14 10:59:00,2018-06-14 10:59:02,2.002s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(BugsPage_GeneralTab/Tracking-Box/trackingBox), 1))",Chrome 67.0.3396.79,,2018-06-14 10:59:02,2018-06-14 10:59:02,0.065s,FAILED

@@ -30,6 +30,9 @@ WebUI.selectOptionByLabel(findTestObject('Page_BugsUI New Bug/DropdownClassifica
 
 WebUI.delay(5)
 
-if(WebUI.verifyOptionPresentByLabel(findTestObject('Page_BugsUI New Bug/DropdownPackage'), 'TestProduct_Automation', false, 0)){
-	WebUI.selectOptionByLabel(findTestObject('Page_BugsUI New Bug/DropdownPackage'), 'TestProduct_Automation', false)
-}
+WebUI.selectOptionByLabel(findTestObject('Page_BugsUI New Bug/DropdownPackage'), 'TestProduct_Automation', false)
+
+WebUI.delay(3)
+
+WebUI.verifyElementText(findTestObject('Page_BugsUI productAdd/ProductAdd_Fields/span_Component'), 'Component :')
+

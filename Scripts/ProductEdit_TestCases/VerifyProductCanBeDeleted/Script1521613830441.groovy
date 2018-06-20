@@ -19,26 +19,37 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.delay(5)
+WebUI.delay(2)
 
-if(WebUI.verifyElementPresent(findTestObject('Page_BugsUI productEdit/product_Delete_button'), 7)){
+WebUI.selectOptionByLabel(findTestObject('Page_BugsUI productEdit/classificationDropdown'), 'Software', false)
+
+WebUI.delay(15)
+
+WebUI.selectOptionByLabel(findTestObject('Page_BugsUI productEdit/packageDropdown'), 'TestProduct_Automation',false)
+
+WebUI.delay(3)
+
+if(WebUI.verifyElementPresent(findTestObject('Page_BugsUI productEdit/product_Delete_button'), 0)){
+	
 	WebUI.click(findTestObject('Page_BugsUI productEdit/product_Delete_button'))
 }
 
-if (WebUI.verifyAlertPresent(6)) {
+if (WebUI.verifyAlertPresent(3)) {
 	
 	WebUI.acceptAlert()
 }
 
-WebUI.delay(5)
+WebUI.delay(2)
 
-WebUI.verifyElementPresent(findTestObject('Page_BugsUI productEdit/div_Successfully deleted the p'), 7)
+WebUI.verifyElementPresent(findTestObject('Page_BugsUI productEdit/div_Successfully deleted the p'), 0)
 
 productDeleteMessage = WebUiBuiltInKeywords.getText(findTestObject('Page_BugsUI productEdit/div_Successfully deleted the p'))
 
 println('------Selected default package value------:' + productDeleteMessage)
 
-WebUI.delay(5)
+WebUI.delay(2)
 
-WebUI.verifyEqual(productDeleteMessage, 'Successfully deleted the product "TestProduct_Automation1"!!!')
+WebUI.verifyEqual(productDeleteMessage, 'Successfully deleted the product "TestProduct_Automation"!!!')
+
+WebUI.closeBrowser()
 

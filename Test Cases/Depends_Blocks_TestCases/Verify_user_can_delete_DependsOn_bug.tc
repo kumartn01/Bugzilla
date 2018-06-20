@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify_user_can_delete_DependsOn_bug</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7217137a-aa72-4a81-9d16-27872bbc0c66</testCaseGuid>
+</TestCaseEntity>

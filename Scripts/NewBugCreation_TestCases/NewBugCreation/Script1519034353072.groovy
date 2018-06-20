@@ -40,6 +40,8 @@ if(altertPresent){
 newBugNo = WebUI.getText(findTestObject('Page_BugsUI New Bug/BugNo'))
 bugId = newBugNo.substring(5, 11)
 
+println("alert text is -"+alertText)
+println("bugId -"+bugId)
 if(alertText.contains(bugId)){
 	assert true
 }

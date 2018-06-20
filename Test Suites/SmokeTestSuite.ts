@@ -4,7 +4,7 @@
    <name>SmokeTestSuite</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-05-30T00:00:15</lastRun>
+   <lastRun>2018-06-20T12:11:58</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -66,31 +66,25 @@
       <testCaseId>Test Cases/ProductAdd_TestCases/VerifyAdditionOfSuccessfulProduct</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>75ea4943-465b-461e-b9a8-483abfc32053</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/ProductEdit_TestCases/VerifyProductEditPageLoads</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>abe64711-b8ca-4a53-b053-f11f07088bb2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/BugPage_GeneralTab_TestCases/VerifyBugInfoFields_CanBe_Edited_Commited</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>1fdaed97-bc84-46f6-ada0-a4db18d82d71</guid>
+      <guid>ded2c9ea-bc7c-475b-9ef5-4fe0d443206a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/BugPage_GeneralTab_TestCases/VerifyStatusBoxFields_canBe_Edited</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>73d7bbd8-1480-4542-b92a-14e39f642335</guid>
+      <guid>ad41c10f-4d22-4734-bd91-ac469395a887</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/BugPage_GeneralTab_TestCases/VerifyPeopleBoxFields</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>9f745265-3a4d-4306-997f-91851ef56290</guid>
+      <guid>36996fde-59fc-4943-8a0f-4ea31ef892fe</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/BugPage_GeneralTab_TestCases/VerifyTrackingBoxFields</testCaseId>
@@ -104,7 +98,7 @@
    <testCaseLink>
       <guid>2c671d8b-8f44-442a-b1f6-347d16e2baba</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/BugPage_Description_Comments_TestCases/Verify_DescriptionSection_CanBe_Minimixed_Expanded</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -116,7 +110,19 @@
    <testCaseLink>
       <guid>19fe411b-dd69-4aa0-97a5-6d1b50894d75</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Search_TestCases/Search_With_PackageOnly</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>75ea4943-465b-461e-b9a8-483abfc32053</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ProductEdit_TestCases/VerifyProductEditPageLoads</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f9df9010-373f-44d2-826e-c2e59ae9be56</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ProductEdit_TestCases/VerifyProductCanBeDeleted</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

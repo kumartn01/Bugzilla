@@ -4,7 +4,7 @@
    <name>NewBugPageScenarios</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-03-02T10:06:36</lastRun>
+   <lastRun>2018-05-29T14:49:02</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

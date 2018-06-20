@@ -3,7 +3,13 @@
    <description></description>
    <name>div_Successfully deleted the p</name>
    <tag></tag>
-   <elementGuidId>e8456725-3f74-429e-baf1-be9468667b2a</elementGuidId>
+   <elementGuidId>4fe3d007-8dd3-4ac0-8703-f657137e0d41</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@class = 'alert alert-success' and @ng-class = concat('{' , &quot;'&quot; , 'alert-dismissible' , &quot;'&quot; , ': message.dismissButton}')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -14,25 +20,25 @@
       <value>div</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>alert alert-success</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ng-class</name>
       <type>Main</type>
       <value>{'alert-dismissible': message.dismissButton}</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Successfully deleted the product &quot;TestProduct_Automation1&quot;!!!</value>
+      <value>Successfully deleted the product &quot;TestProduct_Automation&quot;!!!</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

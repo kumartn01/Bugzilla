@@ -30,6 +30,8 @@ WebUI.setText(findTestObject('Page_BugsUI productAdd/ProductAdd_Fields/input_ver
 
 WebUI.setText(findTestObject('Page_BugsUI productAdd/ProductAdd_Fields/input_component_addProduct'), 'Test_Component_Automation')
 
+WebUI.delay(2)
+
 WebUI.setText(findTestObject('Page_BugsUI productAdd/ProductAdd_Fields/textarea_componentDescription_'), 'TestComponent Description')
 
 WebUI.setText(findTestObject('Page_BugsUI productAdd/ProductAdd_Fields/input_AssignTO_addProduct'), 'kumar')

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ProductEditScenarios" time="49" tests="2" failures="0" errors="0">
+   <testsuite name="ProductEditScenarios" tests="2" failures="0" errors="0" time="49" timestamp="2018-05-28 14:00:09" hostname="Kumar.nagendra - HMECL001948.happiestminds.com" id="Test Suites/ProductEditScenarios">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\ProductEditScenarios\\20180528_140007"/>
+         <property name="logFiles" value="C:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\ProductEditScenarios\\20180528_140007\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Kumar.nagendra - HMECL001948.happiestminds.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.0.1"/>
+         <property name="browser" value="Chrome 66.0.3359.181"/>
+         <property name="hostAddress" value="10.95.75.194"/>
+         <property name="sessionId" value="b2e686b471d33b4836d5eeb6577265c2"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/ProductEdit_TestCases/VerifyProductEditPageLoads" classname="Test Cases/ProductEdit_TestCases/VerifyProductEditPageLoads" status="PASSED">
+         <system-out><![CDATA[2018-05-28 14:00:09 - [TEST_CASE][PASSED] - Test Cases/ProductEdit_TestCases/VerifyProductEditPageLoads: Test Cases/ProductEdit_TestCases/VerifyProductEditPageLoads
+
+2018-05-28 14:00:10 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-28 14:00:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-28 14:00:13 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-05-28 14:00:13 - [MESSAGE][PASSED] - Current window maximized
+
+2018-05-28 14:00:13 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://bugzilla-ui.staging.kube.sw-infra.sjc.aristanetworks.com/login' successfully
+
+2018-05-28 14:00:18 - [MESSAGE][PASSED] - Navigate to 'http://bugzilla-ui.staging.kube.sw-infra.sjc.aristanetworks.com/login' successfully
+
+2018-05-28 14:00:18 - [TEST_STEP][PASSED] - setText: Text 'knagendra-ext' is set on object 'Object Repository/Page_BugsUI login/input_value_userid'
+
+2018-05-28 14:00:19 - [MESSAGE][PASSED] - Text 'knagendra-ext' is set on object 'Object Repository/Page_BugsUI login/input_value_userid'
+
+2018-05-28 14:00:19 - [TEST_STEP][PASSED] - setText: Text 'Tumkur@123' is set on object 'Object Repository/Page_BugsUI login/input_form-control ng-untouche'
+
+2018-05-28 14:00:20 - [MESSAGE][PASSED] - Text 'Tumkur@123' is set on object 'Object Repository/Page_BugsUI login/input_form-control ng-untouche'
+
+2018-05-28 14:00:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BugsUI login/button_Login' is clicked on
+
+2018-05-28 14:00:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI login/button_Login' is clicked on
+
+2018-05-28 14:00:20 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Page_BugsUI login/a_BugsUI' has attribute 'text' with value 'BugsUI '
+
+2018-05-28 14:00:21 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI login/a_BugsUI' has attribute 'text' with value 'BugsUI '
+
+2018-05-28 14:00:21 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-28 14:00:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-28 14:00:23 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Dashboard/a_Product))): Object: 'Object Repository/Page_BugsUI Dashboard/a_EDIT' is clicked on
+
+2018-05-28 14:00:23 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Dashboard/a_Product' is visible
+
+2018-05-28 14:00:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BugsUI Dashboard/a_Product' is clicked on
+
+2018-05-28 14:00:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI Dashboard/a_Product' is clicked on
+
+2018-05-28 14:00:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BugsUI Dashboard/a_EDIT' is clicked on
+
+2018-05-28 14:00:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI Dashboard/a_EDIT' is clicked on
+
+2018-05-28 14:00:24 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2018-05-28 14:00:28 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-05-28 14:00:28 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_BugsUI productEdit/h2_Edit Product' are matched.
+
+2018-05-28 14:00:28 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_BugsUI productEdit/h2_Edit Product' are matched.
+
+2018-05-28 14:00:28 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2018-05-28 14:00:32 - [MESSAGE][PASSED] - Delayed 4 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ProductEdit_TestCases/VerifyProductCanBeDeleted" classname="Test Cases/ProductEdit_TestCases/VerifyProductCanBeDeleted" status="PASSED">
+         <system-out><![CDATA[2018-05-28 14:00:32 - [TEST_CASE][PASSED] - Test Cases/ProductEdit_TestCases/VerifyProductCanBeDeleted: Test Cases/ProductEdit_TestCases/VerifyProductCanBeDeleted
+
+2018-05-28 14:00:32 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-28 14:00:34 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-28 14:00:34 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'Software' are selected in object 'Object Repository/Page_BugsUI productEdit/classificationDropdown' 
+
+2018-05-28 14:00:34 - [MESSAGE][PASSED] - All options with label 'Software' are selected in object 'Object Repository/Page_BugsUI productEdit/classificationDropdown' 
+
+2018-05-28 14:00:34 - [TEST_STEP][PASSED] - delay: Delayed 15 second(s)
+
+2018-05-28 14:00:49 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2018-05-28 14:00:49 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'TestProduct_Automation' are selected in object 'Object Repository/Page_BugsUI productEdit/packageDropdown' 
+
+2018-05-28 14:00:50 - [MESSAGE][PASSED] - All options with label 'TestProduct_Automation' are selected in object 'Object Repository/Page_BugsUI productEdit/packageDropdown' 
+
+2018-05-28 14:00:50 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-05-28 14:00:53 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-05-28 14:00:53 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI productEdit/product_Delete_button), 0)): Object: 'Object Repository/Page_BugsUI productEdit/product_Delete_button' is clicked on
+
+2018-05-28 14:00:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-28 14:00:53 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI productEdit/product_Delete_button' is present
+
+2018-05-28 14:00:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BugsUI productEdit/product_Delete_button' is clicked on
+
+2018-05-28 14:00:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI productEdit/product_Delete_button' is clicked on
+
+2018-05-28 14:00:53 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyAlertPresent(3)): Alert accepted
+
+2018-05-28 14:00:53 - [MESSAGE][PASSED] - Alert is present after 3 second(s).
+
+2018-05-28 14:00:53 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2018-05-28 14:00:53 - [MESSAGE][PASSED] - Alert accepted
+
+2018-05-28 14:00:53 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-28 14:00:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-28 14:00:55 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_BugsUI productEdit/div_Successfully deleted the p' is present
+
+2018-05-28 14:00:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-28 14:00:55 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI productEdit/div_Successfully deleted the p' is present
+
+2018-05-28 14:00:55 - [TEST_STEP][PASSED] - Statement - productDeleteMessage = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI productEdit/div_Successfully deleted the p)): Text of object 'Object Repository/Page_BugsUI productEdit/div_Successfully deleted the p' is: 'Successfully deleted the product "TestProduct_Automation"!!!'
+
+2018-05-28 14:00:56 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_BugsUI productEdit/div_Successfully deleted the p' is: 'Successfully deleted the product "TestProduct_Automation"!!!'
+
+2018-05-28 14:00:56 - [TEST_STEP][PASSED] - Statement - println("------Selected default package value------:" + productDeleteMessage): null
+
+2018-05-28 14:00:56 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-28 14:00:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-28 14:00:58 - [TEST_STEP][PASSED] - verifyEqual: Actual object 'Successfully deleted the product "TestProduct_Automation"!!!' and expected object 'Successfully deleted the product "TestProduct_Automation"!!!' are equal
+
+2018-05-28 14:00:58 - [MESSAGE][PASSED] - Actual object 'Successfully deleted the product "TestProduct_Automation"!!!' and expected object 'Successfully deleted the product "TestProduct_Automation"!!!' are equal]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-28 14:00:09 - [TEST_SUITE][PASSED] - ProductEditScenarios: Test Cases/ProductEdit_TestCases/VerifyProductCanBeDeleted]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

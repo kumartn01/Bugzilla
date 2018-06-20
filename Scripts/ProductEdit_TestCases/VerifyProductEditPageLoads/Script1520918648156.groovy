@@ -34,18 +34,19 @@ WebUI.click(findTestObject('Page_BugsUI login/button_Login'))
 
 WebUI.verifyElementAttributeValue(findTestObject('Page_BugsUI login/a_BugsUI'), 'text', 'BugsUI ', 2)
 
-productEditTabVisible = WebUI.verifyElementVisible(findTestObject('Page_BugsUI Dashboard/a_Product'))
-
 WebUI.delay(2)
 
-if(productEditTabVisible){
+//productEditTabVisible = WebUI.verifyElementVisible(findTestObject('Page_BugsUI Dashboard/a_Product'))
+
+if(WebUI.verifyElementVisible(findTestObject('Page_BugsUI Dashboard/a_Product'))){
+	
 	WebUI.click(findTestObject('Page_BugsUI Dashboard/a_Product'))
 	
 	WebUI.click(findTestObject('Page_BugsUI Dashboard/a_EDIT'))
 }
 
-WebUI.delay(2)
+WebUI.delay(4)
 
 WebUI.verifyElementText(findTestObject('Page_BugsUI productEdit/h2_Edit Product'), 'Edit Product')
 
-WebUI.delay(2)
+WebUI.delay(4)

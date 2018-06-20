@@ -1,314 +1,197 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="SmokeTestSuite" time="500" tests="0" failures="17" errors="0">
-   <testsuite name="SmokeTestSuite" tests="0" failures="17" errors="0" time="500" timestamp="2018-05-30 00:00:17" hostname="HMECD000742$ - HMECD000742.happiestminds.com" id="Test Suites/SmokeTestSuite">
+<testsuites name="LoginScenarios" time="35" tests="4" failures="0" errors="0">
+   <testsuite name="LoginScenarios" tests="4" failures="0" errors="0" time="35" timestamp="2018-04-20 11:21:08" hostname="HMECL001948$ - HMECL001948.happiestminds.com" id="Test Suites/LoginScenarios">
       <properties>
          <property name="deviceName" value=""/>
          <property name="devicePlatform" value=""/>
-         <property name="logFolder" value="C:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\SmokeTestSuite\\20180530_000015"/>
-         <property name="logFiles" value="C:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\SmokeTestSuite\\20180530_000015\\execution0.log"/>
-         <property name="attachments" value="C:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\SmokeTestSuite\\20180530_000015\\1527618656088.png, C:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\SmokeTestSuite\\20180530_000015\\1527618656403.png, C:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\SmokeTestSuite\\20180530_000015\\1527618689655.png, C:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\SmokeTestSuite\\20180530_000015\\1527618725799.png, C:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\SmokeTestSuite\\20180530_000015\\1527618762033.png, C:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\SmokeTestSuite\\20180530_000015\\1527618795209.png, C:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\SmokeTestSuite\\20180530_000015\\1527618795496.png, C:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\SmokeTestSuite\\20180530_000015\\1527618828741.png, C:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\SmokeTestSuite\\20180530_000015\\1527618861846.png, C:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\SmokeTestSuite\\20180530_000015\\1527618898237.png, C:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\SmokeTestSuite\\20180530_000015\\1527618931382.png, C:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\SmokeTestSuite\\20180530_000015\\1527618967508.png, C:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\SmokeTestSuite\\20180530_000015\\1527619003791.png, C:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\SmokeTestSuite\\20180530_000015\\1527619007390.png, C:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\SmokeTestSuite\\20180530_000015\\1527619007678.png, C:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\SmokeTestSuite\\20180530_000015\\1527619011244.png, C:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\SmokeTestSuite\\20180530_000015\\1527619011522.png, C:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\SmokeTestSuite\\20180530_000015\\1527619015094.png, C:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\SmokeTestSuite\\20180530_000015\\1527619015395.png, C:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\SmokeTestSuite\\20180530_000015\\1527619048487.png, C:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\SmokeTestSuite\\20180530_000015\\1527619081597.png, C:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\SmokeTestSuite\\20180530_000015\\1527619117600.png"/>
-         <property name="hostName" value="HMECD000742$ - HMECD000742.happiestminds.com"/>
+         <property name="logFolder" value="C:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\LoginScenarios\\20180420_112106"/>
+         <property name="logFiles" value="C:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\LoginScenarios\\20180420_112106\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="HMECL001948$ - HMECL001948.happiestminds.com"/>
          <property name="os" value="Windows 10 64bit"/>
          <property name="katalonVersion" value="5.3.0.1"/>
-         <property name="browser" value="Chrome 66.0.3359.181"/>
-         <property name="hostAddress" value="10.16.86.205"/>
-         <property name="sessionId" value="1b24ec631ebad67ad924db67fc18ffff"/>
+         <property name="browser" value="Chrome 65.0.3325.181"/>
+         <property name="hostAddress" value="10.95.75.194"/>
+         <property name="sessionId" value="c07beb3e21a404781d5df916a80a30f0"/>
          <property name="seleniumVersion" value="3.7.1"/>
          <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
          <property name="platform" value="Windows 10"/>
       </properties>
-      <testcase name="Test Cases/Login_TestCases/VerifyPresenceOfFields_Links_LoginPage" classname="Test Cases/Login_TestCases/VerifyPresenceOfFields_Links_LoginPage" status="FAILED">
-         <failure type="FAILED" message="Unable to verify object 'Object Repository/Page_BugsUI login/input_value_userid' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI login/input_value_userid' located by 'By.xpath: //input[@name = 'value_email' and @type = 'text' and @placeholder = 'Enter Your User Id']' not found)"/>
-         <system-out><![CDATA[2018-05-30 00:00:18 - [TEST_CASE][FAILED] - Test Cases/Login_TestCases/VerifyPresenceOfFields_Links_LoginPage: Test Cases/Login_TestCases/VerifyPresenceOfFields_Links_LoginPage FAILED because (of) Unable to verify object 'Object Repository/Page_BugsUI login/input_value_userid' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI login/input_value_userid' located by 'By.xpath: //input[@name = 'value_email' and @type = 'text' and @placeholder = 'Enter Your User Id']' not found)
+      <testcase name="Test Cases/Login_TestCases/VerifyPresenceOfFields_Links_LoginPage" classname="Test Cases/Login_TestCases/VerifyPresenceOfFields_Links_LoginPage" status="PASSED">
+         <system-out><![CDATA[2018-04-20 11:21:08 - [TEST_CASE][PASSED] - Test Cases/Login_TestCases/VerifyPresenceOfFields_Links_LoginPage: Test Cases/Login_TestCases/VerifyPresenceOfFields_Links_LoginPage
 
-2018-05-30 00:00:18 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+2018-04-20 11:21:09 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
 
-2018-05-30 00:00:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+2018-04-20 11:21:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
 
-2018-05-30 00:00:22 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://bugzilla-ui.staging.kube.sw-infra.sjc.aristanetworks.com/login' successfully
+2018-04-20 11:21:12 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://bugzilla-ui.staging.kube.sw-infra.sjc.aristanetworks.com/login' successfully
 
-2018-05-30 00:00:23 - [MESSAGE][PASSED] - Navigate to 'http://bugzilla-ui.staging.kube.sw-infra.sjc.aristanetworks.com/login' successfully
+2018-04-20 11:21:16 - [MESSAGE][PASSED] - Navigate to 'http://bugzilla-ui.staging.kube.sw-infra.sjc.aristanetworks.com/login' successfully
 
-2018-05-30 00:00:23 - [TEST_STEP][FAILED] - verifyElementPresent: Unable to verify object 'Object Repository/Page_BugsUI login/input_value_userid' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI login/input_value_userid' located by 'By.xpath: //input[@name = 'value_email' and @type = 'text' and @placeholder = 'Enter Your User Id']' not found)
+2018-04-20 11:21:16 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_BugsUI login/input_value_userid' is present
 
-2018-05-30 00:00:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+2018-04-20 11:21:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
 
-2018-05-30 00:00:56 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI login/input_value_userid' located by 'By.xpath: //input[@name = 'value_email' and @type = 'text' and @placeholder = 'Enter Your User Id']' not found
-[[ATTACHMENT|C:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\SmokeTestSuite\\20180530_000015\\1527618656088.png]]
+2018-04-20 11:21:17 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI login/input_value_userid' is present
 
-2018-05-30 00:00:56 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Page_BugsUI login/input_value_userid' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI login/input_value_userid' located by 'By.xpath: //input[@name = 'value_email' and @type = 'text' and @placeholder = 'Enter Your User Id']' not found)
-[[ATTACHMENT|C:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\SmokeTestSuite\\20180530_000015\\1527618656403.png]]]]></system-out>
-         <system-err><![CDATA[2018-05-30 00:00:18 - [TEST_CASE][FAILED] - Test Cases/Login_TestCases/VerifyPresenceOfFields_Links_LoginPage: Test Cases/Login_TestCases/VerifyPresenceOfFields_Links_LoginPage FAILED because (of) Unable to verify object 'Object Repository/Page_BugsUI login/input_value_userid' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI login/input_value_userid' located by 'By.xpath: //input[@name = 'value_email' and @type = 'text' and @placeholder = 'Enter Your User Id']' not found)]]></system-err>
+2018-04-20 11:21:17 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_BugsUI login/input_form-control ng-untouche' is present
+
+2018-04-20 11:21:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-04-20 11:21:17 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI login/input_form-control ng-untouche' is present
+
+2018-04-20 11:21:17 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_BugsUI login/strong_User Id' are matched.
+
+2018-04-20 11:21:17 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_BugsUI login/strong_User Id' are matched.
+
+2018-04-20 11:21:17 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_BugsUI login/strong_Password' are matched.
+
+2018-04-20 11:21:17 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_BugsUI login/strong_Password' are matched.
+
+2018-04-20 11:21:17 - [TEST_STEP][PASSED] - Statement - loginButtonPresent = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI login/button_Login), 0): Object 'Object Repository/Page_BugsUI login/button_Login' is present
+
+2018-04-20 11:21:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-04-20 11:21:17 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI login/button_Login' is present
+
+2018-04-20 11:21:17 - [TEST_STEP][PASSED] - Statement - If (loginButtonPresent): Object 'Object Repository/Page_BugsUI login/button_Login' is clickable
+
+2018-04-20 11:21:17 - [TEST_STEP][PASSED] - verifyElementClickable: Object 'Object Repository/Page_BugsUI login/button_Login' is clickable
+
+2018-04-20 11:21:17 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI login/button_Login' is clickable]]></system-out>
+         <system-err><![CDATA[]]></system-err>
       </testcase>
-      <testcase name="Test Cases/Login_TestCases/InvalidLoginsCases" classname="Test Cases/Login_TestCases/InvalidLoginsCases" status="FAILED">
-         <failure type="FAILED" message="Unable to set text 'knagendra-ext' of object 'Object Repository/Page_BugsUI login/input_value_userid' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI login/input_value_userid' located by 'By.xpath: //input[@name = 'value_email' and @type = 'text' and @placeholder = 'Enter Your User Id']' not found)"/>
-         <system-out><![CDATA[2018-05-30 00:00:56 - [TEST_CASE][FAILED] - Test Cases/Login_TestCases/InvalidLoginsCases: Test Cases/Login_TestCases/InvalidLoginsCases FAILED because (of) Unable to set text 'knagendra-ext' of object 'Object Repository/Page_BugsUI login/input_value_userid' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI login/input_value_userid' located by 'By.xpath: //input[@name = 'value_email' and @type = 'text' and @placeholder = 'Enter Your User Id']' not found)
+      <testcase name="Test Cases/Login_TestCases/InvalidLoginsCases" classname="Test Cases/Login_TestCases/InvalidLoginsCases" status="PASSED">
+         <system-out><![CDATA[2018-04-20 11:21:17 - [TEST_CASE][PASSED] - Test Cases/Login_TestCases/InvalidLoginsCases: Test Cases/Login_TestCases/InvalidLoginsCases
 
-2018-05-30 00:00:56 - [TEST_STEP][FAILED] - setText: Unable to set text 'knagendra-ext' of object 'Object Repository/Page_BugsUI login/input_value_userid' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI login/input_value_userid' located by 'By.xpath: //input[@name = 'value_email' and @type = 'text' and @placeholder = 'Enter Your User Id']' not found)
+2018-04-20 11:21:17 - [TEST_STEP][PASSED] - setText: Text 'knagendra-ext' is set on object 'Object Repository/Page_BugsUI login/input_value_userid'
 
-2018-05-30 00:01:29 - [MESSAGE][FAILED] - Unable to set text 'knagendra-ext' of object 'Object Repository/Page_BugsUI login/input_value_userid' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI login/input_value_userid' located by 'By.xpath: //input[@name = 'value_email' and @type = 'text' and @placeholder = 'Enter Your User Id']' not found)
-[[ATTACHMENT|C:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\SmokeTestSuite\\20180530_000015\\1527618689655.png]]]]></system-out>
-         <system-err><![CDATA[2018-05-30 00:00:56 - [TEST_CASE][FAILED] - Test Cases/Login_TestCases/InvalidLoginsCases: Test Cases/Login_TestCases/InvalidLoginsCases FAILED because (of) Unable to set text 'knagendra-ext' of object 'Object Repository/Page_BugsUI login/input_value_userid' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI login/input_value_userid' located by 'By.xpath: //input[@name = 'value_email' and @type = 'text' and @placeholder = 'Enter Your User Id']' not found)]]></system-err>
+2018-04-20 11:21:18 - [MESSAGE][PASSED] - Text 'knagendra-ext' is set on object 'Object Repository/Page_BugsUI login/input_value_userid'
+
+2018-04-20 11:21:18 - [TEST_STEP][PASSED] - Statement - loginButtonClickable = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementClickable(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI login/button_Login)): Object 'Object Repository/Page_BugsUI login/button_Login' is clickable
+
+2018-04-20 11:21:18 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI login/button_Login' is clickable
+
+2018-04-20 11:21:18 - [TEST_STEP][PASSED] - Statement - If (loginButtonClickable): Object: 'Object Repository/Page_BugsUI login/button_Login' is clicked on
+
+2018-04-20 11:21:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BugsUI login/button_Login' is clicked on
+
+2018-04-20 11:21:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI login/button_Login' is clicked on
+
+2018-04-20 11:21:19 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_BugsUI login/small_Password is Required.' are matched.
+
+2018-04-20 11:21:19 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_BugsUI login/small_Password is Required.' are matched.
+
+2018-04-20 11:21:19 - [TEST_STEP][PASSED] - setText: Text '123' is set on object 'Object Repository/Page_BugsUI login/input_form-control ng-untouche'
+
+2018-04-20 11:21:19 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Page_BugsUI login/input_form-control ng-untouche'
+
+2018-04-20 11:21:19 - [TEST_STEP][PASSED] - Statement - com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI login/input_value_userid), 2).clear(): Found 1 web elements with id: 'Object Repository/Page_BugsUI login/input_value_userid' located by 'By.xpath: //input[@name = 'value_email' and @type = 'text' and @placeholder = 'Enter Your User Id']' in '2' second(s)
+
+2018-04-20 11:21:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BugsUI login/button_Login' is clicked on
+
+2018-04-20 11:21:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI login/button_Login' is clicked on
+
+2018-04-20 11:21:19 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_BugsUI login/small_User Id is Required.' are matched.
+
+2018-04-20 11:21:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_BugsUI login/small_User Id is Required.' are matched.
+
+2018-04-20 11:21:20 - [TEST_STEP][PASSED] - setText: Text 'knagendra-ext' is set on object 'Object Repository/Page_BugsUI login/input_value_userid'
+
+2018-04-20 11:21:20 - [MESSAGE][PASSED] - Text 'knagendra-ext' is set on object 'Object Repository/Page_BugsUI login/input_value_userid'
+
+2018-04-20 11:21:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BugsUI login/button_Login' is clicked on
+
+2018-04-20 11:21:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI login/button_Login' is clicked on
+
+2018-04-20 11:21:21 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-04-20 11:21:24 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-04-20 11:21:24 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI login/small_Invalid User IdPassword), 0)): Actual text 'Invalid User Id/Password !!' and expected text 'Invalid User Id/Password !!' are matched 
+
+2018-04-20 11:21:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-04-20 11:21:24 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI login/small_Invalid User IdPassword' is present
+
+2018-04-20 11:21:24 - [TEST_STEP][PASSED] - Statement - text = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI login/small_Invalid User IdPassword)): Text of object 'Object Repository/Page_BugsUI login/small_Invalid User IdPassword' is: 'Invalid User Id/Password !!'
+
+2018-04-20 11:21:24 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_BugsUI login/small_Invalid User IdPassword' is: 'Invalid User Id/Password !!'
+
+2018-04-20 11:21:24 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Invalid User Id/Password !!' and expected text 'Invalid User Id/Password !!' are matched 
+
+2018-04-20 11:21:24 - [MESSAGE][PASSED] - Actual text 'Invalid User Id/Password !!' and expected text 'Invalid User Id/Password !!' are matched 
+
+2018-04-20 11:21:24 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-04-20 11:21:25 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
       </testcase>
-      <testcase name="Test Cases/Login_TestCases/ValidSuccessfulLogin" classname="Test Cases/Login_TestCases/ValidSuccessfulLogin" status="FAILED">
-         <failure type="FAILED" message="Unable to set text 'knagendra-ext' of object 'Object Repository/Page_BugsUI login/input_value_userid' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI login/input_value_userid' located by 'By.xpath: //input[@name = 'value_email' and @type = 'text' and @placeholder = 'Enter Your User Id']' not found)"/>
-         <system-out><![CDATA[2018-05-30 00:01:29 - [TEST_CASE][FAILED] - Test Cases/Login_TestCases/ValidSuccessfulLogin: Test Cases/Login_TestCases/ValidSuccessfulLogin FAILED because (of) Unable to set text 'knagendra-ext' of object 'Object Repository/Page_BugsUI login/input_value_userid' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI login/input_value_userid' located by 'By.xpath: //input[@name = 'value_email' and @type = 'text' and @placeholder = 'Enter Your User Id']' not found)
+      <testcase name="Test Cases/Login_TestCases/ValidSuccessfulLogin" classname="Test Cases/Login_TestCases/ValidSuccessfulLogin" status="PASSED">
+         <system-out><![CDATA[2018-04-20 11:21:25 - [TEST_CASE][PASSED] - Test Cases/Login_TestCases/ValidSuccessfulLogin: Test Cases/Login_TestCases/ValidSuccessfulLogin
 
-2018-05-30 00:01:30 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+2018-04-20 11:21:25 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
 
-2018-05-30 00:01:30 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+2018-04-20 11:21:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
 
-2018-05-30 00:01:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+2018-04-20 11:21:26 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://bugzilla-ui.staging.kube.sw-infra.sjc.aristanetworks.com/login' successfully
 
-2018-05-30 00:01:31 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://bugzilla-ui.staging.kube.sw-infra.sjc.aristanetworks.com/login' successfully
+2018-04-20 11:21:31 - [MESSAGE][PASSED] - Navigate to 'http://bugzilla-ui.staging.kube.sw-infra.sjc.aristanetworks.com/login' successfully
 
-2018-05-30 00:01:33 - [MESSAGE][PASSED] - Navigate to 'http://bugzilla-ui.staging.kube.sw-infra.sjc.aristanetworks.com/login' successfully
+2018-04-20 11:21:31 - [TEST_STEP][PASSED] - setText: Text 'knagendra-ext' is set on object 'Object Repository/Page_BugsUI login/input_value_userid'
 
-2018-05-30 00:01:33 - [TEST_STEP][FAILED] - setText: Unable to set text 'knagendra-ext' of object 'Object Repository/Page_BugsUI login/input_value_userid' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI login/input_value_userid' located by 'By.xpath: //input[@name = 'value_email' and @type = 'text' and @placeholder = 'Enter Your User Id']' not found)
+2018-04-20 11:21:32 - [MESSAGE][PASSED] - Text 'knagendra-ext' is set on object 'Object Repository/Page_BugsUI login/input_value_userid'
 
-2018-05-30 00:02:06 - [MESSAGE][FAILED] - Unable to set text 'knagendra-ext' of object 'Object Repository/Page_BugsUI login/input_value_userid' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI login/input_value_userid' located by 'By.xpath: //input[@name = 'value_email' and @type = 'text' and @placeholder = 'Enter Your User Id']' not found)
-[[ATTACHMENT|C:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\SmokeTestSuite\\20180530_000015\\1527618725799.png]]]]></system-out>
-         <system-err><![CDATA[2018-05-30 00:01:29 - [TEST_CASE][FAILED] - Test Cases/Login_TestCases/ValidSuccessfulLogin: Test Cases/Login_TestCases/ValidSuccessfulLogin FAILED because (of) Unable to set text 'knagendra-ext' of object 'Object Repository/Page_BugsUI login/input_value_userid' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI login/input_value_userid' located by 'By.xpath: //input[@name = 'value_email' and @type = 'text' and @placeholder = 'Enter Your User Id']' not found)]]></system-err>
+2018-04-20 11:21:32 - [TEST_STEP][PASSED] - setText: Text 'Kumar@123' is set on object 'Object Repository/Page_BugsUI login/input_form-control ng-untouche'
+
+2018-04-20 11:21:33 - [MESSAGE][PASSED] - Text 'Kumar@123' is set on object 'Object Repository/Page_BugsUI login/input_form-control ng-untouche'
+
+2018-04-20 11:21:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BugsUI login/button_Login' is clicked on
+
+2018-04-20 11:21:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI login/button_Login' is clicked on
+
+2018-04-20 11:21:33 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Page_BugsUI login/a_BugsUI' has attribute 'text' with value 'BugsUI '
+
+2018-04-20 11:21:33 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI login/a_BugsUI' has attribute 'text' with value 'BugsUI '
+
+2018-04-20 11:21:33 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-04-20 11:21:34 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
       </testcase>
-      <testcase name="Test Cases/NewBugCreation_TestCases/NewBugPage" classname="Test Cases/NewBugCreation_TestCases/NewBugPage" status="FAILED">
-         <failure type="FAILED" message="Unable to set text 'knagendra-ext' of object 'Object Repository/Page_BugsUI login/input_value_userid' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI login/input_value_userid' located by 'By.xpath: //input[@name = 'value_email' and @type = 'text' and @placeholder = 'Enter Your User Id']' not found)"/>
-         <system-out><![CDATA[2018-05-30 00:02:06 - [TEST_CASE][FAILED] - Test Cases/NewBugCreation_TestCases/NewBugPage: Test Cases/NewBugCreation_TestCases/NewBugPage FAILED because (of) Unable to set text 'knagendra-ext' of object 'Object Repository/Page_BugsUI login/input_value_userid' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI login/input_value_userid' located by 'By.xpath: //input[@name = 'value_email' and @type = 'text' and @placeholder = 'Enter Your User Id']' not found)
+      <testcase name="Test Cases/Login_TestCases/Login using ENTER keyword" classname="Test Cases/Login_TestCases/Login using ENTER keyword" status="PASSED">
+         <system-out><![CDATA[2018-04-20 11:21:34 - [TEST_CASE][PASSED] - Test Cases/Login_TestCases/Login using ENTER keyword: Test Cases/Login_TestCases/Login using ENTER keyword
 
-2018-05-30 00:02:06 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+2018-04-20 11:21:34 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
 
-2018-05-30 00:02:06 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+2018-04-20 11:21:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
 
-2018-05-30 00:02:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+2018-04-20 11:21:35 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://bugzilla-ui.staging.kube.sw-infra.sjc.aristanetworks.com/login' successfully
 
-2018-05-30 00:02:08 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+2018-04-20 11:21:40 - [MESSAGE][PASSED] - Navigate to 'http://bugzilla-ui.staging.kube.sw-infra.sjc.aristanetworks.com/login' successfully
 
-2018-05-30 00:02:08 - [MESSAGE][PASSED] - Current window maximized
+2018-04-20 11:21:40 - [TEST_STEP][PASSED] - setText: Text 'knagendra-ext' is set on object 'Object Repository/Page_BugsUI login/input_value_userid'
 
-2018-05-30 00:02:08 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://bugzilla-ui.staging.kube.sw-infra.sjc.aristanetworks.com/login' successfully
+2018-04-20 11:21:41 - [MESSAGE][PASSED] - Text 'knagendra-ext' is set on object 'Object Repository/Page_BugsUI login/input_value_userid'
 
-2018-05-30 00:02:09 - [MESSAGE][PASSED] - Navigate to 'http://bugzilla-ui.staging.kube.sw-infra.sjc.aristanetworks.com/login' successfully
+2018-04-20 11:21:41 - [TEST_STEP][PASSED] - setText: Text 'Kumar@123' is set on object 'Object Repository/Page_BugsUI login/input_form-control ng-untouche'
 
-2018-05-30 00:02:09 - [TEST_STEP][FAILED] - setText: Unable to set text 'knagendra-ext' of object 'Object Repository/Page_BugsUI login/input_value_userid' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI login/input_value_userid' located by 'By.xpath: //input[@name = 'value_email' and @type = 'text' and @placeholder = 'Enter Your User Id']' not found)
+2018-04-20 11:21:42 - [MESSAGE][PASSED] - Text 'Kumar@123' is set on object 'Object Repository/Page_BugsUI login/input_form-control ng-untouche'
 
-2018-05-30 00:02:42 - [MESSAGE][FAILED] - Unable to set text 'knagendra-ext' of object 'Object Repository/Page_BugsUI login/input_value_userid' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI login/input_value_userid' located by 'By.xpath: //input[@name = 'value_email' and @type = 'text' and @placeholder = 'Enter Your User Id']' not found)
-[[ATTACHMENT|C:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\SmokeTestSuite\\20180530_000015\\1527618762033.png]]]]></system-out>
-         <system-err><![CDATA[2018-05-30 00:02:06 - [TEST_CASE][FAILED] - Test Cases/NewBugCreation_TestCases/NewBugPage: Test Cases/NewBugCreation_TestCases/NewBugPage FAILED because (of) Unable to set text 'knagendra-ext' of object 'Object Repository/Page_BugsUI login/input_value_userid' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI login/input_value_userid' located by 'By.xpath: //input[@name = 'value_email' and @type = 'text' and @placeholder = 'Enter Your User Id']' not found)]]></system-err>
+2018-04-20 11:21:42 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/Page_BugsUI login/input_form-control ng-untouche'
+
+2018-04-20 11:21:42 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_BugsUI login/input_form-control ng-untouche'
+
+2018-04-20 11:21:42 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Page_BugsUI login/a_BugsUI' has attribute 'text' with value 'BugsUI '
+
+2018-04-20 11:21:42 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI login/a_BugsUI' has attribute 'text' with value 'BugsUI '
+
+2018-04-20 11:21:42 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-04-20 11:21:43 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
       </testcase>
-      <testcase name="Test Cases/NewBugCreation_TestCases/ValidateNewBugPageFields" classname="Test Cases/NewBugCreation_TestCases/ValidateNewBugPageFields" status="FAILED">
-         <failure type="FAILED" message="Verify element text of test object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageLabels/span_Est.Hours' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageLabels/span_Est.Hours' located by 'By.xpath: //span[(text() = 'Est.Hours : ' or . = 'Est.Hours : ')]' not found)"/>
-         <system-out><![CDATA[2018-05-30 00:02:42 - [TEST_CASE][FAILED] - Test Cases/NewBugCreation_TestCases/ValidateNewBugPageFields: Test Cases/NewBugCreation_TestCases/ValidateNewBugPageFields FAILED because (of) Verify element text of test object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageLabels/span_Est.Hours' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageLabels/span_Est.Hours' located by 'By.xpath: //span[(text() = 'Est.Hours : ' or . = 'Est.Hours : ')]' not found)
-
-2018-05-30 00:02:42 - [TEST_STEP][FAILED] - verifyElementText: Verify element text of test object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageLabels/span_Est.Hours' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageLabels/span_Est.Hours' located by 'By.xpath: //span[(text() = 'Est.Hours : ' or . = 'Est.Hours : ')]' not found)
-
-2018-05-30 00:03:15 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageLabels/span_Est.Hours' located by 'By.xpath: //span[(text() = 'Est.Hours : ' or . = 'Est.Hours : ')]' not found
-[[ATTACHMENT|C:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\SmokeTestSuite\\20180530_000015\\1527618795209.png]]
-
-2018-05-30 00:03:15 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageLabels/span_Est.Hours' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageLabels/span_Est.Hours' located by 'By.xpath: //span[(text() = 'Est.Hours : ' or . = 'Est.Hours : ')]' not found)
-[[ATTACHMENT|C:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\SmokeTestSuite\\20180530_000015\\1527618795496.png]]]]></system-out>
-         <system-err><![CDATA[2018-05-30 00:02:42 - [TEST_CASE][FAILED] - Test Cases/NewBugCreation_TestCases/ValidateNewBugPageFields: Test Cases/NewBugCreation_TestCases/ValidateNewBugPageFields FAILED because (of) Verify element text of test object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageLabels/span_Est.Hours' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageLabels/span_Est.Hours' located by 'By.xpath: //span[(text() = 'Est.Hours : ' or . = 'Est.Hours : ')]' not found)]]></system-err>
-      </testcase>
-      <testcase name="Test Cases/NewBugCreation_TestCases/VerifyValidBug_Present_In_Depends_and_Blocks_field" classname="Test Cases/NewBugCreation_TestCases/VerifyValidBug_Present_In_Depends_and_Blocks_field" status="FAILED">
-         <failure type="FAILED" message="Unable to set text 'Testing for Automation' of object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/input_Summary' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/input_Summary' located by 'By.xpath: //input[@type = 'text' and @ng-model = 'Summary']' not found)"/>
-         <system-out><![CDATA[2018-05-30 00:03:15 - [TEST_CASE][FAILED] - Test Cases/NewBugCreation_TestCases/VerifyValidBug_Present_In_Depends_and_Blocks_field: Test Cases/NewBugCreation_TestCases/VerifyValidBug_Present_In_Depends_and_Blocks_field FAILED because (of) Unable to set text 'Testing for Automation' of object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/input_Summary' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/input_Summary' located by 'By.xpath: //input[@type = 'text' and @ng-model = 'Summary']' not found)
-
-2018-05-30 00:03:16 - [TEST_STEP][FAILED] - setText: Unable to set text 'Testing for Automation' of object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/input_Summary' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/input_Summary' located by 'By.xpath: //input[@type = 'text' and @ng-model = 'Summary']' not found)
-
-2018-05-30 00:03:49 - [MESSAGE][FAILED] - Unable to set text 'Testing for Automation' of object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/input_Summary' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/input_Summary' located by 'By.xpath: //input[@type = 'text' and @ng-model = 'Summary']' not found)
-[[ATTACHMENT|C:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\SmokeTestSuite\\20180530_000015\\1527618828741.png]]]]></system-out>
-         <system-err><![CDATA[2018-05-30 00:03:15 - [TEST_CASE][FAILED] - Test Cases/NewBugCreation_TestCases/VerifyValidBug_Present_In_Depends_and_Blocks_field: Test Cases/NewBugCreation_TestCases/VerifyValidBug_Present_In_Depends_and_Blocks_field FAILED because (of) Unable to set text 'Testing for Automation' of object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/input_Summary' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/input_Summary' located by 'By.xpath: //input[@type = 'text' and @ng-model = 'Summary']' not found)]]></system-err>
-      </testcase>
-      <testcase name="Test Cases/NewBugCreation_TestCases/NewBugCreation" classname="Test Cases/NewBugCreation_TestCases/NewBugCreation" status="FAILED">
-         <failure type="FAILED" message="Unable to set text 'Description for Test automation' of object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/input_Description' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/input_Description' located by 'By.xpath: //textarea[@type = 'text']' not found)"/>
-         <system-out><![CDATA[2018-05-30 00:03:49 - [TEST_CASE][FAILED] - Test Cases/NewBugCreation_TestCases/NewBugCreation: Test Cases/NewBugCreation_TestCases/NewBugCreation FAILED because (of) Unable to set text 'Description for Test automation' of object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/input_Description' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/input_Description' located by 'By.xpath: //textarea[@type = 'text']' not found)
-
-2018-05-30 00:03:49 - [TEST_STEP][FAILED] - setText: Unable to set text 'Description for Test automation' of object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/input_Description' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/input_Description' located by 'By.xpath: //textarea[@type = 'text']' not found)
-
-2018-05-30 00:04:22 - [MESSAGE][FAILED] - Unable to set text 'Description for Test automation' of object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/input_Description' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/input_Description' located by 'By.xpath: //textarea[@type = 'text']' not found)
-[[ATTACHMENT|C:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\SmokeTestSuite\\20180530_000015\\1527618861846.png]]]]></system-out>
-         <system-err><![CDATA[2018-05-30 00:03:49 - [TEST_CASE][FAILED] - Test Cases/NewBugCreation_TestCases/NewBugCreation: Test Cases/NewBugCreation_TestCases/NewBugCreation FAILED because (of) Unable to set text 'Description for Test automation' of object 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/input_Description' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/ValidateNewBugPageFieldsObjects/NewBugPageFields/input_Description' located by 'By.xpath: //textarea[@type = 'text']' not found)]]></system-err>
-      </testcase>
-      <testcase name="Test Cases/ProductAdd_TestCases/VerifyProductAddPageLoads" classname="Test Cases/ProductAdd_TestCases/VerifyProductAddPageLoads" status="FAILED">
-         <failure type="FAILED" message="Unable to set text 'knagendra-ext' of object 'Object Repository/Page_BugsUI login/input_value_userid' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI login/input_value_userid' located by 'By.xpath: //input[@name = 'value_email' and @type = 'text' and @placeholder = 'Enter Your User Id']' not found)"/>
-         <system-out><![CDATA[2018-05-30 00:04:22 - [TEST_CASE][FAILED] - Test Cases/ProductAdd_TestCases/VerifyProductAddPageLoads: Test Cases/ProductAdd_TestCases/VerifyProductAddPageLoads FAILED because (of) Unable to set text 'knagendra-ext' of object 'Object Repository/Page_BugsUI login/input_value_userid' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI login/input_value_userid' located by 'By.xpath: //input[@name = 'value_email' and @type = 'text' and @placeholder = 'Enter Your User Id']' not found)
-
-2018-05-30 00:04:22 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
-
-2018-05-30 00:04:22 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
-
-2018-05-30 00:04:24 - [MESSAGE][PASSED] - Browser is opened with url: ''
-
-2018-05-30 00:04:24 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://bugzilla-ui.staging.kube.sw-infra.sjc.aristanetworks.com/login' successfully
-
-2018-05-30 00:04:25 - [MESSAGE][PASSED] - Navigate to 'http://bugzilla-ui.staging.kube.sw-infra.sjc.aristanetworks.com/login' successfully
-
-2018-05-30 00:04:25 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
-
-2018-05-30 00:04:25 - [MESSAGE][PASSED] - Current window maximized
-
-2018-05-30 00:04:25 - [TEST_STEP][FAILED] - setText: Unable to set text 'knagendra-ext' of object 'Object Repository/Page_BugsUI login/input_value_userid' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI login/input_value_userid' located by 'By.xpath: //input[@name = 'value_email' and @type = 'text' and @placeholder = 'Enter Your User Id']' not found)
-
-2018-05-30 00:04:58 - [MESSAGE][FAILED] - Unable to set text 'knagendra-ext' of object 'Object Repository/Page_BugsUI login/input_value_userid' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI login/input_value_userid' located by 'By.xpath: //input[@name = 'value_email' and @type = 'text' and @placeholder = 'Enter Your User Id']' not found)
-[[ATTACHMENT|C:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\SmokeTestSuite\\20180530_000015\\1527618898237.png]]]]></system-out>
-         <system-err><![CDATA[2018-05-30 00:04:22 - [TEST_CASE][FAILED] - Test Cases/ProductAdd_TestCases/VerifyProductAddPageLoads: Test Cases/ProductAdd_TestCases/VerifyProductAddPageLoads FAILED because (of) Unable to set text 'knagendra-ext' of object 'Object Repository/Page_BugsUI login/input_value_userid' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI login/input_value_userid' located by 'By.xpath: //input[@name = 'value_email' and @type = 'text' and @placeholder = 'Enter Your User Id']' not found)]]></system-err>
-      </testcase>
-      <testcase name="Test Cases/ProductAdd_TestCases/VerifyAdditionOfSuccessfulProduct" classname="Test Cases/ProductAdd_TestCases/VerifyAdditionOfSuccessfulProduct" status="FAILED">
-         <failure type="FAILED" message="Unable to select option by label 'Software' of object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/select_Classification'  (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/select_Classification' located by 'By.xpath: //select[@name = 'classifications_addProduct']' not found)"/>
-         <system-out><![CDATA[2018-05-30 00:04:58 - [TEST_CASE][FAILED] - Test Cases/ProductAdd_TestCases/VerifyAdditionOfSuccessfulProduct: Test Cases/ProductAdd_TestCases/VerifyAdditionOfSuccessfulProduct FAILED because (of) Unable to select option by label 'Software' of object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/select_Classification'  (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/select_Classification' located by 'By.xpath: //select[@name = 'classifications_addProduct']' not found)
-
-2018-05-30 00:04:58 - [TEST_STEP][FAILED] - selectOptionByLabel: Unable to select option by label 'Software' of object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/select_Classification'  (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/select_Classification' located by 'By.xpath: //select[@name = 'classifications_addProduct']' not found)
-
-2018-05-30 00:05:31 - [MESSAGE][FAILED] - Unable to select option by label 'Software' of object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/select_Classification'  (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/select_Classification' located by 'By.xpath: //select[@name = 'classifications_addProduct']' not found)
-[[ATTACHMENT|C:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\SmokeTestSuite\\20180530_000015\\1527618931382.png]]]]></system-out>
-         <system-err><![CDATA[2018-05-30 00:04:58 - [TEST_CASE][FAILED] - Test Cases/ProductAdd_TestCases/VerifyAdditionOfSuccessfulProduct: Test Cases/ProductAdd_TestCases/VerifyAdditionOfSuccessfulProduct FAILED because (of) Unable to select option by label 'Software' of object 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/select_Classification'  (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI productAdd/ProductAdd_Fields/select_Classification' located by 'By.xpath: //select[@name = 'classifications_addProduct']' not found)]]></system-err>
-      </testcase>
-      <testcase name="Test Cases/ProductEdit_TestCases/VerifyProductEditPageLoads" classname="Test Cases/ProductEdit_TestCases/VerifyProductEditPageLoads" status="FAILED">
-         <failure type="FAILED" message="Unable to set text 'knagendra-ext' of object 'Object Repository/Page_BugsUI login/input_value_userid' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI login/input_value_userid' located by 'By.xpath: //input[@name = 'value_email' and @type = 'text' and @placeholder = 'Enter Your User Id']' not found)"/>
-         <system-out><![CDATA[2018-05-30 00:05:31 - [TEST_CASE][FAILED] - Test Cases/ProductEdit_TestCases/VerifyProductEditPageLoads: Test Cases/ProductEdit_TestCases/VerifyProductEditPageLoads FAILED because (of) Unable to set text 'knagendra-ext' of object 'Object Repository/Page_BugsUI login/input_value_userid' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI login/input_value_userid' located by 'By.xpath: //input[@name = 'value_email' and @type = 'text' and @placeholder = 'Enter Your User Id']' not found)
-
-2018-05-30 00:05:31 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
-
-2018-05-30 00:05:31 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
-
-2018-05-30 00:05:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
-
-2018-05-30 00:05:33 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
-
-2018-05-30 00:05:33 - [MESSAGE][PASSED] - Current window maximized
-
-2018-05-30 00:05:33 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://bugzilla-ui.staging.kube.sw-infra.sjc.aristanetworks.com/login' successfully
-
-2018-05-30 00:05:34 - [MESSAGE][PASSED] - Navigate to 'http://bugzilla-ui.staging.kube.sw-infra.sjc.aristanetworks.com/login' successfully
-
-2018-05-30 00:05:34 - [TEST_STEP][FAILED] - setText: Unable to set text 'knagendra-ext' of object 'Object Repository/Page_BugsUI login/input_value_userid' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI login/input_value_userid' located by 'By.xpath: //input[@name = 'value_email' and @type = 'text' and @placeholder = 'Enter Your User Id']' not found)
-
-2018-05-30 00:06:07 - [MESSAGE][FAILED] - Unable to set text 'knagendra-ext' of object 'Object Repository/Page_BugsUI login/input_value_userid' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI login/input_value_userid' located by 'By.xpath: //input[@name = 'value_email' and @type = 'text' and @placeholder = 'Enter Your User Id']' not found)
-[[ATTACHMENT|C:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\SmokeTestSuite\\20180530_000015\\1527618967508.png]]]]></system-out>
-         <system-err><![CDATA[2018-05-30 00:05:31 - [TEST_CASE][FAILED] - Test Cases/ProductEdit_TestCases/VerifyProductEditPageLoads: Test Cases/ProductEdit_TestCases/VerifyProductEditPageLoads FAILED because (of) Unable to set text 'knagendra-ext' of object 'Object Repository/Page_BugsUI login/input_value_userid' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI login/input_value_userid' located by 'By.xpath: //input[@name = 'value_email' and @type = 'text' and @placeholder = 'Enter Your User Id']' not found)]]></system-err>
-      </testcase>
-      <testcase name="Test Cases/BugPage_GeneralTab_TestCases/VerifyBugInfoFields_CanBe_Edited_Commited" classname="Test Cases/BugPage_GeneralTab_TestCases/VerifyBugInfoFields_CanBe_Edited_Commited" status="FAILED">
-         <failure type="FAILED" message="Unable to set text 'knagendra-ext' of object 'Object Repository/Page_BugsUI login/input_value_userid' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI login/input_value_userid' located by 'By.xpath: //input[@name = 'value_email' and @type = 'text' and @placeholder = 'Enter Your User Id']' not found)"/>
-         <system-out><![CDATA[2018-05-30 00:06:07 - [TEST_CASE][FAILED] - Test Cases/BugPage_GeneralTab_TestCases/VerifyBugInfoFields_CanBe_Edited_Commited: Test Cases/BugPage_GeneralTab_TestCases/VerifyBugInfoFields_CanBe_Edited_Commited FAILED because (of) Unable to set text 'knagendra-ext' of object 'Object Repository/Page_BugsUI login/input_value_userid' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI login/input_value_userid' located by 'By.xpath: //input[@name = 'value_email' and @type = 'text' and @placeholder = 'Enter Your User Id']' not found)
-
-2018-05-30 00:06:08 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
-
-2018-05-30 00:06:08 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
-
-2018-05-30 00:06:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
-
-2018-05-30 00:06:09 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://bugzilla-ui.staging.kube.sw-infra.sjc.aristanetworks.com/login' successfully
-
-2018-05-30 00:06:11 - [MESSAGE][PASSED] - Navigate to 'http://bugzilla-ui.staging.kube.sw-infra.sjc.aristanetworks.com/login' successfully
-
-2018-05-30 00:06:11 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
-
-2018-05-30 00:06:11 - [MESSAGE][PASSED] - Current window maximized
-
-2018-05-30 00:06:11 - [TEST_STEP][FAILED] - setText: Unable to set text 'knagendra-ext' of object 'Object Repository/Page_BugsUI login/input_value_userid' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI login/input_value_userid' located by 'By.xpath: //input[@name = 'value_email' and @type = 'text' and @placeholder = 'Enter Your User Id']' not found)
-
-2018-05-30 00:06:44 - [MESSAGE][FAILED] - Unable to set text 'knagendra-ext' of object 'Object Repository/Page_BugsUI login/input_value_userid' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI login/input_value_userid' located by 'By.xpath: //input[@name = 'value_email' and @type = 'text' and @placeholder = 'Enter Your User Id']' not found)
-[[ATTACHMENT|C:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\SmokeTestSuite\\20180530_000015\\1527619003791.png]]]]></system-out>
-         <system-err><![CDATA[2018-05-30 00:06:07 - [TEST_CASE][FAILED] - Test Cases/BugPage_GeneralTab_TestCases/VerifyBugInfoFields_CanBe_Edited_Commited: Test Cases/BugPage_GeneralTab_TestCases/VerifyBugInfoFields_CanBe_Edited_Commited FAILED because (of) Unable to set text 'knagendra-ext' of object 'Object Repository/Page_BugsUI login/input_value_userid' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI login/input_value_userid' located by 'By.xpath: //input[@name = 'value_email' and @type = 'text' and @placeholder = 'Enter Your User Id']' not found)]]></system-err>
-      </testcase>
-      <testcase name="Test Cases/BugPage_GeneralTab_TestCases/VerifyStatusBoxFields_canBe_Edited" classname="Test Cases/BugPage_GeneralTab_TestCases/VerifyStatusBoxFields_canBe_Edited" status="FAILED">
-         <failure type="FAILED" message="Unable to verify object 'Object Repository/BugsPage_GeneralTab/Status-Box/statusBox' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/BugsPage_GeneralTab/Status-Box/statusBox' located by 'By.xpath: id(&quot;collapseStatusBox&quot;)/div[@class=&quot;box-header with-border colorClass&quot;]/div[@class=&quot;box-tools pull-left&quot;]' not found)"/>
-         <system-out><![CDATA[2018-05-30 00:06:44 - [TEST_CASE][FAILED] - Test Cases/BugPage_GeneralTab_TestCases/VerifyStatusBoxFields_canBe_Edited: Test Cases/BugPage_GeneralTab_TestCases/VerifyStatusBoxFields_canBe_Edited FAILED because (of) Unable to verify object 'Object Repository/BugsPage_GeneralTab/Status-Box/statusBox' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/BugsPage_GeneralTab/Status-Box/statusBox' located by 'By.xpath: id("collapseStatusBox")/div[@class="box-header with-border colorClass"]/div[@class="box-tools pull-left"]' not found)
-
-2018-05-30 00:06:44 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
-
-2018-05-30 00:06:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
-
-2018-05-30 00:06:46 - [TEST_STEP][FAILED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(BugsPage_GeneralTab/Status-Box/statusBox), 1)): Unable to verify object 'Object Repository/BugsPage_GeneralTab/Status-Box/statusBox' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/BugsPage_GeneralTab/Status-Box/statusBox' located by 'By.xpath: id("collapseStatusBox")/div[@class="box-header with-border colorClass"]/div[@class="box-tools pull-left"]' not found)
-
-2018-05-30 00:06:47 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/BugsPage_GeneralTab/Status-Box/statusBox' located by 'By.xpath: id("collapseStatusBox")/div[@class="box-header with-border colorClass"]/div[@class="box-tools pull-left"]' not found
-[[ATTACHMENT|C:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\SmokeTestSuite\\20180530_000015\\1527619007390.png]]
-
-2018-05-30 00:06:47 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/BugsPage_GeneralTab/Status-Box/statusBox' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/BugsPage_GeneralTab/Status-Box/statusBox' located by 'By.xpath: id("collapseStatusBox")/div[@class="box-header with-border colorClass"]/div[@class="box-tools pull-left"]' not found)
-[[ATTACHMENT|C:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\SmokeTestSuite\\20180530_000015\\1527619007678.png]]]]></system-out>
-         <system-err><![CDATA[2018-05-30 00:06:44 - [TEST_CASE][FAILED] - Test Cases/BugPage_GeneralTab_TestCases/VerifyStatusBoxFields_canBe_Edited: Test Cases/BugPage_GeneralTab_TestCases/VerifyStatusBoxFields_canBe_Edited FAILED because (of) Unable to verify object 'Object Repository/BugsPage_GeneralTab/Status-Box/statusBox' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/BugsPage_GeneralTab/Status-Box/statusBox' located by 'By.xpath: id("collapseStatusBox")/div[@class="box-header with-border colorClass"]/div[@class="box-tools pull-left"]' not found)]]></system-err>
-      </testcase>
-      <testcase name="Test Cases/BugPage_GeneralTab_TestCases/VerifyPeopleBoxFields" classname="Test Cases/BugPage_GeneralTab_TestCases/VerifyPeopleBoxFields" status="FAILED">
-         <failure type="FAILED" message="Unable to verify object 'Object Repository/BugsPage_GeneralTab/People-Box/peopleBox' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/BugsPage_GeneralTab/People-Box/peopleBox' located by 'By.xpath: id(&quot;collapsePeopleBox&quot;)/div[@class=&quot;box-header with-border colorClass&quot;]/div[@class=&quot;box-tools pull-left&quot;]' not found)"/>
-         <system-out><![CDATA[2018-05-30 00:06:47 - [TEST_CASE][FAILED] - Test Cases/BugPage_GeneralTab_TestCases/VerifyPeopleBoxFields: Test Cases/BugPage_GeneralTab_TestCases/VerifyPeopleBoxFields FAILED because (of) Unable to verify object 'Object Repository/BugsPage_GeneralTab/People-Box/peopleBox' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/BugsPage_GeneralTab/People-Box/peopleBox' located by 'By.xpath: id("collapsePeopleBox")/div[@class="box-header with-border colorClass"]/div[@class="box-tools pull-left"]' not found)
-
-2018-05-30 00:06:48 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
-
-2018-05-30 00:06:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
-
-2018-05-30 00:06:50 - [TEST_STEP][FAILED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(BugsPage_GeneralTab/People-Box/peopleBox), 1)): Unable to verify object 'Object Repository/BugsPage_GeneralTab/People-Box/peopleBox' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/BugsPage_GeneralTab/People-Box/peopleBox' located by 'By.xpath: id("collapsePeopleBox")/div[@class="box-header with-border colorClass"]/div[@class="box-tools pull-left"]' not found)
-
-2018-05-30 00:06:51 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/BugsPage_GeneralTab/People-Box/peopleBox' located by 'By.xpath: id("collapsePeopleBox")/div[@class="box-header with-border colorClass"]/div[@class="box-tools pull-left"]' not found
-[[ATTACHMENT|C:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\SmokeTestSuite\\20180530_000015\\1527619011244.png]]
-
-2018-05-30 00:06:51 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/BugsPage_GeneralTab/People-Box/peopleBox' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/BugsPage_GeneralTab/People-Box/peopleBox' located by 'By.xpath: id("collapsePeopleBox")/div[@class="box-header with-border colorClass"]/div[@class="box-tools pull-left"]' not found)
-[[ATTACHMENT|C:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\SmokeTestSuite\\20180530_000015\\1527619011522.png]]]]></system-out>
-         <system-err><![CDATA[2018-05-30 00:06:47 - [TEST_CASE][FAILED] - Test Cases/BugPage_GeneralTab_TestCases/VerifyPeopleBoxFields: Test Cases/BugPage_GeneralTab_TestCases/VerifyPeopleBoxFields FAILED because (of) Unable to verify object 'Object Repository/BugsPage_GeneralTab/People-Box/peopleBox' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/BugsPage_GeneralTab/People-Box/peopleBox' located by 'By.xpath: id("collapsePeopleBox")/div[@class="box-header with-border colorClass"]/div[@class="box-tools pull-left"]' not found)]]></system-err>
-      </testcase>
-      <testcase name="Test Cases/BugPage_GeneralTab_TestCases/VerifyTrackingBoxFields" classname="Test Cases/BugPage_GeneralTab_TestCases/VerifyTrackingBoxFields" status="FAILED">
-         <failure type="FAILED" message="Unable to verify object 'Object Repository/BugsPage_GeneralTab/Tracking-Box/trackingBox' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/BugsPage_GeneralTab/Tracking-Box/trackingBox' located by 'By.xpath: id(&quot;collapseTrackingBox&quot;)/div[@class=&quot;box-header with-border colorClass&quot;]/div[@class=&quot;box-tools pull-left&quot;]' not found)"/>
-         <system-out><![CDATA[2018-05-30 00:06:51 - [TEST_CASE][FAILED] - Test Cases/BugPage_GeneralTab_TestCases/VerifyTrackingBoxFields: Test Cases/BugPage_GeneralTab_TestCases/VerifyTrackingBoxFields FAILED because (of) Unable to verify object 'Object Repository/BugsPage_GeneralTab/Tracking-Box/trackingBox' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/BugsPage_GeneralTab/Tracking-Box/trackingBox' located by 'By.xpath: id("collapseTrackingBox")/div[@class="box-header with-border colorClass"]/div[@class="box-tools pull-left"]' not found)
-
-2018-05-30 00:06:51 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
-
-2018-05-30 00:06:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
-
-2018-05-30 00:06:53 - [TEST_STEP][FAILED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(BugsPage_GeneralTab/Tracking-Box/trackingBox), 1)): Unable to verify object 'Object Repository/BugsPage_GeneralTab/Tracking-Box/trackingBox' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/BugsPage_GeneralTab/Tracking-Box/trackingBox' located by 'By.xpath: id("collapseTrackingBox")/div[@class="box-header with-border colorClass"]/div[@class="box-tools pull-left"]' not found)
-
-2018-05-30 00:06:55 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/BugsPage_GeneralTab/Tracking-Box/trackingBox' located by 'By.xpath: id("collapseTrackingBox")/div[@class="box-header with-border colorClass"]/div[@class="box-tools pull-left"]' not found
-[[ATTACHMENT|C:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\SmokeTestSuite\\20180530_000015\\1527619015094.png]]
-
-2018-05-30 00:06:55 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/BugsPage_GeneralTab/Tracking-Box/trackingBox' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/BugsPage_GeneralTab/Tracking-Box/trackingBox' located by 'By.xpath: id("collapseTrackingBox")/div[@class="box-header with-border colorClass"]/div[@class="box-tools pull-left"]' not found)
-[[ATTACHMENT|C:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\SmokeTestSuite\\20180530_000015\\1527619015395.png]]]]></system-out>
-         <system-err><![CDATA[2018-05-30 00:06:51 - [TEST_CASE][FAILED] - Test Cases/BugPage_GeneralTab_TestCases/VerifyTrackingBoxFields: Test Cases/BugPage_GeneralTab_TestCases/VerifyTrackingBoxFields FAILED because (of) Unable to verify object 'Object Repository/BugsPage_GeneralTab/Tracking-Box/trackingBox' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/BugsPage_GeneralTab/Tracking-Box/trackingBox' located by 'By.xpath: id("collapseTrackingBox")/div[@class="box-header with-border colorClass"]/div[@class="box-tools pull-left"]' not found)]]></system-err>
-      </testcase>
-      <testcase name="Test Cases/BugPage_Description_Comments_TestCases/Verify_User_Reply_Description" classname="Test Cases/BugPage_Description_Comments_TestCases/Verify_User_Reply_Description" status="FAILED">
-         <failure type="FAILED" message="Unable to scroll to object 'Object Repository/BugsPage_Description/h3_Description' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/BugsPage_Description/h3_Description' located by 'By.xpath: //h3[(text() = 'Description : ' or . = 'Description : ')]' not found)"/>
-         <system-out><![CDATA[2018-05-30 00:06:55 - [TEST_CASE][FAILED] - Test Cases/BugPage_Description_Comments_TestCases/Verify_User_Reply_Description: Test Cases/BugPage_Description_Comments_TestCases/Verify_User_Reply_Description FAILED because (of) Unable to scroll to object 'Object Repository/BugsPage_Description/h3_Description' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/BugsPage_Description/h3_Description' located by 'By.xpath: //h3[(text() = 'Description : ' or . = 'Description : ')]' not found)
-
-2018-05-30 00:06:55 - [TEST_STEP][FAILED] - scrollToElement: Unable to scroll to object 'Object Repository/BugsPage_Description/h3_Description' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/BugsPage_Description/h3_Description' located by 'By.xpath: //h3[(text() = 'Description : ' or . = 'Description : ')]' not found)
-
-2018-05-30 00:06:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
-
-2018-05-30 00:07:28 - [MESSAGE][FAILED] - Unable to scroll to object 'Object Repository/BugsPage_Description/h3_Description' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/BugsPage_Description/h3_Description' located by 'By.xpath: //h3[(text() = 'Description : ' or . = 'Description : ')]' not found)
-[[ATTACHMENT|C:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\SmokeTestSuite\\20180530_000015\\1527619048487.png]]]]></system-out>
-         <system-err><![CDATA[2018-05-30 00:06:55 - [TEST_CASE][FAILED] - Test Cases/BugPage_Description_Comments_TestCases/Verify_User_Reply_Description: Test Cases/BugPage_Description_Comments_TestCases/Verify_User_Reply_Description FAILED because (of) Unable to scroll to object 'Object Repository/BugsPage_Description/h3_Description' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/BugsPage_Description/h3_Description' located by 'By.xpath: //h3[(text() = 'Description : ' or . = 'Description : ')]' not found)]]></system-err>
-      </testcase>
-      <testcase name="Test Cases/BugPage_Description_Comments_TestCases/Verify_DescriptionSection_CanBe_Minimixed_Expanded" classname="Test Cases/BugPage_Description_Comments_TestCases/Verify_DescriptionSection_CanBe_Minimixed_Expanded" status="FAILED">
-         <failure type="FAILED" message="Unable to scroll to object 'Object Repository/BugsPage_Description/h3_Description' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/BugsPage_Description/h3_Description' located by 'By.xpath: //h3[(text() = 'Description : ' or . = 'Description : ')]' not found)"/>
-         <system-out><![CDATA[2018-05-30 00:07:28 - [TEST_CASE][FAILED] - Test Cases/BugPage_Description_Comments_TestCases/Verify_DescriptionSection_CanBe_Minimixed_Expanded: Test Cases/BugPage_Description_Comments_TestCases/Verify_DescriptionSection_CanBe_Minimixed_Expanded FAILED because (of) Unable to scroll to object 'Object Repository/BugsPage_Description/h3_Description' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/BugsPage_Description/h3_Description' located by 'By.xpath: //h3[(text() = 'Description : ' or . = 'Description : ')]' not found)
-
-2018-05-30 00:07:28 - [TEST_STEP][FAILED] - scrollToElement: Unable to scroll to object 'Object Repository/BugsPage_Description/h3_Description' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/BugsPage_Description/h3_Description' located by 'By.xpath: //h3[(text() = 'Description : ' or . = 'Description : ')]' not found)
-
-2018-05-30 00:07:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
-
-2018-05-30 00:08:01 - [MESSAGE][FAILED] - Unable to scroll to object 'Object Repository/BugsPage_Description/h3_Description' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/BugsPage_Description/h3_Description' located by 'By.xpath: //h3[(text() = 'Description : ' or . = 'Description : ')]' not found)
-[[ATTACHMENT|C:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\SmokeTestSuite\\20180530_000015\\1527619081597.png]]]]></system-out>
-         <system-err><![CDATA[2018-05-30 00:07:28 - [TEST_CASE][FAILED] - Test Cases/BugPage_Description_Comments_TestCases/Verify_DescriptionSection_CanBe_Minimixed_Expanded: Test Cases/BugPage_Description_Comments_TestCases/Verify_DescriptionSection_CanBe_Minimixed_Expanded FAILED because (of) Unable to scroll to object 'Object Repository/BugsPage_Description/h3_Description' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/BugsPage_Description/h3_Description' located by 'By.xpath: //h3[(text() = 'Description : ' or . = 'Description : ')]' not found)]]></system-err>
-      </testcase>
-      <testcase name="Test Cases/Search_TestCases/VerifySearchPageLoads" classname="Test Cases/Search_TestCases/VerifySearchPageLoads" status="FAILED">
-         <failure type="FAILED" message="Unable to set text 'knagendra-ext' of object 'Object Repository/Page_BugsUI login/input_value_userid' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI login/input_value_userid' located by 'By.xpath: //input[@name = 'value_email' and @type = 'text' and @placeholder = 'Enter Your User Id']' not found)"/>
-         <system-out><![CDATA[2018-05-30 00:08:01 - [TEST_CASE][FAILED] - Test Cases/Search_TestCases/VerifySearchPageLoads: Test Cases/Search_TestCases/VerifySearchPageLoads FAILED because (of) Unable to set text 'knagendra-ext' of object 'Object Repository/Page_BugsUI login/input_value_userid' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI login/input_value_userid' located by 'By.xpath: //input[@name = 'value_email' and @type = 'text' and @placeholder = 'Enter Your User Id']' not found)
-
-2018-05-30 00:08:02 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
-
-2018-05-30 00:08:02 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
-
-2018-05-30 00:08:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
-
-2018-05-30 00:08:03 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://bugzilla-ui.staging.kube.sw-infra.sjc.aristanetworks.com/login' successfully
-
-2018-05-30 00:08:04 - [MESSAGE][PASSED] - Navigate to 'http://bugzilla-ui.staging.kube.sw-infra.sjc.aristanetworks.com/login' successfully
-
-2018-05-30 00:08:04 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
-
-2018-05-30 00:08:04 - [MESSAGE][PASSED] - Current window maximized
-
-2018-05-30 00:08:04 - [TEST_STEP][FAILED] - setText: Unable to set text 'knagendra-ext' of object 'Object Repository/Page_BugsUI login/input_value_userid' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI login/input_value_userid' located by 'By.xpath: //input[@name = 'value_email' and @type = 'text' and @placeholder = 'Enter Your User Id']' not found)
-
-2018-05-30 00:08:37 - [MESSAGE][FAILED] - Unable to set text 'knagendra-ext' of object 'Object Repository/Page_BugsUI login/input_value_userid' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI login/input_value_userid' located by 'By.xpath: //input[@name = 'value_email' and @type = 'text' and @placeholder = 'Enter Your User Id']' not found)
-[[ATTACHMENT|C:\\Arista-Bugzila Project\\BugzillaUI-Automation\\Reports\\SmokeTestSuite\\20180530_000015\\1527619117600.png]]]]></system-out>
-         <system-err><![CDATA[2018-05-30 00:08:01 - [TEST_CASE][FAILED] - Test Cases/Search_TestCases/VerifySearchPageLoads: Test Cases/Search_TestCases/VerifySearchPageLoads FAILED because (of) Unable to set text 'knagendra-ext' of object 'Object Repository/Page_BugsUI login/input_value_userid' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI login/input_value_userid' located by 'By.xpath: //input[@name = 'value_email' and @type = 'text' and @placeholder = 'Enter Your User Id']' not found)]]></system-err>
-      </testcase>
-      <system-out><![CDATA[2018-05-30 00:00:17 - [TEST_SUITE][FAILED] - SmokeTestSuite: Test Cases/Login_TestCases/VerifyPresenceOfFields_Links_LoginPage FAILED because (of) Unable to verify object 'Object Repository/Page_BugsUI login/input_value_userid' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI login/input_value_userid' located by 'By.xpath: //input[@name = 'value_email' and @type = 'text' and @placeholder = 'Enter Your User Id']' not found)]]></system-out>
-      <system-err><![CDATA[2018-05-30 00:00:17 - [TEST_SUITE][FAILED] - SmokeTestSuite: Test Cases/Login_TestCases/VerifyPresenceOfFields_Links_LoginPage FAILED because (of) Unable to verify object 'Object Repository/Page_BugsUI login/input_value_userid' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI login/input_value_userid' located by 'By.xpath: //input[@name = 'value_email' and @type = 'text' and @placeholder = 'Enter Your User Id']' not found)]]></system-err>
+      <system-out><![CDATA[2018-04-20 11:21:08 - [TEST_SUITE][PASSED] - LoginScenarios: Test Cases/Login_TestCases/Login using ENTER keyword]]></system-out>
+      <system-err><![CDATA[]]></system-err>
    </testsuite>
 </testsuites>

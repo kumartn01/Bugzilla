@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+ProductEditScenarios,Chrome 66.0.3359.181,,2018-05-28 13:59:21,2018-05-28 14:00:03,42.107s,FAILED
+,,,,,,
+Test Cases/ProductEdit_TestCases/VerifyProductEditPageLoads,Chrome 66.0.3359.181,,2018-05-28 13:59:21,2018-05-28 13:59:44,22.456s,PASSED
+openBrowser,Chrome 66.0.3359.181,,2018-05-28 13:59:22,2018-05-28 13:59:25,3.208s,PASSED
+maximizeWindow,Chrome 66.0.3359.181,,2018-05-28 13:59:25,2018-05-28 13:59:25,0.215s,PASSED
+navigateToUrl,Chrome 66.0.3359.181,,2018-05-28 13:59:25,2018-05-28 13:59:30,4.889s,PASSED
+setText,Chrome 66.0.3359.181,,2018-05-28 13:59:30,2018-05-28 13:59:31,1.481s,PASSED
+setText,Chrome 66.0.3359.181,,2018-05-28 13:59:31,2018-05-28 13:59:32,0.857s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-28 13:59:32,2018-05-28 13:59:32,0.286s,PASSED
+verifyElementAttributeValue,Chrome 66.0.3359.181,,2018-05-28 13:59:33,2018-05-28 13:59:33,0.165s,PASSED
+delay,Chrome 66.0.3359.181,,2018-05-28 13:59:33,2018-05-28 13:59:35,2.052s,PASSED
+Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Dashboard/a_Product))),Chrome 66.0.3359.181,,2018-05-28 13:59:35,2018-05-28 13:59:35,0.682s,PASSED
+delay,Chrome 66.0.3359.181,,2018-05-28 13:59:35,2018-05-28 13:59:39,4.003s,PASSED
+verifyElementText,Chrome 66.0.3359.181,,2018-05-28 13:59:39,2018-05-28 13:59:40,0.153s,PASSED
+delay,Chrome 66.0.3359.181,,2018-05-28 13:59:40,2018-05-28 13:59:44,4.003s,PASSED
+,,,,,,
+Test Cases/ProductEdit_TestCases/VerifyProductCanBeDeleted,Chrome 66.0.3359.181,,2018-05-28 13:59:44,2018-05-28 14:00:02,18.349s,FAILED
+delay,Chrome 66.0.3359.181,,2018-05-28 13:59:44,2018-05-28 13:59:46,2.002s,PASSED
+selectOptionByLabel,Chrome 66.0.3359.181,,2018-05-28 13:59:46,2018-05-28 13:59:46,0.381s,PASSED
+delay,Chrome 66.0.3359.181,,2018-05-28 13:59:46,2018-05-28 14:00:01,15.004s,PASSED
+selectOptionByLabel,Chrome 66.0.3359.181,,2018-05-28 14:00:01,2018-05-28 14:00:02,0.674s,FAILED
