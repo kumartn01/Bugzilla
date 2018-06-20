@@ -63,7 +63,7 @@ if(WebUI.verifyElementPresent(findTestObject('BugsPage_GeneralTab/Release-Sectio
 	}
 }
 
-if(WebUI.verifyElementPresent(findTestObject('BugsPage_GeneralTab/Release-Section/button_SKU Family'), 1)){
+if(WebUI.verifyElementPresent(findTestObject('BugsPage_GeneralTab/Release-Section/button_SKU Family'), 4)){
 	
 	WebUI.click(findTestObject('BugsPage_GeneralTab/Release-Section/button_SKU Family'))
 	
