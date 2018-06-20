@@ -156,16 +156,7 @@
       <testCaseId>Test Cases/BugPage_GeneralTab_TestCases/VerifyTrackingBoxFields</testCaseId>
    </testCaseLink>
    <testCaseLink>
-<<<<<<< HEAD
-      <guid>09b0f5ea-75b0-4d16-ac05-c4db3ac93e31</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/BugPage_GeneralTab_TestCases/VerifyReleaseSection</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-=======
->>>>>>> eff6f1c0d4d4542bfc95e70679aaf043c0113b8c
-      <guid>d31ba039-d1dd-4187-87b9-535cf06fd582</guid>
+	  <guid>d31ba039-d1dd-4187-87b9-535cf06fd582</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/BugPage_Description_Comments_TestCases/Verify_User_Reply_Description</testCaseId>
