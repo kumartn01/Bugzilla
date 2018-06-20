@@ -156,12 +156,6 @@
       <testCaseId>Test Cases/BugPage_GeneralTab_TestCases/VerifyTrackingBoxFields</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>09b0f5ea-75b0-4d16-ac05-c4db3ac93e31</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/BugPage_GeneralTab_TestCases/VerifyReleaseSection</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>d31ba039-d1dd-4187-87b9-535cf06fd582</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
